@@ -1,0 +1,88 @@
+{
+  "state": {
+    "user_profile" : {
+      "passport_nationality" : "US Citizen",
+      "seat_preference": "window",
+      "food_preference": "vegan",
+      "allergies": [],
+      "likes": [],
+      "dislikes": [],
+      "price_sensitivity": [],    
+      "home":
+      {
+          "event_type": "home",
+          "address": "6420 Sequence Dr #400, San Diego, CA 92121, United States",
+          "local_prefer_mode": "drive"
+      },
+      "available_awards": {
+        "alaska_miles": {
+          "points_balance": 151000,
+          "expiration_date": "2026-12-31"
+        },
+        "aa_miles": {
+          "points_balance": 100000,
+          "expiration_date": "2026-06-30"
+        },
+        "capital_one": {
+          "points_balance": 91000,
+          "expiration_date": "never"
+        },
+        "chase_ur": {
+          "points_balance": 180000,
+          "expiration_date": "never"
+        },
+        "ana_miles": {
+          "points_balance": 52500,
+          "expiration_date": "2026-11-30"
+        },
+        "virgin_atlantic": {
+          "points_balance": 188100,
+          "expiration_date": "never"
+        },
+        "amex_mr": {
+          "points_balance": 95000,
+          "expiration_date": "never"
+        },
+        "united_miles": {
+          "points_balance": 67420,
+          "expiration_date": "2026-09-30"
+        },
+        "flying_blue": {
+          "points_balance": 24200,
+          "expiration_date": "2026-08-31"
+        },
+        "aeroplan": {
+          "points_balance": 35000,
+          "expiration_date": "2026-12-31"
+        },
+        "singapore_krisflyer": {
+          "points_balance": 20000,
+          "expiration_date": "2026-10-31"
+        },
+        "british_airways": {
+          "points_balance": 45000,
+          "expiration_date": "2026-07-31"
+        },
+        "delta_skymiles": {
+          "points_balance": 38500,
+          "expiration_date": "2026-05-31"
+        }
+      }
+    },
+    "itinerary": {},
+    "origin" : "",
+    "destination" : "",
+    "start_date" : "",
+    "end_date" : "",
+    "outbound_flight_selection" : "",
+    "outbound_seat_number" : "",
+    "return_flight_selection" : "",
+    "return_seat_number" : "",
+    "hotel_selection" : "",
+    "room_selection" : "",
+    "poi" : "",
+    "itinerary_datetime" : "",
+    "itinerary_start_date" : "",
+    "itinerary_end_date" : ""  
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FlightCard",
+  "type": "object",
+  "required": ["carrier", "flight_number", "origin", "destination", "departure_time", "arrival_time", "price_usd", "cabin_class"],
+  "properties": {
+    "carrier":          { "type": "string", "pattern": "^[A-Z0-9]{2,3}$" },
+    "flight_number":    { "type": "string", "pattern": "^[A-Z0-9]{2,3}\\d{1,4}$" },
+    "origin":           { "type": "string", "pattern": "^[A-Z]{3}$" },
+    "destination":      { "type": "string", "pattern": "^[A-Z]{3}$" },
+    "departure_time":   { "type": "string", "format": "date-time" },
+    "arrival_time":     { "type": "string", "format": "date-time" },
+    "price_usd":        { "type": "number", "minimum": 0 },
+    "cabin_class":      { "type": "string", "enum": ["economy", "premium_economy", "business", "first"] },
+    "stops":            { "type": "integer", "minimum": 0 },
+    "duration_minutes": { "type": "integer", "minimum": 0 }
+  },
+  "additionalProperties": false
+}

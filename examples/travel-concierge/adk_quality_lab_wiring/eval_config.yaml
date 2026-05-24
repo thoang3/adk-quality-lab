@@ -1,0 +1,57 @@
+# ADK Quality Lab — eval configuration for Travel Concierge case study
+# Used by runner.py and make eval targets
+
+# Agent under test
+agent:
+  module: travel_concierge.agent
+  model: gemini-2.5-flash
+  location: us-central1
+
+# Judge model
+judge:
+  model: gemini-2.5-pro
+  prompt_version: v1
+  location: us-central1
+
+# Session state injected for every eval case
+# Provides pre-filled loyalty portfolio so planning_agent has realistic context
+session_state_file: profiles/demo_rich_portfolio.json
+
+# Fixture cache configuration
+fixtures:
+  dir: ../../../../datasets/fixtures/flights
+  use_cache: true  # set to false only for make capture-fixtures
+
+# Rater configuration
+raters:
+  deterministic:
+    - row_count_match
+    - iata_membership
+    - numerical_equality
+  llm_judge:
+    - truncation_disclosure   # F1 only
+    - value_groundedness      # F2 only
+  groundedness:
+    - structured_value        # F2 only
+
+# Eval surfaces for optimizer
+surfaces:
+  root:
+    instruction_path: travel_concierge/agent.py
+    instruction_attr: root_agent.instruction
+  planning:
+    instruction_path: travel_concierge/sub_agents/planning/agent.py
+    instruction_attr: planning_agent.instruction
+  tools:
+    flight_search:
+      instruction_path: travel_concierge/tools/search.py
+      instruction_attr: flight_search_agent.description
+    hotel_search:
+      instruction_path: travel_concierge/tools/hotel_search.py
+      instruction_attr: hotel_search_agent.description
+
+# Output
+output:
+  firestore_project: adk-quality-lab-tung
+  bq_dataset: adk_quality_lab
+  bq_table: runs

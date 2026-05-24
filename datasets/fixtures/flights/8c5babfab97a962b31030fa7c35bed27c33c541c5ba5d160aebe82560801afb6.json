@@ -1,0 +1,952 @@
+{
+  "search_metadata": {
+    "id": "6a130fcd88aca47f66a74e03",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/6p3QAEifFhY4fOxhaxl0Hg/6a130fcd88aca47f66a74e03.json",
+    "created_at": "2026-05-24 14:48:45 UTC",
+    "processed_at": "2026-05-24 14:48:45 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhoeEgoyMDI2LTA2LTIzagcIARIDU0ZPcgcIARIDTlJUQAFIA3ABmAEC&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/6p3QAEifFhY4fOxhaxl0Hg/6a130fcd88aca47f66a74e03.html",
+    "prettify_html_file": "https://serpapi.com/searches/6p3QAEifFhY4fOxhaxl0Hg/6a130fcd88aca47f66a74e03.prettify",
+    "total_time_taken": 0.58
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "us",
+    "type": "2",
+    "departure_id": "SFO",
+    "arrival_id": "NRT",
+    "outbound_date": "2026-06-23",
+    "travel_class": 3,
+    "adults": 1,
+    "currency": "USD"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-23 16:45"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-24 20:00"
+          },
+          "duration": 675,
+          "airplane": "Boeing 787",
+          "airline": "ZIPAIR Tokyo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ZG.png",
+          "travel_class": "Business Class",
+          "flight_number": "ZG 25",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 1713 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "total_duration": 675,
+      "carbon_emissions": {
+        "this_flight": 1714000,
+        "typical_for_this_route": 2136000,
+        "difference_percent": -20
+      },
+      "price": 1934,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ZG.png",
+      "booking_token": "WyJDalJJYmtaM1ZqQkVNMWQzYTBGQlNUaHZTRUZDUnkwdExTMHRMUzB0Y0daaVptZ3hOMEZCUVVGQlIyOVVSRGcwUlZaU1lrTkJFZ1JhUnpJMUdnc0l4dVlMRUFJYUExVlRSRGdjY01ibUN3PT0iLFtbIlNGTyIsIjIwMjYtMDYtMjMiLCJOUlQiLG51bGwsIlpHIiwiMjUiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-23 06:35"
+          },
+          "arrival_airport": {
+            "name": "Vancouver International Airport",
+            "id": "YVR",
+            "time": "2026-06-23 08:50"
+          },
+          "duration": 135,
+          "airplane": "Canadair RJ 900",
+          "airline": "Air Canada",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+          "travel_class": "Business Class",
+          "flight_number": "AC 8841",
+          "ticket_also_sold_by": [
+            "United"
+          ],
+          "extensions": [
+            "Standard recliner seat",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 249 kg"
+          ],
+          "plane_and_crew_by": "Air Canada Express - Jazz"
+        },
+        {
+          "departure_airport": {
+            "name": "Vancouver International Airport",
+            "id": "YVR",
+            "time": "2026-06-23 13:10"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-24 14:55"
+          },
+          "duration": 585,
+          "airplane": "Boeing 787",
+          "airline": "Air Canada",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+          "travel_class": "Business Class",
+          "flight_number": "AC 3",
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1610 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 260,
+          "name": "Vancouver International Airport",
+          "id": "YVR"
+        }
+      ],
+      "total_duration": 980,
+      "carbon_emissions": {
+        "this_flight": 1860000,
+        "typical_for_this_route": 2136000,
+        "difference_percent": -13
+      },
+      "price": 2673,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+      "booking_token": "WyJDalJJYmtaM1ZqQkVNMWQzYTBGQlNUaHZTRUZDUnkwdExTMHRMUzB0Y0daaVptZ3hOMEZCUVVGQlIyOVVSRGcwUlZaU1lrTkJFZ3BCUXpnNE5ERjhRVU16R2dzSThxY1FFQUlhQTFWVFJEZ2NjUEtuRUE9PSIsW1siU0ZPIiwiMjAyNi0wNi0yMyIsIllWUiIsbnVsbCwiQUMiLCI4ODQxIl0sWyJZVlIiLCIyMDI2LTA2LTIzIiwiTlJUIixudWxsLCJBQyIsIjMiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-23 00:30"
+          },
+          "arrival_airport": {
+            "name": "Ninoy Aquino International Airport",
+            "id": "MNL",
+            "time": "2026-06-24 05:30"
+          },
+          "duration": 840,
+          "airplane": "Boeing 777",
+          "airline": "Philippine Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/PR.png",
+          "travel_class": "Business Class",
+          "flight_number": "PR 105",
+          "extensions": [
+            "Angled flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2727 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Ninoy Aquino International Airport",
+            "id": "MNL",
+            "time": "2026-06-24 07:30"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-24 13:00"
+          },
+          "duration": 270,
+          "airplane": "Airbus A321",
+          "airline": "Philippine Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/PR.png",
+          "travel_class": "Business Class",
+          "flight_number": "PR 428",
+          "extensions": [
+            "Extra reclining seat",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 415 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 120,
+          "name": "Ninoy Aquino International Airport",
+          "id": "MNL"
+        }
+      ],
+      "total_duration": 1230,
+      "carbon_emissions": {
+        "this_flight": 3143000,
+        "typical_for_this_route": 2136000,
+        "difference_percent": 47
+      },
+      "price": 2886,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/PR.png",
+      "booking_token": "WyJDalJJYmtaM1ZqQkVNMWQzYTBGQlNUaHZTRUZDUnkwdExTMHRMUzB0Y0daaVptZ3hOMEZCUVVGQlIyOVVSRGcwUlZaU1lrTkJFZ3RRVWpFd05YeFFValF5T0JvTENNN09FUkFDR2dOVlUwUTRISERPemhFPSIsW1siU0ZPIiwiMjAyNi0wNi0yMyIsIk1OTCIsbnVsbCwiUFIiLCIxMDUiXSxbIk1OTCIsIjIwMjYtMDYtMjQiLCJOUlQiLG51bGwsIlBSIiwiNDI4Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-23 13:30"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-24 16:30"
+          },
+          "duration": 660,
+          "airplane": "Boeing 787",
+          "airline": "JAL",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+          "travel_class": "Business Class",
+          "flight_number": "JL 57",
+          "ticket_also_sold_by": [
+            "American"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1831 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "total_duration": 660,
+      "carbon_emissions": {
+        "this_flight": 1831000,
+        "typical_for_this_route": 2136000,
+        "difference_percent": -14
+      },
+      "price": 4350,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+      "booking_token": "WyJDalJJYmtaM1ZqQkVNMWQzYTBGQlNUaHZTRUZDUnkwdExTMHRMUzB0Y0daaVptZ3hOMEZCUVVGQlIyOVVSRGcwUlZaU1lrTkJFZ1JLVERVM0dnc0loc1lhRUFJYUExVlRSRGdjY0liR0dnPT0iLFtbIlNGTyIsIjIwMjYtMDYtMjMiLCJOUlQiLG51bGwsIkpMIiwiNTciXV1d"
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-23 06:15"
+          },
+          "arrival_airport": {
+            "name": "Vancouver International Airport",
+            "id": "YVR",
+            "time": "2026-06-23 08:38"
+          },
+          "duration": 143,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Business Class",
+          "flight_number": "UA 1113",
+          "ticket_also_sold_by": [
+            "Air Canada"
+          ],
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 180 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Vancouver International Airport",
+            "id": "YVR",
+            "time": "2026-06-23 13:10"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-24 14:55"
+          },
+          "duration": 585,
+          "airplane": "Boeing 787",
+          "airline": "Air Canada",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+          "travel_class": "Business Class",
+          "flight_number": "AC 3",
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1610 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 272,
+          "name": "Vancouver International Airport",
+          "id": "YVR"
+        }
+      ],
+      "total_duration": 1000,
+      "carbon_emissions": {
+        "this_flight": 1791000,
+        "typical_for_this_route": 2136000,
+        "difference_percent": -16
+      },
+      "price": 2668,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJYmtaM1ZqQkVNMWQzYTBGQlNUaHZTRUZDUnkwdExTMHRMUzB0Y0daaVptZ3hOMEZCUVVGQlIyOVVSRGcwUlZaU1lrTkJFZ3BWUVRFeE1UTjhRVU16R2dzSS9xTVFFQUlhQTFWVFJEZ2NjUDZqRUE9PSIsW1siU0ZPIiwiMjAyNi0wNi0yMyIsIllWUiIsbnVsbCwiVUEiLCIxMTEzIl0sWyJZVlIiLCIyMDI2LTA2LTIzIiwiTlJUIixudWxsLCJBQyIsIjMiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-23 20:51"
+          },
+          "arrival_airport": {
+            "name": "Vancouver International Airport",
+            "id": "YVR",
+            "time": "2026-06-23 23:22"
+          },
+          "duration": 151,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Business Class",
+          "flight_number": "UA 1973",
+          "ticket_also_sold_by": [
+            "Air Canada"
+          ],
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 180 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Vancouver International Airport",
+            "id": "YVR",
+            "time": "2026-06-24 01:05"
+          },
+          "arrival_airport": {
+            "name": "Ninoy Aquino International Airport",
+            "id": "MNL",
+            "time": "2026-06-25 05:45"
+          },
+          "duration": 820,
+          "airplane": "Boeing 777",
+          "airline": "Philippine Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/PR.png",
+          "travel_class": "Business Class",
+          "flight_number": "PR 117",
+          "extensions": [
+            "Lie flat seat",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2393 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Ninoy Aquino International Airport",
+            "id": "MNL",
+            "time": "2026-06-25 07:30"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-25 13:00"
+          },
+          "duration": 270,
+          "airplane": "Airbus A321",
+          "airline": "Philippine Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/PR.png",
+          "travel_class": "Business Class",
+          "flight_number": "PR 428",
+          "extensions": [
+            "Extra reclining seat",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 415 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 103,
+          "name": "Vancouver International Airport",
+          "id": "YVR"
+        },
+        {
+          "duration": 105,
+          "name": "Ninoy Aquino International Airport",
+          "id": "MNL"
+        }
+      ],
+      "total_duration": 1449,
+      "carbon_emissions": {
+        "this_flight": 2989000,
+        "typical_for_this_route": 2136000,
+        "difference_percent": 40
+      },
+      "price": 2673,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJYmtaM1ZqQkVNMWQzYTBGQlNUaHZTRUZDUnkwdExTMHRMUzB0Y0daaVptZ3hOMEZCUVVGQlIyOVVSRGcwUlZaU1lrTkJFaEpWUVRFNU56TjhVRkl4TVRkOFVGSTBNamdhQ3dpYXFCQVFBaG9EVlZORU9CeHdtcWdRIixbWyJTRk8iLCIyMDI2LTA2LTIzIiwiWVZSIixudWxsLCJVQSIsIjE5NzMiXSxbIllWUiIsIjIwMjYtMDYtMjQiLCJNTkwiLG51bGwsIlBSIiwiMTE3Il0sWyJNTkwiLCIyMDI2LTA2LTI1IiwiTlJUIixudWxsLCJQUiIsIjQyOCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-23 08:20"
+          },
+          "arrival_airport": {
+            "name": "Vancouver International Airport",
+            "id": "YVR",
+            "time": "2026-06-23 10:48"
+          },
+          "duration": 148,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Business Class",
+          "flight_number": "UA 2259",
+          "ticket_also_sold_by": [
+            "Air Canada"
+          ],
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 147 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Vancouver International Airport",
+            "id": "YVR",
+            "time": "2026-06-23 13:10"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-24 14:55"
+          },
+          "duration": 585,
+          "airplane": "Boeing 787",
+          "airline": "Air Canada",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+          "travel_class": "Business Class",
+          "flight_number": "AC 3",
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1610 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 142,
+          "name": "Vancouver International Airport",
+          "id": "YVR"
+        }
+      ],
+      "total_duration": 875,
+      "carbon_emissions": {
+        "this_flight": 1758000,
+        "typical_for_this_route": 2136000,
+        "difference_percent": -18
+      },
+      "price": 2683,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJYmtaM1ZqQkVNMWQzYTBGQlNUaHZTRUZDUnkwdExTMHRMUzB0Y0daaVptZ3hOMEZCUVVGQlIyOVVSRGcwUlZaU1lrTkJFZ3BWUVRJeU5UbDhRVU16R2dzSTJxOFFFQUlhQTFWVFJEZ2NjTnF2RUE9PSIsW1siU0ZPIiwiMjAyNi0wNi0yMyIsIllWUiIsbnVsbCwiVUEiLCIyMjU5Il0sWyJZVlIiLCIyMDI2LTA2LTIzIiwiTlJUIixudWxsLCJBQyIsIjMiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-23 01:05"
+          },
+          "arrival_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-06-24 05:35"
+          },
+          "duration": 810,
+          "airplane": "Boeing 777",
+          "airline": "China Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CI.png",
+          "travel_class": "Business Class",
+          "flight_number": "CI 3",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2770 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-06-24 08:50"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-24 13:15"
+          },
+          "duration": 205,
+          "airplane": "Airbus A330",
+          "airline": "China Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CI.png",
+          "travel_class": "Business Class",
+          "flight_number": "CI 100",
+          "extensions": [
+            "Extra reclining seat",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 640 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 195,
+          "name": "Taiwan Taoyuan International Airport",
+          "id": "TPE"
+        }
+      ],
+      "total_duration": 1210,
+      "carbon_emissions": {
+        "this_flight": 3410000,
+        "typical_for_this_route": 2136000,
+        "difference_percent": 60
+      },
+      "price": 3539,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CI.png",
+      "booking_token": "WyJDalJJYmtaM1ZqQkVNMWQzYTBGQlNUaHZTRUZDUnkwdExTMHRMUzB0Y0daaVptZ3hOMEZCUVVGQlIyOVVSRGcwUlZaU1lrTkJFZ2xEU1ROOFEwa3hNREFhQ3dpbXpCVVFBaG9EVlZORU9CeHdwc3dWIixbWyJTRk8iLCIyMDI2LTA2LTIzIiwiVFBFIixudWxsLCJDSSIsIjMiXSxbIlRQRSIsIjIwMjYtMDYtMjQiLCJOUlQiLG51bGwsIkNJIiwiMTAwIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-23 12:25"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-24 15:00"
+          },
+          "duration": 635,
+          "airplane": "Boeing 777",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Business Class",
+          "flight_number": "UA 837",
+          "ticket_also_sold_by": [
+            "ANA"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1787 kg"
+          ]
+        }
+      ],
+      "total_duration": 635,
+      "carbon_emissions": {
+        "this_flight": 1787000,
+        "typical_for_this_route": 2136000,
+        "difference_percent": -16
+      },
+      "price": 4340,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJYmtaM1ZqQkVNMWQzYTBGQlNUaHZTRUZDUnkwdExTMHRMUzB0Y0daaVptZ3hOMEZCUVVGQlIyOVVSRGcwUlZaU1lrTkJFZ1ZWUVRnek54b0xDSjYrR2hBQ0dnTlZVMFE0SEhDZXZobz0iLFtbIlNGTyIsIjIwMjYtMDYtMjMiLCJOUlQiLG51bGwsIlVBIiwiODM3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-23 12:20"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-24 15:25"
+          },
+          "duration": 665,
+          "airplane": "Boeing 777",
+          "airline": "ANA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+          "travel_class": "Business Class",
+          "flight_number": "NH 7",
+          "ticket_also_sold_by": [
+            "United"
+          ],
+          "extensions": [
+            "Individual suite",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2181 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "total_duration": 665,
+      "carbon_emissions": {
+        "this_flight": 2181000,
+        "typical_for_this_route": 2136000,
+        "difference_percent": 2
+      },
+      "price": 7460,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+      "booking_token": "WyJDalJJYmtaM1ZqQkVNMWQzYTBGQlNUaHZTRUZDUnkwdExTMHRMUzB0Y0daaVptZ3hOMEZCUVVGQlIyOVVSRGcwUlZaU1lrTkJFZ05PU0RjYUN3amV3eTBRQWhvRFZWTkVPQnh3M3NNdCIsW1siU0ZPIiwiMjAyNi0wNi0yMyIsIk5SVCIsbnVsbCwiTkgiLCI3Il1dXQ=="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 1934,
+    "price_level": "typical",
+    "typical_price_range": [
+      1900,
+      2750
+    ],
+    "price_history": [
+      [
+        1774335600,
+        1784
+      ],
+      [
+        1774422000,
+        1784
+      ],
+      [
+        1774508400,
+        1784
+      ],
+      [
+        1774594800,
+        1784
+      ],
+      [
+        1774681200,
+        1784
+      ],
+      [
+        1774767600,
+        1784
+      ],
+      [
+        1774854000,
+        1784
+      ],
+      [
+        1774940400,
+        1784
+      ],
+      [
+        1775026800,
+        1784
+      ],
+      [
+        1775113200,
+        1784
+      ],
+      [
+        1775199600,
+        1784
+      ],
+      [
+        1775286000,
+        1784
+      ],
+      [
+        1775372400,
+        1784
+      ],
+      [
+        1775458800,
+        1784
+      ],
+      [
+        1775545200,
+        1784
+      ],
+      [
+        1775631600,
+        1784
+      ],
+      [
+        1775718000,
+        1784
+      ],
+      [
+        1775804400,
+        1784
+      ],
+      [
+        1775890800,
+        1784
+      ],
+      [
+        1775977200,
+        1784
+      ],
+      [
+        1776063600,
+        1784
+      ],
+      [
+        1776150000,
+        1784
+      ],
+      [
+        1776236400,
+        1784
+      ],
+      [
+        1776322800,
+        1784
+      ],
+      [
+        1776409200,
+        1784
+      ],
+      [
+        1776495600,
+        1784
+      ],
+      [
+        1776582000,
+        1730
+      ],
+      [
+        1776668400,
+        1784
+      ],
+      [
+        1776754800,
+        1784
+      ],
+      [
+        1776841200,
+        1784
+      ],
+      [
+        1776927600,
+        1784
+      ],
+      [
+        1777014000,
+        1784
+      ],
+      [
+        1777100400,
+        1784
+      ],
+      [
+        1777186800,
+        1784
+      ],
+      [
+        1777273200,
+        1784
+      ],
+      [
+        1777359600,
+        1784
+      ],
+      [
+        1777446000,
+        1784
+      ],
+      [
+        1777532400,
+        1784
+      ],
+      [
+        1777618800,
+        1934
+      ],
+      [
+        1777705200,
+        1934
+      ],
+      [
+        1777791600,
+        1934
+      ],
+      [
+        1777878000,
+        1934
+      ],
+      [
+        1777964400,
+        1934
+      ],
+      [
+        1778050800,
+        1934
+      ],
+      [
+        1778137200,
+        1934
+      ],
+      [
+        1778223600,
+        1934
+      ],
+      [
+        1778310000,
+        1934
+      ],
+      [
+        1778396400,
+        1784
+      ],
+      [
+        1778482800,
+        1784
+      ],
+      [
+        1778569200,
+        1784
+      ],
+      [
+        1778655600,
+        1784
+      ],
+      [
+        1778742000,
+        1784
+      ],
+      [
+        1778828400,
+        1784
+      ],
+      [
+        1778914800,
+        1784
+      ],
+      [
+        1779001200,
+        1784
+      ],
+      [
+        1779087600,
+        1784
+      ],
+      [
+        1779174000,
+        1934
+      ],
+      [
+        1779260400,
+        1934
+      ],
+      [
+        1779346800,
+        1934
+      ],
+      [
+        1779433200,
+        1934
+      ],
+      [
+        1779519600,
+        1934
+      ],
+      [
+        1779606000,
+        1934
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "SFO",
+            "name": "San Francisco International Airport"
+          },
+          "city": "San Francisco",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQhLXJKshv7iRU8OcvmRyc3ZHyoSy8ZfBGcntDNb8iTixSq8i7XIcn9tZMPIcM6-rm7kKcu2VQS3BKoYw",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRbcxCKTUaj5vz8PrFeUUBVCm8J3fXiMRJpnz4UfNsPeLOkP1EZK9sez1dEX--y-VLxpPAaVB5zo1hzXliHeLl3l0VFwrWrVz7UCQpkzCY"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "NRT",
+            "name": "Narita International Airport"
+          },
+          "city": "Tokyo",
+          "country": "Japan",
+          "country_code": "JP",
+          "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTqHkzEeI2bSglPzmSGZL7bxXmn0wJgOn2ZtEN8I47uBnzY1CnHzGtD-YseJXqyexcAcw_uJp-D5HTkCg",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRLnIToEgwiM_jV3cbw5eQZoUAIg6XqdrJAiClDyyg0w-JBSRN5ZeOT-iFb3SvwkwP1uoBCmT-gKE5VcyCYf-xq4guL4NAFICSaNyOnYOA"
+        }
+      ]
+    }
+  ]
+}

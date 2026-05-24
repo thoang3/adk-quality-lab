@@ -1,0 +1,1349 @@
+{
+  "search_metadata": {
+    "id": "6a13101599d5f42f1663d7a7",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/1zv8LMUQI4TihWx54oM1_Q/6a13101599d5f42f1663d7a7.json",
+    "created_at": "2026-05-24 14:49:57 UTC",
+    "processed_at": "2026-05-24 14:49:57 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhoeEgoyMDI2LTA3LTIzagcIARIDU0ZPcgcIARIDT1JEQAFIAXABmAEC&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/1zv8LMUQI4TihWx54oM1_Q/6a13101599d5f42f1663d7a7.html",
+    "prettify_html_file": "https://serpapi.com/searches/1zv8LMUQI4TihWx54oM1_Q/6a13101599d5f42f1663d7a7.prettify",
+    "total_time_taken": 1.09
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "us",
+    "type": "2",
+    "departure_id": "SFO",
+    "arrival_id": "ORD",
+    "outbound_date": "2026-07-23",
+    "travel_class": 1,
+    "adults": 1,
+    "currency": "USD"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-23 23:07"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-24 05:20"
+          },
+          "duration": 253,
+          "airplane": "Airbus A321",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 2554",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 243 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 253,
+      "carbon_emissions": {
+        "this_flight": 244000,
+        "typical_for_this_route": 281000,
+        "difference_percent": -13
+      },
+      "price": 168,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYjFkSFRtbFdSa2xVUTFsQlNEWkRhV2RDUnkwdExTMHRMUzB0TFhsc1ltVXhNa0ZCUVVGQlIyOVVSVUpaVFhadFVHZEJFZ1pCUVRJMU5UUWFDd2psZ2dFUUFob0RWVk5FT0J4dzVZSUIiLFtbIlNGTyIsIjIwMjYtMDctMjMiLCJPUkQiLG51bGwsIkFBIiwiMjU1NCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-23 18:34"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-24 00:59"
+          },
+          "duration": 265,
+          "airplane": "Boeing 757",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1375",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 258 kg"
+          ]
+        }
+      ],
+      "total_duration": 265,
+      "carbon_emissions": {
+        "this_flight": 258000,
+        "typical_for_this_route": 281000,
+        "difference_percent": -8
+      },
+      "price": 204,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYjFkSFRtbFdSa2xVUTFsQlNEWkRhV2RDUnkwdExTMHRMUzB0TFhsc1ltVXhNa0ZCUVVGQlIyOVVSVUpaVFhadFVHZEJFZ1pWUVRFek56VWFDd2owbmdFUUFob0RWVk5FT0J4dzlKNEIiLFtbIlNGTyIsIjIwMjYtMDctMjMiLCJPUkQiLG51bGwsIlVBIiwiMTM3NSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-23 16:20"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 23:00"
+          },
+          "duration": 280,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 2537",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 222 kg"
+          ]
+        }
+      ],
+      "total_duration": 280,
+      "carbon_emissions": {
+        "this_flight": 222000,
+        "typical_for_this_route": 281000,
+        "difference_percent": -21
+      },
+      "price": 213,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYjFkSFRtbFdSa2xVUTFsQlNEWkRhV2RDUnkwdExTMHRMUzB0TFhsc1ltVXhNa0ZCUVVGQlIyOVVSVUpaVFhadFVHZEJFZ1pCUVRJMU16Y2FDd2o0cFFFUUFob0RWVk5FT0J4dytLVUIiLFtbIlNGTyIsIjIwMjYtMDctMjMiLCJPUkQiLG51bGwsIkFBIiwiMjUzNyJdXV0="
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-23 20:23"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-07-23 21:59"
+          },
+          "duration": 96,
+          "airplane": "Airbus A321neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Economy",
+          "flight_number": "F9 2858",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 50 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-07-23 23:59"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-24 06:17"
+          },
+          "duration": 258,
+          "airplane": "Airbus A321neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Economy",
+          "flight_number": "F9 2446",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 176 kg"
+          ],
+          "overnight": true,
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 120,
+          "name": "Los Angeles International Airport",
+          "id": "LAX"
+        }
+      ],
+      "total_duration": 474,
+      "carbon_emissions": {
+        "this_flight": 228000,
+        "typical_for_this_route": 281000,
+        "difference_percent": -19
+      },
+      "price": 126,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYjFkSFRtbFdSa2xVUTFsQlNEWkRhV2RDUnkwdExTMHRMUzB0TFhsc1ltVXhNa0ZCUVVGQlIyOVVSVUpaVFhadFVHZEJFZzFHT1RJNE5UaDhSamt5TkRRMkdnb0l0bUlRQWhvRFZWTkVPQnh3dG1JPSIsW1siU0ZPIiwiMjAyNi0wNy0yMyIsIkxBWCIsbnVsbCwiRjkiLCIyODU4Il0sWyJMQVgiLCIyMDI2LTA3LTIzIiwiT1JEIixudWxsLCJGOSIsIjI0NDYiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-23 21:00"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2026-07-23 22:48"
+          },
+          "duration": 108,
+          "airplane": "Airbus A321neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Economy",
+          "flight_number": "F9 4156",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 57 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2026-07-23 23:49"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-24 05:37"
+          },
+          "duration": 228,
+          "airplane": "Airbus A321neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Economy",
+          "flight_number": "F9 2146",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 157 kg"
+          ],
+          "overnight": true,
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 61,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ],
+      "total_duration": 397,
+      "carbon_emissions": {
+        "this_flight": 215000,
+        "typical_for_this_route": 281000,
+        "difference_percent": -23
+      },
+      "price": 161,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYjFkSFRtbFdSa2xVUTFsQlNEWkRhV2RDUnkwdExTMHRMUzB0TFhsc1ltVXhNa0ZCUVVGQlIyOVVSVUpaVFhadFVHZEJFZzFHT1RReE5UWjhSamt5TVRRMkdnb0k0bjBRQWhvRFZWTkVPQnh3NG4wPSIsW1siU0ZPIiwiMjAyNi0wNy0yMyIsIkxBUyIsbnVsbCwiRjkiLCI0MTU2Il0sWyJMQVMiLCIyMDI2LTA3LTIzIiwiT1JEIixudWxsLCJGOSIsIjIxNDYiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-23 14:30"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-07-23 15:56"
+          },
+          "duration": 86,
+          "airplane": "Boeing 737",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 2725",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 72 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-07-23 17:15"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 23:18"
+          },
+          "duration": 243,
+          "airplane": "Boeing 737",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 1634",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 239 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 79,
+          "name": "Los Angeles International Airport",
+          "id": "LAX"
+        }
+      ],
+      "total_duration": 408,
+      "carbon_emissions": {
+        "this_flight": 313000,
+        "typical_for_this_route": 281000,
+        "difference_percent": 11
+      },
+      "price": 178,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYjFkSFRtbFdSa2xVUTFsQlNEWkRhV2RDUnkwdExTMHRMUzB0TFhsc1ltVXhNa0ZCUVVGQlIyOVVSVUpaVFhadFVHZEJFZzFFVERJM01qVjhSRXd4TmpNMEdnc0l1WW9CRUFJYUExVlRSRGdjY0xtS0FRPT0iLFtbIlNGTyIsIjIwMjYtMDctMjMiLCJMQVgiLG51bGwsIkRMIiwiMjcyNSJdLFsiTEFYIiwiMjAyNi0wNy0yMyIsIk9SRCIsbnVsbCwiREwiLCIxNjM0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-23 00:50"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 07:16"
+          },
+          "duration": 266,
+          "airplane": "Airbus A321neo",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1850",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 190 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 266,
+      "carbon_emissions": {
+        "this_flight": 190000,
+        "typical_for_this_route": 281000,
+        "difference_percent": -32
+      },
+      "price": 204,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYjFkSFRtbFdSa2xVUTFsQlNEWkRhV2RDUnkwdExTMHRMUzB0TFhsc1ltVXhNa0ZCUVVGQlIyOVVSVUpaVFhadFVHZEJFZ1pWUVRFNE5UQWFDd2owbmdFUUFob0RWVk5FT0J4dzlKNEIiLFtbIlNGTyIsIjIwMjYtMDctMjMiLCJPUkQiLG51bGwsIlVBIiwiMTg1MCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-23 13:20"
+          },
+          "arrival_airport": {
+            "name": "Salt Lake City International Airport",
+            "id": "SLC",
+            "time": "2026-07-23 16:14"
+          },
+          "duration": 114,
+          "airplane": "Boeing 737",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 849",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 95 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Salt Lake City International Airport",
+            "id": "SLC",
+            "time": "2026-07-23 17:40"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 21:48"
+          },
+          "duration": 188,
+          "airplane": "Boeing 737",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 2413",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 182 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 86,
+          "name": "Salt Lake City International Airport",
+          "id": "SLC"
+        }
+      ],
+      "total_duration": 388,
+      "carbon_emissions": {
+        "this_flight": 278000,
+        "typical_for_this_route": 281000,
+        "difference_percent": -1
+      },
+      "price": 237,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYjFkSFRtbFdSa2xVUTFsQlNEWkRhV2RDUnkwdExTMHRMUzB0TFhsc1ltVXhNa0ZCUVVGQlIyOVVSVUpaVFhadFVHZEJFZ3hFVERnME9YeEVUREkwTVRNYUN3akV1QUVRQWhvRFZWTkVPQnh3eExnQiIsW1siU0ZPIiwiMjAyNi0wNy0yMyIsIlNMQyIsbnVsbCwiREwiLCI4NDkiXSxbIlNMQyIsIjIwMjYtMDctMjMiLCJPUkQiLG51bGwsIkRMIiwiMjQxMyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-23 06:04"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 12:31"
+          },
+          "duration": 267,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 2614",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 222 kg"
+          ]
+        }
+      ],
+      "total_duration": 267,
+      "carbon_emissions": {
+        "this_flight": 222000,
+        "typical_for_this_route": 281000,
+        "difference_percent": -21
+      },
+      "price": 249,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYjFkSFRtbFdSa2xVUTFsQlNEWkRhV2RDUnkwdExTMHRMUzB0TFhsc1ltVXhNa0ZCUVVGQlIyOVVSVUpaVFhadFVHZEJFZ1pCUVRJMk1UUWFDd2lJd2dFUUFob0RWVk5FT0J4d2lNSUIiLFtbIlNGTyIsIjIwMjYtMDctMjMiLCJPUkQiLG51bGwsIkFBIiwiMjYxNCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-23 14:36"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 21:27"
+          },
+          "duration": 291,
+          "airplane": "Airbus A321",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 2550",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 243 kg"
+          ]
+        }
+      ],
+      "total_duration": 291,
+      "carbon_emissions": {
+        "this_flight": 244000,
+        "typical_for_this_route": 281000,
+        "difference_percent": -13
+      },
+      "price": 249,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYjFkSFRtbFdSa2xVUTFsQlNEWkRhV2RDUnkwdExTMHRMUzB0TFhsc1ltVXhNa0ZCUVVGQlIyOVVSVUpaVFhadFVHZEJFZ1pCUVRJMU5UQWFDd2lJd2dFUUFob0RWVk5FT0J4d2lNSUIiLFtbIlNGTyIsIjIwMjYtMDctMjMiLCJPUkQiLG51bGwsIkFBIiwiMjU1MCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-23 16:21"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 22:59"
+          },
+          "duration": 278,
+          "airplane": "Airbus A321neo",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1482",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 190 kg"
+          ]
+        }
+      ],
+      "total_duration": 278,
+      "carbon_emissions": {
+        "this_flight": 190000,
+        "typical_for_this_route": 281000,
+        "difference_percent": -32
+      },
+      "price": 257,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYjFkSFRtbFdSa2xVUTFsQlNEWkRhV2RDUnkwdExTMHRMUzB0TFhsc1ltVXhNa0ZCUVVGQlIyOVVSVUpaVFhadFVHZEJFZ1pWUVRFME9ESWFDd2lIeUFFUUFob0RWVk5FT0J4d2g4Z0IiLFtbIlNGTyIsIjIwMjYtMDctMjMiLCJPUkQiLG51bGwsIlVBIiwiMTQ4MiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-23 22:38"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-24 05:01"
+          },
+          "duration": 263,
+          "airplane": "Boeing 757",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 2278",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 258 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 263,
+      "carbon_emissions": {
+        "this_flight": 258000,
+        "typical_for_this_route": 281000,
+        "difference_percent": -8
+      },
+      "price": 257,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYjFkSFRtbFdSa2xVUTFsQlNEWkRhV2RDUnkwdExTMHRMUzB0TFhsc1ltVXhNa0ZCUVVGQlIyOVVSVUpaVFhadFVHZEJFZ1pWUVRJeU56Z2FDd2lIeUFFUUFob0RWVk5FT0J4d2g4Z0IiLFtbIlNGTyIsIjIwMjYtMDctMjMiLCJPUkQiLG51bGwsIlVBIiwiMjI3OCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-23 23:30"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-24 05:57"
+          },
+          "duration": 267,
+          "airplane": "Airbus A321neo",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 368",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 190 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 267,
+      "carbon_emissions": {
+        "this_flight": 190000,
+        "typical_for_this_route": 281000,
+        "difference_percent": -32
+      },
+      "price": 266,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYjFkSFRtbFdSa2xVUTFsQlNEWkRhV2RDUnkwdExTMHRMUzB0TFhsc1ltVXhNa0ZCUVVGQlIyOVVSVUpaVFhadFVHZEJFZ1ZWUVRNMk9Cb0xDS3pQQVJBQ0dnTlZVMFE0SEhDc3p3RT0iLFtbIlNGTyIsIjIwMjYtMDctMjMiLCJPUkQiLG51bGwsIlVBIiwiMzY4Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-23 06:05"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 12:41"
+          },
+          "duration": 276,
+          "airplane": "Airbus A321neo",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 2091",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 190 kg"
+          ]
+        }
+      ],
+      "total_duration": 276,
+      "carbon_emissions": {
+        "this_flight": 190000,
+        "typical_for_this_route": 281000,
+        "difference_percent": -32
+      },
+      "price": 291,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYjFkSFRtbFdSa2xVUTFsQlNEWkRhV2RDUnkwdExTMHRMUzB0TFhsc1ltVXhNa0ZCUVVGQlIyOVVSVUpaVFhadFVHZEJFZ1pWUVRJd09URWFDd2pWNGdFUUFob0RWVk5FT0J4dzFlSUIiLFtbIlNGTyIsIjIwMjYtMDctMjMiLCJPUkQiLG51bGwsIlVBIiwiMjA5MSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-23 08:00"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 14:27"
+          },
+          "duration": 267,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 359",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 222 kg"
+          ]
+        }
+      ],
+      "total_duration": 267,
+      "carbon_emissions": {
+        "this_flight": 222000,
+        "typical_for_this_route": 281000,
+        "difference_percent": -21
+      },
+      "price": 300,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYjFkSFRtbFdSa2xVUTFsQlNEWkRhV2RDUnkwdExTMHRMUzB0TFhsc1ltVXhNa0ZCUVVGQlIyOVVSVUpaVFhadFVHZEJFZ1ZCUVRNMU9Sb0xDUFRwQVJBQ0dnTlZVMFE0SEhEMDZRRT0iLFtbIlNGTyIsIjIwMjYtMDctMjMiLCJPUkQiLG51bGwsIkFBIiwiMzU5Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-23 10:17"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 16:46"
+          },
+          "duration": 269,
+          "airplane": "Airbus A321",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 2543",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 243 kg"
+          ]
+        }
+      ],
+      "total_duration": 269,
+      "carbon_emissions": {
+        "this_flight": 244000,
+        "typical_for_this_route": 281000,
+        "difference_percent": -13
+      },
+      "price": 300,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYjFkSFRtbFdSa2xVUTFsQlNEWkRhV2RDUnkwdExTMHRMUzB0TFhsc1ltVXhNa0ZCUVVGQlIyOVVSVUpaVFhadFVHZEJFZ1pCUVRJMU5ETWFDd2owNlFFUUFob0RWVk5FT0J4dzlPa0IiLFtbIlNGTyIsIjIwMjYtMDctMjMiLCJPUkQiLG51bGwsIkFBIiwiMjU0MyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-23 12:00"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 18:35"
+          },
+          "duration": 275,
+          "airplane": "Boeing 757",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 2317",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 258 kg"
+          ]
+        }
+      ],
+      "total_duration": 275,
+      "carbon_emissions": {
+        "this_flight": 258000,
+        "typical_for_this_route": 281000,
+        "difference_percent": -8
+      },
+      "price": 386,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYjFkSFRtbFdSa2xVUTFsQlNEWkRhV2RDUnkwdExTMHRMUzB0TFhsc1ltVXhNa0ZCUVVGQlIyOVVSVUpaVFhadFVHZEJFZ1pWUVRJek1UY2FDd2lnclFJUUFob0RWVk5FT0J4d29LMEMiLFtbIlNGTyIsIjIwMjYtMDctMjMiLCJPUkQiLG51bGwsIlVBIiwiMjMxNyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-23 15:10"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 21:38"
+          },
+          "duration": 268,
+          "airplane": "Boeing 777",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 2480",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 213 kg"
+          ]
+        }
+      ],
+      "total_duration": 268,
+      "carbon_emissions": {
+        "this_flight": 213000,
+        "typical_for_this_route": 281000,
+        "difference_percent": -24
+      },
+      "price": 386,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYjFkSFRtbFdSa2xVUTFsQlNEWkRhV2RDUnkwdExTMHRMUzB0TFhsc1ltVXhNa0ZCUVVGQlIyOVVSVUpaVFhadFVHZEJFZ1pWUVRJME9EQWFDd2lnclFJUUFob0RWVk5FT0J4d29LMEMiLFtbIlNGTyIsIjIwMjYtMDctMjMiLCJPUkQiLG51bGwsIlVBIiwiMjQ4MCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-23 14:29"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 21:03"
+          },
+          "duration": 274,
+          "airplane": "Boeing 757",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1777",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 258 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "total_duration": 274,
+      "carbon_emissions": {
+        "this_flight": 258000,
+        "typical_for_this_route": 281000,
+        "difference_percent": -8
+      },
+      "price": 394,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYjFkSFRtbFdSa2xVUTFsQlNEWkRhV2RDUnkwdExTMHRMUzB0TFhsc1ltVXhNa0ZCUVVGQlIyOVVSVUpaVFhadFVHZEJFZ1pWUVRFM056Y2FDd2lzc3dJUUFob0RWVk5FT0J4d3JMTUMiLFtbIlNGTyIsIjIwMjYtMDctMjMiLCJPUkQiLG51bGwsIlVBIiwiMTc3NyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-23 10:05"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 16:38"
+          },
+          "duration": 273,
+          "airplane": "Boeing 757",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1954",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 258 kg"
+          ]
+        }
+      ],
+      "total_duration": 273,
+      "carbon_emissions": {
+        "this_flight": 258000,
+        "typical_for_this_route": 281000,
+        "difference_percent": -8
+      },
+      "price": 440,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYjFkSFRtbFdSa2xVUTFsQlNEWkRhV2RDUnkwdExTMHRMUzB0TFhsc1ltVXhNa0ZCUVVGQlIyOVVSVUpaVFhadFVHZEJFZ1pWUVRFNU5UUWFDd2k3MXdJUUFob0RWVk5FT0J4d3U5Y0MiLFtbIlNGTyIsIjIwMjYtMDctMjMiLCJPUkQiLG51bGwsIlVBIiwiMTk1NCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-23 08:15"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 14:50"
+          },
+          "duration": 275,
+          "airplane": "Airbus A321neo",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1568",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 190 kg"
+          ]
+        }
+      ],
+      "total_duration": 275,
+      "carbon_emissions": {
+        "this_flight": 190000,
+        "typical_for_this_route": 281000,
+        "difference_percent": -32
+      },
+      "price": 447,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYjFkSFRtbFdSa2xVUTFsQlNEWkRhV2RDUnkwdExTMHRMUzB0TFhsc1ltVXhNa0ZCUVVGQlIyOVVSVUpaVFhadFVHZEJFZ1pWUVRFMU5qZ2FDd2pBM0FJUUFob0RWVk5FT0J4d3dOd0MiLFtbIlNGTyIsIjIwMjYtMDctMjMiLCJPUkQiLG51bGwsIlVBIiwiMTU2OCJdXV0="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 126,
+    "price_level": "typical",
+    "typical_price_range": [
+      95,
+      170
+    ],
+    "price_history": [
+      [
+        1774335600,
+        120
+      ],
+      [
+        1774422000,
+        120
+      ],
+      [
+        1774508400,
+        120
+      ],
+      [
+        1774594800,
+        120
+      ],
+      [
+        1774681200,
+        126
+      ],
+      [
+        1774767600,
+        126
+      ],
+      [
+        1774854000,
+        126
+      ],
+      [
+        1774940400,
+        140
+      ],
+      [
+        1775026800,
+        140
+      ],
+      [
+        1775113200,
+        126
+      ],
+      [
+        1775199600,
+        126
+      ],
+      [
+        1775286000,
+        140
+      ],
+      [
+        1775372400,
+        140
+      ],
+      [
+        1775458800,
+        140
+      ],
+      [
+        1775545200,
+        140
+      ],
+      [
+        1775631600,
+        140
+      ],
+      [
+        1775718000,
+        140
+      ],
+      [
+        1775804400,
+        140
+      ],
+      [
+        1775890800,
+        140
+      ],
+      [
+        1775977200,
+        140
+      ],
+      [
+        1776063600,
+        140
+      ],
+      [
+        1776150000,
+        94
+      ],
+      [
+        1776236400,
+        94
+      ],
+      [
+        1776322800,
+        123
+      ],
+      [
+        1776409200,
+        146
+      ],
+      [
+        1776495600,
+        146
+      ],
+      [
+        1776582000,
+        146
+      ],
+      [
+        1776668400,
+        146
+      ],
+      [
+        1776754800,
+        151
+      ],
+      [
+        1776841200,
+        125
+      ],
+      [
+        1776927600,
+        125
+      ],
+      [
+        1777014000,
+        131
+      ],
+      [
+        1777100400,
+        131
+      ],
+      [
+        1777186800,
+        131
+      ],
+      [
+        1777273200,
+        125
+      ],
+      [
+        1777359600,
+        125
+      ],
+      [
+        1777446000,
+        125
+      ],
+      [
+        1777532400,
+        125
+      ],
+      [
+        1777618800,
+        131
+      ],
+      [
+        1777705200,
+        131
+      ],
+      [
+        1777791600,
+        131
+      ],
+      [
+        1777878000,
+        125
+      ],
+      [
+        1777964400,
+        125
+      ],
+      [
+        1778050800,
+        125
+      ],
+      [
+        1778137200,
+        125
+      ],
+      [
+        1778223600,
+        131
+      ],
+      [
+        1778310000,
+        131
+      ],
+      [
+        1778396400,
+        131
+      ],
+      [
+        1778482800,
+        131
+      ],
+      [
+        1778569200,
+        131
+      ],
+      [
+        1778655600,
+        131
+      ],
+      [
+        1778742000,
+        151
+      ],
+      [
+        1778828400,
+        160
+      ],
+      [
+        1778914800,
+        160
+      ],
+      [
+        1779001200,
+        160
+      ],
+      [
+        1779087600,
+        160
+      ],
+      [
+        1779174000,
+        160
+      ],
+      [
+        1779260400,
+        161
+      ],
+      [
+        1779346800,
+        145
+      ],
+      [
+        1779433200,
+        145
+      ],
+      [
+        1779519600,
+        161
+      ],
+      [
+        1779606000,
+        126
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "SFO",
+            "name": "San Francisco International Airport"
+          },
+          "city": "San Francisco",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQhLXJKshv7iRU8OcvmRyc3ZHyoSy8ZfBGcntDNb8iTixSq8i7XIcn9tZMPIcM6-rm7kKcu2VQS3BKoYw",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRbcxCKTUaj5vz8PrFeUUBVCm8J3fXiMRJpnz4UfNsPeLOkP1EZK9sez1dEX--y-VLxpPAaVB5zo1hzXliHeLl3l0VFwrWrVz7UCQpkzCY"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "ORD",
+            "name": "Chicago O'Hare International Airport"
+          },
+          "city": "Chicago",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTDuw95ynLqGCkZRzt9XuWXGBs8qWhw_1UZkMrCRAQp3rojEZBpwitHM8GAMBXgKhSKFgJZcXZ3qmYs2g",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR0CK6-eZWtnTJdtBk0BnPl1NeBcRul1YiurNp0AEgxFjNRleXR3vb2VV6vc5Uk51C0AhYN6AZAQKz6FJ-NQfbjVf8HQQ96ZH3WYIS-Rw0"
+        }
+      ]
+    }
+  ]
+}

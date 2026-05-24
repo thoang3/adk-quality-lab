@@ -1,0 +1,1093 @@
+{
+  "search_metadata": {
+    "id": "6a130fc4ff3b7a4f4b0ef1e3",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/ZA92R1BjHxraEyJ8Qca9zw/6a130fc4ff3b7a4f4b0ef1e3.json",
+    "created_at": "2026-05-24 14:48:36 UTC",
+    "processed_at": "2026-05-24 14:48:36 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhoeEgoyMDI2LTA2LTIzagcIARIDT1JEcgcIARIDTEhSQAFIA3ABmAEC&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/ZA92R1BjHxraEyJ8Qca9zw/6a130fc4ff3b7a4f4b0ef1e3.html",
+    "prettify_html_file": "https://serpapi.com/searches/ZA92R1BjHxraEyJ8Qca9zw/6a130fc4ff3b7a4f4b0ef1e3.prettify",
+    "total_time_taken": 2.12
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "us",
+    "type": "2",
+    "departure_id": "ORD",
+    "arrival_id": "LHR",
+    "outbound_date": "2026-06-23",
+    "travel_class": 3,
+    "adults": 1,
+    "currency": "USD"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-23 19:25"
+          },
+          "arrival_airport": {
+            "name": "Keflav\u00edk International Airport",
+            "id": "KEF",
+            "time": "2026-06-24 06:40"
+          },
+          "duration": 375,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Icelandair",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+          "travel_class": "Business Class",
+          "flight_number": "FI 852",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 483 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Keflav\u00edk International Airport",
+            "id": "KEF",
+            "time": "2026-06-24 07:40"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-06-24 11:55"
+          },
+          "duration": 195,
+          "airplane": "Boeing 767",
+          "airline": "Icelandair",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+          "travel_class": "Business Class",
+          "flight_number": "FI 450",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 568 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 60,
+          "name": "Keflav\u00edk International Airport",
+          "id": "KEF"
+        }
+      ],
+      "total_duration": 630,
+      "carbon_emissions": {
+        "this_flight": 1052000,
+        "typical_for_this_route": 1636000,
+        "difference_percent": -36
+      },
+      "price": 3217,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+      "booking_token": "WyJDalJJYWxSTExYSXpTMDFMVUZWQlNWTXhRbEZDUnkwdExTMHRMUzB0TFhCbWJua3hNMEZCUVVGQlIyOVVSRGhaUXpSVlFsVkJFZ3RHU1RnMU1ueEdTVFExTUJvTENNclFFeEFDR2dOVlUwUTRISERLMEJNPSIsW1siT1JEIiwiMjAyNi0wNi0yMyIsIktFRiIsbnVsbCwiRkkiLCI4NTIiXSxbIktFRiIsIjIwMjYtMDYtMjQiLCJMSFIiLG51bGwsIkZJIiwiNDUwIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-23 17:00"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-06-24 06:50"
+          },
+          "duration": 470,
+          "airplane": "Boeing 787-10",
+          "airline": "British Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+          "travel_class": "Business Class",
+          "flight_number": "BA 294",
+          "ticket_also_sold_by": [
+            "American",
+            "Iberia",
+            "Finnair",
+            "Alaska"
+          ],
+          "extensions": [
+            "Individual suite",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1091 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 470,
+      "carbon_emissions": {
+        "this_flight": 1091000,
+        "typical_for_this_route": 1636000,
+        "difference_percent": -33
+      },
+      "price": 4789,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+      "booking_token": "WyJDalJJYWxSTExYSXpTMDFMVUZWQlNWTXhRbEZDUnkwdExTMHRMUzB0TFhCbWJua3hNMEZCUVVGQlIyOVVSRGhaUXpSVlFsVkJFZ1ZDUVRJNU5Cb0xDSUtkSFJBQ0dnTlZVMFE0SEhDQ25SMD0iLFtbIk9SRCIsIjIwMjYtMDYtMjMiLCJMSFIiLG51bGwsIkJBIiwiMjk0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-23 22:30"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-06-24 12:15"
+          },
+          "duration": 465,
+          "airplane": "Boeing 787",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Business Class",
+          "flight_number": "AA 98",
+          "ticket_also_sold_by": [
+            "British Airways",
+            "Iberia",
+            "Finnair",
+            "Alaska"
+          ],
+          "extensions": [
+            "Individual suite",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1157 kg"
+          ],
+          "overnight": true,
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "total_duration": 465,
+      "carbon_emissions": {
+        "this_flight": 1158000,
+        "typical_for_this_route": 1636000,
+        "difference_percent": -29
+      },
+      "price": 4789,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "booking_token": "WyJDalJJYWxSTExYSXpTMDFMVUZWQlNWTXhRbEZDUnkwdExTMHRMUzB0TFhCbWJua3hNMEZCUVVGQlIyOVVSRGhaUXpSVlFsVkJFZ1JCUVRrNEdnc0lncDBkRUFJYUExVlRSRGdjY0lLZEhRPT0iLFtbIk9SRCIsIjIwMjYtMDYtMjMiLCJMSFIiLG51bGwsIkFBIiwiOTgiXV1d"
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-23 10:56"
+          },
+          "arrival_airport": {
+            "name": "Boston Logan International Airport",
+            "id": "BOS",
+            "time": "2026-06-23 14:22"
+          },
+          "duration": 146,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 312",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 148 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Boston Logan International Airport",
+            "id": "BOS",
+            "time": "2026-06-23 18:39"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-06-24 06:30"
+          },
+          "duration": 411,
+          "airplane": "Airbus A321neo",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Business Class",
+          "flight_number": "B6 1620",
+          "extensions": [
+            "Individual suite",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 737 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 257,
+          "name": "Boston Logan International Airport",
+          "id": "BOS"
+        }
+      ],
+      "total_duration": 814,
+      "carbon_emissions": {
+        "this_flight": 886000,
+        "typical_for_this_route": 1636000,
+        "difference_percent": -46
+      },
+      "price": 3038,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "booking_token": "WyJDalJJYWxSTExYSXpTMDFMVUZWQlNWTXhRbEZDUnkwdExTMHRMUzB0TFhCbWJua3hNMEZCUVVGQlIyOVVSRGhaUXpSVlFsVkJFZ3hDTmpNeE1ueENOakUyTWpBYUN3aTR4UklRQWhvRFZWTkVPQnh3dU1VUyIsW1siT1JEIiwiMjAyNi0wNi0yMyIsIkJPUyIsbnVsbCwiQjYiLCIzMTIiXSxbIkJPUyIsIjIwMjYtMDYtMjMiLCJMSFIiLG51bGwsIkI2IiwiMTYyMCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-23 22:25"
+          },
+          "arrival_airport": {
+            "name": "Keflav\u00edk International Airport",
+            "id": "KEF",
+            "time": "2026-06-24 09:30"
+          },
+          "duration": 365,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Icelandair",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+          "travel_class": "Business Class",
+          "flight_number": "FI 856",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 483 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Keflav\u00edk International Airport",
+            "id": "KEF",
+            "time": "2026-06-24 16:10"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-06-24 20:20"
+          },
+          "duration": 190,
+          "airplane": "Airbus A321neo",
+          "airline": "Icelandair",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+          "travel_class": "Business Class",
+          "flight_number": "FI 454",
+          "extensions": [
+            "Extra reclining seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 224 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 400,
+          "name": "Keflav\u00edk International Airport",
+          "id": "KEF"
+        }
+      ],
+      "total_duration": 955,
+      "carbon_emissions": {
+        "this_flight": 707000,
+        "typical_for_this_route": 1636000,
+        "difference_percent": -57
+      },
+      "price": 3217,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+      "booking_token": "WyJDalJJYWxSTExYSXpTMDFMVUZWQlNWTXhRbEZDUnkwdExTMHRMUzB0TFhCbWJua3hNMEZCUVVGQlIyOVVSRGhaUXpSVlFsVkJFZ3RHU1RnMU5ueEdTVFExTkJvTENNclFFeEFDR2dOVlUwUTRISERLMEJNPSIsW1siT1JEIiwiMjAyNi0wNi0yMyIsIktFRiIsbnVsbCwiRkkiLCI4NTYiXSxbIktFRiIsIjIwMjYtMDYtMjQiLCJMSFIiLG51bGwsIkZJIiwiNDU0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-23 21:50"
+          },
+          "arrival_airport": {
+            "name": "Warsaw Frederic Chopin",
+            "id": "WAW",
+            "time": "2026-06-24 13:55"
+          },
+          "duration": 545,
+          "airplane": "Boeing 787",
+          "airline": "LOT",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LO.png",
+          "travel_class": "Business Class",
+          "flight_number": "LO 4",
+          "extensions": [
+            "Lie flat seat",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1678 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Warsaw Frederic Chopin",
+            "id": "WAW",
+            "time": "2026-06-24 15:20"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-06-24 17:10"
+          },
+          "duration": 170,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "LOT",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LO.png",
+          "travel_class": "Business Class",
+          "flight_number": "LO 279",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 168 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 85,
+          "name": "Warsaw Frederic Chopin",
+          "id": "WAW"
+        }
+      ],
+      "total_duration": 800,
+      "carbon_emissions": {
+        "this_flight": 1846000,
+        "typical_for_this_route": 1636000,
+        "difference_percent": 13
+      },
+      "price": 4341,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LO.png",
+      "booking_token": "WyJDalJJYWxSTExYSXpTMDFMVUZWQlNWTXhRbEZDUnkwdExTMHRMUzB0TFhCbWJua3hNMEZCUVVGQlIyOVVSRGhaUXpSVlFsVkJFZ2xNVHpSOFRFOHlOemthQ3dpcXZ4b1FBaG9EVlZORU9CeHdxcjhhIixbWyJPUkQiLCIyMDI2LTA2LTIzIiwiV0FXIixudWxsLCJMTyIsIjQiXSxbIldBVyIsIjIwMjYtMDYtMjQiLCJMSFIiLG51bGwsIkxPIiwiMjc5Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-23 16:30"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-06-24 06:45"
+          },
+          "duration": 495,
+          "airplane": "Boeing 767",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Business Class",
+          "flight_number": "UA 929",
+          "ticket_also_sold_by": [
+            "Lufthansa",
+            "Austrian",
+            "Brussels Airlines"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1484 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 495,
+      "carbon_emissions": {
+        "this_flight": 1485000,
+        "typical_for_this_route": 1636000,
+        "difference_percent": -9
+      },
+      "price": 4789,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJYWxSTExYSXpTMDFMVUZWQlNWTXhRbEZDUnkwdExTMHRMUzB0TFhCbWJua3hNMEZCUVVGQlIyOVVSRGhaUXpSVlFsVkJFZ1ZWUVRreU9Sb0xDSUtkSFJBQ0dnTlZVMFE0SEhDQ25SMD0iLFtbIk9SRCIsIjIwMjYtMDYtMjMiLCJMSFIiLG51bGwsIlVBIiwiOTI5Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-23 18:10"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-06-24 08:05"
+          },
+          "duration": 475,
+          "airplane": "Boeing 787",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Business Class",
+          "flight_number": "AA 86",
+          "ticket_also_sold_by": [
+            "British Airways",
+            "Iberia",
+            "Finnair",
+            "Alaska"
+          ],
+          "extensions": [
+            "Individual suite",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1157 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 475,
+      "carbon_emissions": {
+        "this_flight": 1158000,
+        "typical_for_this_route": 1636000,
+        "difference_percent": -29
+      },
+      "price": 4789,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "booking_token": "WyJDalJJYWxSTExYSXpTMDFMVUZWQlNWTXhRbEZDUnkwdExTMHRMUzB0TFhCbWJua3hNMEZCUVVGQlIyOVVSRGhaUXpSVlFsVkJFZ1JCUVRnMkdnc0lncDBkRUFJYUExVlRSRGdjY0lLZEhRPT0iLFtbIk9SRCIsIjIwMjYtMDYtMjMiLCJMSFIiLG51bGwsIkFBIiwiODYiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-23 18:45"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-06-24 09:00"
+          },
+          "duration": 495,
+          "airplane": "Boeing 767",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Business Class",
+          "flight_number": "UA 920",
+          "ticket_also_sold_by": [
+            "Lufthansa",
+            "Austrian",
+            "Brussels Airlines"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1484 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 495,
+      "carbon_emissions": {
+        "this_flight": 1485000,
+        "typical_for_this_route": 1636000,
+        "difference_percent": -9
+      },
+      "price": 4789,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJYWxSTExYSXpTMDFMVUZWQlNWTXhRbEZDUnkwdExTMHRMUzB0TFhCbWJua3hNMEZCUVVGQlIyOVVSRGhaUXpSVlFsVkJFZ1ZWUVRreU1Cb0xDSUtkSFJBQ0dnTlZVMFE0SEhDQ25SMD0iLFtbIk9SRCIsIjIwMjYtMDYtMjMiLCJMSFIiLG51bGwsIlVBIiwiOTIwIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-23 20:50"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-06-24 10:30"
+          },
+          "duration": 460,
+          "airplane": "Boeing 787",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Business Class",
+          "flight_number": "AA 54",
+          "ticket_also_sold_by": [
+            "British Airways",
+            "Iberia",
+            "Finnair",
+            "Alaska"
+          ],
+          "extensions": [
+            "Individual suite",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1157 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 460,
+      "carbon_emissions": {
+        "this_flight": 1158000,
+        "typical_for_this_route": 1636000,
+        "difference_percent": -29
+      },
+      "price": 4789,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "booking_token": "WyJDalJJYWxSTExYSXpTMDFMVUZWQlNWTXhRbEZDUnkwdExTMHRMUzB0TFhCbWJua3hNMEZCUVVGQlIyOVVSRGhaUXpSVlFsVkJFZ1JCUVRVMEdnc0lncDBkRUFJYUExVlRSRGdjY0lLZEhRPT0iLFtbIk9SRCIsIjIwMjYtMDYtMjMiLCJMSFIiLG51bGwsIkFBIiwiNTQiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-23 21:15"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-06-24 11:15"
+          },
+          "duration": 480,
+          "airplane": "Boeing 777",
+          "airline": "British Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+          "travel_class": "Business Class",
+          "flight_number": "BA 296",
+          "ticket_also_sold_by": [
+            "American",
+            "Iberia",
+            "Finnair",
+            "Alaska"
+          ],
+          "extensions": [
+            "Individual suite",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1553 kg"
+          ],
+          "overnight": true,
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "total_duration": 480,
+      "carbon_emissions": {
+        "this_flight": 1553000,
+        "typical_for_this_route": 1636000,
+        "difference_percent": -5
+      },
+      "price": 4789,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+      "booking_token": "WyJDalJJYWxSTExYSXpTMDFMVUZWQlNWTXhRbEZDUnkwdExTMHRMUzB0TFhCbWJua3hNMEZCUVVGQlIyOVVSRGhaUXpSVlFsVkJFZ1ZDUVRJNU5ob0xDSUtkSFJBQ0dnTlZVMFE0SEhDQ25SMD0iLFtbIk9SRCIsIjIwMjYtMDYtMjMiLCJMSFIiLG51bGwsIkJBIiwiMjk2Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-23 21:40"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-06-24 11:55"
+          },
+          "duration": 495,
+          "airplane": "Boeing 767",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Business Class",
+          "flight_number": "UA 938",
+          "ticket_also_sold_by": [
+            "Lufthansa",
+            "Austrian",
+            "Brussels Airlines"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1484 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 495,
+      "carbon_emissions": {
+        "this_flight": 1485000,
+        "typical_for_this_route": 1636000,
+        "difference_percent": -9
+      },
+      "price": 4789,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJYWxSTExYSXpTMDFMVUZWQlNWTXhRbEZDUnkwdExTMHRMUzB0TFhCbWJua3hNMEZCUVVGQlIyOVVSRGhaUXpSVlFsVkJFZ1ZWUVRrek9Cb0xDSUtkSFJBQ0dnTlZVMFE0SEhDQ25SMD0iLFtbIk9SRCIsIjIwMjYtMDYtMjMiLCJMSFIiLG51bGwsIlVBIiwiOTM4Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-23 14:15"
+          },
+          "arrival_airport": {
+            "name": "Toronto Pearson International Airport",
+            "id": "YYZ",
+            "time": "2026-06-23 17:01"
+          },
+          "duration": 106,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Air Canada",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+          "travel_class": "Business Class",
+          "flight_number": "AC 506",
+          "ticket_also_sold_by": [
+            "United"
+          ],
+          "extensions": [
+            "Extra reclining seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 132 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Toronto Pearson International Airport",
+            "id": "YYZ",
+            "time": "2026-06-23 18:35"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-06-24 06:35"
+          },
+          "duration": 420,
+          "airplane": "Boeing 777",
+          "airline": "Air Canada",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+          "travel_class": "Business Class",
+          "flight_number": "AC 854",
+          "ticket_also_sold_by": [
+            "United"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1543 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 94,
+          "name": "Toronto Pearson International Airport",
+          "id": "YYZ"
+        }
+      ],
+      "total_duration": 620,
+      "carbon_emissions": {
+        "this_flight": 1676000,
+        "typical_for_this_route": 1636000,
+        "difference_percent": 2
+      },
+      "price": 4795,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+      "booking_token": "WyJDalJJYWxSTExYSXpTMDFMVUZWQlNWTXhRbEZDUnkwdExTMHRMUzB0TFhCbWJua3hNMEZCUVVGQlIyOVVSRGhaUXpSVlFsVkJFZ3RCUXpVd05ueEJRemcxTkJvTENPNmhIUkFDR2dOVlUwUTRISER1b1IwPSIsW1siT1JEIiwiMjAyNi0wNi0yMyIsIllZWiIsbnVsbCwiQUMiLCI1MDYiXSxbIllZWiIsIjIwMjYtMDYtMjMiLCJMSFIiLG51bGwsIkFDIiwiODU0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-23 19:05"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-06-24 09:05"
+          },
+          "duration": 480,
+          "airplane": "Boeing 777",
+          "airline": "British Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+          "travel_class": "First Class",
+          "flight_number": "BA 298",
+          "ticket_also_sold_by": [
+            "American"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1941 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 480,
+      "carbon_emissions": {
+        "this_flight": 1942000,
+        "typical_for_this_route": 1636000,
+        "difference_percent": 19
+      },
+      "price": 13276,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+      "booking_token": "WyJDalJJYWxSTExYSXpTMDFMVUZWQlNWTXhRbEZDUnkwdExTMHRMUzB0TFhCbWJua3hNMEZCUVVGQlIyOVVSRGhaUXpSVlFsVkJFZ1ZDUVRJNU9Cb0xDTDZEVVJBQ0dnTlZVMFE0SEhDK2cxRT0iLFtbIk9SRCIsIjIwMjYtMDYtMjMiLCJMSFIiLG51bGwsIkJBIiwiMjk4Il1dXQ=="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 3038,
+    "price_level": "typical",
+    "typical_price_range": [
+      1950,
+      3200
+    ],
+    "price_history": [
+      [
+        1774328400,
+        1918
+      ],
+      [
+        1774414800,
+        1860
+      ],
+      [
+        1774501200,
+        2098
+      ],
+      [
+        1774587600,
+        1918
+      ],
+      [
+        1774674000,
+        1918
+      ],
+      [
+        1774760400,
+        1918
+      ],
+      [
+        1774846800,
+        2098
+      ],
+      [
+        1774933200,
+        2098
+      ],
+      [
+        1775019600,
+        2098
+      ],
+      [
+        1775106000,
+        2098
+      ],
+      [
+        1775192400,
+        2098
+      ],
+      [
+        1775278800,
+        2098
+      ],
+      [
+        1775365200,
+        2098
+      ],
+      [
+        1775451600,
+        2098
+      ],
+      [
+        1775538000,
+        2098
+      ],
+      [
+        1775624400,
+        2130
+      ],
+      [
+        1775710800,
+        2130
+      ],
+      [
+        1775797200,
+        2099
+      ],
+      [
+        1775883600,
+        2099
+      ],
+      [
+        1775970000,
+        2099
+      ],
+      [
+        1776056400,
+        2099
+      ],
+      [
+        1776142800,
+        2099
+      ],
+      [
+        1776229200,
+        2099
+      ],
+      [
+        1776315600,
+        2099
+      ],
+      [
+        1776402000,
+        2099
+      ],
+      [
+        1776488400,
+        2099
+      ],
+      [
+        1776574800,
+        2099
+      ],
+      [
+        1776661200,
+        2099
+      ],
+      [
+        1776747600,
+        2099
+      ],
+      [
+        1776834000,
+        2099
+      ],
+      [
+        1776920400,
+        2099
+      ],
+      [
+        1777006800,
+        2053
+      ],
+      [
+        1777093200,
+        2053
+      ],
+      [
+        1777179600,
+        2053
+      ],
+      [
+        1777266000,
+        2053
+      ],
+      [
+        1777352400,
+        2053
+      ],
+      [
+        1777438800,
+        2053
+      ],
+      [
+        1777525200,
+        2053
+      ],
+      [
+        1777611600,
+        2053
+      ],
+      [
+        1777698000,
+        2053
+      ],
+      [
+        1777784400,
+        2053
+      ],
+      [
+        1777870800,
+        2053
+      ],
+      [
+        1777957200,
+        2099
+      ],
+      [
+        1778043600,
+        2348
+      ],
+      [
+        1778130000,
+        2538
+      ],
+      [
+        1778216400,
+        2348
+      ],
+      [
+        1778302800,
+        2348
+      ],
+      [
+        1778389200,
+        2348
+      ],
+      [
+        1778475600,
+        2348
+      ],
+      [
+        1778562000,
+        2688
+      ],
+      [
+        1778648400,
+        3038
+      ],
+      [
+        1778734800,
+        3038
+      ],
+      [
+        1778821200,
+        2946
+      ],
+      [
+        1778907600,
+        2946
+      ],
+      [
+        1778994000,
+        2946
+      ],
+      [
+        1779080400,
+        3038
+      ],
+      [
+        1779166800,
+        3038
+      ],
+      [
+        1779253200,
+        3038
+      ],
+      [
+        1779339600,
+        3038
+      ],
+      [
+        1779426000,
+        3038
+      ],
+      [
+        1779512400,
+        3038
+      ],
+      [
+        1779598800,
+        3038
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "ORD",
+            "name": "Chicago O'Hare International Airport"
+          },
+          "city": "Chicago",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTDuw95ynLqGCkZRzt9XuWXGBs8qWhw_1UZkMrCRAQp3rojEZBpwitHM8GAMBXgKhSKFgJZcXZ3qmYs2g",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR0CK6-eZWtnTJdtBk0BnPl1NeBcRul1YiurNp0AEgxFjNRleXR3vb2VV6vc5Uk51C0AhYN6AZAQKz6FJ-NQfbjVf8HQQ96ZH3WYIS-Rw0"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "LHR",
+            "name": "Heathrow Airport"
+          },
+          "city": "London",
+          "country": "United Kingdom",
+          "country_code": "GB",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRpN9RbtOSTDqKIPxWc_D6rdSysaWVh6d-NW7yz7yFXKRwh5RN5BpNIoXEwH1XVcFdLWqn6Sm8_Y_zmeg",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQYH83YXny8hR4M7k5BMFq4vUT6LNtVABQzgs2pg-hcpSZq3oMBOQK3xh591AAJv2Qx4uvFZUGqOVt4kuoCUOklISunmndJleOoSef_7QE"
+        }
+      ]
+    }
+  ]
+}

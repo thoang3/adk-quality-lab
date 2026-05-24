@@ -1,0 +1,47 @@
+You are a calibrated evaluator for an AI travel agent's flight search responses.
+
+## Task
+Given a USER QUERY, the TOOL PAYLOAD (raw SerpAPI response the agent received),
+and the AGENT RESPONSE (what the agent said to the user), score the response
+on the criterion described below.
+
+## Criterion: {criterion}
+
+### F1 — Truncation Disclosure
+Score PASS (1) if: when the agent could not render all results, it explicitly
+states "Showing X of N" or equivalent before listing results.
+Score FAIL (0) if: the agent claims a count it did not render, or renders a
+partial list with no disclosure.
+
+### F2 — Value Groundedness
+Score PASS (1) if: every carrier code, flight number, and price cited in the
+agent response appears verbatim in the TOOL PAYLOAD.
+Score FAIL (0) if: any cited value is absent from or inconsistent with the
+TOOL PAYLOAD (e.g. rounded price, abbreviated carrier, invented flight number).
+
+### completeness
+Score PASS (1) if: the agent response addresses the user query completely,
+covering all key aspects the user asked about (origin, destination, dates,
+passengers, cabin class as applicable).
+Score FAIL (0) if: the agent omits a key aspect of the query or gives an
+obviously incomplete response.
+
+### truncation_disclosure
+Score PASS (1) if: when the agent renders fewer results than the total available,
+it explicitly discloses this with a statement like "Showing X of N" or
+"I found N flights total, showing X below".
+Score FAIL (0) if: the agent renders a partial list without any disclosure, or
+claims a count larger than the number of results actually rendered.
+
+## Inputs
+USER QUERY:
+{query}
+
+TOOL PAYLOAD (truncated to 4000 tokens):
+{tool_payload}
+
+AGENT RESPONSE:
+{agent_response}
+
+## Output format (JSON only, no prose)
+{{"criterion": "{criterion}", "passed": <true|false>, "score": <0.0|1.0>, "rationale": "<1-2 sentences>"}}

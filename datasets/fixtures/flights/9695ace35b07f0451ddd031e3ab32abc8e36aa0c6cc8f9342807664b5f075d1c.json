@@ -1,0 +1,1272 @@
+{
+  "search_metadata": {
+    "id": "6a130f39304eba56484bff21",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/a1rQDYLWE9HJ5Ph-N95CrA/6a130f39304eba56484bff21.json",
+    "created_at": "2026-05-24 14:46:17 UTC",
+    "processed_at": "2026-05-24 14:46:17 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhoeEgoyMDI2LTA3LTIzagcIARIDSkZLcgcIARIDTEhSQAFIAXABmAEC&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/a1rQDYLWE9HJ5Ph-N95CrA/6a130f39304eba56484bff21.html",
+    "prettify_html_file": "https://serpapi.com/searches/a1rQDYLWE9HJ5Ph-N95CrA/6a130f39304eba56484bff21.prettify",
+    "total_time_taken": 1.12
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "us",
+    "type": "2",
+    "departure_id": "JFK",
+    "arrival_id": "LHR",
+    "outbound_date": "2026-07-23",
+    "travel_class": 1,
+    "adults": 1,
+    "currency": "USD"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-23 07:50"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-23 19:45"
+          },
+          "duration": 415,
+          "airplane": "Boeing 777",
+          "airline": "British Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+          "travel_class": "Economy",
+          "flight_number": "BA 178",
+          "ticket_also_sold_by": [
+            "American",
+            "Iberia",
+            "Finnair"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 425 kg"
+          ]
+        }
+      ],
+      "total_duration": 415,
+      "carbon_emissions": {
+        "this_flight": 425000,
+        "typical_for_this_route": 420000,
+        "difference_percent": 1
+      },
+      "price": 285,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+      "booking_token": "WyJDalJJZVd0eVZVNUVUek5uZVZsQlRVRjBPWGRDUnkwdExTMHRMUzB0Y0dwaWRHTXhNVUZCUVVGQlIyOVVSSHB2UmpOUVNYZEJFZ1ZDUVRFM09Cb0xDS0xlQVJBQ0dnTlZVMFE0SEhDaTNnRT0iLFtbIkpGSyIsIjIwMjYtMDctMjMiLCJMSFIiLG51bGwsIkJBIiwiMTc4Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-23 19:15"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-24 07:20"
+          },
+          "duration": 425,
+          "airplane": "Boeing 787",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 106",
+          "ticket_also_sold_by": [
+            "British Airways",
+            "Iberia",
+            "Finnair",
+            "Alaska"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 299 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 425,
+      "carbon_emissions": {
+        "this_flight": 300000,
+        "typical_for_this_route": 420000,
+        "difference_percent": -29
+      },
+      "price": 285,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "booking_token": "WyJDalJJZVd0eVZVNUVUek5uZVZsQlRVRjBPWGRDUnkwdExTMHRMUzB0Y0dwaWRHTXhNVUZCUVVGQlIyOVVSSHB2UmpOUVNYZEJFZ1ZCUVRFd05ob0xDS0xlQVJBQ0dnTlZVMFE0SEhDaTNnRT0iLFtbIkpGSyIsIjIwMjYtMDctMjMiLCJMSFIiLG51bGwsIkFBIiwiMTA2Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-23 08:15"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-23 20:10"
+          },
+          "duration": 415,
+          "airplane": "Boeing 787",
+          "airline": "Virgin Atlantic",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VS.png",
+          "travel_class": "Economy",
+          "flight_number": "VS 26",
+          "ticket_also_sold_by": [
+            "Air France",
+            "Delta",
+            "KLM"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 343 kg"
+          ]
+        }
+      ],
+      "total_duration": 415,
+      "carbon_emissions": {
+        "this_flight": 344000,
+        "typical_for_this_route": 420000,
+        "difference_percent": -18
+      },
+      "price": 358,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VS.png",
+      "booking_token": "WyJDalJJZVd0eVZVNUVUek5uZVZsQlRVRjBPWGRDUnkwdExTMHRMUzB0Y0dwaWRHTXhNVUZCUVVGQlIyOVVSSHB2UmpOUVNYZEJFZ1JXVXpJMkdnc0lwcGNDRUFJYUExVlRSRGdjY0thWEFnPT0iLFtbIkpGSyIsIjIwMjYtMDctMjMiLCJMSFIiLG51bGwsIlZTIiwiMjYiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-23 22:00"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-24 10:20"
+          },
+          "duration": 440,
+          "airplane": "Airbus A330-900neo",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 3",
+          "ticket_also_sold_by": [
+            "KLM",
+            "Virgin Atlantic"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 343 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 440,
+      "carbon_emissions": {
+        "this_flight": 344000,
+        "typical_for_this_route": 420000,
+        "difference_percent": -18
+      },
+      "price": 358,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "booking_token": "WyJDalJJZVd0eVZVNUVUek5uZVZsQlRVRjBPWGRDUnkwdExTMHRMUzB0Y0dwaWRHTXhNVUZCUVVGQlIyOVVSSHB2UmpOUVNYZEJFZ05FVERNYUN3aW1sd0lRQWhvRFZWTkVPQnh3cHBjQyIsW1siSkZLIiwiMjAyNi0wNy0yMyIsIkxIUiIsbnVsbCwiREwiLCIzIl1dXQ=="
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-23 09:30"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-23 21:40"
+          },
+          "duration": 430,
+          "airplane": "Boeing 777",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 142",
+          "ticket_also_sold_by": [
+            "British Airways",
+            "Iberia",
+            "Finnair",
+            "Alaska"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 399 kg"
+          ]
+        }
+      ],
+      "total_duration": 430,
+      "carbon_emissions": {
+        "this_flight": 400000,
+        "typical_for_this_route": 420000,
+        "difference_percent": -5
+      },
+      "price": 285,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "booking_token": "WyJDalJJZVd0eVZVNUVUek5uZVZsQlRVRjBPWGRDUnkwdExTMHRMUzB0Y0dwaWRHTXhNVUZCUVVGQlIyOVVSSHB2UmpOUVNYZEJFZ1ZCUVRFME1ob0xDS0xlQVJBQ0dnTlZVMFE0SEhDaTNnRT0iLFtbIkpGSyIsIjIwMjYtMDctMjMiLCJMSFIiLG51bGwsIkFBIiwiMTQyIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-23 18:05"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-24 06:25"
+          },
+          "duration": 440,
+          "airplane": "Boeing 787",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 100",
+          "ticket_also_sold_by": [
+            "British Airways",
+            "Iberia",
+            "Finnair",
+            "Alaska"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 299 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 440,
+      "carbon_emissions": {
+        "this_flight": 300000,
+        "typical_for_this_route": 420000,
+        "difference_percent": -29
+      },
+      "price": 285,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "booking_token": "WyJDalJJZVd0eVZVNUVUek5uZVZsQlRVRjBPWGRDUnkwdExTMHRMUzB0Y0dwaWRHTXhNVUZCUVVGQlIyOVVSSHB2UmpOUVNYZEJFZ1ZCUVRFd01Cb0xDS0xlQVJBQ0dnTlZVMFE0SEhDaTNnRT0iLFtbIkpGSyIsIjIwMjYtMDctMjMiLCJMSFIiLG51bGwsIkFBIiwiMTAwIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-23 18:30"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-24 06:40"
+          },
+          "duration": 430,
+          "airplane": "Boeing 777",
+          "airline": "British Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+          "travel_class": "Economy",
+          "flight_number": "BA 112",
+          "ticket_also_sold_by": [
+            "American",
+            "Iberia",
+            "Finnair"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 387 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 430,
+      "carbon_emissions": {
+        "this_flight": 387000,
+        "typical_for_this_route": 420000,
+        "difference_percent": -8
+      },
+      "price": 285,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+      "booking_token": "WyJDalJJZVd0eVZVNUVUek5uZVZsQlRVRjBPWGRDUnkwdExTMHRMUzB0Y0dwaWRHTXhNVUZCUVVGQlIyOVVSSHB2UmpOUVNYZEJFZ1ZDUVRFeE1ob0xDS0xlQVJBQ0dnTlZVMFE0SEhDaTNnRT0iLFtbIkpGSyIsIjIwMjYtMDctMjMiLCJMSFIiLG51bGwsIkJBIiwiMTEyIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-23 18:40"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-24 06:50"
+          },
+          "duration": 430,
+          "airplane": "Boeing 777",
+          "airline": "British Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+          "travel_class": "Economy",
+          "flight_number": "BA 174",
+          "ticket_also_sold_by": [
+            "American",
+            "Iberia",
+            "Finnair"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 425 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 430,
+      "carbon_emissions": {
+        "this_flight": 425000,
+        "typical_for_this_route": 420000,
+        "difference_percent": 1
+      },
+      "price": 285,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+      "booking_token": "WyJDalJJZVd0eVZVNUVUek5uZVZsQlRVRjBPWGRDUnkwdExTMHRMUzB0Y0dwaWRHTXhNVUZCUVVGQlIyOVVSSHB2UmpOUVNYZEJFZ1ZDUVRFM05Cb0xDS0xlQVJBQ0dnTlZVMFE0SEhDaTNnRT0iLFtbIkpGSyIsIjIwMjYtMDctMjMiLCJMSFIiLG51bGwsIkJBIiwiMTc0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-23 19:10"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-24 07:20"
+          },
+          "duration": 430,
+          "airplane": "Boeing 777",
+          "airline": "British Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+          "travel_class": "Economy",
+          "flight_number": "BA 180",
+          "ticket_also_sold_by": [
+            "American",
+            "Finnair"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 387 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 430,
+      "carbon_emissions": {
+        "this_flight": 387000,
+        "typical_for_this_route": 420000,
+        "difference_percent": -8
+      },
+      "price": 285,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+      "booking_token": "WyJDalJJZVd0eVZVNUVUek5uZVZsQlRVRjBPWGRDUnkwdExTMHRMUzB0Y0dwaWRHTXhNVUZCUVVGQlIyOVVSSHB2UmpOUVNYZEJFZ1ZDUVRFNE1Cb0xDS0xlQVJBQ0dnTlZVMFE0SEhDaTNnRT0iLFtbIkpGSyIsIjIwMjYtMDctMjMiLCJMSFIiLG51bGwsIkJBIiwiMTgwIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-23 20:20"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-24 08:30"
+          },
+          "duration": 430,
+          "airplane": "Boeing 777",
+          "airline": "British Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+          "travel_class": "Economy",
+          "flight_number": "BA 116",
+          "ticket_also_sold_by": [
+            "American",
+            "Iberia",
+            "Finnair"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 387 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 430,
+      "carbon_emissions": {
+        "this_flight": 387000,
+        "typical_for_this_route": 420000,
+        "difference_percent": -8
+      },
+      "price": 285,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+      "booking_token": "WyJDalJJZVd0eVZVNUVUek5uZVZsQlRVRjBPWGRDUnkwdExTMHRMUzB0Y0dwaWRHTXhNVUZCUVVGQlIyOVVSSHB2UmpOUVNYZEJFZ1ZDUVRFeE5ob0xDS0xlQVJBQ0dnTlZVMFE0SEhDaTNnRT0iLFtbIkpGSyIsIjIwMjYtMDctMjMiLCJMSFIiLG51bGwsIkJBIiwiMTE2Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-23 20:55"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-24 09:10"
+          },
+          "duration": 435,
+          "airplane": "Boeing 777",
+          "airline": "British Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+          "travel_class": "Economy",
+          "flight_number": "BA 172",
+          "ticket_also_sold_by": [
+            "American",
+            "Iberia",
+            "Finnair"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 425 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 435,
+      "carbon_emissions": {
+        "this_flight": 425000,
+        "typical_for_this_route": 420000,
+        "difference_percent": 1
+      },
+      "price": 285,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+      "booking_token": "WyJDalJJZVd0eVZVNUVUek5uZVZsQlRVRjBPWGRDUnkwdExTMHRMUzB0Y0dwaWRHTXhNVUZCUVVGQlIyOVVSSHB2UmpOUVNYZEJFZ1ZDUVRFM01ob0xDS0xlQVJBQ0dnTlZVMFE0SEhDaTNnRT0iLFtbIkpGSyIsIjIwMjYtMDctMjMiLCJMSFIiLG51bGwsIkJBIiwiMTcyIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-23 21:40"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-24 09:50"
+          },
+          "duration": 430,
+          "airplane": "Boeing 777",
+          "airline": "British Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+          "travel_class": "Economy",
+          "flight_number": "BA 114",
+          "ticket_also_sold_by": [
+            "American",
+            "Iberia",
+            "Finnair"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 387 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 430,
+      "carbon_emissions": {
+        "this_flight": 387000,
+        "typical_for_this_route": 420000,
+        "difference_percent": -8
+      },
+      "price": 285,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+      "booking_token": "WyJDalJJZVd0eVZVNUVUek5uZVZsQlRVRjBPWGRDUnkwdExTMHRMUzB0Y0dwaWRHTXhNVUZCUVVGQlIyOVVSSHB2UmpOUVNYZEJFZ1ZDUVRFeE5Cb0xDS0xlQVJBQ0dnTlZVMFE0SEhDaTNnRT0iLFtbIkpGSyIsIjIwMjYtMDctMjMiLCJMSFIiLG51bGwsIkJBIiwiMTE0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-23 22:40"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-24 10:35"
+          },
+          "duration": 415,
+          "airplane": "Boeing 787-10",
+          "airline": "British Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+          "travel_class": "Economy",
+          "flight_number": "BA 182",
+          "ticket_also_sold_by": [
+            "American",
+            "Iberia",
+            "Finnair"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 298 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 415,
+      "carbon_emissions": {
+        "this_flight": 299000,
+        "typical_for_this_route": 420000,
+        "difference_percent": -29
+      },
+      "price": 285,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+      "booking_token": "WyJDalJJZVd0eVZVNUVUek5uZVZsQlRVRjBPWGRDUnkwdExTMHRMUzB0Y0dwaWRHTXhNVUZCUVVGQlIyOVVSSHB2UmpOUVNYZEJFZ1ZDUVRFNE1ob0xDS0xlQVJBQ0dnTlZVMFE0SEhDaTNnRT0iLFtbIkpGSyIsIjIwMjYtMDctMjMiLCJMSFIiLG51bGwsIkJBIiwiMTgyIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-23 18:00"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-24 06:20"
+          },
+          "duration": 440,
+          "airplane": "Airbus A330-900neo",
+          "airline": "Virgin Atlantic",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VS.png",
+          "travel_class": "Economy",
+          "flight_number": "VS 4",
+          "ticket_also_sold_by": [
+            "Air France",
+            "Delta",
+            "KLM"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 355 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 440,
+      "carbon_emissions": {
+        "this_flight": 356000,
+        "typical_for_this_route": 420000,
+        "difference_percent": -15
+      },
+      "price": 358,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VS.png",
+      "booking_token": "WyJDalJJZVd0eVZVNUVUek5uZVZsQlRVRjBPWGRDUnkwdExTMHRMUzB0Y0dwaWRHTXhNVUZCUVVGQlIyOVVSSHB2UmpOUVNYZEJFZ05XVXpRYUN3aW1sd0lRQWhvRFZWTkVPQnh3cHBjQyIsW1siSkZLIiwiMjAyNi0wNy0yMyIsIkxIUiIsbnVsbCwiVlMiLCI0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-23 18:30"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-24 06:45"
+          },
+          "duration": 435,
+          "airplane": "Airbus A350",
+          "airline": "Virgin Atlantic",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VS.png",
+          "travel_class": "Economy",
+          "flight_number": "VS 10",
+          "ticket_also_sold_by": [
+            "Air France",
+            "Delta",
+            "KLM"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 339 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 435,
+      "carbon_emissions": {
+        "this_flight": 339000,
+        "typical_for_this_route": 420000,
+        "difference_percent": -19
+      },
+      "price": 358,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VS.png",
+      "booking_token": "WyJDalJJZVd0eVZVNUVUek5uZVZsQlRVRjBPWGRDUnkwdExTMHRMUzB0Y0dwaWRHTXhNVUZCUVVGQlIyOVVSSHB2UmpOUVNYZEJFZ1JXVXpFd0dnc0lwcGNDRUFJYUExVlRSRGdjY0thWEFnPT0iLFtbIkpGSyIsIjIwMjYtMDctMjMiLCJMSFIiLG51bGwsIlZTIiwiMTAiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-23 19:00"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-24 07:15"
+          },
+          "duration": 435,
+          "airplane": "Airbus A350",
+          "airline": "Virgin Atlantic",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VS.png",
+          "travel_class": "Economy",
+          "flight_number": "VS 46",
+          "ticket_also_sold_by": [
+            "Air France",
+            "Delta",
+            "KLM"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 339 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 435,
+      "carbon_emissions": {
+        "this_flight": 339000,
+        "typical_for_this_route": 420000,
+        "difference_percent": -19
+      },
+      "price": 358,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VS.png",
+      "booking_token": "WyJDalJJZVd0eVZVNUVUek5uZVZsQlRVRjBPWGRDUnkwdExTMHRMUzB0Y0dwaWRHTXhNVUZCUVVGQlIyOVVSSHB2UmpOUVNYZEJFZ1JXVXpRMkdnc0lwcGNDRUFJYUExVlRSRGdjY0thWEFnPT0iLFtbIkpGSyIsIjIwMjYtMDctMjMiLCJMSFIiLG51bGwsIlZTIiwiNDYiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-23 20:15"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-24 08:50"
+          },
+          "duration": 455,
+          "airplane": "Airbus A330",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 1",
+          "ticket_also_sold_by": [
+            "KLM",
+            "Virgin Atlantic"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 423 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 455,
+      "carbon_emissions": {
+        "this_flight": 424000,
+        "typical_for_this_route": 420000,
+        "difference_percent": 1
+      },
+      "price": 358,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "booking_token": "WyJDalJJZVd0eVZVNUVUek5uZVZsQlRVRjBPWGRDUnkwdExTMHRMUzB0Y0dwaWRHTXhNVUZCUVVGQlIyOVVSSHB2UmpOUVNYZEJFZ05FVERFYUN3aW1sd0lRQWhvRFZWTkVPQnh3cHBjQyIsW1siSkZLIiwiMjAyNi0wNy0yMyIsIkxIUiIsbnVsbCwiREwiLCIxIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-23 20:35"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-24 08:50"
+          },
+          "duration": 435,
+          "airplane": "Airbus A350",
+          "airline": "Virgin Atlantic",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VS.png",
+          "travel_class": "Economy",
+          "flight_number": "VS 154",
+          "ticket_also_sold_by": [
+            "Air France",
+            "Delta",
+            "KLM"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 339 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 435,
+      "carbon_emissions": {
+        "this_flight": 339000,
+        "typical_for_this_route": 420000,
+        "difference_percent": -19
+      },
+      "price": 358,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VS.png",
+      "booking_token": "WyJDalJJZVd0eVZVNUVUek5uZVZsQlRVRjBPWGRDUnkwdExTMHRMUzB0Y0dwaWRHTXhNVUZCUVVGQlIyOVVSSHB2UmpOUVNYZEJFZ1ZXVXpFMU5Cb0xDS2FYQWhBQ0dnTlZVMFE0SEhDbWx3ST0iLFtbIkpGSyIsIjIwMjYtMDctMjMiLCJMSFIiLG51bGwsIlZTIiwiMTU0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-23 23:45"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-24 12:10"
+          },
+          "duration": 445,
+          "airplane": "Airbus A350",
+          "airline": "Virgin Atlantic",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VS.png",
+          "travel_class": "Economy",
+          "flight_number": "VS 138",
+          "ticket_also_sold_by": [
+            "Air France",
+            "Delta",
+            "KLM"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 339 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 445,
+      "carbon_emissions": {
+        "this_flight": 339000,
+        "typical_for_this_route": 420000,
+        "difference_percent": -19
+      },
+      "price": 358,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VS.png",
+      "booking_token": "WyJDalJJZVd0eVZVNUVUek5uZVZsQlRVRjBPWGRDUnkwdExTMHRMUzB0Y0dwaWRHTXhNVUZCUVVGQlIyOVVSSHB2UmpOUVNYZEJFZ1ZXVXpFek9Cb0xDS2FYQWhBQ0dnTlZVMFE0SEhDbWx3ST0iLFtbIkpGSyIsIjIwMjYtMDctMjMiLCJMSFIiLG51bGwsIlZTIiwiMTM4Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-23 08:45"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-23 20:45"
+          },
+          "duration": 420,
+          "airplane": "Airbus A321neo",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 1107",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 541 kg"
+          ]
+        }
+      ],
+      "total_duration": 420,
+      "carbon_emissions": {
+        "this_flight": 542000,
+        "typical_for_this_route": 420000,
+        "difference_percent": 29
+      },
+      "price": 575,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "booking_token": "WyJDalJJZVd0eVZVNUVUek5uZVZsQlRVRjBPWGRDUnkwdExTMHRMUzB0Y0dwaWRHTXhNVUZCUVVGQlIyOVVSSHB2UmpOUVNYZEJFZ1pDTmpFeE1EY2FDd2pxd0FNUUFob0RWVk5FT0J4dzZzQUQiLFtbIkpGSyIsIjIwMjYtMDctMjMiLCJMSFIiLG51bGwsIkI2IiwiMTEwNyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-23 20:53"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-24 09:30"
+          },
+          "duration": 457,
+          "airplane": "Airbus A321neo",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 7",
+          "ticket_also_sold_by": [
+            "Tap Air Portugal"
+          ],
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 541 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 457,
+      "carbon_emissions": {
+        "this_flight": 542000,
+        "typical_for_this_route": 420000,
+        "difference_percent": 29
+      },
+      "price": 575,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "booking_token": "WyJDalJJZVd0eVZVNUVUek5uZVZsQlRVRjBPWGRDUnkwdExTMHRMUzB0Y0dwaWRHTXhNVUZCUVVGQlIyOVVSSHB2UmpOUVNYZEJFZ05DTmpjYUN3anF3QU1RQWhvRFZWTkVPQnh3NnNBRCIsW1siSkZLIiwiMjAyNi0wNy0yMyIsIkxIUiIsbnVsbCwiQjYiLCI3Il1dXQ=="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 285,
+    "price_level": "typical",
+    "typical_price_range": [
+      175,
+      360
+    ],
+    "price_history": [
+      [
+        1774324800,
+        307
+      ],
+      [
+        1774411200,
+        318
+      ],
+      [
+        1774497600,
+        319
+      ],
+      [
+        1774584000,
+        319
+      ],
+      [
+        1774670400,
+        319
+      ],
+      [
+        1774756800,
+        319
+      ],
+      [
+        1774843200,
+        319
+      ],
+      [
+        1774929600,
+        319
+      ],
+      [
+        1775016000,
+        319
+      ],
+      [
+        1775102400,
+        319
+      ],
+      [
+        1775188800,
+        319
+      ],
+      [
+        1775275200,
+        319
+      ],
+      [
+        1775361600,
+        319
+      ],
+      [
+        1775448000,
+        319
+      ],
+      [
+        1775534400,
+        319
+      ],
+      [
+        1775620800,
+        319
+      ],
+      [
+        1775707200,
+        319
+      ],
+      [
+        1775793600,
+        319
+      ],
+      [
+        1775880000,
+        345
+      ],
+      [
+        1775966400,
+        345
+      ],
+      [
+        1776052800,
+        345
+      ],
+      [
+        1776139200,
+        345
+      ],
+      [
+        1776225600,
+        345
+      ],
+      [
+        1776312000,
+        345
+      ],
+      [
+        1776398400,
+        345
+      ],
+      [
+        1776484800,
+        345
+      ],
+      [
+        1776571200,
+        345
+      ],
+      [
+        1776657600,
+        345
+      ],
+      [
+        1776744000,
+        345
+      ],
+      [
+        1776830400,
+        345
+      ],
+      [
+        1776916800,
+        345
+      ],
+      [
+        1777003200,
+        345
+      ],
+      [
+        1777089600,
+        345
+      ],
+      [
+        1777176000,
+        345
+      ],
+      [
+        1777262400,
+        345
+      ],
+      [
+        1777348800,
+        341
+      ],
+      [
+        1777435200,
+        341
+      ],
+      [
+        1777521600,
+        336
+      ],
+      [
+        1777608000,
+        342
+      ],
+      [
+        1777694400,
+        341
+      ],
+      [
+        1777780800,
+        341
+      ],
+      [
+        1777867200,
+        338
+      ],
+      [
+        1777953600,
+        335
+      ],
+      [
+        1778040000,
+        335
+      ],
+      [
+        1778126400,
+        335
+      ],
+      [
+        1778212800,
+        331
+      ],
+      [
+        1778299200,
+        331
+      ],
+      [
+        1778385600,
+        345
+      ],
+      [
+        1778472000,
+        312
+      ],
+      [
+        1778558400,
+        301
+      ],
+      [
+        1778644800,
+        301
+      ],
+      [
+        1778731200,
+        301
+      ],
+      [
+        1778817600,
+        301
+      ],
+      [
+        1778904000,
+        301
+      ],
+      [
+        1778990400,
+        301
+      ],
+      [
+        1779076800,
+        301
+      ],
+      [
+        1779163200,
+        301
+      ],
+      [
+        1779249600,
+        301
+      ],
+      [
+        1779336000,
+        300
+      ],
+      [
+        1779422400,
+        285
+      ],
+      [
+        1779508800,
+        285
+      ],
+      [
+        1779595200,
+        285
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "JFK",
+            "name": "John F. Kennedy International Airport"
+          },
+          "city": "New York",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRa1dwH1NZQk4dsbPiyA9Vrq2RX75jXSZ-OkHn7NkLHl-11HercqDXoZ4p2cDxJkH6vca2degawrCzHEQ",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQEaUa9NsdPWGpAUGkTApkZDT_4M6_6V8wTcC0v1b1wJAJX-BuMSiipXbsoznGgcI1xLOc5QiTcR_xovexgjdOz0gqQe0tRQ9h0bUkZ07Q"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "LHR",
+            "name": "Heathrow Airport"
+          },
+          "city": "London",
+          "country": "United Kingdom",
+          "country_code": "GB",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRpN9RbtOSTDqKIPxWc_D6rdSysaWVh6d-NW7yz7yFXKRwh5RN5BpNIoXEwH1XVcFdLWqn6Sm8_Y_zmeg",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQYH83YXny8hR4M7k5BMFq4vUT6LNtVABQzgs2pg-hcpSZq3oMBOQK3xh591AAJv2Qx4uvFZUGqOVt4kuoCUOklISunmndJleOoSef_7QE"
+        }
+      ]
+    }
+  ]
+}

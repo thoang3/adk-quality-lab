@@ -1,0 +1,1152 @@
+{
+  "search_metadata": {
+    "id": "6a130fe7fbbeb5aa2045ce91",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/N9kZMXPTB5Aye_rXoD2q-A/6a130fe7fbbeb5aa2045ce91.json",
+    "created_at": "2026-05-24 14:49:11 UTC",
+    "processed_at": "2026-05-24 14:49:11 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhoeEgoyMDI2LTA2LTA3agcIARIDT1JEcgcIARIDTUlBQAFIAXABmAEC&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/N9kZMXPTB5Aye_rXoD2q-A/6a130fe7fbbeb5aa2045ce91.html",
+    "prettify_html_file": "https://serpapi.com/searches/N9kZMXPTB5Aye_rXoD2q-A/6a130fe7fbbeb5aa2045ce91.prettify",
+    "total_time_taken": 0.91
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "us",
+    "type": "2",
+    "departure_id": "ORD",
+    "arrival_id": "MIA",
+    "outbound_date": "2026-06-07",
+    "travel_class": 1,
+    "adults": 1,
+    "currency": "USD"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-07 06:55"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-06-07 10:34"
+          },
+          "duration": 159,
+          "airplane": "Airbus A321neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Economy",
+          "flight_number": "F9 1596",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 70 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-06-07 14:29"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-06-07 16:27"
+          },
+          "duration": 118,
+          "airplane": "Airbus A320neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Economy",
+          "flight_number": "F9 2272",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 77 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 235,
+          "name": "Hartsfield-Jackson Atlanta International Airport",
+          "id": "ATL"
+        }
+      ],
+      "total_duration": 512,
+      "carbon_emissions": {
+        "this_flight": 148000,
+        "typical_for_this_route": 197000,
+        "difference_percent": -25
+      },
+      "price": 155,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJTmpKVU0xbzBRMXBRZG10QlQydFBZWGRDUnkwdExTMHRMUzB0TFMxMmQyaGxOMEZCUVVGQlIyOVVSQzFqU25WUk9EUkJFZzFHT1RFMU9UWjhSamt5TWpjeUdnb0lpbmtRQWhvRFZWTkVPQnh3aW5rPSIsW1siT1JEIiwiMjAyNi0wNi0wNyIsIkFUTCIsbnVsbCwiRjkiLCIxNTk2Il0sWyJBVEwiLCIyMDI2LTA2LTA3IiwiTUlBIixudWxsLCJGOSIsIjIyNzIiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-07 06:59"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-06-07 11:12"
+          },
+          "duration": 193,
+          "airplane": "Airbus A321",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 835",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 173 kg"
+          ]
+        }
+      ],
+      "total_duration": 193,
+      "carbon_emissions": {
+        "this_flight": 173000,
+        "typical_for_this_route": 197000,
+        "difference_percent": -12
+      },
+      "price": 253,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJTmpKVU0xbzBRMXBRZG10QlQydFBZWGRDUnkwdExTMHRMUzB0TFMxMmQyaGxOMEZCUVVGQlIyOVVSQzFqU25WUk9EUkJFZ1ZCUVRnek5Sb0xDSm5GQVJBQ0dnTlZVMFE0SEhDWnhRRT0iLFtbIk9SRCIsIjIwMjYtMDYtMDciLCJNSUEiLG51bGwsIkFBIiwiODM1Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-07 07:00"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-06-07 11:24"
+          },
+          "duration": 204,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1358",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 141 kg"
+          ]
+        }
+      ],
+      "total_duration": 204,
+      "carbon_emissions": {
+        "this_flight": 141000,
+        "typical_for_this_route": 197000,
+        "difference_percent": -28
+      },
+      "price": 253,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJTmpKVU0xbzBRMXBRZG10QlQydFBZWGRDUnkwdExTMHRMUzB0TFMxMmQyaGxOMEZCUVVGQlIyOVVSQzFqU25WUk9EUkJFZ1pWUVRFek5UZ2FDd2laeFFFUUFob0RWVk5FT0J4d21jVUIiLFtbIk9SRCIsIjIwMjYtMDYtMDciLCJNSUEiLG51bGwsIlVBIiwiMTM1OCJdXV0="
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-07 16:05"
+          },
+          "arrival_airport": {
+            "name": "George Bush Intercontinental Airport",
+            "id": "IAH",
+            "time": "2026-06-07 19:17"
+          },
+          "duration": 192,
+          "airplane": "Airbus A321neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Economy",
+          "flight_number": "F9 3135",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 104 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "George Bush Intercontinental Airport",
+            "id": "IAH",
+            "time": "2026-06-07 21:17"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-06-08 00:44"
+          },
+          "duration": 147,
+          "airplane": "Airbus A320neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Economy",
+          "flight_number": "F9 1462",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 114 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 120,
+          "name": "George Bush Intercontinental Airport",
+          "id": "IAH"
+        }
+      ],
+      "total_duration": 459,
+      "carbon_emissions": {
+        "this_flight": 219000,
+        "typical_for_this_route": 197000,
+        "difference_percent": 11
+      },
+      "price": 230,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJTmpKVU0xbzBRMXBRZG10QlQydFBZWGRDUnkwdExTMHRMUzB0TFMxMmQyaGxOMEZCUVVGQlIyOVVSQzFqU25WUk9EUkJFZzFHT1RNeE16VjhSamt4TkRZeUdnc0kxck1CRUFJYUExVlRSRGdjY05hekFRPT0iLFtbIk9SRCIsIjIwMjYtMDYtMDciLCJJQUgiLG51bGwsIkY5IiwiMzEzNSJdLFsiSUFIIiwiMjAyNi0wNi0wNyIsIk1JQSIsbnVsbCwiRjkiLCIxNDYyIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-07 05:00"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-06-07 09:13"
+          },
+          "duration": 193,
+          "airplane": "Airbus A321",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 2984",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 173 kg"
+          ]
+        }
+      ],
+      "total_duration": 193,
+      "carbon_emissions": {
+        "this_flight": 173000,
+        "typical_for_this_route": 197000,
+        "difference_percent": -12
+      },
+      "price": 253,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJTmpKVU0xbzBRMXBRZG10QlQydFBZWGRDUnkwdExTMHRMUzB0TFMxMmQyaGxOMEZCUVVGQlIyOVVSQzFqU25WUk9EUkJFZ1pCUVRJNU9EUWFDd2laeFFFUUFob0RWVk5FT0J4d21jVUIiLFtbIk9SRCIsIjIwMjYtMDYtMDciLCJNSUEiLG51bGwsIkFBIiwiMjk4NCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-07 06:10"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-06-07 10:20"
+          },
+          "duration": 190,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 1380",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 134 kg"
+          ]
+        }
+      ],
+      "total_duration": 190,
+      "carbon_emissions": {
+        "this_flight": 135000,
+        "typical_for_this_route": 197000,
+        "difference_percent": -31
+      },
+      "price": 253,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJTmpKVU0xbzBRMXBRZG10QlQydFBZWGRDUnkwdExTMHRMUzB0TFMxMmQyaGxOMEZCUVVGQlIyOVVSQzFqU25WUk9EUkJFZ1pCUVRFek9EQWFDd2laeFFFUUFob0RWVk5FT0J4d21jVUIiLFtbIk9SRCIsIjIwMjYtMDYtMDciLCJNSUEiLG51bGwsIkFBIiwiMTM4MCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-07 15:59"
+          },
+          "arrival_airport": {
+            "name": "Charleston International Airport",
+            "id": "CHS",
+            "time": "2026-06-07 19:23"
+          },
+          "duration": 144,
+          "airplane": "Embraer 175",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 3454",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 156 kg"
+          ],
+          "plane_and_crew_by": "Envoy Air as American Eagle"
+        },
+        {
+          "departure_airport": {
+            "name": "Charleston International Airport",
+            "id": "CHS",
+            "time": "2026-06-07 20:09"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-06-07 21:55"
+          },
+          "duration": 106,
+          "airplane": "Airbus A319",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 1657",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 115 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 46,
+          "name": "Charleston International Airport",
+          "id": "CHS"
+        }
+      ],
+      "total_duration": 296,
+      "carbon_emissions": {
+        "this_flight": 272000,
+        "typical_for_this_route": 197000,
+        "difference_percent": 38
+      },
+      "price": 263,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJTmpKVU0xbzBRMXBRZG10QlQydFBZWGRDUnkwdExTMHRMUzB0TFMxMmQyaGxOMEZCUVVGQlIyOVVSQzFqU25WUk9EUkJFZzFCUVRNME5UUjhRVUV4TmpVM0dnc0k3Y3dCRUFJYUExVlRSRGdjY08zTUFRPT0iLFtbIk9SRCIsIjIwMjYtMDYtMDciLCJDSFMiLG51bGwsIkFBIiwiMzQ1NCJdLFsiQ0hTIiwiMjAyNi0wNi0wNyIsIk1JQSIsbnVsbCwiQUEiLCIxNjU3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-07 13:29"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-06-07 16:49"
+          },
+          "duration": 140,
+          "airplane": "Airbus A321neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Economy",
+          "flight_number": "F9 1442",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 70 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-06-07 20:45"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-06-07 22:47"
+          },
+          "duration": 122,
+          "airplane": "Airbus A320neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Economy",
+          "flight_number": "F9 3442",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 77 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 236,
+          "name": "Hartsfield-Jackson Atlanta International Airport",
+          "id": "ATL"
+        }
+      ],
+      "total_duration": 498,
+      "carbon_emissions": {
+        "this_flight": 148000,
+        "typical_for_this_route": 197000,
+        "difference_percent": -25
+      },
+      "price": 270,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJTmpKVU0xbzBRMXBRZG10QlQydFBZWGRDUnkwdExTMHRMUzB0TFMxMmQyaGxOMEZCUVVGQlIyOVVSQzFqU25WUk9EUkJFZzFHT1RFME5ESjhSamt6TkRReUdnc0k5dElCRUFJYUExVlRSRGdjY1BiU0FRPT0iLFtbIk9SRCIsIjIwMjYtMDYtMDciLCJBVEwiLG51bGwsIkY5IiwiMTQ0MiJdLFsiQVRMIiwiMjAyNi0wNi0wNyIsIk1JQSIsbnVsbCwiRjkiLCIzNDQyIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-07 18:05"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-06-07 22:27"
+          },
+          "duration": 202,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 2180",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 146 kg"
+          ]
+        }
+      ],
+      "total_duration": 202,
+      "carbon_emissions": {
+        "this_flight": 146000,
+        "typical_for_this_route": 197000,
+        "difference_percent": -26
+      },
+      "price": 304,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJTmpKVU0xbzBRMXBRZG10QlQydFBZWGRDUnkwdExTMHRMUzB0TFMxMmQyaGxOMEZCUVVGQlIyOVVSQzFqU25WUk9EUkJFZ1pWUVRJeE9EQWFDd2ozN0FFUUFob0RWVk5FT0J4dzkrd0IiLFtbIk9SRCIsIjIwMjYtMDYtMDciLCJNSUEiLG51bGwsIlVBIiwiMjE4MCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-07 10:40"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-06-07 15:04"
+          },
+          "duration": 204,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1620",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 171 kg"
+          ]
+        }
+      ],
+      "total_duration": 204,
+      "carbon_emissions": {
+        "this_flight": 172000,
+        "typical_for_this_route": 197000,
+        "difference_percent": -13
+      },
+      "price": 375,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJTmpKVU0xbzBRMXBRZG10QlQydFBZWGRDUnkwdExTMHRMUzB0TFMxMmQyaGxOMEZCUVVGQlIyOVVSQzFqU25WUk9EUkJFZ1pWUVRFMk1qQWFDd2lzcEFJUUFob0RWVk5FT0J4d3JLUUMiLFtbIk9SRCIsIjIwMjYtMDYtMDciLCJNSUEiLG51bGwsIlVBIiwiMTYyMCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-07 08:30"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-06-07 12:43"
+          },
+          "duration": 193,
+          "airplane": "Airbus A321",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 1250",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 173 kg"
+          ]
+        }
+      ],
+      "total_duration": 193,
+      "carbon_emissions": {
+        "this_flight": 173000,
+        "typical_for_this_route": 197000,
+        "difference_percent": -12
+      },
+      "price": 459,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJTmpKVU0xbzBRMXBRZG10QlQydFBZWGRDUnkwdExTMHRMUzB0TFMxMmQyaGxOMEZCUVVGQlIyOVVSQzFqU25WUk9EUkJFZ1pCUVRFeU5UQWFDd2lRNWdJUUFob0RWVk5FT0J4d2tPWUMiLFtbIk9SRCIsIjIwMjYtMDYtMDciLCJNSUEiLG51bGwsIkFBIiwiMTI1MCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-07 10:03"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-06-07 14:15"
+          },
+          "duration": 192,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 1474",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 158 kg"
+          ]
+        }
+      ],
+      "total_duration": 192,
+      "carbon_emissions": {
+        "this_flight": 159000,
+        "typical_for_this_route": 197000,
+        "difference_percent": -19
+      },
+      "price": 543,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJTmpKVU0xbzBRMXBRZG10QlQydFBZWGRDUnkwdExTMHRMUzB0TFMxMmQyaGxOMEZCUVVGQlIyOVVSQzFqU25WUk9EUkJFZ1pCUVRFME56UWFDd2pncHdNUUFob0RWVk5FT0J4dzRLY0QiLFtbIk9SRCIsIjIwMjYtMDYtMDciLCJNSUEiLG51bGwsIkFBIiwiMTQ3NCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-07 14:24"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-06-07 18:39"
+          },
+          "duration": 195,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 3148",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 158 kg"
+          ]
+        }
+      ],
+      "total_duration": 195,
+      "carbon_emissions": {
+        "this_flight": 159000,
+        "typical_for_this_route": 197000,
+        "difference_percent": -19
+      },
+      "price": 543,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJTmpKVU0xbzBRMXBRZG10QlQydFBZWGRDUnkwdExTMHRMUzB0TFMxMmQyaGxOMEZCUVVGQlIyOVVSQzFqU25WUk9EUkJFZ1pCUVRNeE5EZ2FDd2pncHdNUUFob0RWVk5FT0J4dzRLY0QiLFtbIk9SRCIsIjIwMjYtMDYtMDciLCJNSUEiLG51bGwsIkFBIiwiMzE0OCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-07 15:59"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-06-07 20:12"
+          },
+          "duration": 193,
+          "airplane": "Airbus A321",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 2910",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 173 kg"
+          ]
+        }
+      ],
+      "total_duration": 193,
+      "carbon_emissions": {
+        "this_flight": 173000,
+        "typical_for_this_route": 197000,
+        "difference_percent": -12
+      },
+      "price": 543,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJTmpKVU0xbzBRMXBRZG10QlQydFBZWGRDUnkwdExTMHRMUzB0TFMxMmQyaGxOMEZCUVVGQlIyOVVSQzFqU25WUk9EUkJFZ1pCUVRJNU1UQWFDd2pncHdNUUFob0RWVk5FT0J4dzRLY0QiLFtbIk9SRCIsIjIwMjYtMDYtMDciLCJNSUEiLG51bGwsIkFBIiwiMjkxMCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-07 18:00"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-06-07 22:13"
+          },
+          "duration": 193,
+          "airplane": "Airbus A321",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 2690",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 173 kg"
+          ]
+        }
+      ],
+      "total_duration": 193,
+      "carbon_emissions": {
+        "this_flight": 173000,
+        "typical_for_this_route": 197000,
+        "difference_percent": -12
+      },
+      "price": 543,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJTmpKVU0xbzBRMXBRZG10QlQydFBZWGRDUnkwdExTMHRMUzB0TFMxMmQyaGxOMEZCUVVGQlIyOVVSQzFqU25WUk9EUkJFZ1pCUVRJMk9UQWFDd2pncHdNUUFob0RWVk5FT0J4dzRLY0QiLFtbIk9SRCIsIjIwMjYtMDYtMDciLCJNSUEiLG51bGwsIkFBIiwiMjY5MCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-07 06:35"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-06-07 09:41"
+          },
+          "duration": 126,
+          "airplane": "Boeing 737",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 1247",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 96 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-06-07 11:00"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-06-07 13:04"
+          },
+          "duration": 124,
+          "airplane": "Airbus A321",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 1332",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 101 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 79,
+          "name": "Hartsfield-Jackson Atlanta International Airport",
+          "id": "ATL"
+        }
+      ],
+      "total_duration": 329,
+      "carbon_emissions": {
+        "this_flight": 198000,
+        "typical_for_this_route": 197000,
+        "difference_percent": 1
+      },
+      "price": 630,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJTmpKVU0xbzBRMXBRZG10QlQydFBZWGRDUnkwdExTMHRMUzB0TFMxMmQyaGxOMEZCUVVGQlIyOVVSQzFqU25WUk9EUkJFZzFFVERFeU5EZDhSRXd4TXpNeUdnc0l5T3NERUFJYUExVlRSRGdjY01qckF3PT0iLFtbIk9SRCIsIjIwMjYtMDYtMDciLCJBVEwiLG51bGwsIkRMIiwiMTI0NyJdLFsiQVRMIiwiMjAyNi0wNi0wNyIsIk1JQSIsbnVsbCwiREwiLCIxMzMyIl1dXQ=="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 155,
+    "price_level": "high",
+    "typical_price_range": [
+      70,
+      145
+    ],
+    "price_history": [
+      [
+        1774414800,
+        106
+      ],
+      [
+        1774501200,
+        106
+      ],
+      [
+        1774587600,
+        106
+      ],
+      [
+        1774674000,
+        106
+      ],
+      [
+        1774760400,
+        127
+      ],
+      [
+        1774846800,
+        121
+      ],
+      [
+        1774933200,
+        121
+      ],
+      [
+        1775019600,
+        121
+      ],
+      [
+        1775106000,
+        125
+      ],
+      [
+        1775192400,
+        151
+      ],
+      [
+        1775278800,
+        191
+      ],
+      [
+        1775365200,
+        191
+      ],
+      [
+        1775451600,
+        151
+      ],
+      [
+        1775538000,
+        151
+      ],
+      [
+        1775624400,
+        151
+      ],
+      [
+        1775710800,
+        145
+      ],
+      [
+        1775797200,
+        127
+      ],
+      [
+        1775883600,
+        121
+      ],
+      [
+        1775970000,
+        121
+      ],
+      [
+        1776056400,
+        100
+      ],
+      [
+        1776142800,
+        90
+      ],
+      [
+        1776229200,
+        90
+      ],
+      [
+        1776315600,
+        90
+      ],
+      [
+        1776402000,
+        90
+      ],
+      [
+        1776488400,
+        90
+      ],
+      [
+        1776574800,
+        90
+      ],
+      [
+        1776661200,
+        90
+      ],
+      [
+        1776747600,
+        100
+      ],
+      [
+        1776834000,
+        100
+      ],
+      [
+        1776920400,
+        100
+      ],
+      [
+        1777006800,
+        100
+      ],
+      [
+        1777093200,
+        100
+      ],
+      [
+        1777179600,
+        100
+      ],
+      [
+        1777266000,
+        100
+      ],
+      [
+        1777352400,
+        100
+      ],
+      [
+        1777438800,
+        100
+      ],
+      [
+        1777525200,
+        145
+      ],
+      [
+        1777611600,
+        145
+      ],
+      [
+        1777698000,
+        145
+      ],
+      [
+        1777784400,
+        100
+      ],
+      [
+        1777870800,
+        100
+      ],
+      [
+        1777957200,
+        145
+      ],
+      [
+        1778043600,
+        210
+      ],
+      [
+        1778130000,
+        210
+      ],
+      [
+        1778216400,
+        145
+      ],
+      [
+        1778302800,
+        145
+      ],
+      [
+        1778389200,
+        145
+      ],
+      [
+        1778475600,
+        145
+      ],
+      [
+        1778562000,
+        125
+      ],
+      [
+        1778648400,
+        160
+      ],
+      [
+        1778734800,
+        160
+      ],
+      [
+        1778821200,
+        180
+      ],
+      [
+        1778907600,
+        180
+      ],
+      [
+        1778994000,
+        159
+      ],
+      [
+        1779080400,
+        135
+      ],
+      [
+        1779166800,
+        135
+      ],
+      [
+        1779253200,
+        155
+      ],
+      [
+        1779339600,
+        155
+      ],
+      [
+        1779426000,
+        155
+      ],
+      [
+        1779512400,
+        155
+      ],
+      [
+        1779598800,
+        155
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "ORD",
+            "name": "Chicago O'Hare International Airport"
+          },
+          "city": "Chicago",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTDuw95ynLqGCkZRzt9XuWXGBs8qWhw_1UZkMrCRAQp3rojEZBpwitHM8GAMBXgKhSKFgJZcXZ3qmYs2g",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR0CK6-eZWtnTJdtBk0BnPl1NeBcRul1YiurNp0AEgxFjNRleXR3vb2VV6vc5Uk51C0AhYN6AZAQKz6FJ-NQfbjVf8HQQ96ZH3WYIS-Rw0"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "MIA",
+            "name": "Miami International Airport"
+          },
+          "city": "Miami",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRjsG6ybk9C2oSVnPZUal-6l7EimKLf5gtMAhOumgD16nXBwB4X0lHH3nh-178HKbonabZtnDMdZKfDEQ",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRScvUK_JtYRXmQWoXHiT98Ajl1KTuUVO40d0Q678OpK1xyyWI8VIkHqzXE9BHfY5R35UpgbeEdcf1IhMDncXwDo29wOABY9MIUzCFLkwU"
+        }
+      ]
+    }
+  ]
+}

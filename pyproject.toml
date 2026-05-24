@@ -1,0 +1,55 @@
+[build-system]
+requires = ["hatchling>=1.25.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "adk-quality-lab"
+version = "0.1.0"
+description = "Quality-engineering kit for ADK agents"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+authors = [
+  { name = "Tung Hoang" }
+]
+dependencies = [
+  "pydantic>=2.8.0",
+  "jsonschema>=4.23.0",
+  "google-cloud-firestore>=2.16.0",
+  "google-cloud-bigquery>=3.25.0",
+  "vertexai>=1.60.0",
+  "google-generativeai>=0.7.0",
+  "requests>=2.32.0",
+  "google-adk>=1.0.0",
+  "google-search-results>=2.4.2",
+]
+
+[project.optional-dependencies]
+dev = [
+  "mypy>=1.10.0",
+  "pytest>=8.2.0",
+  "ruff>=0.5.0",
+  "types-jsonschema>=4.23.0",
+  "types-requests>=2.32.0",
+]
+optimizer = [
+  "sentence-transformers>=3.0.0",
+  "hdbscan>=0.8.38",
+  "numpy>=1.26.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+warn_unused_configs = true
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]

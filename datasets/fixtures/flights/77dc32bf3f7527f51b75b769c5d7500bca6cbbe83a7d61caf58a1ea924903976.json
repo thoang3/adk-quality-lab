@@ -1,0 +1,1142 @@
+{
+  "search_metadata": {
+    "id": "6a130fc9d0a88f8aacf9b777",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/gam0bUBqtnZ1nrxEKuKfjQ/6a130fc9d0a88f8aacf9b777.json",
+    "created_at": "2026-05-24 14:48:41 UTC",
+    "processed_at": "2026-05-24 14:48:41 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhoeEgoyMDI2LTA2LTA3agcIARIDU0ZPcgcIARIDTlJUQAFIAXABmAEC&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/gam0bUBqtnZ1nrxEKuKfjQ/6a130fc9d0a88f8aacf9b777.html",
+    "prettify_html_file": "https://serpapi.com/searches/gam0bUBqtnZ1nrxEKuKfjQ/6a130fc9d0a88f8aacf9b777.prettify",
+    "total_time_taken": 0.47
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "us",
+    "type": "2",
+    "departure_id": "SFO",
+    "arrival_id": "NRT",
+    "outbound_date": "2026-06-07",
+    "travel_class": 1,
+    "adults": 1,
+    "currency": "USD"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 06:30"
+          },
+          "arrival_airport": {
+            "name": "Vancouver International Airport",
+            "id": "YVR",
+            "time": "2026-06-07 08:51"
+          },
+          "duration": 141,
+          "airplane": "Canadair RJ 900",
+          "airline": "Air Canada",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+          "travel_class": "Economy",
+          "flight_number": "AC 8841",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 166 kg"
+          ],
+          "plane_and_crew_by": "Air Canada Express - Jazz"
+        },
+        {
+          "departure_airport": {
+            "name": "Vancouver International Airport",
+            "id": "YVR",
+            "time": "2026-06-07 13:00"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-08 14:55"
+          },
+          "duration": 595,
+          "airplane": "Boeing 787",
+          "airline": "Air Canada",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+          "travel_class": "Economy",
+          "flight_number": "AC 3",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 402 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 249,
+          "name": "Vancouver International Airport",
+          "id": "YVR"
+        }
+      ],
+      "total_duration": 985,
+      "carbon_emissions": {
+        "this_flight": 569000,
+        "typical_for_this_route": 611000,
+        "difference_percent": -7
+      },
+      "price": 1079,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+      "booking_token": "WyJDalJJV1d0b2QzQm9ZMWQyWWxsQlRXdEpPVkZDUnkwdExTMHRMUzB0TFhaM2JIRXhOMEZCUVVGQlIyOVVSRGhyU0hCSGFsTkJFZ3BCUXpnNE5ERjhRVU16R2dzSXlzb0dFQUlhQTFWVFJEZ2NjTXJLQmc9PSIsW1siU0ZPIiwiMjAyNi0wNi0wNyIsIllWUiIsbnVsbCwiQUMiLCI4ODQxIl0sWyJZVlIiLCIyMDI2LTA2LTA3IiwiTlJUIixudWxsLCJBQyIsIjMiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 01:15"
+          },
+          "arrival_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-06-08 05:30"
+          },
+          "duration": 795,
+          "airplane": "Boeing 777",
+          "airline": "EVA Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+          "travel_class": "Economy",
+          "flight_number": "BR 17",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 651 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-06-08 07:55"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-08 12:25"
+          },
+          "duration": 210,
+          "airplane": "Boeing 787-10",
+          "airline": "EVA Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+          "travel_class": "Economy",
+          "flight_number": "BR 184",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 141 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 145,
+          "name": "Taiwan Taoyuan International Airport",
+          "id": "TPE"
+        }
+      ],
+      "total_duration": 1150,
+      "carbon_emissions": {
+        "this_flight": 793000,
+        "typical_for_this_route": 611000,
+        "difference_percent": 30
+      },
+      "price": 1110,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+      "booking_token": "WyJDalJJV1d0b2QzQm9ZMWQyWWxsQlRXdEpPVkZDUnkwdExTMHRMUzB0TFhaM2JIRXhOMEZCUVVGQlIyOVVSRGhyU0hCSGFsTkJFZ3BDVWpFM2ZFSlNNVGcwR2dzSTB1SUdFQUlhQTFWVFJEZ2NjTkxpQmc9PSIsW1siU0ZPIiwiMjAyNi0wNi0wNyIsIlRQRSIsbnVsbCwiQlIiLCIxNyJdLFsiVFBFIiwiMjAyNi0wNi0wOCIsIk5SVCIsbnVsbCwiQlIiLCIxODQiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 12:25"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-08 15:00"
+          },
+          "duration": 635,
+          "airplane": "Boeing 777",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 837",
+          "ticket_also_sold_by": [
+            "ANA"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 446 kg"
+          ]
+        }
+      ],
+      "total_duration": 635,
+      "carbon_emissions": {
+        "this_flight": 447000,
+        "typical_for_this_route": 611000,
+        "difference_percent": -27
+      },
+      "price": 1437,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJV1d0b2QzQm9ZMWQyWWxsQlRXdEpPVkZDUnkwdExTMHRMUzB0TFhaM2JIRXhOMEZCUVVGQlIyOVVSRGhyU0hCSGFsTkJFZ1ZWUVRnek54b0xDS0xpQ0JBQ0dnTlZVMFE0SEhDaTRnZz0iLFtbIlNGTyIsIjIwMjYtMDYtMDciLCJOUlQiLG51bGwsIlVBIiwiODM3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 12:20"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-08 15:25"
+          },
+          "duration": 665,
+          "airplane": "Boeing 777",
+          "airline": "ANA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+          "travel_class": "Economy",
+          "flight_number": "NH 7",
+          "ticket_also_sold_by": [
+            "United"
+          ],
+          "legroom": "34 in",
+          "extensions": [
+            "Above average legroom (34 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 531 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "total_duration": 665,
+      "carbon_emissions": {
+        "this_flight": 531000,
+        "typical_for_this_route": 611000,
+        "difference_percent": -13
+      },
+      "price": 1780,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+      "booking_token": "WyJDalJJV1d0b2QzQm9ZMWQyWWxsQlRXdEpPVkZDUnkwdExTMHRMUzB0TFhaM2JIRXhOMEZCUVVGQlIyOVVSRGhyU0hCSGFsTkJFZ05PU0RjYUN3aWU3Z29RQWhvRFZWTkVPQnh3bnU0SyIsW1siU0ZPIiwiMjAyNi0wNi0wNyIsIk5SVCIsbnVsbCwiTkgiLCI3Il1dXQ=="
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 01:15"
+          },
+          "arrival_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-06-08 05:30"
+          },
+          "duration": 795,
+          "airplane": "Boeing 777",
+          "airline": "EVA Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+          "travel_class": "Economy",
+          "flight_number": "BR 17",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 651 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-06-08 15:20"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-08 19:40"
+          },
+          "duration": 200,
+          "airplane": "Boeing 787-10",
+          "airline": "EVA Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+          "travel_class": "Economy",
+          "flight_number": "BR 196",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 141 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 590,
+          "name": "Taiwan Taoyuan International Airport",
+          "id": "TPE"
+        }
+      ],
+      "total_duration": 1585,
+      "carbon_emissions": {
+        "this_flight": 793000,
+        "typical_for_this_route": 611000,
+        "difference_percent": 30
+      },
+      "price": 1054,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+      "booking_token": "WyJDalJJV1d0b2QzQm9ZMWQyWWxsQlRXdEpPVkZDUnkwdExTMHRMUzB0TFhaM2JIRXhOMEZCUVVGQlIyOVVSRGhyU0hCSGFsTkJFZ3BDVWpFM2ZFSlNNVGsyR2dzSXFMY0dFQUlhQTFWVFJEZ2NjS2kzQmc9PSIsW1siU0ZPIiwiMjAyNi0wNi0wNyIsIlRQRSIsbnVsbCwiQlIiLCIxNyJdLFsiVFBFIiwiMjAyNi0wNi0wOCIsIk5SVCIsbnVsbCwiQlIiLCIxOTYiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 06:30"
+          },
+          "arrival_airport": {
+            "name": "Vancouver International Airport",
+            "id": "YVR",
+            "time": "2026-06-07 08:51"
+          },
+          "duration": 141,
+          "airplane": "Canadair RJ 900",
+          "airline": "Air Canada",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+          "travel_class": "Economy",
+          "flight_number": "AC 8841",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 166 kg"
+          ],
+          "plane_and_crew_by": "Air Canada Express - Jazz"
+        },
+        {
+          "departure_airport": {
+            "name": "Vancouver International Airport",
+            "id": "YVR",
+            "time": "2026-06-07 12:30"
+          },
+          "arrival_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-06-08 16:05"
+          },
+          "duration": 695,
+          "airplane": "Boeing 787",
+          "airline": "Air Canada",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+          "travel_class": "Economy",
+          "flight_number": "AC 63",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 436 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-06-08 18:35"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-08 21:05"
+          },
+          "duration": 150,
+          "airplane": "Airbus A321neo",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 705",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 126 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 219,
+          "name": "Vancouver International Airport",
+          "id": "YVR"
+        },
+        {
+          "duration": 150,
+          "name": "Incheon International Airport",
+          "id": "ICN"
+        }
+      ],
+      "total_duration": 1355,
+      "carbon_emissions": {
+        "this_flight": 728000,
+        "typical_for_this_route": 611000,
+        "difference_percent": 19
+      },
+      "price": 1194,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJV1d0b2QzQm9ZMWQyWWxsQlRXdEpPVkZDUnkwdExTMHRMUzB0TFhaM2JIRXhOMEZCUVVGQlIyOVVSRGhyU0hCSGFsTkJFaEZCUXpnNE5ERjhRVU0yTTN4TFJUY3dOUm9MQ09pa0J4QUNHZ05WVTBRNEhIRG9wQWM9IixbWyJTRk8iLCIyMDI2LTA2LTA3IiwiWVZSIixudWxsLCJBQyIsIjg4NDEiXSxbIllWUiIsIjIwMjYtMDYtMDciLCJJQ04iLG51bGwsIkFDIiwiNjMiXSxbIklDTiIsIjIwMjYtMDYtMDgiLCJOUlQiLG51bGwsIktFIiwiNzA1Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 00:50"
+          },
+          "arrival_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-06-08 05:25"
+          },
+          "duration": 815,
+          "airplane": "Airbus A350",
+          "airline": "STARLUX Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JX.png",
+          "travel_class": "Economy",
+          "flight_number": "JX 11",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 625 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-06-08 08:30"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-08 12:55"
+          },
+          "duration": 205,
+          "airplane": "Airbus A350",
+          "airline": "STARLUX Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JX.png",
+          "travel_class": "Economy",
+          "flight_number": "JX 800",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 163 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 185,
+          "name": "Taiwan Taoyuan International Airport",
+          "id": "TPE"
+        }
+      ],
+      "total_duration": 1205,
+      "carbon_emissions": {
+        "this_flight": 789000,
+        "typical_for_this_route": 611000,
+        "difference_percent": 29
+      },
+      "price": 1281,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JX.png",
+      "booking_token": "WyJDalJJV1d0b2QzQm9ZMWQyWWxsQlRXdEpPVkZDUnkwdExTMHRMUzB0TFhaM2JIRXhOMEZCUVVGQlIyOVVSRGhyU0hCSGFsTkJFZ3BLV0RFeGZFcFlPREF3R2dzSW51Z0hFQUlhQTFWVFJEZ2NjSjdvQnc9PSIsW1siU0ZPIiwiMjAyNi0wNi0wNyIsIlRQRSIsbnVsbCwiSlgiLCIxMSJdLFsiVFBFIiwiMjAyNi0wNi0wOCIsIk5SVCIsbnVsbCwiSlgiLCI4MDAiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 07:05"
+          },
+          "arrival_airport": {
+            "name": "Daniel K. Inouye International Airport",
+            "id": "HNL",
+            "time": "2026-06-07 09:40"
+          },
+          "duration": 335,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1581",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 236 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Daniel K. Inouye International Airport",
+            "id": "HNL",
+            "time": "2026-06-07 11:35"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-08 15:05"
+          },
+          "duration": 510,
+          "airplane": "Airbus A380",
+          "airline": "ANA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+          "travel_class": "Economy",
+          "flight_number": "NH 183",
+          "ticket_also_sold_by": [
+            "United"
+          ],
+          "legroom": "34 in",
+          "extensions": [
+            "Above average legroom (34 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 687 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 115,
+          "name": "Daniel K. Inouye International Airport",
+          "id": "HNL"
+        }
+      ],
+      "total_duration": 960,
+      "carbon_emissions": {
+        "this_flight": 924000,
+        "typical_for_this_route": 611000,
+        "difference_percent": 51
+      },
+      "price": 1295,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJV1d0b2QzQm9ZMWQyWWxsQlRXdEpPVkZDUnkwdExTMHRMUzB0TFhaM2JIRXhOMEZCUVVGQlIyOVVSRGhyU0hCSGFsTkJFZ3hWUVRFMU9ERjhUa2d4T0RNYUN3akk4d2NRQWhvRFZWTkVPQnh3eVBNSCIsW1siU0ZPIiwiMjAyNi0wNi0wNyIsIkhOTCIsbnVsbCwiVUEiLCIxNTgxIl0sWyJITkwiLCIyMDI2LTA2LTA3IiwiTlJUIixudWxsLCJOSCIsIjE4MyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 10:14"
+          },
+          "arrival_airport": {
+            "name": "Seattle-Tacoma International Airport",
+            "id": "SEA",
+            "time": "2026-06-07 12:30"
+          },
+          "duration": 136,
+          "airplane": "Boeing 737",
+          "airline": "Alaska",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "travel_class": "Economy",
+          "flight_number": "AS 656",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 106 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Seattle-Tacoma International Airport",
+            "id": "SEA",
+            "time": "2026-06-07 13:30"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-08 16:00"
+          },
+          "duration": 630,
+          "airplane": "Airbus A330",
+          "airline": "Alaska",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "travel_class": "Economy",
+          "flight_number": "AS 823",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 542 kg"
+          ],
+          "plane_and_crew_by": "Alaska as Hawaiian Airlines"
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 60,
+          "name": "Seattle-Tacoma International Airport",
+          "id": "SEA"
+        }
+      ],
+      "total_duration": 826,
+      "carbon_emissions": {
+        "this_flight": 649000,
+        "typical_for_this_route": 611000,
+        "difference_percent": 6
+      },
+      "price": 1322,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+      "booking_token": "WyJDalJJV1d0b2QzQm9ZMWQyWWxsQlRXdEpPVkZDUnkwdExTMHRMUzB0TFhaM2JIRXhOMEZCUVVGQlIyOVVSRGhyU0hCSGFsTkJFZ3RCVXpZMU5ueEJVemd5TXhvTENPaUlDQkFDR2dOVlUwUTRISERvaUFnPSIsW1siU0ZPIiwiMjAyNi0wNi0wNyIsIlNFQSIsbnVsbCwiQVMiLCI2NTYiXSxbIlNFQSIsIjIwMjYtMDYtMDciLCJOUlQiLG51bGwsIkFTIiwiODIzIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 09:57"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 11:31"
+          },
+          "duration": 94,
+          "airplane": "Boeing 737",
+          "airline": "Alaska",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "travel_class": "Economy",
+          "flight_number": "AS 1329",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 74 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 13:05"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-08 16:35"
+          },
+          "duration": 690,
+          "airplane": "Boeing 787",
+          "airline": "JAL",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+          "travel_class": "Economy",
+          "flight_number": "JL 61",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 422 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 94,
+          "name": "Los Angeles International Airport",
+          "id": "LAX"
+        }
+      ],
+      "total_duration": 878,
+      "carbon_emissions": {
+        "this_flight": 497000,
+        "typical_for_this_route": 611000,
+        "difference_percent": -19
+      },
+      "price": 1326,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJV1d0b2QzQm9ZMWQyWWxsQlRXdEpPVkZDUnkwdExTMHRMUzB0TFhaM2JIRXhOMEZCUVVGQlIyOVVSRGhyU0hCSGFsTkJFZ3RCVXpFek1qbDhTa3cyTVJvTENQaUxDQkFDR2dOVlUwUTRISEQ0aXdnPSIsW1siU0ZPIiwiMjAyNi0wNi0wNyIsIkxBWCIsbnVsbCwiQVMiLCIxMzI5Il0sWyJMQVgiLCIyMDI2LTA2LTA3IiwiTlJUIixudWxsLCJKTCIsIjYxIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 23:20"
+          },
+          "arrival_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-06-09 04:25"
+          },
+          "duration": 785,
+          "airplane": "Airbus A350",
+          "airline": "Asiana Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OZ.png",
+          "travel_class": "Economy",
+          "flight_number": "OZ 211",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 574 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-06-09 08:25"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-09 10:50"
+          },
+          "duration": 145,
+          "airplane": "Airbus A380",
+          "airline": "Asiana Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OZ.png",
+          "travel_class": "Economy",
+          "flight_number": "OZ 102",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 132 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 240,
+          "name": "Incheon International Airport",
+          "id": "ICN",
+          "overnight": true
+        }
+      ],
+      "total_duration": 1170,
+      "carbon_emissions": {
+        "this_flight": 706000,
+        "typical_for_this_route": 611000,
+        "difference_percent": 16
+      },
+      "price": 1371,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OZ.png",
+      "booking_token": "WyJDalJJV1d0b2QzQm9ZMWQyWWxsQlRXdEpPVkZDUnkwdExTMHRMUzB0TFhaM2JIRXhOMEZCUVVGQlIyOVVSRGhyU0hCSGFsTkJFZ3RQV2pJeE1YeFBXakV3TWhvTENJS3ZDQkFDR2dOVlUwUTRISENDcndnPSIsW1siU0ZPIiwiMjAyNi0wNi0wNyIsIklDTiIsbnVsbCwiT1oiLCIyMTEiXSxbIklDTiIsIjIwMjYtMDYtMDkiLCJOUlQiLG51bGwsIk9aIiwiMTAyIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 13:30"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-08 16:30"
+          },
+          "duration": 660,
+          "airplane": "Boeing 787",
+          "airline": "JAL",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+          "travel_class": "Economy",
+          "flight_number": "JL 57",
+          "ticket_also_sold_by": [
+            "American"
+          ],
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 457 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "total_duration": 660,
+      "carbon_emissions": {
+        "this_flight": 458000,
+        "typical_for_this_route": 611000,
+        "difference_percent": -25
+      },
+      "price": 2498,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+      "booking_token": "WyJDalJJV1d0b2QzQm9ZMWQyWWxsQlRXdEpPVkZDUnkwdExTMHRMUzB0TFhaM2JIRXhOMEZCUVVGQlIyOVVSRGhyU0hCSGFsTkJFZ1JLVERVM0dnc0lscDhQRUFJYUExVlRSRGdjY0phZkR3PT0iLFtbIlNGTyIsIjIwMjYtMDYtMDciLCJOUlQiLG51bGwsIkpMIiwiNTciXV1d"
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 1054,
+    "price_level": "high",
+    "typical_price_range": [
+      540,
+      1050
+    ],
+    "price_history": [
+      [
+        1774422000,
+        739
+      ],
+      [
+        1774508400,
+        739
+      ],
+      [
+        1774594800,
+        670
+      ],
+      [
+        1774681200,
+        670
+      ],
+      [
+        1774767600,
+        785
+      ],
+      [
+        1774854000,
+        739
+      ],
+      [
+        1774940400,
+        739
+      ],
+      [
+        1775026800,
+        670
+      ],
+      [
+        1775113200,
+        670
+      ],
+      [
+        1775199600,
+        730
+      ],
+      [
+        1775286000,
+        784
+      ],
+      [
+        1775372400,
+        738
+      ],
+      [
+        1775458800,
+        738
+      ],
+      [
+        1775545200,
+        744
+      ],
+      [
+        1775631600,
+        744
+      ],
+      [
+        1775718000,
+        867
+      ],
+      [
+        1775804400,
+        867
+      ],
+      [
+        1775890800,
+        840
+      ],
+      [
+        1775977200,
+        829
+      ],
+      [
+        1776063600,
+        775
+      ],
+      [
+        1776150000,
+        773
+      ],
+      [
+        1776236400,
+        773
+      ],
+      [
+        1776322800,
+        675
+      ],
+      [
+        1776409200,
+        771
+      ],
+      [
+        1776495600,
+        771
+      ],
+      [
+        1776582000,
+        771
+      ],
+      [
+        1776668400,
+        771
+      ],
+      [
+        1776754800,
+        804
+      ],
+      [
+        1776841200,
+        841
+      ],
+      [
+        1776927600,
+        999
+      ],
+      [
+        1777014000,
+        999
+      ],
+      [
+        1777100400,
+        999
+      ],
+      [
+        1777186800,
+        1021
+      ],
+      [
+        1777273200,
+        1009
+      ],
+      [
+        1777359600,
+        1009
+      ],
+      [
+        1777446000,
+        1028
+      ],
+      [
+        1777532400,
+        1009
+      ],
+      [
+        1777618800,
+        1082
+      ],
+      [
+        1777705200,
+        1133
+      ],
+      [
+        1777791600,
+        1079
+      ],
+      [
+        1777878000,
+        1079
+      ],
+      [
+        1777964400,
+        1101
+      ],
+      [
+        1778050800,
+        1030
+      ],
+      [
+        1778137200,
+        1095
+      ],
+      [
+        1778223600,
+        1095
+      ],
+      [
+        1778310000,
+        1095
+      ],
+      [
+        1778396400,
+        1096
+      ],
+      [
+        1778482800,
+        1096
+      ],
+      [
+        1778569200,
+        995
+      ],
+      [
+        1778655600,
+        1061
+      ],
+      [
+        1778742000,
+        965
+      ],
+      [
+        1778828400,
+        965
+      ],
+      [
+        1778914800,
+        965
+      ],
+      [
+        1779001200,
+        965
+      ],
+      [
+        1779087600,
+        865
+      ],
+      [
+        1779174000,
+        865
+      ],
+      [
+        1779260400,
+        1079
+      ],
+      [
+        1779346800,
+        1079
+      ],
+      [
+        1779433200,
+        1079
+      ],
+      [
+        1779519600,
+        1054
+      ],
+      [
+        1779606000,
+        1054
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "SFO",
+            "name": "San Francisco International Airport"
+          },
+          "city": "San Francisco",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQhLXJKshv7iRU8OcvmRyc3ZHyoSy8ZfBGcntDNb8iTixSq8i7XIcn9tZMPIcM6-rm7kKcu2VQS3BKoYw",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRbcxCKTUaj5vz8PrFeUUBVCm8J3fXiMRJpnz4UfNsPeLOkP1EZK9sez1dEX--y-VLxpPAaVB5zo1hzXliHeLl3l0VFwrWrVz7UCQpkzCY"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "NRT",
+            "name": "Narita International Airport"
+          },
+          "city": "Tokyo",
+          "country": "Japan",
+          "country_code": "JP",
+          "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTqHkzEeI2bSglPzmSGZL7bxXmn0wJgOn2ZtEN8I47uBnzY1CnHzGtD-YseJXqyexcAcw_uJp-D5HTkCg",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRLnIToEgwiM_jV3cbw5eQZoUAIg6XqdrJAiClDyyg0w-JBSRN5ZeOT-iFb3SvwkwP1uoBCmT-gKE5VcyCYf-xq4guL4NAFICSaNyOnYOA"
+        }
+      ]
+    }
+  ]
+}

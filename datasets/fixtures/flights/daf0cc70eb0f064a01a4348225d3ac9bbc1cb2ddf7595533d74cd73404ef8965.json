@@ -1,0 +1,1796 @@
+{
+  "search_metadata": {
+    "id": "6a130fe18976f7f11ef8b08c",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/AlvZLHDzS8TTWlCIDl2UAA/6a130fe18976f7f11ef8b08c.json",
+    "created_at": "2026-05-24 14:49:05 UTC",
+    "processed_at": "2026-05-24 14:49:05 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhoeEgoyMDI2LTA2LTA3agcIARIDTEFYcgcIARIDSkZLQAFIA3ABmAEC&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/AlvZLHDzS8TTWlCIDl2UAA/6a130fe18976f7f11ef8b08c.html",
+    "prettify_html_file": "https://serpapi.com/searches/AlvZLHDzS8TTWlCIDl2UAA/6a130fe18976f7f11ef8b08c.prettify",
+    "total_time_taken": 1.37
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "us",
+    "type": "2",
+    "departure_id": "LAX",
+    "arrival_id": "JFK",
+    "outbound_date": "2026-06-07",
+    "travel_class": 3,
+    "adults": 1,
+    "currency": "USD"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 23:20"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-06-08 06:55"
+          },
+          "duration": 275,
+          "airplane": "Airbus A320neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Business Class",
+          "flight_number": "F9 3216",
+          "extensions": [
+            "Carbon emissions estimate: 309 kg"
+          ],
+          "overnight": true,
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-06-08 09:15"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-08 11:39"
+          },
+          "duration": 144,
+          "airplane": "Airbus A321neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Business Class",
+          "flight_number": "F9 4732",
+          "extensions": [
+            "Carbon emissions estimate: 136 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 140,
+          "name": "Hartsfield-Jackson Atlanta International Airport",
+          "id": "ATL"
+        }
+      ],
+      "total_duration": 559,
+      "carbon_emissions": {
+        "this_flight": 446000,
+        "typical_for_this_route": 621000,
+        "difference_percent": -28
+      },
+      "price": 436,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZzFHT1RNeU1UWjhSamswTnpNeUdnc0l6dFFDRUFJYUExVlRSRGdjY003VUFnPT0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJBVEwiLG51bGwsIkY5IiwiMzIxNiJdLFsiQVRMIiwiMjAyNi0wNi0wOCIsIkpGSyIsbnVsbCwiRjkiLCI0NzMyIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 20:10"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2026-06-07 21:26"
+          },
+          "duration": 76,
+          "airplane": "Airbus A321",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 2785",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 104 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2026-06-07 22:47"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-08 07:00"
+          },
+          "duration": 313,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 2855",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 370 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 81,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ],
+      "total_duration": 470,
+      "carbon_emissions": {
+        "this_flight": 475000,
+        "typical_for_this_route": 621000,
+        "difference_percent": -24
+      },
+      "price": 980,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZzFCUVRJM09EVjhRVUV5T0RVMUdnc0lnUDBGRUFJYUExVlRSRGdjY0lEOUJRPT0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJMQVMiLG51bGwsIkFBIiwiMjc4NSJdLFsiTEFTIiwiMjAyNi0wNi0wNyIsIkpGSyIsbnVsbCwiQUEiLCIyODU1Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 20:36"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-08 05:00"
+          },
+          "duration": 324,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Business Class",
+          "flight_number": "B6 1524",
+          "extensions": [
+            "Individual suite",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 610 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 324,
+      "carbon_emissions": {
+        "this_flight": 610000,
+        "typical_for_this_route": 621000,
+        "difference_percent": -2
+      },
+      "price": 1730,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1pDTmpFMU1qUWFDd2lNeHdvUUFob0RWVk5FT0J4d2pNY0siLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkI2IiwiMTUyNCJdXV0="
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 00:56"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-07 07:15"
+          },
+          "duration": 259,
+          "airplane": "Airbus A321",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 2919",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 351 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-06-07 11:00"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 14:38"
+          },
+          "duration": 158,
+          "airplane": "Embraer 175",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 4356",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 232 kg"
+          ],
+          "plane_and_crew_by": "Republic Airways as American Eagle"
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 225,
+          "name": "Chicago O'Hare International Airport",
+          "id": "ORD"
+        }
+      ],
+      "total_duration": 642,
+      "carbon_emissions": {
+        "this_flight": 584000,
+        "typical_for_this_route": 621000,
+        "difference_percent": -6
+      },
+      "price": 931,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZzFCUVRJNU1UbDhRVUUwTXpVMkdnc0lvZGNGRUFJYUExVlRSRGdjY0tIWEJRPT0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJPUkQiLG51bGwsIkFBIiwiMjkxOSJdLFsiT1JEIiwiMjAyNi0wNi0wNyIsIkpGSyIsbnVsbCwiQUEiLCI0MzU2Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 21:12"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 22:39"
+          },
+          "duration": 87,
+          "airplane": "Boeing 737",
+          "airline": "Alaska",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "travel_class": "First Class",
+          "flight_number": "AS 1328",
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 101 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-08 06:15"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-08 15:03"
+          },
+          "duration": 348,
+          "airplane": "Boeing 737",
+          "airline": "Alaska",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "travel_class": "First Class",
+          "flight_number": "AS 211",
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 461 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 456,
+          "name": "San Francisco International Airport",
+          "id": "SFO",
+          "overnight": true
+        }
+      ],
+      "total_duration": 891,
+      "carbon_emissions": {
+        "this_flight": 564000,
+        "typical_for_this_route": 621000,
+        "difference_percent": -9
+      },
+      "price": 1101,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ3hCVXpFek1qaDhRVk15TVRFYUN3aUEzQVlRQWhvRFZWTkVPQnh3Z053RyIsW1siTEFYIiwiMjAyNi0wNi0wNyIsIlNGTyIsbnVsbCwiQVMiLCIxMzI4Il0sWyJTRk8iLCIyMDI2LTA2LTA4IiwiSkZLIixudWxsLCJBUyIsIjIxMSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 23:59"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-08 08:30"
+          },
+          "duration": 331,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Business Class",
+          "flight_number": "B6 1224",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 613 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 331,
+      "carbon_emissions": {
+        "this_flight": 614000,
+        "typical_for_this_route": 621000,
+        "difference_percent": -1
+      },
+      "price": 1730,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1pDTmpFeU1qUWFDd2lNeHdvUUFob0RWVk5FT0J4d2pNY0siLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkI2IiwiMTIyNCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 16:20"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-08 00:52"
+          },
+          "duration": 332,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Business Class",
+          "flight_number": "B6 824",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 613 kg"
+          ]
+        }
+      ],
+      "total_duration": 332,
+      "carbon_emissions": {
+        "this_flight": 614000,
+        "typical_for_this_route": 621000,
+        "difference_percent": -1
+      },
+      "price": 1868,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1ZDTmpneU5Cb0xDUFN5Q3hBQ0dnTlZVMFE0SEhEMHNncz0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkI2IiwiODI0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 15:15"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 23:54"
+          },
+          "duration": 339,
+          "airplane": "Airbus A321 (Sharklets)",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Business Class",
+          "flight_number": "AA 4",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 820 kg"
+          ]
+        }
+      ],
+      "total_duration": 339,
+      "carbon_emissions": {
+        "this_flight": 821000,
+        "typical_for_this_route": 621000,
+        "difference_percent": 32
+      },
+      "price": 2486,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ05CUVRRYUN3amNsUThRQWhvRFZWTkVPQnh3M0pVUCIsW1siTEFYIiwiMjAyNi0wNi0wNyIsIkpGSyIsbnVsbCwiQUEiLCI0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 15:17"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 23:59"
+          },
+          "duration": 342,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Business Class",
+          "flight_number": "B6 924",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 613 kg"
+          ]
+        }
+      ],
+      "total_duration": 342,
+      "carbon_emissions": {
+        "this_flight": 614000,
+        "typical_for_this_route": 621000,
+        "difference_percent": -1
+      },
+      "price": 2748,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1ZDTmpreU5Cb0xDTFhpRUJBQ0dnTlZVMFE0SEhDMTRoQT0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkI2IiwiOTI0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 21:30"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-08 06:00"
+          },
+          "duration": 330,
+          "airplane": "Airbus A321 (Sharklets)",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Business Class",
+          "flight_number": "AA 10",
+          "extensions": [
+            "Individual suite",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 477 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 330,
+      "carbon_emissions": {
+        "this_flight": 478000,
+        "typical_for_this_route": 621000,
+        "difference_percent": -23
+      },
+      "price": 2836,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1JCUVRFd0dnc0lsS2NSRUFJYUExVlRSRGdjY0pTbkVRPT0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkFBIiwiMTAiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 07:56"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 16:30"
+          },
+          "duration": 334,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Business Class",
+          "flight_number": "B6 524",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 613 kg"
+          ]
+        }
+      ],
+      "total_duration": 334,
+      "carbon_emissions": {
+        "this_flight": 614000,
+        "typical_for_this_route": 621000,
+        "difference_percent": -1
+      },
+      "price": 3133,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1ZDTmpVeU5Cb0xDSmVQRXhBQ0dnTlZVMFE0SEhDWGp4TT0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkI2IiwiNTI0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 09:37"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 18:10"
+          },
+          "duration": 333,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Business Class",
+          "flight_number": "B6 124",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 613 kg"
+          ]
+        }
+      ],
+      "total_duration": 333,
+      "carbon_emissions": {
+        "this_flight": 614000,
+        "typical_for_this_route": 621000,
+        "difference_percent": -1
+      },
+      "price": 3133,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1ZDTmpFeU5Cb0xDSmVQRXhBQ0dnTlZVMFE0SEhDWGp4TT0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkI2IiwiMTI0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 10:32"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 19:17"
+          },
+          "duration": 345,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Business Class",
+          "flight_number": "B6 424",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 613 kg"
+          ]
+        }
+      ],
+      "total_duration": 345,
+      "carbon_emissions": {
+        "this_flight": 614000,
+        "typical_for_this_route": 621000,
+        "difference_percent": -1
+      },
+      "price": 3133,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1ZDTmpReU5Cb0xDSmVQRXhBQ0dnTlZVMFE0SEhDWGp4TT0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkI2IiwiNDI0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 12:11"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 21:00"
+          },
+          "duration": 349,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Business Class",
+          "flight_number": "B6 324",
+          "extensions": [
+            "Individual suite",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 610 kg"
+          ]
+        }
+      ],
+      "total_duration": 349,
+      "carbon_emissions": {
+        "this_flight": 610000,
+        "typical_for_this_route": 621000,
+        "difference_percent": -2
+      },
+      "price": 3133,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1ZDTmpNeU5Cb0xDSmVQRXhBQ0dnTlZVMFE0SEhDWGp4TT0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkI2IiwiMzI0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 14:20"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 23:00"
+          },
+          "duration": 340,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Business Class",
+          "flight_number": "B6 624",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 613 kg"
+          ]
+        }
+      ],
+      "total_duration": 340,
+      "carbon_emissions": {
+        "this_flight": 614000,
+        "typical_for_this_route": 621000,
+        "difference_percent": -1
+      },
+      "price": 3133,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1ZDTmpZeU5Cb0xDSmVQRXhBQ0dnTlZVMFE0SEhDWGp4TT0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkI2IiwiNjI0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 22:29"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-08 07:08"
+          },
+          "duration": 339,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Business Class",
+          "flight_number": "B6 1024",
+          "extensions": [
+            "Individual suite",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 610 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 339,
+      "carbon_emissions": {
+        "this_flight": 610000,
+        "typical_for_this_route": 621000,
+        "difference_percent": -2
+      },
+      "price": 3133,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1pDTmpFd01qUWFDd2lYanhNUUFob0RWVk5FT0J4d2w0OFQiLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkI2IiwiMTAyNCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 08:00"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 16:35"
+          },
+          "duration": 335,
+          "airplane": "Airbus A321 (Sharklets)",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Business Class",
+          "flight_number": "AA 2",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 820 kg"
+          ]
+        }
+      ],
+      "total_duration": 335,
+      "carbon_emissions": {
+        "this_flight": 821000,
+        "typical_for_this_route": 621000,
+        "difference_percent": 32
+      },
+      "price": 3836,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ05CUVRJYUN3aTB0QmNRQWhvRFZWTkVPQnh3dExRWCIsW1siTEFYIiwiMjAyNi0wNi0wNyIsIkpGSyIsbnVsbCwiQUEiLCIyIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 10:55"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 19:28"
+          },
+          "duration": 333,
+          "airplane": "Airbus A321 (Sharklets)",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Business Class",
+          "flight_number": "AA 307",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 820 kg"
+          ]
+        }
+      ],
+      "total_duration": 333,
+      "carbon_emissions": {
+        "this_flight": 821000,
+        "typical_for_this_route": 621000,
+        "difference_percent": 32
+      },
+      "price": 3836,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1ZCUVRNd054b0xDTFMwRnhBQ0dnTlZVMFE0SEhDMHRCYz0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkFBIiwiMzA3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 13:00"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 21:33"
+          },
+          "duration": 333,
+          "airplane": "Boeing 777",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Business Class",
+          "flight_number": "AA 274",
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1058 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "total_duration": 333,
+      "carbon_emissions": {
+        "this_flight": 1058000,
+        "typical_for_this_route": 621000,
+        "difference_percent": 70
+      },
+      "price": 3836,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1ZCUVRJM05Cb0xDTFMwRnhBQ0dnTlZVMFE0SEhDMHRCYz0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkFBIiwiMjc0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 22:30"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-08 07:00"
+          },
+          "duration": 330,
+          "airplane": "Airbus A321 (Sharklets)",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Business Class",
+          "flight_number": "AA 28",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 820 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 330,
+      "carbon_emissions": {
+        "this_flight": 821000,
+        "typical_for_this_route": 621000,
+        "difference_percent": 32
+      },
+      "price": 3836,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1JCUVRJNEdnc0l0TFFYRUFJYUExVlRSRGdjY0xTMEZ3PT0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkFBIiwiMjgiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 21:10"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-08 05:25"
+          },
+          "duration": 315,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Business Class",
+          "flight_number": "DL 960",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 912 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 315,
+      "carbon_emissions": {
+        "this_flight": 912000,
+        "typical_for_this_route": 621000,
+        "difference_percent": 47
+      },
+      "price": 3849,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1ZFVERrMk1Cb0xDTWkrRnhBQ0dnTlZVMFE0SEhESXZoYz0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkRMIiwiOTYwIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 22:45"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-08 07:04"
+          },
+          "duration": 319,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Business Class",
+          "flight_number": "DL 676",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 912 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 319,
+      "carbon_emissions": {
+        "this_flight": 912000,
+        "typical_for_this_route": 621000,
+        "difference_percent": 47
+      },
+      "price": 3849,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1ZFVERZM05ob0xDTWkrRnhBQ0dnTlZVMFE0SEhESXZoYz0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkRMIiwiNjc2Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 11:45"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 20:18"
+          },
+          "duration": 333,
+          "airplane": "Airbus A321neo",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Business Class",
+          "flight_number": "AA 32",
+          "extensions": [
+            "Individual suite",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 477 kg"
+          ]
+        }
+      ],
+      "total_duration": 333,
+      "carbon_emissions": {
+        "this_flight": 478000,
+        "typical_for_this_route": 621000,
+        "difference_percent": -23
+      },
+      "price": 3986,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1JCUVRNeUdnc0l6S2tZRUFJYUExVlRSRGdjY015cEdBPT0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkFBIiwiMzIiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 06:00"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 14:35"
+          },
+          "duration": 335,
+          "airplane": "Airbus A321 (Sharklets)",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Business Class",
+          "flight_number": "AA 118",
+          "extensions": [
+            "Individual suite",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 477 kg"
+          ]
+        }
+      ],
+      "total_duration": 335,
+      "carbon_emissions": {
+        "this_flight": 478000,
+        "typical_for_this_route": 621000,
+        "difference_percent": -23
+      },
+      "price": 4286,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1ZCUVRFeE9Cb0xDUHlUR2hBQ0dnTlZVMFE0SEhEOGt4bz0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkFBIiwiMTE4Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 06:00"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 14:30"
+          },
+          "duration": 330,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Business Class",
+          "flight_number": "DL 934",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 863 kg"
+          ]
+        }
+      ],
+      "total_duration": 330,
+      "carbon_emissions": {
+        "this_flight": 863000,
+        "typical_for_this_route": 621000,
+        "difference_percent": 39
+      },
+      "price": 4349,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1ZFVERrek5Cb0xDSmpGR2hBQ0dnTlZVMFE0SEhDWXhSbz0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkRMIiwiOTM0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 07:00"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 15:34"
+          },
+          "duration": 334,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Business Class",
+          "flight_number": "DL 979",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 863 kg"
+          ]
+        }
+      ],
+      "total_duration": 334,
+      "carbon_emissions": {
+        "this_flight": 863000,
+        "typical_for_this_route": 621000,
+        "difference_percent": 39
+      },
+      "price": 4349,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1ZFVERrM09Sb0xDSmpGR2hBQ0dnTlZVMFE0SEhDWXhSbz0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkRMIiwiOTc5Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 08:30"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 17:25"
+          },
+          "duration": 355,
+          "airplane": "Airbus A330",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Business Class",
+          "flight_number": "DL 958",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 991 kg"
+          ]
+        }
+      ],
+      "total_duration": 355,
+      "carbon_emissions": {
+        "this_flight": 991000,
+        "typical_for_this_route": 621000,
+        "difference_percent": 60
+      },
+      "price": 4349,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1ZFVERrMU9Cb0xDSmpGR2hBQ0dnTlZVMFE0SEhDWXhSbz0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkRMIiwiOTU4Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 09:30"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 18:25"
+          },
+          "duration": 355,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Business Class",
+          "flight_number": "DL 951",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 863 kg"
+          ]
+        }
+      ],
+      "total_duration": 355,
+      "carbon_emissions": {
+        "this_flight": 863000,
+        "typical_for_this_route": 621000,
+        "difference_percent": 39
+      },
+      "price": 4349,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1ZFVERrMU1Sb0xDSmpGR2hBQ0dnTlZVMFE0SEhDWXhSbz0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkRMIiwiOTUxIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 11:20"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 19:55"
+          },
+          "duration": 335,
+          "airplane": "Airbus A330-900neo",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Business Class",
+          "flight_number": "DL 939",
+          "extensions": [
+            "Individual suite",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 963 kg"
+          ]
+        }
+      ],
+      "total_duration": 335,
+      "carbon_emissions": {
+        "this_flight": 963000,
+        "typical_for_this_route": 621000,
+        "difference_percent": 55
+      },
+      "price": 4349,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1ZFVERrek9Sb0xDSmpGR2hBQ0dnTlZVMFE0SEhDWXhSbz0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkRMIiwiOTM5Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 13:15"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 21:50"
+          },
+          "duration": 335,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Business Class",
+          "flight_number": "DL 991",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 912 kg"
+          ]
+        }
+      ],
+      "total_duration": 335,
+      "carbon_emissions": {
+        "this_flight": 912000,
+        "typical_for_this_route": 621000,
+        "difference_percent": 47
+      },
+      "price": 4349,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1ZFVERrNU1Sb0xDSmpGR2hBQ0dnTlZVMFE0SEhDWXhSbz0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkRMIiwiOTkxIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 15:15"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 23:47"
+          },
+          "duration": 332,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Business Class",
+          "flight_number": "DL 938",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 912 kg"
+          ]
+        }
+      ],
+      "total_duration": 332,
+      "carbon_emissions": {
+        "this_flight": 912000,
+        "typical_for_this_route": 621000,
+        "difference_percent": 47
+      },
+      "price": 4349,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1ZFVERrek9Cb0xDSmpGR2hBQ0dnTlZVMFE0SEhDWXhSbz0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkRMIiwiOTM4Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 23:55"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-08 08:30"
+          },
+          "duration": 335,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Business Class",
+          "flight_number": "DL 915",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 912 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 335,
+      "carbon_emissions": {
+        "this_flight": 912000,
+        "typical_for_this_route": 621000,
+        "difference_percent": 47
+      },
+      "price": 4349,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJY0hwNWJqWkNiekpXWTBGQlRVZEpZVkZDUnkwdExTMHRMUzB0TFhCcVluTmlORUZCUVVGQlIyOVVSQzFKVEcxR2VHdEJFZ1ZFVERreE5Sb0xDSmpGR2hBQ0dnTlZVMFE0SEhDWXhSbz0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJKRksiLG51bGwsIkRMIiwiOTE1Il1dXQ=="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 436,
+    "price_level": "low",
+    "typical_price_range": [
+      460,
+      840
+    ],
+    "price_history": [
+      [
+        1774335600,
+        284
+      ],
+      [
+        1774422000,
+        284
+      ],
+      [
+        1774508400,
+        284
+      ],
+      [
+        1774594800,
+        284
+      ],
+      [
+        1774681200,
+        284
+      ],
+      [
+        1774767600,
+        284
+      ],
+      [
+        1774854000,
+        345
+      ],
+      [
+        1774940400,
+        384
+      ],
+      [
+        1775026800,
+        384
+      ],
+      [
+        1775113200,
+        384
+      ],
+      [
+        1775199600,
+        384
+      ],
+      [
+        1775286000,
+        389
+      ],
+      [
+        1775372400,
+        389
+      ],
+      [
+        1775458800,
+        389
+      ],
+      [
+        1775545200,
+        389
+      ],
+      [
+        1775631600,
+        389
+      ],
+      [
+        1775718000,
+        389
+      ],
+      [
+        1775804400,
+        389
+      ],
+      [
+        1775890800,
+        449
+      ],
+      [
+        1775977200,
+        389
+      ],
+      [
+        1776063600,
+        389
+      ],
+      [
+        1776150000,
+        389
+      ],
+      [
+        1776236400,
+        389
+      ],
+      [
+        1776322800,
+        389
+      ],
+      [
+        1776409200,
+        389
+      ],
+      [
+        1776495600,
+        389
+      ],
+      [
+        1776582000,
+        389
+      ],
+      [
+        1776668400,
+        389
+      ],
+      [
+        1776754800,
+        389
+      ],
+      [
+        1776841200,
+        379
+      ],
+      [
+        1776927600,
+        379
+      ],
+      [
+        1777014000,
+        389
+      ],
+      [
+        1777100400,
+        459
+      ],
+      [
+        1777186800,
+        399
+      ],
+      [
+        1777273200,
+        399
+      ],
+      [
+        1777359600,
+        399
+      ],
+      [
+        1777446000,
+        399
+      ],
+      [
+        1777532400,
+        399
+      ],
+      [
+        1777618800,
+        404
+      ],
+      [
+        1777705200,
+        404
+      ],
+      [
+        1777791600,
+        404
+      ],
+      [
+        1777878000,
+        410
+      ],
+      [
+        1777964400,
+        420
+      ],
+      [
+        1778050800,
+        420
+      ],
+      [
+        1778137200,
+        420
+      ],
+      [
+        1778223600,
+        530
+      ],
+      [
+        1778310000,
+        530
+      ],
+      [
+        1778396400,
+        530
+      ],
+      [
+        1778482800,
+        530
+      ],
+      [
+        1778569200,
+        473
+      ],
+      [
+        1778655600,
+        404
+      ],
+      [
+        1778742000,
+        404
+      ],
+      [
+        1778828400,
+        404
+      ],
+      [
+        1778914800,
+        523
+      ],
+      [
+        1779001200,
+        523
+      ],
+      [
+        1779087600,
+        523
+      ],
+      [
+        1779174000,
+        504
+      ],
+      [
+        1779260400,
+        475
+      ],
+      [
+        1779346800,
+        475
+      ],
+      [
+        1779433200,
+        475
+      ],
+      [
+        1779519600,
+        475
+      ],
+      [
+        1779606000,
+        436
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "LAX",
+            "name": "Los Angeles International Airport"
+          },
+          "city": "Los Angeles",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTFuS2Y5_b7ZIl-g2Hm7jnG7zoi2uk0CQltF_DFbp6gIzfYznnOB6uJm9d6ePT5PJO5XM1j8vigwCNxRA",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT4B0K7etaN3KgEgtU5dJajdcmLtB5QSDRYr4KqcwH1iWxMm7TIqwtcUTTHD5AmNyeeFIpVpTnbSDeuD_HVlkYzOam-TO9w1worRSGRTUo"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "JFK",
+            "name": "John F. Kennedy International Airport"
+          },
+          "city": "New York",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRa1dwH1NZQk4dsbPiyA9Vrq2RX75jXSZ-OkHn7NkLHl-11HercqDXoZ4p2cDxJkH6vca2degawrCzHEQ",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQEaUa9NsdPWGpAUGkTApkZDT_4M6_6V8wTcC0v1b1wJAJX-BuMSiipXbsoznGgcI1xLOc5QiTcR_xovexgjdOz0gqQe0tRQ9h0bUkZ07Q"
+        }
+      ]
+    }
+  ]
+}

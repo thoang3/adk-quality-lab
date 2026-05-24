@@ -1,0 +1,722 @@
+{
+  "0381f1fc28e1684cc74f78a773f526021d52ce37de00636cac4f2e168181c3cb": {
+    "cabin": "economy",
+    "count": 9,
+    "departure_date": "2026-07-23",
+    "destination": "HKG",
+    "origin": "SFO",
+    "short": "0381f1fc28e1684cc74f78a7"
+  },
+  "0532f9f5954bbd49992945aa58fdbe53b9ca5f217de2914c93d973b8c98638e6": {
+    "cabin": "business",
+    "count": 21,
+    "departure_date": "2026-06-07",
+    "destination": "ORD",
+    "origin": "SFO",
+    "short": "0532f9f5954bbd49992945aa"
+  },
+  "09e24d27bb6b89044c9a8bcaa096bbee4e5dec9919e9eea0183202d7ca48289d": {
+    "cabin": "economy",
+    "count": 18,
+    "departure_date": "2026-07-23",
+    "destination": "LAX",
+    "origin": "BOS",
+    "short": "09e24d27bb6b89044c9a8bca"
+  },
+  "0c0aa9885faeee5889e53b5350556bfa871a99bd141294f79b6c92661f452662": {
+    "cabin": "business",
+    "count": 8,
+    "departure_date": "2026-06-07",
+    "destination": "DXB",
+    "origin": "JFK",
+    "short": "0c0aa9885faeee5889e53b53"
+  },
+  "0fcd6beec0dc15ecb6442d1cc2277fe86ecbb3536b30fa954f7df5c255a834c3": {
+    "cabin": "business",
+    "count": 27,
+    "departure_date": "2026-06-07",
+    "destination": "LHR",
+    "origin": "JFK",
+    "short": "0fcd6beec0dc15ecb6442d1c"
+  },
+  "14039469cba05bf2241c6325390fbd25e2354f4e31a8e805c2297ff22be80694": {
+    "cabin": "economy",
+    "count": 9,
+    "departure_date": "2026-06-07",
+    "destination": "NRT",
+    "origin": "LAX",
+    "short": "14039469cba05bf2241c6325"
+  },
+  "15493bd8ef1a5ca3ddba18cc75b4032dfd262496f89cce8cedbaceed21555222": {
+    "cabin": "economy",
+    "count": 12,
+    "departure_date": "2026-07-23",
+    "destination": "NRT",
+    "origin": "SFO",
+    "short": "15493bd8ef1a5ca3ddba18cc"
+  },
+  "170446d300a16059fc7966c92faadf05db80410577b6579f00a14f2500762ec3": {
+    "cabin": "business",
+    "count": 8,
+    "departure_date": "2026-06-23",
+    "destination": "DXB",
+    "origin": "JFK",
+    "short": "170446d300a16059fc7966c9"
+  },
+  "19221e1c78cac691da168760a196198752c1db5b7cc81c0cc313d3609b1f9e53": {
+    "cabin": "business",
+    "count": 11,
+    "departure_date": "2026-06-07",
+    "destination": "HND",
+    "origin": "LAX",
+    "short": "19221e1c78cac691da168760"
+  },
+  "1c250413f46a218b59f58e0ceb5c3b0c3b5c65a17484cd5a225c571b853858ad": {
+    "cabin": "economy",
+    "count": 11,
+    "departure_date": "2026-06-07",
+    "destination": "CDG",
+    "origin": "JFK",
+    "short": "1c250413f46a218b59f58e0c"
+  },
+  "1e1ce037fd74bc2859248b1dd347a79759f31089dd684683c6c5b9ac86580325": {
+    "cabin": "economy",
+    "count": 16,
+    "departure_date": "2026-06-07",
+    "destination": "MIA",
+    "origin": "ORD",
+    "short": "1e1ce037fd74bc2859248b1d"
+  },
+  "1e9efb97edd99198e652213b4ec45b56ae3195b3a5402bc87554489a1da560df": {
+    "cabin": "business",
+    "count": 16,
+    "departure_date": "2026-07-23",
+    "destination": "DXB",
+    "origin": "JFK",
+    "short": "1e9efb97edd99198e652213b"
+  },
+  "1fa7329be0d5d39e01377c16c668f1b00660aba17dd1f460f5a2d5e12943275c": {
+    "cabin": "economy",
+    "count": 25,
+    "departure_date": "2026-06-23",
+    "destination": "SFO",
+    "origin": "JFK",
+    "short": "1fa7329be0d5d39e01377c16"
+  },
+  "2499c184fe48c4b1706bb31477a4dd981d779fe0e102ff97980e4ac533e75aad": {
+    "cabin": "economy",
+    "count": 17,
+    "departure_date": "2026-06-07",
+    "destination": "NRT",
+    "origin": "ORD",
+    "short": "2499c184fe48c4b1706bb314"
+  },
+  "27dcadf450dcf120ae84c7d2d7e32499edbf4700d44047c376daf4ef54293452": {
+    "cabin": "business",
+    "count": 13,
+    "departure_date": "2026-06-23",
+    "destination": "HND",
+    "origin": "LAX",
+    "short": "27dcadf450dcf120ae84c7d2"
+  },
+  "28ec44d4dcf4c3dc36f95fc732763e3cd7a6a566e4d4835d4b4b3b213405d980": {
+    "cabin": "economy",
+    "count": 12,
+    "departure_date": "2026-07-23",
+    "destination": "LHR",
+    "origin": "ORD",
+    "short": "28ec44d4dcf4c3dc36f95fc7"
+  },
+  "2ca9be8cb0831f3dd14a8d35ae4d599f2d41b20a1e04655ba0b196617b4f4dde": {
+    "cabin": "business",
+    "count": 16,
+    "departure_date": "2026-06-23",
+    "destination": "CDG",
+    "origin": "JFK",
+    "short": "2ca9be8cb0831f3dd14a8d35"
+  },
+  "2ebc906559a0b38cb4e79d31b4532d5821a7403449adc4f5f8ab64688a7668a6": {
+    "cabin": "economy",
+    "count": 8,
+    "departure_date": "2026-06-23",
+    "destination": "NRT",
+    "origin": "ORD",
+    "short": "2ebc906559a0b38cb4e79d31"
+  },
+  "31be6a1f2ec0c9323a03587aa55329884a088e949bcf7a1cff62f2d989098874": {
+    "cabin": "business",
+    "count": 21,
+    "departure_date": "2026-07-23",
+    "destination": "MIA",
+    "origin": "ORD",
+    "short": "31be6a1f2ec0c9323a03587a"
+  },
+  "33ba57e8aa3862bf91d0b78852edf8cd6267b434cabe4f7f2a852c8cc9dc819b": {
+    "cabin": "economy",
+    "count": 14,
+    "departure_date": "2026-06-23",
+    "destination": "LHR",
+    "origin": "ORD",
+    "short": "33ba57e8aa3862bf91d0b788"
+  },
+  "381d687b94d2dffb35c2bc4182c18110b59d20e27608d9c04d451052b40ecb45": {
+    "cabin": "economy",
+    "count": 9,
+    "departure_date": "2026-06-07",
+    "destination": "DXB",
+    "origin": "JFK",
+    "short": "381d687b94d2dffb35c2bc41"
+  },
+  "3b31bbb6203bca8d9fa134de7c710e07782e3e15952801894efd24b2b1823ab4": {
+    "cabin": "business",
+    "count": 25,
+    "departure_date": "2026-07-23",
+    "destination": "SFO",
+    "origin": "JFK",
+    "short": "3b31bbb6203bca8d9fa134de"
+  },
+  "3c29e1a0aaee5e87d08ecf6481dea506a34b07b452b705c9ff09e6c17b245f1c": {
+    "cabin": "business",
+    "count": 23,
+    "departure_date": "2026-06-23",
+    "destination": "LHR",
+    "origin": "JFK",
+    "short": "3c29e1a0aaee5e87d08ecf64"
+  },
+  "3d1e004e2a7b8519e8bb9b67d4bee64a878ad722eaf7b5e0f3530f479f02afe3": {
+    "cabin": "economy",
+    "count": 24,
+    "departure_date": "2026-06-07",
+    "destination": "LHR",
+    "origin": "JFK",
+    "short": "3d1e004e2a7b8519e8bb9b67"
+  },
+  "3e9e57bcb76bcee6e1051f201562d4019db6f1293be83751b13ac0b395a9830b": {
+    "cabin": "business",
+    "count": 8,
+    "departure_date": "2026-07-23",
+    "destination": "NRT",
+    "origin": "SFO",
+    "short": "3e9e57bcb76bcee6e1051f20"
+  },
+  "4362e562109a47f9fa41aab4b253aa7582d2ba08e265bd7150ce14091aaf85dc": {
+    "cabin": "business",
+    "count": 19,
+    "departure_date": "2026-06-07",
+    "destination": "CDG",
+    "origin": "JFK",
+    "short": "4362e562109a47f9fa41aab4"
+  },
+  "46b9950a3f33f3425b87799e6f13d53ef43829cb20ab0f4928a6f513ae2f8518": {
+    "cabin": "business",
+    "count": 14,
+    "departure_date": "2026-06-23",
+    "destination": "LHR",
+    "origin": "ORD",
+    "short": "46b9950a3f33f3425b87799e"
+  },
+  "4d09cace3ddd1bf99141ae778ed5127cc4d5ccfc25f24085547351eb31909ecd": {
+    "cabin": "economy",
+    "count": 11,
+    "departure_date": "2026-07-23",
+    "destination": "NRT",
+    "origin": "ORD",
+    "short": "4d09cace3ddd1bf99141ae77"
+  },
+  "4fee07cafe8915b2cae7c93d6bd9ae803c4894a4e49552bc220939b51db422d6": {
+    "cabin": "business",
+    "count": 13,
+    "departure_date": "2026-06-07",
+    "destination": "LHR",
+    "origin": "SFO",
+    "short": "4fee07cafe8915b2cae7c93d"
+  },
+  "4ffec469330d6a4f767f6422382c588dd3a1f35a3673e351f7a2d09a3e5e9d0d": {
+    "cabin": "business",
+    "count": 12,
+    "departure_date": "2026-06-07",
+    "destination": "NRT",
+    "origin": "SFO",
+    "short": "4ffec469330d6a4f767f6422"
+  },
+  "512e57465f3ba88a6f777e262cccb3f08dfd9ca397a8eff89335948533144d50": {
+    "cabin": "economy",
+    "count": 9,
+    "departure_date": "2026-07-23",
+    "destination": "NRT",
+    "origin": "LAX",
+    "short": "512e57465f3ba88a6f777e26"
+  },
+  "55478343e0da5321ab17c123369f633e74e12d5a608e81a30035890343347478": {
+    "cabin": "business",
+    "count": 10,
+    "departure_date": "2026-06-07",
+    "destination": "NRT",
+    "origin": "ORD",
+    "short": "55478343e0da5321ab17c123"
+  },
+  "557e09041f4d2134f00b297713a11bda7cf6c1d6cf0676b1927f61bba2bba98a": {
+    "cabin": "economy",
+    "count": 34,
+    "departure_date": "2026-06-23",
+    "destination": "JFK",
+    "origin": "LAX",
+    "short": "557e09041f4d2134f00b2977"
+  },
+  "5702b4f37bacfff19fa9f7ae81b3d0cf0102f55b5b5e28270c64a4e72b2a62cd": {
+    "cabin": "economy",
+    "count": 12,
+    "departure_date": "2026-06-23",
+    "destination": "CDG",
+    "origin": "JFK",
+    "short": "5702b4f37bacfff19fa9f7ae"
+  },
+  "610328b9240f6a29f540d673685414bacad562a95b19ad0d1bd2e7ab88704e65": {
+    "cabin": "economy",
+    "count": 20,
+    "departure_date": "2026-06-07",
+    "destination": "ORD",
+    "origin": "SFO",
+    "short": "610328b9240f6a29f540d673"
+  },
+  "62592d321d7b0fb5185ecd1d3995d678f9d9a81124c3de0688e2d0293b8d7437": {
+    "cabin": "business",
+    "count": 12,
+    "departure_date": "2026-07-23",
+    "destination": "HND",
+    "origin": "LAX",
+    "short": "62592d321d7b0fb5185ecd1d"
+  },
+  "6eb7176e299bbcbfd229bfd1fb607dc6ea980b73ea3da3f247a4a1a09ba45e4a": {
+    "cabin": "business",
+    "count": 8,
+    "departure_date": "2026-06-07",
+    "destination": "HKG",
+    "origin": "SFO",
+    "short": "6eb7176e299bbcbfd229bfd1"
+  },
+  "758789d68563ef8beb5b9922c99ac01bf2306d73d927372063f9bf304a196e8d": {
+    "cabin": "economy",
+    "count": 16,
+    "departure_date": "2026-07-23",
+    "destination": "CDG",
+    "origin": "JFK",
+    "short": "758789d68563ef8beb5b9922"
+  },
+  "77dc32bf3f7527f51b75b769c5d7500bca6cbbe83a7d61caf58a1ea924903976": {
+    "cabin": "economy",
+    "count": 12,
+    "departure_date": "2026-06-07",
+    "destination": "NRT",
+    "origin": "SFO",
+    "short": "77dc32bf3f7527f51b75b769"
+  },
+  "787b0967525d301adb915c5b12a105e4a69c376dbdcccf185996964f8cdc65de": {
+    "cabin": "business",
+    "count": 16,
+    "departure_date": "2026-06-07",
+    "destination": "LHR",
+    "origin": "ORD",
+    "short": "787b0967525d301adb915c5b"
+  },
+  "78d9ac0cb574a5aa929d587a018862f8cc69999d6e9dafc7c4d40eeb8c8b0017": {
+    "cabin": "economy",
+    "count": 20,
+    "departure_date": "2026-06-07",
+    "destination": "LAX",
+    "origin": "BOS",
+    "short": "78d9ac0cb574a5aa929d587a"
+  },
+  "7cd1f92b20d7b0ac56b14d1acafc174b82f86574d8628fa23268e895c5e381bd": {
+    "cabin": "business",
+    "count": 11,
+    "departure_date": "2026-07-23",
+    "destination": "NRT",
+    "origin": "LAX",
+    "short": "7cd1f92b20d7b0ac56b14d1a"
+  },
+  "7e1c501aca023aee1ae52c03c4aba72c1f98a5f031bcba6500ce493c4dc28f56": {
+    "cabin": "economy",
+    "count": 11,
+    "departure_date": "2026-06-07",
+    "destination": "HKG",
+    "origin": "SFO",
+    "short": "7e1c501aca023aee1ae52c03"
+  },
+  "7efd3c783ef98f56cdff21fd87c580f31aaeef217988a72e16b71edfdbcd29ed": {
+    "cabin": "economy",
+    "count": 16,
+    "departure_date": "2026-07-23",
+    "destination": "MIA",
+    "origin": "ORD",
+    "short": "7efd3c783ef98f56cdff21fd"
+  },
+  "853c0063affe9af96533911755634fd917b90e69046d0b9876242a7425738b07": {
+    "cabin": "business",
+    "count": 21,
+    "departure_date": "2026-06-07",
+    "destination": "MIA",
+    "origin": "ORD",
+    "short": "853c0063affe9af965339117"
+  },
+  "86b56d1d97ba85253ae3f87d51cc1e35e57a8b157ce694ae272c7e0bf45fc341": {
+    "cabin": "business",
+    "count": 13,
+    "departure_date": "2026-07-23",
+    "destination": "LHR",
+    "origin": "ORD",
+    "short": "86b56d1d97ba85253ae3f87d"
+  },
+  "8807dda3f75da13af0160db366cd395c5882895df06521659fcc677d88f4d261": {
+    "cabin": "economy",
+    "count": 9,
+    "departure_date": "2026-07-23",
+    "destination": "HND",
+    "origin": "LAX",
+    "short": "8807dda3f75da13af0160db3"
+  },
+  "89a5d9ae42f2dccbb83c028fba3971db333200b7043e579e9307583fa5d972cb": {
+    "cabin": "business",
+    "count": 10,
+    "departure_date": "2026-06-23",
+    "destination": "HKG",
+    "origin": "SFO",
+    "short": "89a5d9ae42f2dccbb83c028f"
+  },
+  "8aae2d99ff0f422d8df04f69ed7781975effd2afa1450c7da329c2ae962f8b34": {
+    "cabin": "business",
+    "count": 33,
+    "departure_date": "2026-06-23",
+    "destination": "JFK",
+    "origin": "LAX",
+    "short": "8aae2d99ff0f422d8df04f69"
+  },
+  "8c5babfab97a962b31030fa7c35bed27c33c541c5ba5d160aebe82560801afb6": {
+    "cabin": "business",
+    "count": 10,
+    "departure_date": "2026-06-23",
+    "destination": "NRT",
+    "origin": "SFO",
+    "short": "8c5babfab97a962b31030fa7"
+  },
+  "8cbf97c3e366dc3027db0776a22f654617fe65f0ebf817723f71e013f3f31d52": {
+    "cabin": "business",
+    "count": 26,
+    "departure_date": "2026-06-07",
+    "destination": "SFO",
+    "origin": "JFK",
+    "short": "8cbf97c3e366dc3027db0776"
+  },
+  "8fa09fc70a94962bda40513f26b6d74f81e64f00fd0f59fb7c4e46fbf07be07c": {
+    "cabin": "economy",
+    "count": 10,
+    "departure_date": "2026-06-23",
+    "destination": "HKG",
+    "origin": "SFO",
+    "short": "8fa09fc70a94962bda40513f"
+  },
+  "928f1ef635b2a18f8abbbc07e5f5686a7619e03611e547138bfd988fccebb67c": {
+    "cabin": "economy",
+    "count": 11,
+    "departure_date": "2026-07-23",
+    "destination": "LHR",
+    "origin": "SFO",
+    "short": "928f1ef635b2a18f8abbbc07"
+  },
+  "95636c0f2b0c4191a799bd032580bee38f6f2325df45eb605ea080fe43b5f1ff": {
+    "cabin": "economy",
+    "count": 9,
+    "departure_date": "2026-07-23",
+    "destination": "DXB",
+    "origin": "JFK",
+    "short": "95636c0f2b0c4191a799bd03"
+  },
+  "95ec04a2c18d7e20f93805d9d7d48e62a4bec1fc38712eef393700c92ea22518": {
+    "cabin": "economy",
+    "count": 12,
+    "departure_date": "2026-06-23",
+    "destination": "NRT",
+    "origin": "LAX",
+    "short": "95ec04a2c18d7e20f93805d9"
+  },
+  "9695ace35b07f0451ddd031e3ab32abc8e36aa0c6cc8f9342807664b5f075d1c": {
+    "cabin": "economy",
+    "count": 21,
+    "departure_date": "2026-07-23",
+    "destination": "LHR",
+    "origin": "JFK",
+    "short": "9695ace35b07f0451ddd031e"
+  },
+  "981e5a5cb375f8650096922ea71b4f12fd54b0fe9278a964e88a046e51b75aa8": {
+    "cabin": "business",
+    "count": 14,
+    "departure_date": "2026-07-23",
+    "destination": "HKG",
+    "origin": "SFO",
+    "short": "981e5a5cb375f8650096922e"
+  },
+  "9e64f17aee0fc4b08b4533951dec65ff51d2d572bac84cb1b94eb6c0bdb0e117": {
+    "cabin": "economy",
+    "count": 10,
+    "departure_date": "2026-06-07",
+    "destination": "LHR",
+    "origin": "SFO",
+    "short": "9e64f17aee0fc4b08b453395"
+  },
+  "a7aebf8cc6f152eb4de171a60ffffc8b52690ee04759e3a3e66ef53b1ce3f0b2": {
+    "cabin": "business",
+    "count": 12,
+    "departure_date": "2026-06-07",
+    "destination": "NRT",
+    "origin": "LAX",
+    "short": "a7aebf8cc6f152eb4de171a6"
+  },
+  "adedfb818443360e72a35a909037e92da8ed42c2be3aefbe90702df511361410": {
+    "cabin": "economy",
+    "count": 12,
+    "departure_date": "2026-06-07",
+    "destination": "HND",
+    "origin": "LAX",
+    "short": "adedfb818443360e72a35a90"
+  },
+  "aebb94c9206ff2036238fd061abda43ab7e0dd0eb1e7a0a042217addc0dd5d06": {
+    "cabin": "economy",
+    "count": 11,
+    "departure_date": "2026-06-23",
+    "destination": "HND",
+    "origin": "LAX",
+    "short": "aebb94c9206ff2036238fd06"
+  },
+  "b181632dcf896b5b391db481a8e6ffd39557f3b1c5355399d7720daa9b11cf8a": {
+    "cabin": "economy",
+    "count": 32,
+    "departure_date": "2026-07-23",
+    "destination": "JFK",
+    "origin": "LAX",
+    "short": "b181632dcf896b5b391db481"
+  },
+  "b48152332afb81890c17f44b7b142bba2ac7dd87e34a40d9782a67c527dda05c": {
+    "cabin": "business",
+    "count": 15,
+    "departure_date": "2026-07-23",
+    "destination": "CDG",
+    "origin": "JFK",
+    "short": "b48152332afb81890c17f44b"
+  },
+  "c06993e5cbf0a39f0f977f5f1d18c0ded0530af98963b8766b4628ff2c8d9026": {
+    "cabin": "economy",
+    "count": 21,
+    "departure_date": "2026-07-23",
+    "destination": "ORD",
+    "origin": "SFO",
+    "short": "c06993e5cbf0a39f0f977f5f"
+  },
+  "c6f4b3a05c3d86a62e56fd3c788cd7362644b46a617feb5d318533add27bf18e": {
+    "cabin": "business",
+    "count": 34,
+    "departure_date": "2026-07-23",
+    "destination": "JFK",
+    "origin": "LAX",
+    "short": "c6f4b3a05c3d86a62e56fd3c"
+  },
+  "c70e4f972be01d0e7b7bf52dabc196583be8cff70d257347352bfea206f8d3d9": {
+    "cabin": "business",
+    "count": 22,
+    "departure_date": "2026-06-23",
+    "destination": "ORD",
+    "origin": "SFO",
+    "short": "c70e4f972be01d0e7b7bf52d"
+  },
+  "c74bafd78830ce3438acda9d9d8d9dfb41470c512fc96b74dc103a35bfb40e47": {
+    "cabin": "business",
+    "count": 23,
+    "departure_date": "2026-07-23",
+    "destination": "LAX",
+    "origin": "BOS",
+    "short": "c74bafd78830ce3438acda9d"
+  },
+  "c90d7b086ac02e2823f5f97c54923dc270e40909263db0a0207691685862ad1f": {
+    "cabin": "economy",
+    "count": 22,
+    "departure_date": "2026-06-23",
+    "destination": "LAX",
+    "origin": "BOS",
+    "short": "c90d7b086ac02e2823f5f97c"
+  },
+  "cb4a1dc24c2489ca50527be1146697385dddc95087958a2a2a62947276f3e868": {
+    "cabin": "business",
+    "count": 11,
+    "departure_date": "2026-07-23",
+    "destination": "LHR",
+    "origin": "SFO",
+    "short": "cb4a1dc24c2489ca50527be1"
+  },
+  "ce7c0e99ea2d6d17733a54c3c090cfadf11d9ccb8efee552fdd509a2ee7b1bed": {
+    "cabin": "economy",
+    "count": 14,
+    "departure_date": "2026-06-23",
+    "destination": "MIA",
+    "origin": "ORD",
+    "short": "ce7c0e99ea2d6d17733a54c3"
+  },
+  "cefad1bad9c2daa263ca8d3ff1a3d6094104a74319938b2ecd2a70ddacdea494": {
+    "cabin": "business",
+    "count": 25,
+    "departure_date": "2026-06-23",
+    "destination": "LAX",
+    "origin": "BOS",
+    "short": "cefad1bad9c2daa263ca8d3f"
+  },
+  "d181daa1685227b4ff51cfdbeaf52d9f448eab2639b492c50a2587a193645cdf": {
+    "cabin": "business",
+    "count": 17,
+    "departure_date": "2026-06-07",
+    "destination": "LAX",
+    "origin": "BOS",
+    "short": "d181daa1685227b4ff51cfdb"
+  },
+  "d331081164469f9c9bcbb925b1853e412b63241a545bd9893a350dd211751f8c": {
+    "cabin": "business",
+    "count": 25,
+    "departure_date": "2026-06-23",
+    "destination": "SFO",
+    "origin": "JFK",
+    "short": "d331081164469f9c9bcbb925"
+  },
+  "d454731593a0d237b2793a646156846ecb83d0e64c426a4590f59d71e2f827aa": {
+    "cabin": "business",
+    "count": 12,
+    "departure_date": "2026-06-23",
+    "destination": "LHR",
+    "origin": "SFO",
+    "short": "d454731593a0d237b2793a64"
+  },
+  "d72101c1bbd0b0817f7d98358044b69e850e3d5f791e01240a82f79c51a69b91": {
+    "cabin": "economy",
+    "count": 8,
+    "departure_date": "2026-06-23",
+    "destination": "LHR",
+    "origin": "SFO",
+    "short": "d72101c1bbd0b0817f7d9835"
+  },
+  "d8defe863eb4ab5c21269d226eeeb7df8c3f2541df4a80a16312e3580b28c400": {
+    "cabin": "economy",
+    "count": 22,
+    "departure_date": "2026-06-23",
+    "destination": "LHR",
+    "origin": "JFK",
+    "short": "d8defe863eb4ab5c21269d22"
+  },
+  "daf0cc70eb0f064a01a4348225d3ac9bbc1cb2ddf7595533d74cd73404ef8965": {
+    "cabin": "business",
+    "count": 32,
+    "departure_date": "2026-06-07",
+    "destination": "JFK",
+    "origin": "LAX",
+    "short": "daf0cc70eb0f064a01a43482"
+  },
+  "dcd2c3473876f77bcc42b8b5763b96fb6cc69caabf1d648f03a63351043f8b81": {
+    "cabin": "economy",
+    "count": 11,
+    "departure_date": "2026-06-23",
+    "destination": "NRT",
+    "origin": "SFO",
+    "short": "dcd2c3473876f77bcc42b8b5"
+  },
+  "de2be7f49b971a87144cf3419823e9ef0116b437a72215b8e9fa6e84ed20c4fa": {
+    "cabin": "economy",
+    "count": 20,
+    "departure_date": "2026-06-07",
+    "destination": "LHR",
+    "origin": "ORD",
+    "short": "de2be7f49b971a87144cf341"
+  },
+  "df6290550f7b37e668534b16cf006d8a4066b676bf2fc8e55e19c12107dede83": {
+    "cabin": "business",
+    "count": 23,
+    "departure_date": "2026-07-23",
+    "destination": "ORD",
+    "origin": "SFO",
+    "short": "df6290550f7b37e668534b16"
+  },
+  "e2c3277906d4f71ac07b408a7632760bcbed9ce1f4340b3b5b0969df2be1b5d4": {
+    "cabin": "business",
+    "count": 9,
+    "departure_date": "2026-07-23",
+    "destination": "NRT",
+    "origin": "ORD",
+    "short": "e2c3277906d4f71ac07b408a"
+  },
+  "e4a3c289784bc6ce337f1c42cf97f423d390606b7602c80a565c220b5c33d72e": {
+    "cabin": "economy",
+    "count": 20,
+    "departure_date": "2026-06-23",
+    "destination": "ORD",
+    "origin": "SFO",
+    "short": "e4a3c289784bc6ce337f1c42"
+  },
+  "e56e77ab1763d7b49882acb39bceb173337ded3d434cdc85ba355cc4d8dbfb04": {
+    "cabin": "economy",
+    "count": 31,
+    "departure_date": "2026-06-07",
+    "destination": "JFK",
+    "origin": "LAX",
+    "short": "e56e77ab1763d7b49882acb3"
+  },
+  "e61e882079b8ad92f5f5ca725bfacd39dd02ee3d7e8d72d0260dbd6602daef6b": {
+    "cabin": "economy",
+    "count": 24,
+    "departure_date": "2026-07-23",
+    "destination": "SFO",
+    "origin": "JFK",
+    "short": "e61e882079b8ad92f5f5ca72"
+  },
+  "f7d38d14abf051ded87c455c81e3cf03de09b682ac0c05467072306a7c93a6f8": {
+    "cabin": "business",
+    "count": 17,
+    "departure_date": "2026-06-23",
+    "destination": "NRT",
+    "origin": "LAX",
+    "short": "f7d38d14abf051ded87c455c"
+  },
+  "f820df02596588134a469eab6bc501e02d7ff7f1a4beaaf0b6b90091b57b6ed6": {
+    "cabin": "business",
+    "count": 8,
+    "departure_date": "2026-06-23",
+    "destination": "NRT",
+    "origin": "ORD",
+    "short": "f820df02596588134a469eab"
+  },
+  "f8a9e55ef2e6e5091e2b33a06135a3f035547bec9958af928e6ddfcce61c3474": {
+    "cabin": "economy",
+    "count": 11,
+    "departure_date": "2026-06-23",
+    "destination": "DXB",
+    "origin": "JFK",
+    "short": "f8a9e55ef2e6e5091e2b33a0"
+  },
+  "f9a01bb76a2d955a3513ce9325f18f4705b986647bae9f44083e5d13c06d8699": {
+    "cabin": "economy",
+    "count": 27,
+    "departure_date": "2026-06-07",
+    "destination": "SFO",
+    "origin": "JFK",
+    "short": "f9a01bb76a2d955a3513ce93"
+  },
+  "fa0e50ed2533e462de438d64ec1344cb4916567af25eb2e8cdb8f6a0bcf2b084": {
+    "cabin": "business",
+    "count": 24,
+    "departure_date": "2026-07-23",
+    "destination": "LHR",
+    "origin": "JFK",
+    "short": "fa0e50ed2533e462de438d64"
+  },
+  "fd5077188e1b0848980af2a9c46c14ef3d677ec87cccd7d37b01a16eebc30ad5": {
+    "cabin": "business",
+    "count": 22,
+    "departure_date": "2026-06-23",
+    "destination": "MIA",
+    "origin": "ORD",
+    "short": "fd5077188e1b0848980af2a9"
+  }
+}

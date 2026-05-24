@@ -1,0 +1,930 @@
+{
+  "search_metadata": {
+    "id": "6a130fa43c99ba482322f716",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/MnHmHQdNhtLf_k96vQOKjA/6a130fa43c99ba482322f716.json",
+    "created_at": "2026-05-24 14:48:04 UTC",
+    "processed_at": "2026-05-24 14:48:04 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhoeEgoyMDI2LTA2LTIzagcIARIDU0ZPcgcIARIDSEtHQAFIAXABmAEC&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/MnHmHQdNhtLf_k96vQOKjA/6a130fa43c99ba482322f716.html",
+    "prettify_html_file": "https://serpapi.com/searches/MnHmHQdNhtLf_k96vQOKjA/6a130fa43c99ba482322f716.prettify",
+    "total_time_taken": 7.46
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "us",
+    "type": "2",
+    "departure_id": "SFO",
+    "arrival_id": "HKG",
+    "outbound_date": "2026-06-23",
+    "travel_class": 1,
+    "adults": 1,
+    "currency": "USD"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-23 23:20"
+          },
+          "arrival_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-06-25 04:25"
+          },
+          "duration": 785,
+          "airplane": "Airbus A350",
+          "airline": "Asiana Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OZ.png",
+          "travel_class": "Economy",
+          "flight_number": "OZ 211",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 574 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-06-25 08:05"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-06-25 10:55"
+          },
+          "duration": 230,
+          "airplane": "Airbus A330",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 2001",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 179 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 220,
+          "name": "Incheon International Airport",
+          "id": "ICN",
+          "overnight": true
+        }
+      ],
+      "total_duration": 1235,
+      "carbon_emissions": {
+        "this_flight": 753000,
+        "typical_for_this_route": 761000,
+        "difference_percent": -1
+      },
+      "price": 778,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJTldSTllsWk5Uazl1WkVWQlNYbG1ja0ZDUnkwdExTMHRMUzB0TFhCcVlYQXhOa0ZCUVVGQlIyOVVSRFp6U1hSQ1JFVkJFZ3hQV2pJeE1YeExSVEl3TURFYUN3amczd1FRQWhvRFZWTkVPQnh3NE44RSIsW1siU0ZPIiwiMjAyNi0wNi0yMyIsIklDTiIsbnVsbCwiT1oiLCIyMTEiXSxbIklDTiIsIjIwMjYtMDYtMjUiLCJIS0ciLG51bGwsIktFIiwiMjAwMSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-23 13:45"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-06-24 18:55"
+          },
+          "duration": 850,
+          "airplane": "Boeing 777",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 869",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 806 kg"
+          ]
+        }
+      ],
+      "total_duration": 850,
+      "carbon_emissions": {
+        "this_flight": 806000,
+        "typical_for_this_route": 761000,
+        "difference_percent": 6
+      },
+      "price": 790,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJTldSTllsWk5Uazl1WkVWQlNYbG1ja0ZDUnkwdExTMHRMUzB0TFhCcVlYQXhOa0ZCUVVGQlIyOVVSRFp6U1hSQ1JFVkJFZ1ZWUVRnMk9Sb0xDT2JvQkJBQ0dnTlZVMFE0SEhEbTZBUT0iLFtbIlNGTyIsIjIwMjYtMDYtMjMiLCJIS0ciLG51bGwsIlVBIiwiODY5Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-23 20:03"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-23 21:40"
+          },
+          "duration": 97,
+          "airplane": "Airbus A321neo",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 1559",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 56 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-23 23:05"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-06-25 05:05"
+          },
+          "duration": 900,
+          "airplane": "Airbus A350",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 89",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 709 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 85,
+          "name": "Los Angeles International Airport",
+          "id": "LAX"
+        }
+      ],
+      "total_duration": 1082,
+      "carbon_emissions": {
+        "this_flight": 766000,
+        "typical_for_this_route": 761000,
+        "difference_percent": 1
+      },
+      "price": 794,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "booking_token": "WyJDalJJTldSTllsWk5Uazl1WkVWQlNYbG1ja0ZDUnkwdExTMHRMUzB0TFhCcVlYQXhOa0ZCUVVGQlIyOVVSRFp6U1hSQ1JFVkJFZ3RFVERFMU5UbDhSRXc0T1JvTENLanNCQkFDR2dOVlUwUTRISENvN0FRPSIsW1siU0ZPIiwiMjAyNi0wNi0yMyIsIkxBWCIsbnVsbCwiREwiLCIxNTU5Il0sWyJMQVgiLCIyMDI2LTA2LTIzIiwiSEtHIixudWxsLCJETCIsIjg5Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-23 20:55"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-23 22:37"
+          },
+          "duration": 102,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 2850",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 66 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-23 23:55"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-06-25 05:40"
+          },
+          "duration": 885,
+          "airplane": "Boeing 787",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 820",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 627 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 78,
+          "name": "Los Angeles International Airport",
+          "id": "LAX"
+        }
+      ],
+      "total_duration": 1065,
+      "carbon_emissions": {
+        "this_flight": 694000,
+        "typical_for_this_route": 761000,
+        "difference_percent": -9
+      },
+      "price": 794,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJTldSTllsWk5Uazl1WkVWQlNYbG1ja0ZDUnkwdExTMHRMUzB0TFhCcVlYQXhOa0ZCUVVGQlIyOVVSRFp6U1hSQ1JFVkJFZ3hWUVRJNE5UQjhWVUU0TWpBYUN3aW83QVFRQWhvRFZWTkVPQnh3cU93RSIsW1siU0ZPIiwiMjAyNi0wNi0yMyIsIkxBWCIsbnVsbCwiVUEiLCIyODUwIl0sWyJMQVgiLCIyMDI2LTA2LTIzIiwiSEtHIixudWxsLCJVQSIsIjgyMCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-23 00:50"
+          },
+          "arrival_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-06-24 05:25"
+          },
+          "duration": 815,
+          "airplane": "Airbus A350",
+          "airline": "STARLUX Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JX.png",
+          "travel_class": "Economy",
+          "flight_number": "JX 11",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 625 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-06-24 08:00"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-06-24 09:55"
+          },
+          "duration": 115,
+          "airplane": "Airbus A321neo",
+          "airline": "STARLUX Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JX.png",
+          "travel_class": "Economy",
+          "flight_number": "JX 233",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 91 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 155,
+          "name": "Taiwan Taoyuan International Airport",
+          "id": "TPE"
+        }
+      ],
+      "total_duration": 1085,
+      "carbon_emissions": {
+        "this_flight": 717000,
+        "typical_for_this_route": 761000,
+        "difference_percent": -6
+      },
+      "price": 940,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JX.png",
+      "booking_token": "WyJDalJJTldSTllsWk5Uazl1WkVWQlNYbG1ja0ZDUnkwdExTMHRMUzB0TFhCcVlYQXhOa0ZCUVVGQlIyOVVSRFp6U1hSQ1JFVkJFZ3BLV0RFeGZFcFlNak16R2dzSTZ0MEZFQUlhQTFWVFJEZ2NjT3JkQlE9PSIsW1siU0ZPIiwiMjAyNi0wNi0yMyIsIlRQRSIsbnVsbCwiSlgiLCIxMSJdLFsiVFBFIiwiMjAyNi0wNi0yNCIsIkhLRyIsbnVsbCwiSlgiLCIyMzMiXV1d"
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-23 23:20"
+          },
+          "arrival_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-06-25 04:25"
+          },
+          "duration": 785,
+          "airplane": "Airbus A350",
+          "airline": "Asiana Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OZ.png",
+          "travel_class": "Economy",
+          "flight_number": "OZ 211",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 574 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-06-25 20:35"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-06-25 23:30"
+          },
+          "duration": 235,
+          "airplane": "Airbus A321neo",
+          "airline": "Asiana Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OZ.png",
+          "travel_class": "Economy",
+          "flight_number": "OZ 745",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 183 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 970,
+          "name": "Incheon International Airport",
+          "id": "ICN",
+          "overnight": true
+        }
+      ],
+      "total_duration": 1990,
+      "carbon_emissions": {
+        "this_flight": 758000,
+        "typical_for_this_route": 761000,
+        "difference_percent": 0
+      },
+      "price": 778,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OZ.png",
+      "booking_token": "WyJDalJJTldSTllsWk5Uazl1WkVWQlNYbG1ja0ZDUnkwdExTMHRMUzB0TFhCcVlYQXhOa0ZCUVVGQlIyOVVSRFp6U1hSQ1JFVkJFZ3RQV2pJeE1YeFBXamMwTlJvTENON2ZCQkFDR2dOVlUwUTRISERlM3dRPSIsW1siU0ZPIiwiMjAyNi0wNi0yMyIsIklDTiIsbnVsbCwiT1oiLCIyMTEiXSxbIklDTiIsIjIwMjYtMDYtMjUiLCJIS0ciLG51bGwsIk9aIiwiNzQ1Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-23 06:00"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-23 07:39"
+          },
+          "duration": 99,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 2127",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 55 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-23 12:50"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-06-24 18:30"
+          },
+          "duration": 880,
+          "airplane": "Boeing 787",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 152",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 627 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 311,
+          "name": "Los Angeles International Airport",
+          "id": "LAX"
+        }
+      ],
+      "total_duration": 1290,
+      "carbon_emissions": {
+        "this_flight": 683000,
+        "typical_for_this_route": 761000,
+        "difference_percent": -10
+      },
+      "price": 794,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJTldSTllsWk5Uazl1WkVWQlNYbG1ja0ZDUnkwdExTMHRMUzB0TFhCcVlYQXhOa0ZCUVVGQlIyOVVSRFp6U1hSQ1JFVkJFZ3hWUVRJeE1qZDhWVUV4TlRJYUN3aW83QVFRQWhvRFZWTkVPQnh3cU93RSIsW1siU0ZPIiwiMjAyNi0wNi0yMyIsIkxBWCIsbnVsbCwiVUEiLCIyMTI3Il0sWyJMQVgiLCIyMDI2LTA2LTIzIiwiSEtHIixudWxsLCJVQSIsIjE1MiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-23 23:50"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-06-25 05:00"
+          },
+          "duration": 850,
+          "airplane": "Boeing 777",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 877",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 806 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 850,
+      "carbon_emissions": {
+        "this_flight": 806000,
+        "typical_for_this_route": 761000,
+        "difference_percent": 6
+      },
+      "price": 954,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJTldSTllsWk5Uazl1WkVWQlNYbG1ja0ZDUnkwdExTMHRMUzB0TFhCcVlYQXhOa0ZCUVVGQlIyOVVSRFp6U1hSQ1JFVkJFZ1ZWUVRnM054b0xDUGJvQlJBQ0dnTlZVMFE0SEhEMjZBVT0iLFtbIlNGTyIsIjIwMjYtMDYtMjMiLCJIS0ciLG51bGwsIlVBIiwiODc3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-23 01:20"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-06-24 06:15"
+          },
+          "duration": 835,
+          "airplane": "Boeing 777",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 873",
+          "ticket_also_sold_by": [
+            "American"
+          ],
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 840 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 835,
+      "carbon_emissions": {
+        "this_flight": 840000,
+        "typical_for_this_route": 761000,
+        "difference_percent": 10
+      },
+      "price": 1295,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+      "booking_token": "WyJDalJJTldSTllsWk5Uazl1WkVWQlNYbG1ja0ZDUnkwdExTMHRMUzB0TFhCcVlYQXhOa0ZCUVVGQlIyOVVSRFp6U1hSQ1JFVkJFZ1ZEV0RnM014b0xDSUx6QnhBQ0dnTlZVMFE0SEhDQzh3Yz0iLFtbIlNGTyIsIjIwMjYtMDYtMjMiLCJIS0ciLG51bGwsIkNYIiwiODczIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-23 14:00"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-06-24 18:55"
+          },
+          "duration": 835,
+          "airplane": "Boeing 777",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 879",
+          "ticket_also_sold_by": [
+            "American"
+          ],
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 866 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "total_duration": 835,
+      "carbon_emissions": {
+        "this_flight": 867000,
+        "typical_for_this_route": 761000,
+        "difference_percent": 14
+      },
+      "price": 1295,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+      "booking_token": "WyJDalJJTldSTllsWk5Uazl1WkVWQlNYbG1ja0ZDUnkwdExTMHRMUzB0TFhCcVlYQXhOa0ZCUVVGQlIyOVVSRFp6U1hSQ1JFVkJFZ1ZEV0RnM09Sb0xDSUx6QnhBQ0dnTlZVMFE0SEhDQzh3Yz0iLFtbIlNGTyIsIjIwMjYtMDYtMjMiLCJIS0ciLG51bGwsIkNYIiwiODc5Il1dXQ=="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 778,
+    "price_level": "typical",
+    "typical_price_range": [
+      550,
+      870
+    ],
+    "price_history": [
+      [
+        1774335600,
+        716
+      ],
+      [
+        1774422000,
+        659
+      ],
+      [
+        1774508400,
+        716
+      ],
+      [
+        1774594800,
+        716
+      ],
+      [
+        1774681200,
+        716
+      ],
+      [
+        1774767600,
+        659
+      ],
+      [
+        1774854000,
+        659
+      ],
+      [
+        1774940400,
+        659
+      ],
+      [
+        1775026800,
+        709
+      ],
+      [
+        1775113200,
+        709
+      ],
+      [
+        1775199600,
+        709
+      ],
+      [
+        1775286000,
+        709
+      ],
+      [
+        1775372400,
+        709
+      ],
+      [
+        1775458800,
+        709
+      ],
+      [
+        1775545200,
+        709
+      ],
+      [
+        1775631600,
+        709
+      ],
+      [
+        1775718000,
+        709
+      ],
+      [
+        1775804400,
+        710
+      ],
+      [
+        1775890800,
+        710
+      ],
+      [
+        1775977200,
+        710
+      ],
+      [
+        1776063600,
+        709
+      ],
+      [
+        1776150000,
+        709
+      ],
+      [
+        1776236400,
+        604
+      ],
+      [
+        1776322800,
+        604
+      ],
+      [
+        1776409200,
+        779
+      ],
+      [
+        1776495600,
+        779
+      ],
+      [
+        1776582000,
+        779
+      ],
+      [
+        1776668400,
+        779
+      ],
+      [
+        1776754800,
+        779
+      ],
+      [
+        1776841200,
+        729
+      ],
+      [
+        1776927600,
+        729
+      ],
+      [
+        1777014000,
+        729
+      ],
+      [
+        1777100400,
+        729
+      ],
+      [
+        1777186800,
+        729
+      ],
+      [
+        1777273200,
+        729
+      ],
+      [
+        1777359600,
+        729
+      ],
+      [
+        1777446000,
+        744
+      ],
+      [
+        1777532400,
+        744
+      ],
+      [
+        1777618800,
+        744
+      ],
+      [
+        1777705200,
+        744
+      ],
+      [
+        1777791600,
+        744
+      ],
+      [
+        1777878000,
+        744
+      ],
+      [
+        1777964400,
+        744
+      ],
+      [
+        1778050800,
+        729
+      ],
+      [
+        1778137200,
+        744
+      ],
+      [
+        1778223600,
+        744
+      ],
+      [
+        1778310000,
+        681
+      ],
+      [
+        1778396400,
+        740
+      ],
+      [
+        1778482800,
+        740
+      ],
+      [
+        1778569200,
+        687
+      ],
+      [
+        1778655600,
+        687
+      ],
+      [
+        1778742000,
+        744
+      ],
+      [
+        1778828400,
+        744
+      ],
+      [
+        1778914800,
+        778
+      ],
+      [
+        1779001200,
+        778
+      ],
+      [
+        1779087600,
+        748
+      ],
+      [
+        1779174000,
+        748
+      ],
+      [
+        1779260400,
+        778
+      ],
+      [
+        1779346800,
+        778
+      ],
+      [
+        1779433200,
+        778
+      ],
+      [
+        1779519600,
+        778
+      ],
+      [
+        1779606000,
+        778
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "SFO",
+            "name": "San Francisco International Airport"
+          },
+          "city": "San Francisco",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQhLXJKshv7iRU8OcvmRyc3ZHyoSy8ZfBGcntDNb8iTixSq8i7XIcn9tZMPIcM6-rm7kKcu2VQS3BKoYw",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRbcxCKTUaj5vz8PrFeUUBVCm8J3fXiMRJpnz4UfNsPeLOkP1EZK9sez1dEX--y-VLxpPAaVB5zo1hzXliHeLl3l0VFwrWrVz7UCQpkzCY"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "HKG",
+            "name": "Hong Kong International Airport"
+          },
+          "city": "Hong Kong",
+          "country": "Hong Kong",
+          "country_code": "HK",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTw4hL1mr5guduTOGdOZwJz3LPKCJ8gVMJLLysC52ardcvQF9spfxCgjmth1tgFQt9LV8udbc5Sx0Gl0w",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRMxMT46WfJjHYcOn3hqaJwQlDG9VSOAYYXPljq4w715PQkzgI3hblNxB_Ti-7Fbd5PlijETzi2xeiOC0Sno3Ya2EjCFZy6rGgWLo1Y1Y4"
+        }
+      ]
+    }
+  ]
+}

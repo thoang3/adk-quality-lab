@@ -1,0 +1,1366 @@
+{
+  "search_metadata": {
+    "id": "6a13101b95e9504894481acf",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/-A5CsfCXFFDi60-Td8miBg/6a13101b95e9504894481acf.json",
+    "created_at": "2026-05-24 14:50:03 UTC",
+    "processed_at": "2026-05-24 14:50:03 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhoeEgoyMDI2LTA2LTA3agcIARIDQk9TcgcIARIDTEFYQAFIAXABmAEC&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/-A5CsfCXFFDi60-Td8miBg/6a13101b95e9504894481acf.html",
+    "prettify_html_file": "https://serpapi.com/searches/-A5CsfCXFFDi60-Td8miBg/6a13101b95e9504894481acf.prettify",
+    "total_time_taken": 0.64
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "us",
+    "type": "2",
+    "departure_id": "BOS",
+    "arrival_id": "LAX",
+    "outbound_date": "2026-06-07",
+    "travel_class": 1,
+    "adults": 1,
+    "currency": "USD"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Boston Logan International Airport",
+            "id": "BOS",
+            "time": "2026-06-07 06:21"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 09:35"
+          },
+          "duration": 374,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 360",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 269 kg"
+          ]
+        }
+      ],
+      "total_duration": 374,
+      "carbon_emissions": {
+        "this_flight": 269000,
+        "typical_for_this_route": 326000,
+        "difference_percent": -17
+      },
+      "price": 199,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYkY4emJYbE1ibWxQYTNOQlRrOVNWbEZDUnkwdExTMHRMUzB0ZG5SaVltSTBNRUZCUVVGQlIyOVVSVUp6U21STlpUWkJFZ1ZWUVRNMk1Cb0xDT1dhQVJBQ0dnTlZVMFE0SEhEbG1nRT0iLFtbIkJPUyIsIjIwMjYtMDYtMDciLCJMQVgiLG51bGwsIlVBIiwiMzYwIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Boston Logan International Airport",
+            "id": "BOS",
+            "time": "2026-06-07 06:20"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 09:35"
+          },
+          "duration": 375,
+          "airplane": "Boeing 757",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 479",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 428 kg"
+          ]
+        }
+      ],
+      "total_duration": 375,
+      "carbon_emissions": {
+        "this_flight": 428000,
+        "typical_for_this_route": 326000,
+        "difference_percent": 31
+      },
+      "price": 219,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYkY4emJYbE1ibWxQYTNOQlRrOVNWbEZDUnkwdExTMHRMUzB0ZG5SaVltSTBNRUZCUVVGQlIyOVVSVUp6U21STlpUWkJFZ1ZFVERRM09Sb0xDTkNxQVJBQ0dnTlZVMFE0SEhEUXFnRT0iLFtbIkJPUyIsIjIwMjYtMDYtMDciLCJMQVgiLG51bGwsIkRMIiwiNDc5Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Boston Logan International Airport",
+            "id": "BOS",
+            "time": "2026-06-07 06:02"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 09:31"
+          },
+          "duration": 389,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 287",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 417 kg"
+          ]
+        }
+      ],
+      "total_duration": 389,
+      "carbon_emissions": {
+        "this_flight": 418000,
+        "typical_for_this_route": 326000,
+        "difference_percent": 28
+      },
+      "price": 229,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYkY4emJYbE1ibWxQYTNOQlRrOVNWbEZDUnkwdExTMHRMUzB0ZG5SaVltSTBNRUZCUVVGQlIyOVVSVUp6U21STlpUWkJFZ1ZDTmpJNE54b0xDTGl5QVJBQ0dnTlZVMFE0SEhDNHNnRT0iLFtbIkJPUyIsIjIwMjYtMDYtMDciLCJMQVgiLG51bGwsIkI2IiwiMjg3Il1dXQ=="
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Boston Logan International Airport",
+            "id": "BOS",
+            "time": "2026-06-07 06:00"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 09:27"
+          },
+          "duration": 387,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 2441",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 275 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 12:15"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 13:55"
+          },
+          "duration": 100,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1506",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 55 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 168,
+          "name": "San Francisco International Airport",
+          "id": "SFO"
+        }
+      ],
+      "total_duration": 655,
+      "carbon_emissions": {
+        "this_flight": 332000,
+        "typical_for_this_route": 326000,
+        "difference_percent": 2
+      },
+      "price": 166,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYkY4emJYbE1ibWxQYTNOQlRrOVNWbEZDUnkwdExTMHRMUzB0ZG5SaVltSTBNRUZCUVVGQlIyOVVSVUp6U21STlpUWkJFZzFWUVRJME5ERjhWVUV4TlRBMkdnc0l4b0VCRUFJYUExVlRSRGdjY01hQkFRPT0iLFtbIkJPUyIsIjIwMjYtMDYtMDciLCJTRk8iLG51bGwsIlVBIiwiMjQ0MSJdLFsiU0ZPIiwiMjAyNi0wNi0wNyIsIkxBWCIsbnVsbCwiVUEiLCIxNTA2Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Boston Logan International Airport",
+            "id": "BOS",
+            "time": "2026-06-07 06:00"
+          },
+          "arrival_airport": {
+            "name": "Dallas Fort Worth International Airport",
+            "id": "DFW",
+            "time": "2026-06-07 09:23"
+          },
+          "duration": 263,
+          "airplane": "Airbus A321",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 2527",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 217 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Dallas Fort Worth International Airport",
+            "id": "DFW",
+            "time": "2026-06-07 10:41"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 12:01"
+          },
+          "duration": 200,
+          "airplane": "Airbus A321",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 2827",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 172 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 78,
+          "name": "Dallas Fort Worth International Airport",
+          "id": "DFW"
+        }
+      ],
+      "total_duration": 541,
+      "carbon_emissions": {
+        "this_flight": 391000,
+        "typical_for_this_route": 326000,
+        "difference_percent": 20
+      },
+      "price": 184,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYkY4emJYbE1ibWxQYTNOQlRrOVNWbEZDUnkwdExTMHRMUzB0ZG5SaVltSTBNRUZCUVVGQlIyOVVSVUp6U21STlpUWkJFZzFCUVRJMU1qZDhRVUV5T0RJM0dnc0lrSThCRUFJYUExVlRSRGdjY0pDUEFRPT0iLFtbIkJPUyIsIjIwMjYtMDYtMDciLCJERlciLG51bGwsIkFBIiwiMjUyNyJdLFsiREZXIiwiMjAyNi0wNi0wNyIsIkxBWCIsbnVsbCwiQUEiLCIyODI3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Boston Logan International Airport",
+            "id": "BOS",
+            "time": "2026-06-07 06:00"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 09:27"
+          },
+          "duration": 387,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 2441",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 275 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 10:25"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 12:03"
+          },
+          "duration": 98,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 457",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 66 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 58,
+          "name": "San Francisco International Airport",
+          "id": "SFO"
+        }
+      ],
+      "total_duration": 543,
+      "carbon_emissions": {
+        "this_flight": 343000,
+        "typical_for_this_route": 326000,
+        "difference_percent": 5
+      },
+      "price": 184,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYkY4emJYbE1ibWxQYTNOQlRrOVNWbEZDUnkwdExTMHRMUzB0ZG5SaVltSTBNRUZCUVVGQlIyOVVSVUp6U21STlpUWkJFZ3hWUVRJME5ERjhWVUUwTlRjYUN3aVFqd0VRQWhvRFZWTkVPQnh3a0k4QiIsW1siQk9TIiwiMjAyNi0wNi0wNyIsIlNGTyIsbnVsbCwiVUEiLCIyNDQxIl0sWyJTRk8iLCIyMDI2LTA2LTA3IiwiTEFYIixudWxsLCJVQSIsIjQ1NyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Boston Logan International Airport",
+            "id": "BOS",
+            "time": "2026-06-07 06:26"
+          },
+          "arrival_airport": {
+            "name": "Philadelphia International Airport",
+            "id": "PHL",
+            "time": "2026-06-07 08:10"
+          },
+          "duration": 104,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 897",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 73 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Philadelphia International Airport",
+            "id": "PHL",
+            "time": "2026-06-07 09:46"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 12:40"
+          },
+          "duration": 354,
+          "airplane": "Airbus A321neo",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 824",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 256 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 96,
+          "name": "Philadelphia International Airport",
+          "id": "PHL"
+        }
+      ],
+      "total_duration": 554,
+      "carbon_emissions": {
+        "this_flight": 330000,
+        "typical_for_this_route": 326000,
+        "difference_percent": 1
+      },
+      "price": 184,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYkY4emJYbE1ibWxQYTNOQlRrOVNWbEZDUnkwdExTMHRMUzB0ZG5SaVltSTBNRUZCUVVGQlIyOVVSVUp6U21STlpUWkJFZ3RCUVRnNU4zeEJRVGd5TkJvTENKQ1BBUkFDR2dOVlUwUTRISENRandFPSIsW1siQk9TIiwiMjAyNi0wNi0wNyIsIlBITCIsbnVsbCwiQUEiLCI4OTciXSxbIlBITCIsIjIwMjYtMDYtMDciLCJMQVgiLG51bGwsIkFBIiwiODI0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Boston Logan International Airport",
+            "id": "BOS",
+            "time": "2026-06-07 09:12"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-06-07 12:14"
+          },
+          "duration": 182,
+          "airplane": "Airbus A320neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Economy",
+          "flight_number": "F9 3511",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 113 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-06-07 15:15"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 17:12"
+          },
+          "duration": 297,
+          "airplane": "Airbus A320neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Economy",
+          "flight_number": "F9 3215",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 206 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 181,
+          "name": "Hartsfield-Jackson Atlanta International Airport",
+          "id": "ATL"
+        }
+      ],
+      "total_duration": 660,
+      "carbon_emissions": {
+        "this_flight": 320000,
+        "typical_for_this_route": 326000,
+        "difference_percent": -2
+      },
+      "price": 221,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYkY4emJYbE1ibWxQYTNOQlRrOVNWbEZDUnkwdExTMHRMUzB0ZG5SaVltSTBNRUZCUVVGQlIyOVVSVUp6U21STlpUWkJFZzFHT1RNMU1URjhSamt6TWpFMUdnc0kwcXdCRUFJYUExVlRSRGdjY05Lc0FRPT0iLFtbIkJPUyIsIjIwMjYtMDYtMDciLCJBVEwiLG51bGwsIkY5IiwiMzUxMSJdLFsiQVRMIiwiMjAyNi0wNi0wNyIsIkxBWCIsbnVsbCwiRjkiLCIzMjE1Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Boston Logan International Airport",
+            "id": "BOS",
+            "time": "2026-06-07 08:14"
+          },
+          "arrival_airport": {
+            "name": "Philadelphia International Airport",
+            "id": "PHL",
+            "time": "2026-06-07 09:49"
+          },
+          "duration": 95,
+          "airplane": "Airbus A321neo",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 2764",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 60 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Philadelphia International Airport",
+            "id": "PHL",
+            "time": "2026-06-07 11:00"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 13:54"
+          },
+          "duration": 354,
+          "airplane": "Airbus A321neo",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 2408",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 256 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 71,
+          "name": "Philadelphia International Airport",
+          "id": "PHL"
+        }
+      ],
+      "total_duration": 520,
+      "carbon_emissions": {
+        "this_flight": 317000,
+        "typical_for_this_route": 326000,
+        "difference_percent": -3
+      },
+      "price": 229,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYkY4emJYbE1ibWxQYTNOQlRrOVNWbEZDUnkwdExTMHRMUzB0ZG5SaVltSTBNRUZCUVVGQlIyOVVSVUp6U21STlpUWkJFZzFCUVRJM05qUjhRVUV5TkRBNEdnc0lwTElCRUFJYUExVlRSRGdjY0tTeUFRPT0iLFtbIkJPUyIsIjIwMjYtMDYtMDciLCJQSEwiLG51bGwsIkFBIiwiMjc2NCJdLFsiUEhMIiwiMjAyNi0wNi0wNyIsIkxBWCIsbnVsbCwiQUEiLCIyNDA4Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Boston Logan International Airport",
+            "id": "BOS",
+            "time": "2026-06-07 07:32"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 10:59"
+          },
+          "duration": 387,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 687",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 415 kg"
+          ]
+        }
+      ],
+      "total_duration": 387,
+      "carbon_emissions": {
+        "this_flight": 415000,
+        "typical_for_this_route": 326000,
+        "difference_percent": 27
+      },
+      "price": 309,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYkY4emJYbE1ibWxQYTNOQlRrOVNWbEZDUnkwdExTMHRMUzB0ZG5SaVltSTBNRUZCUVVGQlIyOVVSVUp6U21STlpUWkJFZ1ZDTmpZNE54b0xDUGp3QVJBQ0dnTlZVMFE0SEhENDhBRT0iLFtbIkJPUyIsIjIwMjYtMDYtMDciLCJMQVgiLG51bGwsIkI2IiwiNjg3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Boston Logan International Airport",
+            "id": "BOS",
+            "time": "2026-06-07 17:40"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 21:04"
+          },
+          "duration": 384,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 387",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 415 kg"
+          ]
+        }
+      ],
+      "total_duration": 384,
+      "carbon_emissions": {
+        "this_flight": 415000,
+        "typical_for_this_route": 326000,
+        "difference_percent": 27
+      },
+      "price": 309,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYkY4emJYbE1ibWxQYTNOQlRrOVNWbEZDUnkwdExTMHRMUzB0ZG5SaVltSTBNRUZCUVVGQlIyOVVSVUp6U21STlpUWkJFZ1ZDTmpNNE54b0xDUGp3QVJBQ0dnTlZVMFE0SEhENDhBRT0iLFtbIkJPUyIsIjIwMjYtMDYtMDciLCJMQVgiLG51bGwsIkI2IiwiMzg3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Boston Logan International Airport",
+            "id": "BOS",
+            "time": "2026-06-07 20:35"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 23:54"
+          },
+          "duration": 379,
+          "airplane": "Boeing 757",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 321",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 428 kg"
+          ]
+        }
+      ],
+      "total_duration": 379,
+      "carbon_emissions": {
+        "this_flight": 428000,
+        "typical_for_this_route": 326000,
+        "difference_percent": 31
+      },
+      "price": 309,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYkY4emJYbE1ibWxQYTNOQlRrOVNWbEZDUnkwdExTMHRMUzB0ZG5SaVltSTBNRUZCUVVGQlIyOVVSVUp6U21STlpUWkJFZ1ZFVERNeU1Sb0xDUGp3QVJBQ0dnTlZVMFE0SEhENDhBRT0iLFtbIkJPUyIsIjIwMjYtMDYtMDciLCJMQVgiLG51bGwsIkRMIiwiMzIxIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Boston Logan International Airport",
+            "id": "BOS",
+            "time": "2026-06-07 10:45"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 14:06"
+          },
+          "duration": 381,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 1487",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 417 kg"
+          ]
+        }
+      ],
+      "total_duration": 381,
+      "carbon_emissions": {
+        "this_flight": 418000,
+        "typical_for_this_route": 326000,
+        "difference_percent": 28
+      },
+      "price": 369,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYkY4emJYbE1ibWxQYTNOQlRrOVNWbEZDUnkwdExTMHRMUzB0ZG5SaVltSTBNRUZCUVVGQlIyOVVSVUp6U21STlpUWkJFZ1pDTmpFME9EY2FDd2pvbndJUUFob0RWVk5FT0J4dzZKOEMiLFtbIkJPUyIsIjIwMjYtMDYtMDciLCJMQVgiLG51bGwsIkI2IiwiMTQ4NyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Boston Logan International Airport",
+            "id": "BOS",
+            "time": "2026-06-07 10:55"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 14:07"
+          },
+          "duration": 372,
+          "airplane": "Boeing 757",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 2004",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 428 kg"
+          ]
+        }
+      ],
+      "total_duration": 372,
+      "carbon_emissions": {
+        "this_flight": 428000,
+        "typical_for_this_route": 326000,
+        "difference_percent": 31
+      },
+      "price": 419,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYkY4emJYbE1ibWxQYTNOQlRrOVNWbEZDUnkwdExTMHRMUzB0ZG5SaVltSTBNRUZCUVVGQlIyOVVSVUp6U21STlpUWkJFZ1pFVERJd01EUWFDd2p3eGdJUUFob0RWVk5FT0J4dzhNWUMiLFtbIkJPUyIsIjIwMjYtMDYtMDciLCJMQVgiLG51bGwsIkRMIiwiMjAwNCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Boston Logan International Airport",
+            "id": "BOS",
+            "time": "2026-06-07 16:12"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 19:33"
+          },
+          "duration": 381,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 487",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 415 kg"
+          ]
+        }
+      ],
+      "total_duration": 381,
+      "carbon_emissions": {
+        "this_flight": 415000,
+        "typical_for_this_route": 326000,
+        "difference_percent": 27
+      },
+      "price": 424,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYkY4emJYbE1ibWxQYTNOQlRrOVNWbEZDUnkwdExTMHRMUzB0ZG5SaVltSTBNRUZCUVVGQlIyOVVSVUp6U21STlpUWkJFZ1ZDTmpRNE54b0xDT1BLQWhBQ0dnTlZVMFE0SEhEanlnST0iLFtbIkJPUyIsIjIwMjYtMDYtMDciLCJMQVgiLG51bGwsIkI2IiwiNDg3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Boston Logan International Airport",
+            "id": "BOS",
+            "time": "2026-06-07 16:25"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 19:47"
+          },
+          "duration": 382,
+          "airplane": "Boeing 757",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 318",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 428 kg"
+          ]
+        }
+      ],
+      "total_duration": 382,
+      "carbon_emissions": {
+        "this_flight": 428000,
+        "typical_for_this_route": 326000,
+        "difference_percent": 31
+      },
+      "price": 579,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYkY4emJYbE1ibWxQYTNOQlRrOVNWbEZDUnkwdExTMHRMUzB0ZG5SaVltSTBNRUZCUVVGQlIyOVVSVUp6U21STlpUWkJFZ1ZFVERNeE9Cb0xDUEREQXhBQ0dnTlZVMFE0SEhEd3d3TT0iLFtbIkJPUyIsIjIwMjYtMDYtMDciLCJMQVgiLG51bGwsIkRMIiwiMzE4Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Boston Logan International Airport",
+            "id": "BOS",
+            "time": "2026-06-07 07:42"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 11:08"
+          },
+          "duration": 386,
+          "airplane": "Airbus A321 (Sharklets)",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 2455",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 578 kg"
+          ]
+        }
+      ],
+      "total_duration": 386,
+      "carbon_emissions": {
+        "this_flight": 579000,
+        "typical_for_this_route": 326000,
+        "difference_percent": 78
+      },
+      "price": 645,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYkY4emJYbE1ibWxQYTNOQlRrOVNWbEZDUnkwdExTMHRMUzB0ZG5SaVltSTBNRUZCUVVGQlIyOVVSVUp6U21STlpUWkJFZ1pCUVRJME5UVWFDd2k0OXdNUUFob0RWVk5FT0J4d3VQY0QiLFtbIkJPUyIsIjIwMjYtMDYtMDciLCJMQVgiLG51bGwsIkFBIiwiMjQ1NSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Boston Logan International Airport",
+            "id": "BOS",
+            "time": "2026-06-07 10:00"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 13:25"
+          },
+          "duration": 385,
+          "airplane": "Airbus A321 (Sharklets)",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 1277",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 578 kg"
+          ]
+        }
+      ],
+      "total_duration": 385,
+      "carbon_emissions": {
+        "this_flight": 579000,
+        "typical_for_this_route": 326000,
+        "difference_percent": 78
+      },
+      "price": 645,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYkY4emJYbE1ibWxQYTNOQlRrOVNWbEZDUnkwdExTMHRMUzB0ZG5SaVltSTBNRUZCUVVGQlIyOVVSVUp6U21STlpUWkJFZ1pCUVRFeU56Y2FDd2k0OXdNUUFob0RWVk5FT0J4d3VQY0QiLFtbIkJPUyIsIjIwMjYtMDYtMDciLCJMQVgiLG51bGwsIkFBIiwiMTI3NyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Boston Logan International Airport",
+            "id": "BOS",
+            "time": "2026-06-07 15:00"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 18:26"
+          },
+          "duration": 386,
+          "airplane": "Airbus A321 (Sharklets)",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 3125",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 578 kg"
+          ]
+        }
+      ],
+      "total_duration": 386,
+      "carbon_emissions": {
+        "this_flight": 579000,
+        "typical_for_this_route": 326000,
+        "difference_percent": 78
+      },
+      "price": 645,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYkY4emJYbE1ibWxQYTNOQlRrOVNWbEZDUnkwdExTMHRMUzB0ZG5SaVltSTBNRUZCUVVGQlIyOVVSVUp6U21STlpUWkJFZ1pCUVRNeE1qVWFDd2k0OXdNUUFob0RWVk5FT0J4d3VQY0QiLFtbIkJPUyIsIjIwMjYtMDYtMDciLCJMQVgiLG51bGwsIkFBIiwiMzEyNSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Boston Logan International Airport",
+            "id": "BOS",
+            "time": "2026-06-07 18:30"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 21:55"
+          },
+          "duration": 385,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 639",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 269 kg"
+          ]
+        }
+      ],
+      "total_duration": 385,
+      "carbon_emissions": {
+        "this_flight": 269000,
+        "typical_for_this_route": 326000,
+        "difference_percent": -17
+      },
+      "price": 742,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJYkY4emJYbE1ibWxQYTNOQlRrOVNWbEZDUnkwdExTMHRMUzB0ZG5SaVltSTBNRUZCUVVGQlIyOVVSVUp6U21STlpUWkJFZ1ZWUVRZek9Sb0xDTlBEQkJBQ0dnTlZVMFE0SEhEVHd3UT0iLFtbIkJPUyIsIjIwMjYtMDYtMDciLCJMQVgiLG51bGwsIlVBIiwiNjM5Il1dXQ=="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 166,
+    "price_level": "typical",
+    "typical_price_range": [
+      110,
+      190
+    ],
+    "price_history": [
+      [
+        1774411200,
+        125
+      ],
+      [
+        1774497600,
+        125
+      ],
+      [
+        1774584000,
+        145
+      ],
+      [
+        1774670400,
+        145
+      ],
+      [
+        1774756800,
+        145
+      ],
+      [
+        1774843200,
+        145
+      ],
+      [
+        1774929600,
+        145
+      ],
+      [
+        1775016000,
+        145
+      ],
+      [
+        1775102400,
+        145
+      ],
+      [
+        1775188800,
+        145
+      ],
+      [
+        1775275200,
+        140
+      ],
+      [
+        1775361600,
+        145
+      ],
+      [
+        1775448000,
+        131
+      ],
+      [
+        1775534400,
+        131
+      ],
+      [
+        1775620800,
+        145
+      ],
+      [
+        1775707200,
+        140
+      ],
+      [
+        1775793600,
+        129
+      ],
+      [
+        1775880000,
+        145
+      ],
+      [
+        1775966400,
+        145
+      ],
+      [
+        1776052800,
+        119
+      ],
+      [
+        1776139200,
+        129
+      ],
+      [
+        1776225600,
+        145
+      ],
+      [
+        1776312000,
+        174
+      ],
+      [
+        1776398400,
+        164
+      ],
+      [
+        1776484800,
+        164
+      ],
+      [
+        1776571200,
+        174
+      ],
+      [
+        1776657600,
+        164
+      ],
+      [
+        1776744000,
+        164
+      ],
+      [
+        1776830400,
+        144
+      ],
+      [
+        1776916800,
+        155
+      ],
+      [
+        1777003200,
+        155
+      ],
+      [
+        1777089600,
+        164
+      ],
+      [
+        1777176000,
+        174
+      ],
+      [
+        1777262400,
+        169
+      ],
+      [
+        1777348800,
+        174
+      ],
+      [
+        1777435200,
+        154
+      ],
+      [
+        1777521600,
+        154
+      ],
+      [
+        1777608000,
+        154
+      ],
+      [
+        1777694400,
+        154
+      ],
+      [
+        1777780800,
+        154
+      ],
+      [
+        1777867200,
+        154
+      ],
+      [
+        1777953600,
+        154
+      ],
+      [
+        1778040000,
+        174
+      ],
+      [
+        1778126400,
+        180
+      ],
+      [
+        1778212800,
+        154
+      ],
+      [
+        1778299200,
+        154
+      ],
+      [
+        1778385600,
+        174
+      ],
+      [
+        1778472000,
+        174
+      ],
+      [
+        1778558400,
+        174
+      ],
+      [
+        1778644800,
+        174
+      ],
+      [
+        1778731200,
+        174
+      ],
+      [
+        1778817600,
+        154
+      ],
+      [
+        1778904000,
+        174
+      ],
+      [
+        1778990400,
+        174
+      ],
+      [
+        1779076800,
+        174
+      ],
+      [
+        1779163200,
+        119
+      ],
+      [
+        1779249600,
+        119
+      ],
+      [
+        1779336000,
+        119
+      ],
+      [
+        1779422400,
+        161
+      ],
+      [
+        1779508800,
+        161
+      ],
+      [
+        1779595200,
+        166
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "BOS",
+            "name": "Boston Logan International Airport"
+          },
+          "city": "Boston",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTsThI_7VKLWvxDOugOLpVHze3RQP7rvr-KLjOZJ0PEf2xI8bEhumBB3ZjXe4HF-8srxAhSOe22Cjuc1g",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTmyfqYldUKPJdrEh9tMEkjc-XwVb6VUgvvAhx1n4EUeXRSkCPp1-NQAofPisLnWMTcastf8G7m1fVavxIZ4tviHRyoXXRpqKgvkC8ja3w"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "LAX",
+            "name": "Los Angeles International Airport"
+          },
+          "city": "Los Angeles",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTFuS2Y5_b7ZIl-g2Hm7jnG7zoi2uk0CQltF_DFbp6gIzfYznnOB6uJm9d6ePT5PJO5XM1j8vigwCNxRA",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT4B0K7etaN3KgEgtU5dJajdcmLtB5QSDRYr4KqcwH1iWxMm7TIqwtcUTTHD5AmNyeeFIpVpTnbSDeuD_HVlkYzOam-TO9w1worRSGRTUo"
+        }
+      ]
+    }
+  ]
+}

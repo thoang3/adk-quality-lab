@@ -1,0 +1,29 @@
+You are an expert prompt engineer for ADK agents. Your task is to propose
+targeted edits to an agent instruction that reduce a specific failure mode.
+
+## Current instruction
+{current_instruction}
+
+## Failure mode to fix: {failure_mode}
+## Surface being tuned: {surface}  (one of: root_agent, planning_agent, tool_description)
+
+## Top failure cluster exemplars (representative cases where the current instruction fails)
+{cluster_exemplars}
+
+## Edit history (previously accepted / rejected edits — avoid oscillation)
+{edit_history}
+
+## Your task
+Propose exactly {k} candidate instruction edits. Each edit must:
+1. Be a complete replacement of the current instruction (not a diff).
+2. Target the failure mode without regressing on other categories.
+3. Be meaningfully different from each other and from the edit history.
+4. For Type 2 (Truncation Collapse): add explicit disclosure language.
+   For Type 1 (Value Mutation): add verbatim-citation constraints.
+
+## Output format (JSON array, no prose)
+[
+  {{"candidate_id": 1, "instruction": "<full replacement text>", "rationale": "<1 sentence>"}},
+  {{"candidate_id": 2, "instruction": "<full replacement text>", "rationale": "<1 sentence>"}},
+  {{"candidate_id": 3, "instruction": "<full replacement text>", "rationale": "<1 sentence>"}}
+]

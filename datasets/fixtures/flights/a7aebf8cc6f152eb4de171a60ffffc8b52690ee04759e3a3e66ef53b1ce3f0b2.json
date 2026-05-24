@@ -1,0 +1,1101 @@
+{
+  "search_metadata": {
+    "id": "6a130f9e95e9504557c38f74",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/o0kmndRDllsOP88Q70wAwA/6a130f9e95e9504557c38f74.json",
+    "created_at": "2026-05-24 14:47:58 UTC",
+    "processed_at": "2026-05-24 14:47:58 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhoeEgoyMDI2LTA2LTA3agcIARIDTEFYcgcIARIDTlJUQAFIA3ABmAEC&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/o0kmndRDllsOP88Q70wAwA/6a130f9e95e9504557c38f74.html",
+    "prettify_html_file": "https://serpapi.com/searches/o0kmndRDllsOP88Q70wAwA/6a130f9e95e9504557c38f74.prettify",
+    "total_time_taken": 0.7
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "us",
+    "type": "2",
+    "departure_id": "LAX",
+    "arrival_id": "NRT",
+    "outbound_date": "2026-06-07",
+    "travel_class": 3,
+    "adults": 1,
+    "currency": "USD"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 16:55"
+          },
+          "arrival_airport": {
+            "name": "Ninoy Aquino International Airport",
+            "id": "MNL",
+            "time": "2026-06-08 22:35"
+          },
+          "duration": 880,
+          "airplane": "Boeing 777",
+          "airline": "Philippine Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/PR.png",
+          "travel_class": "Business Class",
+          "flight_number": "PR 123",
+          "extensions": [
+            "Angled flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2704 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Ninoy Aquino International Airport",
+            "id": "MNL",
+            "time": "2026-06-09 07:30"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-09 13:00"
+          },
+          "duration": 270,
+          "airplane": "Airbus A321",
+          "airline": "Philippine Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/PR.png",
+          "travel_class": "Business Class",
+          "flight_number": "PR 428",
+          "extensions": [
+            "Extra reclining seat",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 415 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 535,
+          "name": "Ninoy Aquino International Airport",
+          "id": "MNL",
+          "overnight": true
+        }
+      ],
+      "total_duration": 1685,
+      "carbon_emissions": {
+        "this_flight": 3120000,
+        "typical_for_this_route": 2423000,
+        "difference_percent": 29
+      },
+      "price": 2886,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/PR.png",
+      "booking_token": "WyJDalJJZFZBdFpVSndSa3cwYzBsQlZGSmlhSGRDUnkwdExTMHRMUzB0TFc5NVltOHhPRUZCUVVGQlIyOVVSRFUwVG5veFVIbEJFZ3RRVWpFeU0zeFFValF5T0JvTENNN09FUkFDR2dOVlUwUTRISERPemhFPSIsW1siTEFYIiwiMjAyNi0wNi0wNyIsIk1OTCIsbnVsbCwiUFIiLCIxMjMiXSxbIk1OTCIsIjIwMjYtMDYtMDkiLCJOUlQiLG51bGwsIlBSIiwiNDI4Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 07:30"
+          },
+          "arrival_airport": {
+            "name": "Calgary International Airport",
+            "id": "YYC",
+            "time": "2026-06-07 11:35"
+          },
+          "duration": 185,
+          "airplane": "Boeing 737",
+          "airline": "WestJet",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WS.png",
+          "travel_class": "Premium Economy",
+          "flight_number": "WS 1021",
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 189 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Calgary International Airport",
+            "id": "YYC",
+            "time": "2026-06-07 14:50"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-08 16:20"
+          },
+          "duration": 630,
+          "airplane": "Boeing 787",
+          "airline": "WestJet",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WS.png",
+          "travel_class": "Business Class",
+          "flight_number": "WS 80",
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1770 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 195,
+          "name": "Calgary International Airport",
+          "id": "YYC"
+        }
+      ],
+      "total_duration": 1010,
+      "carbon_emissions": {
+        "this_flight": 1960000,
+        "typical_for_this_route": 2423000,
+        "difference_percent": -19
+      },
+      "price": 4234,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WS.png",
+      "booking_token": "WyJDalJJZFZBdFpVSndSa3cwYzBsQlZGSmlhSGRDUnkwdExTMHRMUzB0TFc5NVltOHhPRUZCUVVGQlIyOVVSRFUwVG5veFVIbEJFZ3RYVXpFd01qRjhWMU00TUJvTENMYnJHUkFDR2dOVlUwUTRISEMyNnhrPSIsW1siTEFYIiwiMjAyNi0wNi0wNyIsIllZQyIsbnVsbCwiV1MiLCIxMDIxIl0sWyJZWUMiLCIyMDI2LTA2LTA3IiwiTlJUIixudWxsLCJXUyIsIjgwIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 10:55"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-08 14:10"
+          },
+          "duration": 675,
+          "airplane": "Boeing 787",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Business Class",
+          "flight_number": "UA 32",
+          "ticket_also_sold_by": [
+            "ANA"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1389 kg"
+          ]
+        }
+      ],
+      "total_duration": 675,
+      "carbon_emissions": {
+        "this_flight": 1390000,
+        "typical_for_this_route": 2423000,
+        "difference_percent": -43
+      },
+      "price": 5931,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJZFZBdFpVSndSa3cwYzBsQlZGSmlhSGRDUnkwdExTMHRMUzB0TFc5NVltOHhPRUZCUVVGQlIyOVVSRFUwVG5veFVIbEJFZ1JWUVRNeUdnc0ltcGtrRUFJYUExVlRSRGdjY0pxWkpBPT0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJOUlQiLG51bGwsIlVBIiwiMzIiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 12:45"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-08 16:30"
+          },
+          "duration": 705,
+          "airplane": "Boeing 787",
+          "airline": "ANA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+          "travel_class": "Business Class",
+          "flight_number": "NH 5",
+          "ticket_also_sold_by": [
+            "United"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1502 kg"
+          ]
+        }
+      ],
+      "total_duration": 705,
+      "carbon_emissions": {
+        "this_flight": 1502000,
+        "typical_for_this_route": 2423000,
+        "difference_percent": -38
+      },
+      "price": 7980,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+      "booking_token": "WyJDalJJZFZBdFpVSndSa3cwYzBsQlZGSmlhSGRDUnkwdExTMHRMUzB0TFc5NVltOHhPRUZCUVVGQlIyOVVSRFUwVG5veFVIbEJFZ05PU0RVYUN3aisyVEFRQWhvRFZWTkVPQnh3L3RrdyIsW1siTEFYIiwiMjAyNi0wNi0wNyIsIk5SVCIsbnVsbCwiTkgiLCI1Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 13:05"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-08 16:35"
+          },
+          "duration": 690,
+          "airplane": "Boeing 787",
+          "airline": "JAL",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+          "travel_class": "Business Class",
+          "flight_number": "JL 61",
+          "ticket_also_sold_by": [
+            "American"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1689 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "total_duration": 690,
+      "carbon_emissions": {
+        "this_flight": 1689000,
+        "typical_for_this_route": 2423000,
+        "difference_percent": -30
+      },
+      "price": 7990,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+      "booking_token": "WyJDalJJZFZBdFpVSndSa3cwYzBsQlZGSmlhSGRDUnkwdExTMHRMUzB0TFc5NVltOHhPRUZCUVVGQlIyOVVSRFUwVG5veFVIbEJFZ1JLVERZeEdnc0k1dUV3RUFJYUExVlRSRGdjY09iaE1BPT0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJOUlQiLG51bGwsIkpMIiwiNjEiXV1d"
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 23:55"
+          },
+          "arrival_airport": {
+            "name": "Nadi International Airport",
+            "id": "NAN",
+            "time": "2026-06-09 06:00"
+          },
+          "duration": 665,
+          "airplane": "Airbus A350",
+          "airline": "Fiji Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FJ.png",
+          "travel_class": "Business Class",
+          "flight_number": "FJ 811",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2114 kg"
+          ],
+          "overnight": true,
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Nadi International Airport",
+            "id": "NAN",
+            "time": "2026-06-09 23:55"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-10 06:20"
+          },
+          "duration": 565,
+          "airplane": "Airbus A330",
+          "airline": "Fiji Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FJ.png",
+          "travel_class": "Business Class",
+          "flight_number": "FJ 351",
+          "extensions": [
+            "Angled flat seat",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2022 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 1075,
+          "name": "Nadi International Airport",
+          "id": "NAN"
+        }
+      ],
+      "total_duration": 2305,
+      "carbon_emissions": {
+        "this_flight": 4137000,
+        "typical_for_this_route": 2423000,
+        "difference_percent": 71
+      },
+      "price": 3574,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FJ.png",
+      "booking_token": "WyJDalJJZFZBdFpVSndSa3cwYzBsQlZGSmlhSGRDUnkwdExTMHRMUzB0TFc5NVltOHhPRUZCUVVGQlIyOVVSRFUwVG5veFVIbEJFZ3RHU2pneE1YeEdTak0xTVJvTENOem5GUkFDR2dOVlUwUTRISERjNXhVPSIsW1siTEFYIiwiMjAyNi0wNi0wNyIsIk5BTiIsbnVsbCwiRkoiLCI4MTEiXSxbIk5BTiIsIjIwMjYtMDYtMDkiLCJOUlQiLG51bGwsIkZKIiwiMzUxIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 23:45"
+          },
+          "arrival_airport": {
+            "name": "Ninoy Aquino International Airport",
+            "id": "MNL",
+            "time": "2026-06-09 05:30"
+          },
+          "duration": 885,
+          "airplane": "Boeing 777",
+          "airline": "Philippine Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/PR.png",
+          "travel_class": "Business Class",
+          "flight_number": "PR 103",
+          "extensions": [
+            "Angled flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2704 kg"
+          ],
+          "overnight": true,
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Ninoy Aquino International Airport",
+            "id": "MNL",
+            "time": "2026-06-09 07:30"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-09 13:00"
+          },
+          "duration": 270,
+          "airplane": "Airbus A321",
+          "airline": "Philippine Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/PR.png",
+          "travel_class": "Business Class",
+          "flight_number": "PR 428",
+          "ticket_also_sold_by": [
+            "ANA"
+          ],
+          "extensions": [
+            "Extra reclining seat",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 415 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 120,
+          "name": "Ninoy Aquino International Airport",
+          "id": "MNL"
+        }
+      ],
+      "total_duration": 1275,
+      "carbon_emissions": {
+        "this_flight": 3120000,
+        "typical_for_this_route": 2423000,
+        "difference_percent": 29
+      },
+      "price": 4004,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/PR.png",
+      "booking_token": "WyJDalJJZFZBdFpVSndSa3cwYzBsQlZGSmlhSGRDUnkwdExTMHRMUzB0TFc5NVltOHhPRUZCUVVGQlIyOVVSRFUwVG5veFVIbEJFZ3RRVWpFd00zeFFValF5T0JvTENJYTRHQkFDR2dOVlUwUTRISENHdUJnPSIsW1siTEFYIiwiMjAyNi0wNi0wNyIsIk1OTCIsbnVsbCwiUFIiLCIxMDMiXSxbIk1OTCIsIjIwMjYtMDYtMDkiLCJOUlQiLG51bGwsIlBSIiwiNDI4Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 23:55"
+          },
+          "arrival_airport": {
+            "name": "Xiamen Gaoqi International Airport",
+            "id": "XMN",
+            "time": "2026-06-09 06:00"
+          },
+          "duration": 905,
+          "airplane": "Boeing 787",
+          "airline": "XiamenAir",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MF.png",
+          "travel_class": "Business Class",
+          "flight_number": "MF 830",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2337 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Xiamen Gaoqi International Airport",
+            "id": "XMN",
+            "time": "2026-06-09 09:00"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-09 13:45"
+          },
+          "duration": 225,
+          "airplane": "Boeing 787",
+          "airline": "XiamenAir",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MF.png",
+          "travel_class": "Business Class",
+          "flight_number": "MF 815",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 673 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 180,
+          "name": "Xiamen Gaoqi International Airport",
+          "id": "XMN"
+        }
+      ],
+      "total_duration": 1310,
+      "carbon_emissions": {
+        "this_flight": 3011000,
+        "typical_for_this_route": 2423000,
+        "difference_percent": 24
+      },
+      "price": 4913,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MF.png",
+      "booking_token": "WyJDalJJZFZBdFpVSndSa3cwYzBsQlZGSmlhSGRDUnkwdExTMHRMUzB0TFc5NVltOHhPRUZCUVVGQlIyOVVSRFUwVG5veFVIbEJFZ3ROUmpnek1IeE5Samd4TlJvTENQejlIUkFDR2dOVlUwUTRISEQ4L1IwPSIsW1siTEFYIiwiMjAyNi0wNi0wNyIsIlhNTiIsbnVsbCwiTUYiLCI4MzAiXSxbIlhNTiIsIjIwMjYtMDYtMDkiLCJOUlQiLG51bGwsIk1GIiwiODE1Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 00:05"
+          },
+          "arrival_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-06-08 05:10"
+          },
+          "duration": 845,
+          "airplane": "Boeing 777",
+          "airline": "China Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CI.png",
+          "travel_class": "Business Class",
+          "flight_number": "CI 7",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2750 kg"
+          ],
+          "overnight": true,
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-06-08 08:50"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-08 13:15"
+          },
+          "duration": 205,
+          "airplane": "Airbus A350",
+          "airline": "China Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CI.png",
+          "travel_class": "Business Class",
+          "flight_number": "CI 100",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 732 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 220,
+          "name": "Taiwan Taoyuan International Airport",
+          "id": "TPE"
+        }
+      ],
+      "total_duration": 1270,
+      "carbon_emissions": {
+        "this_flight": 3483000,
+        "typical_for_this_route": 2423000,
+        "difference_percent": 44
+      },
+      "price": 5165,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CI.png",
+      "booking_token": "WyJDalJJZFZBdFpVSndSa3cwYzBsQlZGSmlhSGRDUnkwdExTMHRMUzB0TFc5NVltOHhPRUZCUVVGQlIyOVVSRFUwVG5veFVIbEJFZ2xEU1RkOFEwa3hNREFhQ3dqT3doOFFBaG9EVlZORU9CeHd6c0lmIixbWyJMQVgiLCIyMDI2LTA2LTA3IiwiVFBFIixudWxsLCJDSSIsIjciXSxbIlRQRSIsIjIwMjYtMDYtMDgiLCJOUlQiLG51bGwsIkNJIiwiMTAwIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 00:50"
+          },
+          "arrival_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-06-08 05:35"
+          },
+          "duration": 825,
+          "airplane": "Boeing 777",
+          "airline": "EVA Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+          "travel_class": "Business Class",
+          "flight_number": "BR 15",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2918 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-06-08 07:55"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-08 12:25"
+          },
+          "duration": 210,
+          "airplane": "Boeing 787-10",
+          "airline": "EVA Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+          "travel_class": "Business Class",
+          "flight_number": "BR 184",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 566 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 140,
+          "name": "Taiwan Taoyuan International Airport",
+          "id": "TPE"
+        }
+      ],
+      "total_duration": 1175,
+      "carbon_emissions": {
+        "this_flight": 3485000,
+        "typical_for_this_route": 2423000,
+        "difference_percent": 44
+      },
+      "price": 5212,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+      "booking_token": "WyJDalJJZFZBdFpVSndSa3cwYzBsQlZGSmlhSGRDUnkwdExTMHRMUzB0TFc5NVltOHhPRUZCUVVGQlIyOVVSRFUwVG5veFVIbEJFZ3BDVWpFMWZFSlNNVGcwR2dzSXF1Y2ZFQUlhQTFWVFJEZ2NjS3JuSHc9PSIsW1siTEFYIiwiMjAyNi0wNi0wNyIsIlRQRSIsbnVsbCwiQlIiLCIxNSJdLFsiVFBFIiwiMjAyNi0wNi0wOCIsIk5SVCIsbnVsbCwiQlIiLCIxODQiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 00:35"
+          },
+          "arrival_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-06-08 05:40"
+          },
+          "duration": 845,
+          "airplane": "Airbus A350",
+          "airline": "STARLUX Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JX.png",
+          "travel_class": "Business Class",
+          "flight_number": "JX 1",
+          "extensions": [
+            "Individual suite",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2477 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-06-08 08:30"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-08 12:55"
+          },
+          "duration": 205,
+          "airplane": "Airbus A350",
+          "airline": "STARLUX Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JX.png",
+          "travel_class": "Business Class",
+          "flight_number": "JX 800",
+          "extensions": [
+            "Individual suite",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 655 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 170,
+          "name": "Taiwan Taoyuan International Airport",
+          "id": "TPE"
+        }
+      ],
+      "total_duration": 1220,
+      "carbon_emissions": {
+        "this_flight": 3133000,
+        "typical_for_this_route": 2423000,
+        "difference_percent": 29
+      },
+      "price": 5251,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JX.png",
+      "booking_token": "WyJDalJJZFZBdFpVSndSa3cwYzBsQlZGSmlhSGRDUnkwdExTMHRMUzB0TFc5NVltOHhPRUZCUVVGQlIyOVVSRFUwVG5veFVIbEJFZ2xLV0RGOFNsZzRNREFhQ3dqbWhTQVFBaG9EVlZORU9CeHc1b1VnIixbWyJMQVgiLCIyMDI2LTA2LTA3IiwiVFBFIixudWxsLCJKWCIsIjEiXSxbIlRQRSIsIjIwMjYtMDYtMDgiLCJOUlQiLG51bGwsIkpYIiwiODAwIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 23:50"
+          },
+          "arrival_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-06-09 05:00"
+          },
+          "duration": 790,
+          "airplane": "Boeing 747",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Business Class",
+          "flight_number": "KE 12",
+          "ticket_also_sold_by": [
+            "Delta"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2936 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-06-09 10:10"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-06-09 12:40"
+          },
+          "duration": 150,
+          "airplane": "Boeing 787-10",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Business Class",
+          "flight_number": "KE 703",
+          "ticket_also_sold_by": [
+            "Delta"
+          ],
+          "extensions": [
+            "Individual suite",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 389 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 310,
+          "name": "Incheon International Airport",
+          "id": "ICN"
+        }
+      ],
+      "total_duration": 1250,
+      "carbon_emissions": {
+        "this_flight": 3326000,
+        "typical_for_this_route": 2423000,
+        "difference_percent": 37
+      },
+      "price": 5938,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+      "booking_token": "WyJDalJJZFZBdFpVSndSa3cwYzBsQlZGSmlhSGRDUnkwdExTMHRMUzB0TFc5NVltOHhPRUZCUVVGQlIyOVVSRFUwVG5veFVIbEJFZ3BMUlRFeWZFdEZOekF6R2dzSXJwNGtFQUlhQTFWVFJEZ2NjSzZlSkE9PSIsW1siTEFYIiwiMjAyNi0wNi0wNyIsIklDTiIsbnVsbCwiS0UiLCIxMiJdLFsiSUNOIiwiMjAyNi0wNi0wOSIsIk5SVCIsbnVsbCwiS0UiLCI3MDMiXV1d"
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 2886,
+    "price_level": "high",
+    "typical_price_range": [
+      1850,
+      2750
+    ],
+    "price_history": [
+      [
+        1774335600,
+        2359
+      ],
+      [
+        1774422000,
+        2359
+      ],
+      [
+        1774508400,
+        2359
+      ],
+      [
+        1774594800,
+        2359
+      ],
+      [
+        1774681200,
+        2450
+      ],
+      [
+        1774767600,
+        2387
+      ],
+      [
+        1774854000,
+        2450
+      ],
+      [
+        1774940400,
+        2450
+      ],
+      [
+        1775026800,
+        2434
+      ],
+      [
+        1775113200,
+        2434
+      ],
+      [
+        1775199600,
+        2434
+      ],
+      [
+        1775286000,
+        2434
+      ],
+      [
+        1775372400,
+        2434
+      ],
+      [
+        1775458800,
+        2434
+      ],
+      [
+        1775545200,
+        2444
+      ],
+      [
+        1775631600,
+        2444
+      ],
+      [
+        1775718000,
+        2449
+      ],
+      [
+        1775804400,
+        2525
+      ],
+      [
+        1775890800,
+        2525
+      ],
+      [
+        1775977200,
+        2525
+      ],
+      [
+        1776063600,
+        2525
+      ],
+      [
+        1776150000,
+        2599
+      ],
+      [
+        1776236400,
+        2593
+      ],
+      [
+        1776322800,
+        2525
+      ],
+      [
+        1776409200,
+        2443
+      ],
+      [
+        1776495600,
+        2410
+      ],
+      [
+        1776582000,
+        2410
+      ],
+      [
+        1776668400,
+        2410
+      ],
+      [
+        1776754800,
+        2410
+      ],
+      [
+        1776841200,
+        2410
+      ],
+      [
+        1776927600,
+        2410
+      ],
+      [
+        1777014000,
+        2410
+      ],
+      [
+        1777100400,
+        2410
+      ],
+      [
+        1777186800,
+        2410
+      ],
+      [
+        1777273200,
+        2410
+      ],
+      [
+        1777359600,
+        2410
+      ],
+      [
+        1777446000,
+        2415
+      ],
+      [
+        1777532400,
+        2415
+      ],
+      [
+        1777618800,
+        2381
+      ],
+      [
+        1777705200,
+        2584
+      ],
+      [
+        1777791600,
+        2583
+      ],
+      [
+        1777878000,
+        2740
+      ],
+      [
+        1777964400,
+        2740
+      ],
+      [
+        1778050800,
+        2740
+      ],
+      [
+        1778137200,
+        2740
+      ],
+      [
+        1778223600,
+        2740
+      ],
+      [
+        1778310000,
+        2740
+      ],
+      [
+        1778396400,
+        2740
+      ],
+      [
+        1778482800,
+        2708
+      ],
+      [
+        1778569200,
+        2697
+      ],
+      [
+        1778655600,
+        2697
+      ],
+      [
+        1778742000,
+        2697
+      ],
+      [
+        1778828400,
+        2697
+      ],
+      [
+        1778914800,
+        2704
+      ],
+      [
+        1779001200,
+        2704
+      ],
+      [
+        1779087600,
+        2714
+      ],
+      [
+        1779174000,
+        2715
+      ],
+      [
+        1779260400,
+        2715
+      ],
+      [
+        1779346800,
+        2715
+      ],
+      [
+        1779433200,
+        2715
+      ],
+      [
+        1779519600,
+        2886
+      ],
+      [
+        1779606000,
+        2886
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "LAX",
+            "name": "Los Angeles International Airport"
+          },
+          "city": "Los Angeles",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTFuS2Y5_b7ZIl-g2Hm7jnG7zoi2uk0CQltF_DFbp6gIzfYznnOB6uJm9d6ePT5PJO5XM1j8vigwCNxRA",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT4B0K7etaN3KgEgtU5dJajdcmLtB5QSDRYr4KqcwH1iWxMm7TIqwtcUTTHD5AmNyeeFIpVpTnbSDeuD_HVlkYzOam-TO9w1worRSGRTUo"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "NRT",
+            "name": "Narita International Airport"
+          },
+          "city": "Tokyo",
+          "country": "Japan",
+          "country_code": "JP",
+          "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTqHkzEeI2bSglPzmSGZL7bxXmn0wJgOn2ZtEN8I47uBnzY1CnHzGtD-YseJXqyexcAcw_uJp-D5HTkCg",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRLnIToEgwiM_jV3cbw5eQZoUAIg6XqdrJAiClDyyg0w-JBSRN5ZeOT-iFb3SvwkwP1uoBCmT-gKE5VcyCYf-xq4guL4NAFICSaNyOnYOA"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,956 @@
+{
+  "search_metadata": {
+    "id": "6a130fb131aafe65a552ebc8",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/E-jN89FJYS6mMD3DF2Xr_g/6a130fb131aafe65a552ebc8.json",
+    "created_at": "2026-05-24 14:48:17 UTC",
+    "processed_at": "2026-05-24 14:48:17 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhoeEgoyMDI2LTA2LTA3agcIARIDSkZLcgcIARIDRFhCQAFIAXABmAEC&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/E-jN89FJYS6mMD3DF2Xr_g/6a130fb131aafe65a552ebc8.html",
+    "prettify_html_file": "https://serpapi.com/searches/E-jN89FJYS6mMD3DF2Xr_g/6a130fb131aafe65a552ebc8.prettify",
+    "total_time_taken": 0.71
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "us",
+    "type": "2",
+    "departure_id": "JFK",
+    "arrival_id": "DXB",
+    "outbound_date": "2026-06-07",
+    "travel_class": 1,
+    "adults": 1,
+    "currency": "USD"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 15:00"
+          },
+          "arrival_airport": {
+            "name": "Bahrain International Airport",
+            "id": "BAH",
+            "time": "2026-06-08 10:35"
+          },
+          "duration": 755,
+          "airplane": "Boeing 787",
+          "airline": "Gulf Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/GF.png",
+          "travel_class": "Economy",
+          "flight_number": "GF 90",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 560 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Bahrain International Airport",
+            "id": "BAH",
+            "time": "2026-06-08 13:30"
+          },
+          "arrival_airport": {
+            "name": "Dubai International Airport",
+            "id": "DXB",
+            "time": "2026-06-08 15:55"
+          },
+          "duration": 85,
+          "airplane": "Airbus A320neo",
+          "airline": "Gulf Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/GF.png",
+          "travel_class": "Economy",
+          "flight_number": "GF 506",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 65 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 175,
+          "name": "Bahrain International Airport",
+          "id": "BAH"
+        }
+      ],
+      "total_duration": 1015,
+      "carbon_emissions": {
+        "this_flight": 625000,
+        "typical_for_this_route": 769000,
+        "difference_percent": -19
+      },
+      "price": 578,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/GF.png",
+      "booking_token": "WyJDalJJU1ZWcllURnJVbkpKU1ZsQlRVOXhkRUZDUnkwdExTMHRMUzB0TFhaM2FuSXhORUZCUVVGQlIyOVVSRGRGU0ZGeVdWVkJFZ3BIUmprd2ZFZEdOVEEyR2dzSStNSURFQUlhQTFWVFJEZ2NjUGpDQXc9PSIsW1siSkZLIiwiMjAyNi0wNi0wNyIsIkJBSCIsbnVsbCwiR0YiLCI5MCJdLFsiQkFIIiwiMjAyNi0wNi0wOCIsIkRYQiIsbnVsbCwiR0YiLCI1MDYiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 23:00"
+          },
+          "arrival_airport": {
+            "name": "Dubai International Airport",
+            "id": "DXB",
+            "time": "2026-06-08 20:10"
+          },
+          "duration": 790,
+          "airplane": "Airbus A380",
+          "airline": "Emirates",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+          "travel_class": "Economy",
+          "flight_number": "EK 202",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 871 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 790,
+      "carbon_emissions": {
+        "this_flight": 871000,
+        "typical_for_this_route": 769000,
+        "difference_percent": 13
+      },
+      "price": 613,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+      "booking_token": "WyJDalJJU1ZWcllURnJVbkpKU1ZsQlRVOXhkRUZDUnkwdExTMHRMUzB0TFhaM2FuSXhORUZCUVVGQlIyOVVSRGRGU0ZGeVdWVkJFZ1ZGU3pJd01ob0xDT3JlQXhBQ0dnTlZVMFE0SEhEcTNnTT0iLFtbIkpGSyIsIjIwMjYtMDYtMDciLCJEWEIiLG51bGwsIkVLIiwiMjAyIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 22:05"
+          },
+          "arrival_airport": {
+            "name": "Hamad International Airport",
+            "id": "DOH",
+            "time": "2026-06-08 17:50"
+          },
+          "duration": 765,
+          "airplane": "Boeing 777",
+          "airline": "Qatar Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
+          "travel_class": "Economy",
+          "flight_number": "QR 702",
+          "ticket_also_sold_by": [
+            "American",
+            "JetBlue"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 785 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Hamad International Airport",
+            "id": "DOH",
+            "time": "2026-06-08 19:05"
+          },
+          "arrival_airport": {
+            "name": "Dubai International Airport",
+            "id": "DXB",
+            "time": "2026-06-08 21:25"
+          },
+          "duration": 80,
+          "airplane": "Boeing 777",
+          "airline": "Qatar Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
+          "travel_class": "Economy",
+          "flight_number": "QR 1014",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 60 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 75,
+          "name": "Hamad International Airport",
+          "id": "DOH"
+        }
+      ],
+      "total_duration": 920,
+      "carbon_emissions": {
+        "this_flight": 847000,
+        "typical_for_this_route": 769000,
+        "difference_percent": 10
+      },
+      "price": 624,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
+      "booking_token": "WyJDalJJU1ZWcllURnJVbkpKU1ZsQlRVOXhkRUZDUnkwdExTMHRMUzB0TFhaM2FuSXhORUZCUVVGQlIyOVVSRGRGU0ZGeVdWVkJFZ3hSVWpjd01ueFJVakV3TVRRYUN3am01Z01RQWhvRFZWTkVPQnh3NXVZRCIsW1siSkZLIiwiMjAyNi0wNi0wNyIsIkRPSCIsbnVsbCwiUVIiLCI3MDIiXSxbIkRPSCIsIjIwMjYtMDYtMDgiLCJEWEIiLG51bGwsIlFSIiwiMTAxNCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 11:20"
+          },
+          "arrival_airport": {
+            "name": "Dubai International Airport",
+            "id": "DXB",
+            "time": "2026-06-08 08:30"
+          },
+          "duration": 790,
+          "airplane": "Airbus A380",
+          "airline": "Emirates",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+          "travel_class": "Economy",
+          "flight_number": "EK 204",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 853 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 790,
+      "carbon_emissions": {
+        "this_flight": 854000,
+        "typical_for_this_route": 769000,
+        "difference_percent": 11
+      },
+      "price": 774,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+      "booking_token": "WyJDalJJU1ZWcllURnJVbkpKU1ZsQlRVOXhkRUZDUnkwdExTMHRMUzB0TFhaM2FuSXhORUZCUVVGQlIyOVVSRGRGU0ZGeVdWVkJFZ1ZGU3pJd05Cb0xDTTdjQkJBQ0dnTlZVMFE0SEhETzNBUT0iLFtbIkpGSyIsIjIwMjYtMDYtMDciLCJEWEIiLG51bGwsIkVLIiwiMjA0Il1dXQ=="
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 15:00"
+          },
+          "arrival_airport": {
+            "name": "Bahrain International Airport",
+            "id": "BAH",
+            "time": "2026-06-08 10:35"
+          },
+          "duration": 755,
+          "airplane": "Boeing 787",
+          "airline": "Gulf Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/GF.png",
+          "travel_class": "Economy",
+          "flight_number": "GF 90",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 560 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Bahrain International Airport",
+            "id": "BAH",
+            "time": "2026-06-09 13:30"
+          },
+          "arrival_airport": {
+            "name": "Dubai International Airport",
+            "id": "DXB",
+            "time": "2026-06-09 15:55"
+          },
+          "duration": 85,
+          "airplane": "Airbus A320neo",
+          "airline": "Gulf Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/GF.png",
+          "travel_class": "Economy",
+          "flight_number": "GF 506",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 70 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 1615,
+          "name": "Bahrain International Airport",
+          "id": "BAH",
+          "overnight": true
+        }
+      ],
+      "total_duration": 2455,
+      "carbon_emissions": {
+        "this_flight": 631000,
+        "typical_for_this_route": 769000,
+        "difference_percent": -18
+      },
+      "price": 461,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/GF.png",
+      "booking_token": "WyJDalJJU1ZWcllURnJVbkpKU1ZsQlRVOXhkRUZDUnkwdExTMHRMUzB0TFhaM2FuSXhORUZCUVVGQlIyOVVSRGRGU0ZGeVdWVkJFZ3hIUmprd2ZFZEdOVEEySXpFYUN3alo1d0lRQWhvRFZWTkVPQnh3MmVjQyIsW1siSkZLIiwiMjAyNi0wNi0wNyIsIkJBSCIsbnVsbCwiR0YiLCI5MCJdLFsiQkFIIiwiMjAyNi0wNi0wOSIsIkRYQiIsbnVsbCwiR0YiLCI1MDYiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 12:55"
+          },
+          "arrival_airport": {
+            "name": "Cairo International Airport",
+            "id": "CAI",
+            "time": "2026-06-08 06:25"
+          },
+          "duration": 630,
+          "airplane": "Airbus A350",
+          "airline": "EgyptAir",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MS.png",
+          "travel_class": "Economy",
+          "flight_number": "MS 986",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 534 kg"
+          ],
+          "overnight": true,
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Cairo International Airport",
+            "id": "CAI",
+            "time": "2026-06-08 10:40"
+          },
+          "arrival_airport": {
+            "name": "Dubai International Airport",
+            "id": "DXB",
+            "time": "2026-06-08 15:00"
+          },
+          "duration": 200,
+          "airplane": "Boeing 787",
+          "airline": "EgyptAir",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MS.png",
+          "travel_class": "Economy",
+          "flight_number": "MS 912",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 148 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 255,
+          "name": "Cairo International Airport",
+          "id": "CAI"
+        }
+      ],
+      "total_duration": 1085,
+      "carbon_emissions": {
+        "this_flight": 683000,
+        "typical_for_this_route": 769000,
+        "difference_percent": -11
+      },
+      "price": 783,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MS.png",
+      "booking_token": "WyJDalJJU1ZWcllURnJVbkpKU1ZsQlRVOXhkRUZDUnkwdExTMHRMUzB0TFhaM2FuSXhORUZCUVVGQlIyOVVSRGRGU0ZGeVdWVkJFZ3ROVXprNE5ueE5Vemt4TWhvTENJcmpCQkFDR2dOVlUwUTRISENLNHdRPSIsW1siSkZLIiwiMjAyNi0wNi0wNyIsIkNBSSIsbnVsbCwiTVMiLCI5ODYiXSxbIkNBSSIsIjIwMjYtMDYtMDgiLCJEWEIiLG51bGwsIk1TIiwiOTEyIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 23:10"
+          },
+          "arrival_airport": {
+            "name": "Keflav\u00edk International Airport",
+            "id": "KEF",
+            "time": "2026-06-08 08:55"
+          },
+          "duration": 345,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Icelandair",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+          "travel_class": "Economy",
+          "flight_number": "FI 618",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 291 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Keflav\u00edk International Airport",
+            "id": "KEF",
+            "time": "2026-06-08 10:30"
+          },
+          "arrival_airport": {
+            "name": "London Gatwick Airport",
+            "id": "LGW",
+            "time": "2026-06-08 14:40"
+          },
+          "duration": 190,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Icelandair",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+          "travel_class": "Economy",
+          "flight_number": "FI 472",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 156 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "London Gatwick Airport",
+            "id": "LGW",
+            "time": "2026-06-08 21:45"
+          },
+          "arrival_airport": {
+            "name": "Dubai International Airport",
+            "id": "DXB",
+            "time": "2026-06-09 08:40"
+          },
+          "duration": 475,
+          "airplane": "Airbus A350",
+          "airline": "Emirates",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+          "travel_class": "Economy",
+          "flight_number": "EK 10",
+          "ticket_also_sold_by": [
+            "Icelandair"
+          ],
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 352 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 95,
+          "name": "Keflav\u00edk International Airport",
+          "id": "KEF"
+        },
+        {
+          "duration": 425,
+          "name": "London Gatwick Airport",
+          "id": "LGW"
+        }
+      ],
+      "total_duration": 1530,
+      "carbon_emissions": {
+        "this_flight": 800000,
+        "typical_for_this_route": 769000,
+        "difference_percent": 4
+      },
+      "price": 1315,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJU1ZWcllURnJVbkpKU1ZsQlRVOXhkRUZDUnkwdExTMHRMUzB0TFhaM2FuSXhORUZCUVVGQlIyOVVSRGRGU0ZGeVdWVkJFaEJHU1RZeE9IeEdTVFEzTW54RlN6RXdHZ3NJcklNSUVBSWFBMVZUUkRnY2NLeURDQT09IixbWyJKRksiLCIyMDI2LTA2LTA3IiwiS0VGIixudWxsLCJGSSIsIjYxOCJdLFsiS0VGIiwiMjAyNi0wNi0wOCIsIkxHVyIsbnVsbCwiRkkiLCI0NzIiXSxbIkxHVyIsIjIwMjYtMDYtMDgiLCJEWEIiLG51bGwsIkVLIiwiMTAiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 18:30"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-06-08 06:45"
+          },
+          "duration": 435,
+          "airplane": "Airbus A350",
+          "airline": "Virgin Atlantic",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VS.png",
+          "travel_class": "Economy",
+          "flight_number": "VS 10",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 341 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-06-08 09:05"
+          },
+          "arrival_airport": {
+            "name": "Dubai International Airport",
+            "id": "DXB",
+            "time": "2026-06-08 19:40"
+          },
+          "duration": 455,
+          "airplane": "Airbus A380",
+          "airline": "Emirates",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+          "travel_class": "Economy",
+          "flight_number": "EK 8",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 383 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 140,
+          "name": "Heathrow Airport",
+          "id": "LHR"
+        }
+      ],
+      "total_duration": 1030,
+      "carbon_emissions": {
+        "this_flight": 725000,
+        "typical_for_this_route": 769000,
+        "difference_percent": -6
+      },
+      "price": 2715,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJU1ZWcllURnJVbkpKU1ZsQlRVOXhkRUZDUnkwdExTMHRMUzB0TFhaM2FuSXhORUZCUVVGQlIyOVVSRGRGU0ZGeVdWVkJFZ2hXVXpFd2ZFVkxPQm9MQ083SUVCQUNHZ05WVTBRNEhIRHV5QkE9IixbWyJKRksiLCIyMDI2LTA2LTA3IiwiTEhSIixudWxsLCJWUyIsIjEwIl0sWyJMSFIiLCIyMDI2LTA2LTA4IiwiRFhCIixudWxsLCJFSyIsIjgiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 23:40"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-06-08 12:05"
+          },
+          "duration": 445,
+          "airplane": "Airbus A330-900neo",
+          "airline": "Virgin Atlantic",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VS.png",
+          "travel_class": "Economy",
+          "flight_number": "VS 138",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 358 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-06-08 14:25"
+          },
+          "arrival_airport": {
+            "name": "Dubai International Airport",
+            "id": "DXB",
+            "time": "2026-06-09 01:00"
+          },
+          "duration": 455,
+          "airplane": "Airbus A380",
+          "airline": "Emirates",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+          "travel_class": "Economy",
+          "flight_number": "EK 2",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 384 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 140,
+          "name": "Heathrow Airport",
+          "id": "LHR"
+        }
+      ],
+      "total_duration": 1040,
+      "carbon_emissions": {
+        "this_flight": 743000,
+        "typical_for_this_route": 769000,
+        "difference_percent": -3
+      },
+      "price": 2715,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJU1ZWcllURnJVbkpKU1ZsQlRVOXhkRUZDUnkwdExTMHRMUzB0TFhaM2FuSXhORUZCUVVGQlIyOVVSRGRGU0ZGeVdWVkJFZ2xXVXpFek9IeEZTeklhQ3dqdXlCQVFBaG9EVlZORU9CeHc3c2dRIixbWyJKRksiLCIyMDI2LTA2LTA3IiwiTEhSIixudWxsLCJWUyIsIjEzOCJdLFsiTEhSIiwiMjAyNi0wNi0wOCIsIkRYQiIsbnVsbCwiRUsiLCIyIl1dXQ=="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 461,
+    "price_level": "typical",
+    "typical_price_range": [
+      415,
+      640
+    ],
+    "price_history": [
+      [
+        1774324800,
+        433
+      ],
+      [
+        1774411200,
+        436
+      ],
+      [
+        1774497600,
+        436
+      ],
+      [
+        1774584000,
+        440
+      ],
+      [
+        1774670400,
+        440
+      ],
+      [
+        1774756800,
+        440
+      ],
+      [
+        1774843200,
+        435
+      ],
+      [
+        1774929600,
+        435
+      ],
+      [
+        1775016000,
+        435
+      ],
+      [
+        1775102400,
+        435
+      ],
+      [
+        1775188800,
+        435
+      ],
+      [
+        1775275200,
+        435
+      ],
+      [
+        1775361600,
+        435
+      ],
+      [
+        1775448000,
+        435
+      ],
+      [
+        1775534400,
+        435
+      ],
+      [
+        1775620800,
+        435
+      ],
+      [
+        1775707200,
+        442
+      ],
+      [
+        1775793600,
+        442
+      ],
+      [
+        1775880000,
+        442
+      ],
+      [
+        1775966400,
+        442
+      ],
+      [
+        1776052800,
+        442
+      ],
+      [
+        1776139200,
+        427
+      ],
+      [
+        1776225600,
+        427
+      ],
+      [
+        1776312000,
+        427
+      ],
+      [
+        1776398400,
+        427
+      ],
+      [
+        1776484800,
+        427
+      ],
+      [
+        1776571200,
+        427
+      ],
+      [
+        1776657600,
+        427
+      ],
+      [
+        1776744000,
+        427
+      ],
+      [
+        1776830400,
+        427
+      ],
+      [
+        1776916800,
+        427
+      ],
+      [
+        1777003200,
+        427
+      ],
+      [
+        1777089600,
+        442
+      ],
+      [
+        1777176000,
+        442
+      ],
+      [
+        1777262400,
+        442
+      ],
+      [
+        1777348800,
+        442
+      ],
+      [
+        1777435200,
+        442
+      ],
+      [
+        1777521600,
+        442
+      ],
+      [
+        1777608000,
+        442
+      ],
+      [
+        1777694400,
+        442
+      ],
+      [
+        1777780800,
+        442
+      ],
+      [
+        1777867200,
+        442
+      ],
+      [
+        1777953600,
+        442
+      ],
+      [
+        1778040000,
+        442
+      ],
+      [
+        1778126400,
+        457
+      ],
+      [
+        1778212800,
+        457
+      ],
+      [
+        1778299200,
+        467
+      ],
+      [
+        1778385600,
+        467
+      ],
+      [
+        1778472000,
+        467
+      ],
+      [
+        1778558400,
+        467
+      ],
+      [
+        1778644800,
+        578
+      ],
+      [
+        1778731200,
+        578
+      ],
+      [
+        1778817600,
+        578
+      ],
+      [
+        1778904000,
+        578
+      ],
+      [
+        1778990400,
+        578
+      ],
+      [
+        1779076800,
+        578
+      ],
+      [
+        1779163200,
+        578
+      ],
+      [
+        1779249600,
+        578
+      ],
+      [
+        1779336000,
+        467
+      ],
+      [
+        1779422400,
+        483
+      ],
+      [
+        1779508800,
+        483
+      ],
+      [
+        1779595200,
+        461
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "JFK",
+            "name": "John F. Kennedy International Airport"
+          },
+          "city": "New York",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRa1dwH1NZQk4dsbPiyA9Vrq2RX75jXSZ-OkHn7NkLHl-11HercqDXoZ4p2cDxJkH6vca2degawrCzHEQ",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQEaUa9NsdPWGpAUGkTApkZDT_4M6_6V8wTcC0v1b1wJAJX-BuMSiipXbsoznGgcI1xLOc5QiTcR_xovexgjdOz0gqQe0tRQ9h0bUkZ07Q"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "DXB",
+            "name": "Dubai International Airport"
+          },
+          "city": "Dubai",
+          "country": "United Arab Emirates",
+          "country_code": "AE",
+          "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRegWMQBRhDOeg2gvll8nGXsG1-OPqD2V0EvCN1Ni2Poe9hGY8CBps9mRaAyrAz8Jvsvl292aI62fq43A",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQDaD8FERvoI4iorjkWbED9zAq7S3m9hD1t5vGNU5Jznr1Kl1em9SIs9c9VkujJF5_EDvC5mKyqcQ9B8PApW9tiwfzhK_pC2qvRBND2Plo"
+        }
+      ]
+    }
+  ]
+}

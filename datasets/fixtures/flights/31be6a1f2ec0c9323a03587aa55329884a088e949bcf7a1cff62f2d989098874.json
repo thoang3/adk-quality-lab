@@ -1,0 +1,1503 @@
+{
+  "search_metadata": {
+    "id": "6a13101212eb147f5ecfed0a",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/kJx-XsoEua7lWoelE0WyWA/6a13101212eb147f5ecfed0a.json",
+    "created_at": "2026-05-24 14:49:54 UTC",
+    "processed_at": "2026-05-24 14:49:54 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhoeEgoyMDI2LTA3LTIzagcIARIDT1JEcgcIARIDTUlBQAFIA3ABmAEC&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/kJx-XsoEua7lWoelE0WyWA/6a13101212eb147f5ecfed0a.html",
+    "prettify_html_file": "https://serpapi.com/searches/kJx-XsoEua7lWoelE0WyWA/6a13101212eb147f5ecfed0a.prettify",
+    "total_time_taken": 0.62
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "us",
+    "type": "2",
+    "departure_id": "ORD",
+    "arrival_id": "MIA",
+    "outbound_date": "2026-07-23",
+    "travel_class": 3,
+    "adults": 1,
+    "currency": "USD"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 07:05"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-07-23 10:30"
+          },
+          "duration": 145,
+          "airplane": "Airbus A321neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Business Class",
+          "flight_number": "F9 1596",
+          "extensions": [
+            "Carbon emissions estimate: 106 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-07-23 11:47"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-07-23 13:53"
+          },
+          "duration": 126,
+          "airplane": "Airbus A320neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Business Class",
+          "flight_number": "F9 4406",
+          "extensions": [
+            "Carbon emissions estimate: 118 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 77,
+          "name": "Hartsfield-Jackson Atlanta International Airport",
+          "id": "ATL"
+        }
+      ],
+      "total_duration": 348,
+      "carbon_emissions": {
+        "this_flight": 225000,
+        "typical_for_this_route": 296000,
+        "difference_percent": -24
+      },
+      "price": 268,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJUVcxM01WUm5iMmwxVmxsQlRuaENMVkZDUnkwdExTMHRMUzB0TFc5clltTXhOVUZCUVVGQlIyOVVSVUpOUTFoMlNIVkJFZzFHT1RFMU9UWjhSamswTkRBMkdnc0lydEVCRUFJYUExVlRSRGdjY0s3UkFRPT0iLFtbIk9SRCIsIjIwMjYtMDctMjMiLCJBVEwiLG51bGwsIkY5IiwiMTU5NiJdLFsiQVRMIiwiMjAyNi0wNy0yMyIsIk1JQSIsbnVsbCwiRjkiLCI0NDA2Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 07:00"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-07-23 11:24"
+          },
+          "duration": 204,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "First Class",
+          "flight_number": "UA 1358",
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 212 kg"
+          ]
+        }
+      ],
+      "total_duration": 204,
+      "carbon_emissions": {
+        "this_flight": 213000,
+        "typical_for_this_route": 296000,
+        "difference_percent": -28
+      },
+      "price": 457,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJUVcxM01WUm5iMmwxVmxsQlRuaENMVkZDUnkwdExTMHRMUzB0TFc5clltTXhOVUZCUVVGQlIyOVVSVUpOUTFoMlNIVkJFZ1pWUVRFek5UZ2FDd2pJNUFJUUFob0RWVk5FT0J4d3lPUUMiLFtbIk9SRCIsIjIwMjYtMDctMjMiLCJNSUEiLG51bGwsIlVBIiwiMTM1OCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 10:05"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-07-23 14:18"
+          },
+          "duration": 193,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 1474",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 234 kg"
+          ]
+        }
+      ],
+      "total_duration": 193,
+      "carbon_emissions": {
+        "this_flight": 235000,
+        "typical_for_this_route": 296000,
+        "difference_percent": -21
+      },
+      "price": 554,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJUVcxM01WUm5iMmwxVmxsQlRuaENMVkZDUnkwdExTMHRMUzB0TFc5clltTXhOVUZCUVVGQlIyOVVSVUpOUTFoMlNIVkJFZ1pCUVRFME56UWFDd2l0c0FNUUFob0RWVk5FT0J4d3JiQUQiLFtbIk9SRCIsIjIwMjYtMDctMjMiLCJNSUEiLG51bGwsIkFBIiwiMTQ3NCJdXV0="
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 13:50"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-07-23 17:12"
+          },
+          "duration": 142,
+          "airplane": "Airbus A321neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Business Class",
+          "flight_number": "F9 1442",
+          "extensions": [
+            "Carbon emissions estimate: 106 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-07-23 20:55"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-07-23 23:05"
+          },
+          "duration": 130,
+          "airplane": "Airbus A320neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Business Class",
+          "flight_number": "F9 3442",
+          "extensions": [
+            "Carbon emissions estimate: 118 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 223,
+          "name": "Hartsfield-Jackson Atlanta International Airport",
+          "id": "ATL"
+        }
+      ],
+      "total_duration": 495,
+      "carbon_emissions": {
+        "this_flight": 225000,
+        "typical_for_this_route": 296000,
+        "difference_percent": -24
+      },
+      "price": 268,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJUVcxM01WUm5iMmwxVmxsQlRuaENMVkZDUnkwdExTMHRMUzB0TFc5clltTXhOVUZCUVVGQlIyOVVSVUpOUTFoMlNIVkJFZzFHT1RFME5ESjhSamt6TkRReUdnc0lydEVCRUFJYUExVlRSRGdjY0s3UkFRPT0iLFtbIk9SRCIsIjIwMjYtMDctMjMiLCJBVEwiLG51bGwsIkY5IiwiMTQ0MiJdLFsiQVRMIiwiMjAyNi0wNy0yMyIsIk1JQSIsbnVsbCwiRjkiLCIzNDQyIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 00:44"
+          },
+          "arrival_airport": {
+            "name": "Luis Munoz Marin International Airport",
+            "id": "SJU",
+            "time": "2026-07-23 06:44"
+          },
+          "duration": 300,
+          "airplane": "Airbus A321neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Business Class",
+          "flight_number": "F9 3346",
+          "extensions": [
+            "Carbon emissions estimate: 308 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Luis Munoz Marin International Airport",
+            "id": "SJU",
+            "time": "2026-07-23 07:30"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-07-23 10:15"
+          },
+          "duration": 165,
+          "airplane": "Airbus A320neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Business Class",
+          "flight_number": "F9 3377",
+          "extensions": [
+            "Carbon emissions estimate: 168 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 46,
+          "name": "Luis Munoz Marin International Airport",
+          "id": "SJU"
+        }
+      ],
+      "total_duration": 511,
+      "carbon_emissions": {
+        "this_flight": 476000,
+        "typical_for_this_route": 296000,
+        "difference_percent": 61
+      },
+      "price": 365,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJUVcxM01WUm5iMmwxVmxsQlRuaENMVkZDUnkwdExTMHRMUzB0TFc5clltTXhOVUZCUVVGQlIyOVVSVUpOUTFoMlNIVkJFZzFHT1RNek5EWjhSamt6TXpjM0dnc0lrcDBDRUFJYUExVlRSRGdjY0pLZEFnPT0iLFtbIk9SRCIsIjIwMjYtMDctMjMiLCJTSlUiLG51bGwsIkY5IiwiMzM0NiJdLFsiU0pVIiwiMjAyNi0wNy0yMyIsIk1JQSIsbnVsbCwiRjkiLCIzMzc3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 05:00"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-07-23 09:09"
+          },
+          "duration": 189,
+          "airplane": "Airbus A321",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 2984",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 256 kg"
+          ]
+        }
+      ],
+      "total_duration": 189,
+      "carbon_emissions": {
+        "this_flight": 257000,
+        "typical_for_this_route": 296000,
+        "difference_percent": -13
+      },
+      "price": 501,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJUVcxM01WUm5iMmwxVmxsQlRuaENMVkZDUnkwdExTMHRMUzB0TFc5clltTXhOVUZCUVVGQlIyOVVSVUpOUTFoMlNIVkJFZ1pCUVRJNU9EUWFDd2o0aGdNUUFob0RWVk5FT0J4dytJWUQiLFtbIk9SRCIsIjIwMjYtMDctMjMiLCJNSUEiLG51bGwsIkFBIiwiMjk4NCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 15:23"
+          },
+          "arrival_airport": {
+            "name": "Cincinnati/Northern Kentucky International Airport",
+            "id": "CVG",
+            "time": "2026-07-23 17:55"
+          },
+          "duration": 92,
+          "airplane": "Embraer 175",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 3950",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 117 kg"
+          ],
+          "plane_and_crew_by": "Envoy Air as American Eagle"
+        },
+        {
+          "departure_airport": {
+            "name": "Cincinnati/Northern Kentucky International Airport",
+            "id": "CVG",
+            "time": "2026-07-23 18:25"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-07-23 21:04"
+          },
+          "duration": 159,
+          "airplane": "Embraer 175",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 3487",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 289 kg"
+          ],
+          "plane_and_crew_by": "Envoy Air as American Eagle"
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 30,
+          "name": "Cincinnati/Northern Kentucky International Airport",
+          "id": "CVG"
+        }
+      ],
+      "total_duration": 281,
+      "carbon_emissions": {
+        "this_flight": 407000,
+        "typical_for_this_route": 296000,
+        "difference_percent": 38
+      },
+      "price": 510,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJUVcxM01WUm5iMmwxVmxsQlRuaENMVkZDUnkwdExTMHRMUzB0TFc5clltTXhOVUZCUVVGQlIyOVVSVUpOUTFoMlNIVkJFZzFCUVRNNU5UQjhRVUV6TkRnM0dnc0kvSTBERUFJYUExVlRSRGdjY1B5TkF3PT0iLFtbIk9SRCIsIjIwMjYtMDctMjMiLCJDVkciLG51bGwsIkFBIiwiMzk1MCJdLFsiQ1ZHIiwiMjAyNi0wNy0yMyIsIk1JQSIsbnVsbCwiQUEiLCIzNDg3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 08:00"
+          },
+          "arrival_airport": {
+            "name": "Ronald Reagan Washington National Airport",
+            "id": "DCA",
+            "time": "2026-07-23 10:59"
+          },
+          "duration": 119,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 2345",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 150 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Ronald Reagan Washington National Airport",
+            "id": "DCA",
+            "time": "2026-07-23 11:55"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-07-23 14:38"
+          },
+          "duration": 163,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 1627",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 202 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 56,
+          "name": "Ronald Reagan Washington National Airport",
+          "id": "DCA"
+        }
+      ],
+      "total_duration": 338,
+      "carbon_emissions": {
+        "this_flight": 352000,
+        "typical_for_this_route": 296000,
+        "difference_percent": 19
+      },
+      "price": 511,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJUVcxM01WUm5iMmwxVmxsQlRuaENMVkZDUnkwdExTMHRMUzB0TFc5clltTXhOVUZCUVVGQlIyOVVSVUpOUTFoMlNIVkJFZzFCUVRJek5EVjhRVUV4TmpJM0dnc0l6STRERUFJYUExVlRSRGdjY015T0F3PT0iLFtbIk9SRCIsIjIwMjYtMDctMjMiLCJEQ0EiLG51bGwsIkFBIiwiMjM0NSJdLFsiRENBIiwiMjAyNi0wNy0yMyIsIk1JQSIsbnVsbCwiQUEiLCIxNjI3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 16:03"
+          },
+          "arrival_airport": {
+            "name": "Charleston International Airport",
+            "id": "CHS",
+            "time": "2026-07-23 19:31"
+          },
+          "duration": 148,
+          "airplane": "Embraer 175",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 3454",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 226 kg"
+          ],
+          "plane_and_crew_by": "Envoy Air as American Eagle"
+        },
+        {
+          "departure_airport": {
+            "name": "Charleston International Airport",
+            "id": "CHS",
+            "time": "2026-07-23 20:13"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-07-23 21:58"
+          },
+          "duration": 105,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 1657",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 154 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 42,
+          "name": "Charleston International Airport",
+          "id": "CHS"
+        }
+      ],
+      "total_duration": 295,
+      "carbon_emissions": {
+        "this_flight": 381000,
+        "typical_for_this_route": 296000,
+        "difference_percent": 29
+      },
+      "price": 511,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJUVcxM01WUm5iMmwxVmxsQlRuaENMVkZDUnkwdExTMHRMUzB0TFc5clltTXhOVUZCUVVGQlIyOVVSVUpOUTFoMlNIVkJFZzFCUVRNME5UUjhRVUV4TmpVM0dnc0l6STRERUFJYUExVlRSRGdjY015T0F3PT0iLFtbIk9SRCIsIjIwMjYtMDctMjMiLCJDSFMiLG51bGwsIkFBIiwiMzQ1NCJdLFsiQ0hTIiwiMjAyNi0wNy0yMyIsIk1JQSIsbnVsbCwiQUEiLCIxNjU3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 18:47"
+          },
+          "arrival_airport": {
+            "name": "Charlotte Douglas International Airport",
+            "id": "CLT",
+            "time": "2026-07-23 21:59"
+          },
+          "duration": 132,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 689",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 147 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Charlotte Douglas International Airport",
+            "id": "CLT",
+            "time": "2026-07-23 22:39"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-07-24 00:46"
+          },
+          "duration": 127,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 1596",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 155 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 40,
+          "name": "Charlotte Douglas International Airport",
+          "id": "CLT"
+        }
+      ],
+      "total_duration": 299,
+      "carbon_emissions": {
+        "this_flight": 303000,
+        "typical_for_this_route": 296000,
+        "difference_percent": 2
+      },
+      "price": 540,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJUVcxM01WUm5iMmwxVmxsQlRuaENMVkZDUnkwdExTMHRMUzB0TFc5clltTXhOVUZCUVVGQlIyOVVSVUpOUTFoMlNIVkJFZ3hCUVRZNE9YeEJRVEUxT1RZYUN3aWdwUU1RQWhvRFZWTkVPQnh3b0tVRCIsW1siT1JEIiwiMjAyNi0wNy0yMyIsIkNMVCIsbnVsbCwiQUEiLCI2ODkiXSxbIkNMVCIsIjIwMjYtMDctMjMiLCJNSUEiLG51bGwsIkFBIiwiMTU5NiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 11:30"
+          },
+          "arrival_airport": {
+            "name": "Detroit Metropolitan Wayne County Airport",
+            "id": "DTW",
+            "time": "2026-07-23 14:01"
+          },
+          "duration": 91,
+          "airplane": "Canadair RJ 900",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "First Class",
+          "flight_number": "DL 3673",
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Carbon emissions estimate: 149 kg"
+          ],
+          "plane_and_crew_by": "SkyWest DBA Delta Connection"
+        },
+        {
+          "departure_airport": {
+            "name": "Detroit Metropolitan Wayne County Airport",
+            "id": "DTW",
+            "time": "2026-07-23 15:59"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-07-23 19:18"
+          },
+          "duration": 199,
+          "airplane": "Airbus A321",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "First Class",
+          "flight_number": "DL 866",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 260 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 118,
+          "name": "Detroit Metropolitan Wayne County Airport",
+          "id": "DTW"
+        }
+      ],
+      "total_duration": 408,
+      "carbon_emissions": {
+        "this_flight": 410000,
+        "typical_for_this_route": 296000,
+        "difference_percent": 39
+      },
+      "price": 550,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJUVcxM01WUm5iMmwxVmxsQlRuaENMVkZDUnkwdExTMHRMUzB0TFc5clltTXhOVUZCUVVGQlIyOVVSVUpOUTFoMlNIVkJFZ3hFVERNMk56TjhSRXc0TmpZYUN3aUlyUU1RQWhvRFZWTkVPQnh3aUswRCIsW1siT1JEIiwiMjAyNi0wNy0yMyIsIkRUVyIsbnVsbCwiREwiLCIzNjczIl0sWyJEVFciLCIyMDI2LTA3LTIzIiwiTUlBIixudWxsLCJETCIsIjg2NiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 10:33"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-07-23 14:57"
+          },
+          "duration": 204,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "First Class",
+          "flight_number": "UA 1620",
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 255 kg"
+          ]
+        }
+      ],
+      "total_duration": 204,
+      "carbon_emissions": {
+        "this_flight": 255000,
+        "typical_for_this_route": 296000,
+        "difference_percent": -14
+      },
+      "price": 569,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJUVcxM01WUm5iMmwxVmxsQlRuaENMVkZDUnkwdExTMHRMUzB0TFc5clltTXhOVUZCUVVGQlIyOVVSVUpOUTFoMlNIVkJFZ1pWUVRFMk1qQWFDd2lJdkFNUUFob0RWVk5FT0J4d2lMd0QiLFtbIk9SRCIsIjIwMjYtMDctMjMiLCJNSUEiLG51bGwsIlVBIiwiMTYyMCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 15:15"
+          },
+          "arrival_airport": {
+            "name": "John Glenn Columbus International Airport",
+            "id": "CMH",
+            "time": "2026-07-23 17:49"
+          },
+          "duration": 94,
+          "airplane": "Embraer 175",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 3361",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 156 kg"
+          ],
+          "plane_and_crew_by": "Envoy Air as American Eagle"
+        },
+        {
+          "departure_airport": {
+            "name": "John Glenn Columbus International Airport",
+            "id": "CMH",
+            "time": "2026-07-23 18:19"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-07-23 21:02"
+          },
+          "duration": 163,
+          "airplane": "Embraer 175",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 4085",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 295 kg"
+          ],
+          "plane_and_crew_by": "Envoy Air as American Eagle"
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 30,
+          "name": "John Glenn Columbus International Airport",
+          "id": "CMH"
+        }
+      ],
+      "total_duration": 287,
+      "carbon_emissions": {
+        "this_flight": 452000,
+        "typical_for_this_route": 296000,
+        "difference_percent": 53
+      },
+      "price": 671,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJUVcxM01WUm5iMmwxVmxsQlRuaENMVkZDUnkwdExTMHRMUzB0TFc5clltTXhOVUZCUVVGQlIyOVVSVUpOUTFoMlNIVkJFZzFCUVRNek5qRjhRVUUwTURnMUdnc0k2b3NFRUFJYUExVlRSRGdjY09xTEJBPT0iLFtbIk9SRCIsIjIwMjYtMDctMjMiLCJDTUgiLG51bGwsIkFBIiwiMzM2MSJdLFsiQ01IIiwiMjAyNi0wNy0yMyIsIk1JQSIsbnVsbCwiQUEiLCI0MDg1Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 06:10"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-07-23 10:22"
+          },
+          "duration": 192,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 1380",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 199 kg"
+          ]
+        }
+      ],
+      "total_duration": 192,
+      "carbon_emissions": {
+        "this_flight": 200000,
+        "typical_for_this_route": 296000,
+        "difference_percent": -32
+      },
+      "price": 733,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJUVcxM01WUm5iMmwxVmxsQlRuaENMVkZDUnkwdExTMHRMUzB0TFc5clltTXhOVUZCUVVGQlIyOVVSVUpOUTFoMlNIVkJFZ1pCUVRFek9EQWFDd2lZdkFRUUFob0RWVk5FT0J4d21Md0UiLFtbIk9SRCIsIjIwMjYtMDctMjMiLCJNSUEiLG51bGwsIkFBIiwiMTM4MCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 06:59"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-07-23 11:12"
+          },
+          "duration": 193,
+          "airplane": "Airbus A321",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 835",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 256 kg"
+          ]
+        }
+      ],
+      "total_duration": 193,
+      "carbon_emissions": {
+        "this_flight": 257000,
+        "typical_for_this_route": 296000,
+        "difference_percent": -13
+      },
+      "price": 733,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJUVcxM01WUm5iMmwxVmxsQlRuaENMVkZDUnkwdExTMHRMUzB0TFc5clltTXhOVUZCUVVGQlIyOVVSVUpOUTFoMlNIVkJFZ1ZCUVRnek5Sb0xDSmk4QkJBQ0dnTlZVMFE0SEhDWXZBUT0iLFtbIk9SRCIsIjIwMjYtMDctMjMiLCJNSUEiLG51bGwsIkFBIiwiODM1Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 08:30"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-07-23 12:45"
+          },
+          "duration": 195,
+          "airplane": "Airbus A321",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 1250",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 256 kg"
+          ]
+        }
+      ],
+      "total_duration": 195,
+      "carbon_emissions": {
+        "this_flight": 257000,
+        "typical_for_this_route": 296000,
+        "difference_percent": -13
+      },
+      "price": 733,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJUVcxM01WUm5iMmwxVmxsQlRuaENMVkZDUnkwdExTMHRMUzB0TFc5clltTXhOVUZCUVVGQlIyOVVSVUpOUTFoMlNIVkJFZ1pCUVRFeU5UQWFDd2lZdkFRUUFob0RWVk5FT0J4d21Md0UiLFtbIk9SRCIsIjIwMjYtMDctMjMiLCJNSUEiLG51bGwsIkFBIiwiMTI1MCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 14:30"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-07-23 18:49"
+          },
+          "duration": 199,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 3148",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 234 kg"
+          ]
+        }
+      ],
+      "total_duration": 199,
+      "carbon_emissions": {
+        "this_flight": 235000,
+        "typical_for_this_route": 296000,
+        "difference_percent": -21
+      },
+      "price": 733,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJUVcxM01WUm5iMmwxVmxsQlRuaENMVkZDUnkwdExTMHRMUzB0TFc5clltTXhOVUZCUVVGQlIyOVVSVUpOUTFoMlNIVkJFZ1pCUVRNeE5EZ2FDd2lZdkFRUUFob0RWVk5FT0J4d21Md0UiLFtbIk9SRCIsIjIwMjYtMDctMjMiLCJNSUEiLG51bGwsIkFBIiwiMzE0OCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 16:05"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-07-23 20:26"
+          },
+          "duration": 201,
+          "airplane": "Airbus A321",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 2910",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 256 kg"
+          ]
+        }
+      ],
+      "total_duration": 201,
+      "carbon_emissions": {
+        "this_flight": 257000,
+        "typical_for_this_route": 296000,
+        "difference_percent": -13
+      },
+      "price": 733,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJUVcxM01WUm5iMmwxVmxsQlRuaENMVkZDUnkwdExTMHRMUzB0TFc5clltTXhOVUZCUVVGQlIyOVVSVUpOUTFoMlNIVkJFZ1pCUVRJNU1UQWFDd2lZdkFRUUFob0RWVk5FT0J4d21Md0UiLFtbIk9SRCIsIjIwMjYtMDctMjMiLCJNSUEiLG51bGwsIkFBIiwiMjkxMCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 18:00"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-07-23 22:17"
+          },
+          "duration": 197,
+          "airplane": "Airbus A321",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 2690",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 256 kg"
+          ]
+        }
+      ],
+      "total_duration": 197,
+      "carbon_emissions": {
+        "this_flight": 257000,
+        "typical_for_this_route": 296000,
+        "difference_percent": -13
+      },
+      "price": 733,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJUVcxM01WUm5iMmwxVmxsQlRuaENMVkZDUnkwdExTMHRMUzB0TFc5clltTXhOVUZCUVVGQlIyOVVSVUpOUTFoMlNIVkJFZ1pCUVRJMk9UQWFDd2lZdkFRUUFob0RWVk5FT0J4d21Md0UiLFtbIk9SRCIsIjIwMjYtMDctMjMiLCJNSUEiLG51bGwsIkFBIiwiMjY5MCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 18:22"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-07-23 21:40"
+          },
+          "duration": 138,
+          "airplane": "Boeing 737",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "First Class",
+          "flight_number": "DL 2740",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 153 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-07-23 22:53"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-07-24 00:55"
+          },
+          "duration": 122,
+          "airplane": "Airbus A321",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "First Class",
+          "flight_number": "DL 1589",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 152 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 73,
+          "name": "Hartsfield-Jackson Atlanta International Airport",
+          "id": "ATL"
+        }
+      ],
+      "total_duration": 333,
+      "carbon_emissions": {
+        "this_flight": 307000,
+        "typical_for_this_route": 296000,
+        "difference_percent": 4
+      },
+      "price": 855,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJUVcxM01WUm5iMmwxVmxsQlRuaENMVkZDUnkwdExTMHRMUzB0TFc5clltTXhOVUZCUVVGQlIyOVVSVUpOUTFoMlNIVkJFZzFFVERJM05EQjhSRXd4TlRnNUdnc0lySnNGRUFJYUExVlRSRGdjY0t5YkJRPT0iLFtbIk9SRCIsIjIwMjYtMDctMjMiLCJBVEwiLG51bGwsIkRMIiwiMjc0MCJdLFsiQVRMIiwiMjAyNi0wNy0yMyIsIk1JQSIsbnVsbCwiREwiLCIxNTg5Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-23 18:05"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-07-23 22:27"
+          },
+          "duration": 202,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "First Class",
+          "flight_number": "UA 2180",
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 219 kg"
+          ]
+        }
+      ],
+      "total_duration": 202,
+      "carbon_emissions": {
+        "this_flight": 220000,
+        "typical_for_this_route": 296000,
+        "difference_percent": -26
+      },
+      "price": 969,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJUVcxM01WUm5iMmwxVmxsQlRuaENMVkZDUnkwdExTMHRMUzB0TFc5clltTXhOVUZCUVVGQlIyOVVSVUpOUTFoMlNIVkJFZ1pWUVRJeE9EQWFDd2pJOUFVUUFob0RWVk5FT0J4d3lQUUYiLFtbIk9SRCIsIjIwMjYtMDctMjMiLCJNSUEiLG51bGwsIlVBIiwiMjE4MCJdXV0="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 268,
+    "price_level": "low",
+    "typical_price_range": [
+      325,
+      420
+    ],
+    "price_history": [
+      [
+        1774328400,
+        270
+      ],
+      [
+        1774414800,
+        260
+      ],
+      [
+        1774501200,
+        260
+      ],
+      [
+        1774587600,
+        260
+      ],
+      [
+        1774674000,
+        260
+      ],
+      [
+        1774760400,
+        260
+      ],
+      [
+        1774846800,
+        260
+      ],
+      [
+        1774933200,
+        280
+      ],
+      [
+        1775019600,
+        280
+      ],
+      [
+        1775106000,
+        264
+      ],
+      [
+        1775192400,
+        254
+      ],
+      [
+        1775278800,
+        259
+      ],
+      [
+        1775365200,
+        289
+      ],
+      [
+        1775451600,
+        289
+      ],
+      [
+        1775538000,
+        289
+      ],
+      [
+        1775624400,
+        289
+      ],
+      [
+        1775710800,
+        289
+      ],
+      [
+        1775797200,
+        289
+      ],
+      [
+        1775883600,
+        289
+      ],
+      [
+        1775970000,
+        289
+      ],
+      [
+        1776056400,
+        289
+      ],
+      [
+        1776142800,
+        289
+      ],
+      [
+        1776229200,
+        289
+      ],
+      [
+        1776315600,
+        289
+      ],
+      [
+        1776402000,
+        289
+      ],
+      [
+        1776488400,
+        289
+      ],
+      [
+        1776574800,
+        289
+      ],
+      [
+        1776661200,
+        350
+      ],
+      [
+        1776747600,
+        289
+      ],
+      [
+        1776834000,
+        289
+      ],
+      [
+        1776920400,
+        289
+      ],
+      [
+        1777006800,
+        289
+      ],
+      [
+        1777093200,
+        289
+      ],
+      [
+        1777179600,
+        289
+      ],
+      [
+        1777266000,
+        265
+      ],
+      [
+        1777352400,
+        265
+      ],
+      [
+        1777438800,
+        259
+      ],
+      [
+        1777525200,
+        259
+      ],
+      [
+        1777611600,
+        259
+      ],
+      [
+        1777698000,
+        259
+      ],
+      [
+        1777784400,
+        259
+      ],
+      [
+        1777870800,
+        259
+      ],
+      [
+        1777957200,
+        259
+      ],
+      [
+        1778043600,
+        259
+      ],
+      [
+        1778130000,
+        259
+      ],
+      [
+        1778216400,
+        259
+      ],
+      [
+        1778302800,
+        259
+      ],
+      [
+        1778389200,
+        259
+      ],
+      [
+        1778475600,
+        265
+      ],
+      [
+        1778562000,
+        265
+      ],
+      [
+        1778648400,
+        245
+      ],
+      [
+        1778734800,
+        245
+      ],
+      [
+        1778821200,
+        254
+      ],
+      [
+        1778907600,
+        248
+      ],
+      [
+        1778994000,
+        248
+      ],
+      [
+        1779080400,
+        248
+      ],
+      [
+        1779166800,
+        248
+      ],
+      [
+        1779253200,
+        268
+      ],
+      [
+        1779339600,
+        268
+      ],
+      [
+        1779426000,
+        268
+      ],
+      [
+        1779512400,
+        268
+      ],
+      [
+        1779598800,
+        268
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "ORD",
+            "name": "Chicago O'Hare International Airport"
+          },
+          "city": "Chicago",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTDuw95ynLqGCkZRzt9XuWXGBs8qWhw_1UZkMrCRAQp3rojEZBpwitHM8GAMBXgKhSKFgJZcXZ3qmYs2g",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR0CK6-eZWtnTJdtBk0BnPl1NeBcRul1YiurNp0AEgxFjNRleXR3vb2VV6vc5Uk51C0AhYN6AZAQKz6FJ-NQfbjVf8HQQ96ZH3WYIS-Rw0"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "MIA",
+            "name": "Miami International Airport"
+          },
+          "city": "Miami",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRjsG6ybk9C2oSVnPZUal-6l7EimKLf5gtMAhOumgD16nXBwB4X0lHH3nh-178HKbonabZtnDMdZKfDEQ",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRScvUK_JtYRXmQWoXHiT98Ajl1KTuUVO40d0Q678OpK1xyyWI8VIkHqzXE9BHfY5R35UpgbeEdcf1IhMDncXwDo29wOABY9MIUzCFLkwU"
+        }
+      ]
+    }
+  ]
+}

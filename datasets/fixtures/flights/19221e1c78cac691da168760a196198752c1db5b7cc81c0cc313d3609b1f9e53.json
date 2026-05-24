@@ -1,0 +1,939 @@
+{
+  "search_metadata": {
+    "id": "6a130fd35a5e9658ca70f3e8",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/peaMOxmLhmK7l46ec5T2sg/6a130fd35a5e9658ca70f3e8.json",
+    "created_at": "2026-05-24 14:48:51 UTC",
+    "processed_at": "2026-05-24 14:48:51 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhoeEgoyMDI2LTA2LTA3agcIARIDTEFYcgcIARIDSE5EQAFIA3ABmAEC&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/peaMOxmLhmK7l46ec5T2sg/6a130fd35a5e9658ca70f3e8.html",
+    "prettify_html_file": "https://serpapi.com/searches/peaMOxmLhmK7l46ec5T2sg/6a130fd35a5e9658ca70f3e8.prettify",
+    "total_time_taken": 0.55
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "us",
+    "type": "2",
+    "departure_id": "LAX",
+    "arrival_id": "HND",
+    "outbound_date": "2026-06-07",
+    "travel_class": 3,
+    "adults": 1,
+    "currency": "USD"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 10:20"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-06-08 14:00"
+          },
+          "duration": 700,
+          "airplane": "Airbus A350",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Business Class",
+          "flight_number": "DL 7",
+          "extensions": [
+            "Individual suite",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1877 kg"
+          ]
+        }
+      ],
+      "total_duration": 700,
+      "carbon_emissions": {
+        "this_flight": 1878000,
+        "typical_for_this_route": 2423000,
+        "difference_percent": -22
+      },
+      "price": 5931,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "booking_token": "WyJDalJJWTJaUGJuQkRVbk5aTVhOQlRXNTViVUZDUnkwdExTMHRMUzEyZDJGcE1pMXVNVUZCUVVGQlIyOVVSRGxOU2xrdGRGTkJFZ05FVERjYUN3aWFtU1FRQWhvRFZWTkVPQnh3bXBrayIsW1siTEFYIiwiMjAyNi0wNi0wNyIsIkhORCIsbnVsbCwiREwiLCI3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 11:40"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-06-08 15:05"
+          },
+          "duration": 685,
+          "airplane": "Boeing 787-10",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Business Class",
+          "flight_number": "UA 39",
+          "ticket_also_sold_by": [
+            "ANA"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1508 kg"
+          ]
+        }
+      ],
+      "total_duration": 685,
+      "carbon_emissions": {
+        "this_flight": 1508000,
+        "typical_for_this_route": 2423000,
+        "difference_percent": -38
+      },
+      "price": 5931,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJWTJaUGJuQkRVbk5aTVhOQlRXNTViVUZDUnkwdExTMHRMUzEyZDJGcE1pMXVNVUZCUVVGQlIyOVVSRGxOU2xrdGRGTkJFZ1JWUVRNNUdnc0ltcGtrRUFJYUExVlRSRGdjY0pxWkpBPT0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJITkQiLG51bGwsIlVBIiwiMzkiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 12:15"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-06-08 15:50"
+          },
+          "duration": 695,
+          "airplane": "Boeing 787",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Business Class",
+          "flight_number": "AA 27",
+          "ticket_also_sold_by": [
+            "JAL",
+            "Alaska"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1906 kg"
+          ]
+        }
+      ],
+      "total_duration": 695,
+      "carbon_emissions": {
+        "this_flight": 1907000,
+        "typical_for_this_route": 2423000,
+        "difference_percent": -21
+      },
+      "price": 5931,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "booking_token": "WyJDalJJWTJaUGJuQkRVbk5aTVhOQlRXNTViVUZDUnkwdExTMHRMUzEyZDJGcE1pMXVNVUZCUVVGQlIyOVVSRGxOU2xrdGRGTkJFZ1JCUVRJM0dnc0ltcGtrRUFJYUExVlRSRGdjY0pxWkpBPT0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJITkQiLG51bGwsIkFBIiwiMjciXV1d"
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 22:35"
+          },
+          "arrival_airport": {
+            "name": "Toronto Pearson International Airport",
+            "id": "YYZ",
+            "time": "2026-06-08 06:24"
+          },
+          "duration": 289,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Air Canada",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+          "travel_class": "Business Class",
+          "flight_number": "AC 794",
+          "ticket_also_sold_by": [
+            "United"
+          ],
+          "extensions": [
+            "Extra reclining seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 446 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Toronto Pearson International Airport",
+            "id": "YYZ",
+            "time": "2026-06-08 13:05"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-06-09 15:40"
+          },
+          "duration": 815,
+          "airplane": "Boeing 777",
+          "airline": "Air Canada",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+          "travel_class": "Business Class",
+          "flight_number": "AC 1",
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2350 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 401,
+          "name": "Toronto Pearson International Airport",
+          "id": "YYZ"
+        }
+      ],
+      "total_duration": 1505,
+      "carbon_emissions": {
+        "this_flight": 2797000,
+        "typical_for_this_route": 2423000,
+        "difference_percent": 15
+      },
+      "price": 4677,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+      "booking_token": "WyJDalJJWTJaUGJuQkRVbk5aTVhOQlRXNTViVUZDUnkwdExTMHRMUzEyZDJGcE1pMXVNVUZCUVVGQlIyOVVSRGxOU2xrdGRGTkJFZ2xCUXpjNU5IeEJRekVhQ3dqV3hSd1FBaG9EVlZORU9CeHcxc1VjIixbWyJMQVgiLCIyMDI2LTA2LTA3IiwiWVlaIixudWxsLCJBQyIsIjc5NCJdLFsiWVlaIiwiMjAyNi0wNi0wOCIsIkhORCIsbnVsbCwiQUMiLCIxIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 12:25"
+          },
+          "arrival_airport": {
+            "name": "Ninoy Aquino International Airport",
+            "id": "MNL",
+            "time": "2026-06-08 18:00"
+          },
+          "duration": 875,
+          "airplane": "Boeing 777",
+          "airline": "Philippine Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/PR.png",
+          "travel_class": "Business Class",
+          "flight_number": "PR 113",
+          "extensions": [
+            "Angled flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2704 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Ninoy Aquino International Airport",
+            "id": "MNL",
+            "time": "2026-06-08 19:05"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-06-09 00:45"
+          },
+          "duration": 280,
+          "airplane": "Airbus A321",
+          "airline": "Philippine Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/PR.png",
+          "travel_class": "Business Class",
+          "flight_number": "PR 424",
+          "ticket_also_sold_by": [
+            "ANA"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 465 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 65,
+          "name": "Ninoy Aquino International Airport",
+          "id": "MNL"
+        }
+      ],
+      "total_duration": 1220,
+      "carbon_emissions": {
+        "this_flight": 3170000,
+        "typical_for_this_route": 2423000,
+        "difference_percent": 31
+      },
+      "price": 5044,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/PR.png",
+      "booking_token": "WyJDalJJWTJaUGJuQkRVbk5aTVhOQlRXNTViVUZDUnkwdExTMHRMUzEyZDJGcE1pMXVNVUZCUVVGQlIyOVVSRGxOU2xrdGRGTkJFZ3RRVWpFeE0zeFFValF5TkJvTENNYmtIaEFDR2dOVlUwUTRISERHNUI0PSIsW1siTEFYIiwiMjAyNi0wNi0wNyIsIk1OTCIsbnVsbCwiUFIiLCIxMTMiXSxbIk1OTCIsIjIwMjYtMDYtMDgiLCJITkQiLG51bGwsIlBSIiwiNDI0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 07:30"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 09:06"
+          },
+          "duration": 96,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Business Class",
+          "flight_number": "UA 1372",
+          "ticket_also_sold_by": [
+            "ANA"
+          ],
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 86 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 10:55"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-06-08 13:55"
+          },
+          "duration": 660,
+          "airplane": "Boeing 777",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Business Class",
+          "flight_number": "UA 875",
+          "ticket_also_sold_by": [
+            "ANA"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2220 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 109,
+          "name": "San Francisco International Airport",
+          "id": "SFO"
+        }
+      ],
+      "total_duration": 865,
+      "carbon_emissions": {
+        "this_flight": 2306000,
+        "typical_for_this_route": 2423000,
+        "difference_percent": -5
+      },
+      "price": 5935,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJWTJaUGJuQkRVbk5aTVhOQlRXNTViVUZDUnkwdExTMHRMUzEyZDJGcE1pMXVNVUZCUVVGQlIyOVVSRGxOU2xrdGRGTkJFZ3hWUVRFek56SjhWVUU0TnpVYUN3amNuQ1FRQWhvRFZWTkVPQnh3M0p3ayIsW1siTEFYIiwiMjAyNi0wNi0wNyIsIlNGTyIsbnVsbCwiVUEiLCIxMzcyIl0sWyJTRk8iLCIyMDI2LTA2LTA3IiwiSE5EIixudWxsLCJVQSIsIjg3NSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 14:25"
+          },
+          "arrival_airport": {
+            "name": "Kansai International Airport",
+            "id": "KIX",
+            "time": "2026-06-08 18:45"
+          },
+          "duration": 740,
+          "airplane": "Boeing 787",
+          "airline": "JAL",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+          "travel_class": "Business Class",
+          "flight_number": "JL 69",
+          "ticket_also_sold_by": [
+            "American"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2448 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Kansai International Airport",
+            "id": "KIX",
+            "time": "2026-06-08 21:15"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-06-08 22:30"
+          },
+          "duration": 75,
+          "airplane": "Boeing 737",
+          "airline": "JAL",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+          "travel_class": "Business Class",
+          "flight_number": "JL 228",
+          "extensions": [
+            "Extra reclining seat",
+            "Free Wi-Fi",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 109 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 150,
+          "name": "Kansai International Airport",
+          "id": "KIX"
+        }
+      ],
+      "total_duration": 965,
+      "carbon_emissions": {
+        "this_flight": 2557000,
+        "typical_for_this_route": 2423000,
+        "difference_percent": 6
+      },
+      "price": 5937,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+      "booking_token": "WyJDalJJWTJaUGJuQkRVbk5aTVhOQlRXNTViVUZDUnkwdExTMHRMUzEyZDJGcE1pMXVNVUZCUVVGQlIyOVVSRGxOU2xrdGRGTkJFZ3BLVERZNWZFcE1Nakk0R2dzSWtKNGtFQUlhQTFWVFJEZ2NjSkNlSkE9PSIsW1siTEFYIiwiMjAyNi0wNi0wNyIsIktJWCIsbnVsbCwiSkwiLCI2OSJdLFsiS0lYIiwiMjAyNi0wNi0wOCIsIkhORCIsbnVsbCwiSkwiLCIyMjgiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 12:30"
+          },
+          "arrival_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-06-08 17:50"
+          },
+          "duration": 800,
+          "airplane": "Boeing 747",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Business Class",
+          "flight_number": "KE 18",
+          "extensions": [
+            "Lie flat seat",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2936 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-06-08 21:10"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-06-08 23:30"
+          },
+          "duration": 140,
+          "airplane": "Airbus A330",
+          "airline": "Asiana Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OZ.png",
+          "travel_class": "Business Class",
+          "flight_number": "OZ 178",
+          "extensions": [
+            "Angled flat seat",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 429 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 200,
+          "name": "Incheon International Airport",
+          "id": "ICN"
+        }
+      ],
+      "total_duration": 1140,
+      "carbon_emissions": {
+        "this_flight": 3365000,
+        "typical_for_this_route": 2423000,
+        "difference_percent": 39
+      },
+      "price": 5939,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJWTJaUGJuQkRVbk5aTVhOQlRXNTViVUZDUnkwdExTMHRMUzEyZDJGcE1pMXVNVUZCUVVGQlIyOVVSRGxOU2xrdGRGTkJFZ3BMUlRFNGZFOWFNVGM0R2dzSTRwOGtFQUlhQTFWVFJEZ2NjT0tmSkE9PSIsW1siTEFYIiwiMjAyNi0wNi0wNyIsIklDTiIsbnVsbCwiS0UiLCIxOCJdLFsiSUNOIiwiMjAyNi0wNi0wOCIsIkhORCIsbnVsbCwiT1oiLCIxNzgiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 17:15"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-06-08 21:00"
+          },
+          "duration": 705,
+          "airplane": "Boeing 787",
+          "airline": "ANA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+          "travel_class": "Business Class",
+          "flight_number": "NH 125",
+          "ticket_also_sold_by": [
+            "United"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1522 kg"
+          ]
+        }
+      ],
+      "total_duration": 705,
+      "carbon_emissions": {
+        "this_flight": 1523000,
+        "typical_for_this_route": 2423000,
+        "difference_percent": -37
+      },
+      "price": 11595,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+      "booking_token": "WyJDalJJWTJaUGJuQkRVbk5aTVhOQlRXNTViVUZDUnkwdExTMHRMUzEyZDJGcE1pMXVNVUZCUVVGQlIyOVVSRGxOU2xrdGRGTkJFZ1ZPU0RFeU5Sb0xDSnJpUmhBQ0dnTlZVMFE0SEhDYTRrWT0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJITkQiLG51bGwsIk5IIiwiMTI1Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 13:40"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-06-08 17:25"
+          },
+          "duration": 705,
+          "airplane": "Airbus A350",
+          "airline": "JAL",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+          "travel_class": "Business Class",
+          "flight_number": "JL 15",
+          "ticket_also_sold_by": [
+            "American"
+          ],
+          "extensions": [
+            "Individual suite",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2077 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "total_duration": 705,
+      "carbon_emissions": {
+        "this_flight": 2077000,
+        "typical_for_this_route": 2423000,
+        "difference_percent": -14
+      },
+      "price": 11760,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+      "booking_token": "WyJDalJJWTJaUGJuQkRVbk5aTVhOQlRXNTViVUZDUnkwdExTMHRMUzEyZDJGcE1pMXVNVUZCUVVGQlIyOVVSRGxOU2xrdGRGTkJFZ1JLVERFMUdnc0lqdU5IRUFJYUExVlRSRGdjY0k3alJ3PT0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJITkQiLG51bGwsIkpMIiwiMTUiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 01:20"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-06-08 05:00"
+          },
+          "duration": 700,
+          "airplane": "Boeing 787",
+          "airline": "ANA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+          "travel_class": "Business Class",
+          "flight_number": "NH 105",
+          "ticket_also_sold_by": [
+            "United"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1835 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 700,
+      "carbon_emissions": {
+        "this_flight": 1836000,
+        "typical_for_this_route": 2423000,
+        "difference_percent": -24
+      },
+      "price": 11895,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+      "booking_token": "WyJDalJJWTJaUGJuQkRVbk5aTVhOQlRXNTViVUZDUnkwdExTMHRMUzEyZDJGcE1pMXVNVUZCUVVGQlIyOVVSRGxOU2xrdGRGTkJFZ1ZPU0RFd05Sb0xDTXJNU0JBQ0dnTlZVMFE0SEhES3pFZz0iLFtbIkxBWCIsIjIwMjYtMDYtMDciLCJITkQiLG51bGwsIk5IIiwiMTA1Il1dXQ=="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 4677,
+    "price_level": "high",
+    "typical_price_range": [
+      2500,
+      3050
+    ],
+    "price_history": [
+      [
+        1774335600,
+        2474
+      ],
+      [
+        1774422000,
+        2474
+      ],
+      [
+        1774508400,
+        2474
+      ],
+      [
+        1774594800,
+        2474
+      ],
+      [
+        1774681200,
+        2474
+      ],
+      [
+        1774767600,
+        2474
+      ],
+      [
+        1774854000,
+        2474
+      ],
+      [
+        1774940400,
+        2474
+      ],
+      [
+        1775026800,
+        2524
+      ],
+      [
+        1775113200,
+        2852
+      ],
+      [
+        1775199600,
+        2524
+      ],
+      [
+        1775286000,
+        2524
+      ],
+      [
+        1775372400,
+        2524
+      ],
+      [
+        1775458800,
+        2524
+      ],
+      [
+        1775545200,
+        2524
+      ],
+      [
+        1775631600,
+        2524
+      ],
+      [
+        1775718000,
+        2524
+      ],
+      [
+        1775804400,
+        2525
+      ],
+      [
+        1775890800,
+        2525
+      ],
+      [
+        1775977200,
+        2525
+      ],
+      [
+        1776063600,
+        2525
+      ],
+      [
+        1776150000,
+        2852
+      ],
+      [
+        1776236400,
+        2593
+      ],
+      [
+        1776322800,
+        2525
+      ],
+      [
+        1776409200,
+        2525
+      ],
+      [
+        1776495600,
+        2525
+      ],
+      [
+        1776582000,
+        2525
+      ],
+      [
+        1776668400,
+        2525
+      ],
+      [
+        1776754800,
+        2525
+      ],
+      [
+        1776841200,
+        2525
+      ],
+      [
+        1776927600,
+        2645
+      ],
+      [
+        1777014000,
+        2645
+      ],
+      [
+        1777100400,
+        2645
+      ],
+      [
+        1777186800,
+        2645
+      ],
+      [
+        1777273200,
+        2645
+      ],
+      [
+        1777359600,
+        2645
+      ],
+      [
+        1777446000,
+        2617
+      ],
+      [
+        1777532400,
+        2617
+      ],
+      [
+        1777618800,
+        2876
+      ],
+      [
+        1777705200,
+        2876
+      ],
+      [
+        1777791600,
+        2876
+      ],
+      [
+        1777878000,
+        2876
+      ],
+      [
+        1777964400,
+        2876
+      ],
+      [
+        1778050800,
+        2876
+      ],
+      [
+        1778137200,
+        2876
+      ],
+      [
+        1778223600,
+        2877
+      ],
+      [
+        1778310000,
+        2877
+      ],
+      [
+        1778396400,
+        2877
+      ],
+      [
+        1778482800,
+        2887
+      ],
+      [
+        1778569200,
+        2887
+      ],
+      [
+        1778655600,
+        2887
+      ],
+      [
+        1778742000,
+        2886
+      ],
+      [
+        1778828400,
+        2886
+      ],
+      [
+        1778914800,
+        2886
+      ],
+      [
+        1779001200,
+        4004
+      ],
+      [
+        1779087600,
+        4004
+      ],
+      [
+        1779174000,
+        4004
+      ],
+      [
+        1779260400,
+        4004
+      ],
+      [
+        1779346800,
+        4004
+      ],
+      [
+        1779433200,
+        4004
+      ],
+      [
+        1779519600,
+        4004
+      ],
+      [
+        1779606000,
+        4677
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "LAX",
+            "name": "Los Angeles International Airport"
+          },
+          "city": "Los Angeles",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTFuS2Y5_b7ZIl-g2Hm7jnG7zoi2uk0CQltF_DFbp6gIzfYznnOB6uJm9d6ePT5PJO5XM1j8vigwCNxRA",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT4B0K7etaN3KgEgtU5dJajdcmLtB5QSDRYr4KqcwH1iWxMm7TIqwtcUTTHD5AmNyeeFIpVpTnbSDeuD_HVlkYzOam-TO9w1worRSGRTUo"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "HND",
+            "name": "Haneda Airport"
+          },
+          "city": "Tokyo",
+          "country": "Japan",
+          "country_code": "JP",
+          "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTqHkzEeI2bSglPzmSGZL7bxXmn0wJgOn2ZtEN8I47uBnzY1CnHzGtD-YseJXqyexcAcw_uJp-D5HTkCg",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRLnIToEgwiM_jV3cbw5eQZoUAIg6XqdrJAiClDyyg0w-JBSRN5ZeOT-iFb3SvwkwP1uoBCmT-gKE5VcyCYf-xq4guL4NAFICSaNyOnYOA"
+        }
+      ]
+    }
+  ]
+}

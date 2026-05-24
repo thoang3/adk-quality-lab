@@ -1,0 +1,1565 @@
+{
+  "search_metadata": {
+    "id": "6a130fdaafea457bde8176ee",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/2SUqYnunSwVa6GjT4l95uw/6a130fdaafea457bde8176ee.json",
+    "created_at": "2026-05-24 14:48:58 UTC",
+    "processed_at": "2026-05-24 14:48:58 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhoeEgoyMDI2LTA2LTA3agcIARIDSkZLcgcIARIDU0ZPQAFIA3ABmAEC&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/2SUqYnunSwVa6GjT4l95uw/6a130fdaafea457bde8176ee.html",
+    "prettify_html_file": "https://serpapi.com/searches/2SUqYnunSwVa6GjT4l95uw/6a130fdaafea457bde8176ee.prettify",
+    "total_time_taken": 1.06
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "us",
+    "type": "2",
+    "departure_id": "JFK",
+    "arrival_id": "SFO",
+    "outbound_date": "2026-06-07",
+    "travel_class": 3,
+    "adults": 1,
+    "currency": "USD"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 13:00"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-06-07 15:50"
+          },
+          "duration": 170,
+          "airplane": "Airbus A321neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Business Class",
+          "flight_number": "F9 4731",
+          "extensions": [
+            "Carbon emissions estimate: 128 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-06-07 17:20"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 19:57"
+          },
+          "duration": 337,
+          "airplane": "Airbus A321neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Business Class",
+          "flight_number": "F9 1447",
+          "extensions": [
+            "Carbon emissions estimate: 275 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 90,
+          "name": "Hartsfield-Jackson Atlanta International Airport",
+          "id": "ATL"
+        }
+      ],
+      "total_duration": 597,
+      "carbon_emissions": {
+        "this_flight": 404000,
+        "typical_for_this_route": 568000,
+        "difference_percent": -29
+      },
+      "price": 490,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFZzFHT1RRM016RjhSamt4TkRRM0dnc0k1djRDRUFJYUExVlRSRGdjY09iK0FnPT0iLFtbIkpGSyIsIjIwMjYtMDYtMDciLCJBVEwiLG51bGwsIkY5IiwiNDczMSJdLFsiQVRMIiwiMjAyNi0wNi0wNyIsIlNGTyIsbnVsbCwiRjkiLCIxNDQ3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 06:00"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 09:23"
+          },
+          "duration": 383,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Business Class",
+          "flight_number": "B6 115",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 624 kg"
+          ]
+        }
+      ],
+      "total_duration": 383,
+      "carbon_emissions": {
+        "this_flight": 625000,
+        "typical_for_this_route": 568000,
+        "difference_percent": 10
+      },
+      "price": 1081,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFZ1ZDTmpFeE5Sb0xDSWpNQmhBQ0dnTlZVMFE0SEhDSXpBWT0iLFtbIkpGSyIsIjIwMjYtMDYtMDciLCJTRk8iLG51bGwsIkI2IiwiMTE1Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 11:30"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 14:58"
+          },
+          "duration": 388,
+          "airplane": "Boeing 737",
+          "airline": "Alaska",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "travel_class": "First Class",
+          "flight_number": "AS 723",
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 466 kg"
+          ]
+        }
+      ],
+      "total_duration": 388,
+      "carbon_emissions": {
+        "this_flight": 467000,
+        "typical_for_this_route": 568000,
+        "difference_percent": -18
+      },
+      "price": 1204,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFZ1ZCVXpjeU14b0xDSlNzQnhBQ0dnTlZVMFE0SEhDVXJBYz0iLFtbIkpGSyIsIjIwMjYtMDYtMDciLCJTRk8iLG51bGwsIkFTIiwiNzIzIl1dXQ=="
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 07:50"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2026-06-07 10:39"
+          },
+          "duration": 349,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 2002",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 356 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2026-06-07 14:45"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 16:04"
+          },
+          "duration": 79,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 2039",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 95 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-06-07 17:51"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 19:20"
+          },
+          "duration": 89,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 2567",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 102 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 246,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        },
+        {
+          "duration": 107,
+          "name": "Los Angeles International Airport",
+          "id": "LAX"
+        }
+      ],
+      "total_duration": 870,
+      "carbon_emissions": {
+        "this_flight": 554000,
+        "typical_for_this_route": 568000,
+        "difference_percent": -2
+      },
+      "price": 999,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFaFJCUVRJd01ESjhRVUV5TURNNWZFRkJNalUyTnhvTENPS0xCaEFDR2dOVlUwUTRISERpaXdZPSIsW1siSkZLIiwiMjAyNi0wNi0wNyIsIkxBUyIsbnVsbCwiQUEiLCIyMDAyIl0sWyJMQVMiLCIyMDI2LTA2LTA3IiwiTEFYIixudWxsLCJBQSIsIjIwMzkiXSxbIkxBWCIsIjIwMjYtMDYtMDciLCJTRk8iLG51bGwsIkFBIiwiMjU2NyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 09:59"
+          },
+          "arrival_airport": {
+            "name": "Portland International Airport",
+            "id": "PDX",
+            "time": "2026-06-07 13:10"
+          },
+          "duration": 371,
+          "airplane": "Boeing 737",
+          "airline": "Alaska",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "travel_class": "First Class",
+          "flight_number": "AS 19",
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 430 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Portland International Airport",
+            "id": "PDX",
+            "time": "2026-06-07 14:51"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 16:48"
+          },
+          "duration": 117,
+          "airplane": "Boeing 737",
+          "airline": "Alaska",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "travel_class": "First Class",
+          "flight_number": "AS 236",
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 150 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 101,
+          "name": "Portland International Airport",
+          "id": "PDX"
+        }
+      ],
+      "total_duration": 589,
+      "carbon_emissions": {
+        "this_flight": 581000,
+        "typical_for_this_route": 568000,
+        "difference_percent": 2
+      },
+      "price": 1022,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFZ3BCVXpFNWZFRlRNak0yR2dzSTZaMEdFQUlhQTFWVFJEZ2NjT21kQmc9PSIsW1siSkZLIiwiMjAyNi0wNi0wNyIsIlBEWCIsbnVsbCwiQVMiLCIxOSJdLFsiUERYIiwiMjAyNi0wNi0wNyIsIlNGTyIsbnVsbCwiQVMiLCIyMzYiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 11:30"
+          },
+          "arrival_airport": {
+            "name": "San Diego International Airport",
+            "id": "SAN",
+            "time": "2026-06-07 14:38"
+          },
+          "duration": 368,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "Alaska",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "travel_class": "First Class",
+          "flight_number": "AS 25",
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 388 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "San Diego International Airport",
+            "id": "SAN",
+            "time": "2026-06-07 15:17"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 17:01"
+          },
+          "duration": 104,
+          "airplane": "Embraer 175",
+          "airline": "Alaska",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "travel_class": "First Class",
+          "flight_number": "AS 3013",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 160 kg"
+          ],
+          "plane_and_crew_by": "SkyWest Airlines as Alaska SkyWest"
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 39,
+          "name": "San Diego International Airport",
+          "id": "SAN"
+        }
+      ],
+      "total_duration": 511,
+      "carbon_emissions": {
+        "this_flight": 549000,
+        "typical_for_this_route": 568000,
+        "difference_percent": -3
+      },
+      "price": 1036,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFZ3RCVXpJMWZFRlRNekF4TXhvTENOK29CaEFDR2dOVlUwUTRISERmcUFZPSIsW1siSkZLIiwiMjAyNi0wNi0wNyIsIlNBTiIsbnVsbCwiQVMiLCIyNSJdLFsiU0FOIiwiMjAyNi0wNi0wNyIsIlNGTyIsbnVsbCwiQVMiLCIzMDEzIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 18:35"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 22:16"
+          },
+          "duration": 401,
+          "airplane": "Boeing 737",
+          "airline": "Alaska",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "travel_class": "First Class",
+          "flight_number": "AS 29",
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 466 kg"
+          ]
+        }
+      ],
+      "total_duration": 401,
+      "carbon_emissions": {
+        "this_flight": 467000,
+        "typical_for_this_route": 568000,
+        "difference_percent": -18
+      },
+      "price": 1204,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFZ1JCVXpJNUdnc0lsS3dIRUFJYUExVlRSRGdjY0pTc0J3PT0iLFtbIkpGSyIsIjIwMjYtMDYtMDciLCJTRk8iLG51bGwsIkFTIiwiMjkiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 21:54"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-08 01:36"
+          },
+          "duration": 402,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Business Class",
+          "flight_number": "B6 515",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 624 kg"
+          ]
+        }
+      ],
+      "total_duration": 402,
+      "carbon_emissions": {
+        "this_flight": 625000,
+        "typical_for_this_route": 568000,
+        "difference_percent": 10
+      },
+      "price": 1301,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFZ1ZDTmpVeE5Sb0xDUGozQnhBQ0dnTlZVMFE0SEhENDl3Yz0iLFtbIkpGSyIsIjIwMjYtMDYtMDciLCJTRk8iLG51bGwsIkI2IiwiNTE1Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 16:05"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 19:41"
+          },
+          "duration": 396,
+          "airplane": "Boeing 737",
+          "airline": "Alaska",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "travel_class": "First Class",
+          "flight_number": "AS 41",
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 466 kg"
+          ]
+        }
+      ],
+      "total_duration": 396,
+      "carbon_emissions": {
+        "this_flight": 467000,
+        "typical_for_this_route": 568000,
+        "difference_percent": -18
+      },
+      "price": 1304,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFZ1JCVXpReEdnc0lwUG9IRUFJYUExVlRSRGdjY0tUNkJ3PT0iLFtbIkpGSyIsIjIwMjYtMDYtMDciLCJTRk8iLG51bGwsIkFTIiwiNDEiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 06:00"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 09:27"
+          },
+          "duration": 387,
+          "airplane": "Airbus A321 (Sharklets)",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Business Class",
+          "flight_number": "AA 76",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 884 kg"
+          ]
+        }
+      ],
+      "total_duration": 387,
+      "carbon_emissions": {
+        "this_flight": 885000,
+        "typical_for_this_route": 568000,
+        "difference_percent": 56
+      },
+      "price": 1349,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFZ1JCUVRjMkdnc0l1SjBJRUFJYUExVlRSRGdjY0xpZENBPT0iLFtbIkpGSyIsIjIwMjYtMDYtMDciLCJTRk8iLG51bGwsIkFBIiwiNzYiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 07:30"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 10:52"
+          },
+          "duration": 382,
+          "airplane": "Airbus A321 (Sharklets)",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Business Class",
+          "flight_number": "AA 179",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 884 kg"
+          ]
+        }
+      ],
+      "total_duration": 382,
+      "carbon_emissions": {
+        "this_flight": 885000,
+        "typical_for_this_route": 568000,
+        "difference_percent": 56
+      },
+      "price": 1349,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFZ1ZCUVRFM09Sb0xDTGlkQ0JBQ0dnTlZVMFE0SEhDNG5RZz0iLFtbIkpGSyIsIjIwMjYtMDYtMDciLCJTRk8iLG51bGwsIkFBIiwiMTc5Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 07:00"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 10:15"
+          },
+          "duration": 375,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Business Class",
+          "flight_number": "DL 668",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1026 kg"
+          ]
+        }
+      ],
+      "total_duration": 375,
+      "carbon_emissions": {
+        "this_flight": 1026000,
+        "typical_for_this_route": 568000,
+        "difference_percent": 81
+      },
+      "price": 1499,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFZ1ZFVERZMk9Cb0xDTStTQ1JBQ0dnTlZVMFE0SEhEUGtnaz0iLFtbIkpGSyIsIjIwMjYtMDYtMDciLCJTRk8iLG51bGwsIkRMIiwiNjY4Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 18:29"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 22:19"
+          },
+          "duration": 410,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Business Class",
+          "flight_number": "B6 615",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 624 kg"
+          ]
+        }
+      ],
+      "total_duration": 410,
+      "carbon_emissions": {
+        "this_flight": 625000,
+        "typical_for_this_route": 568000,
+        "difference_percent": 10
+      },
+      "price": 1796,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFZ1ZDTmpZeE5Sb0xDTlQ2Q2hBQ0dnTlZVMFE0SEhEVStnbz0iLFtbIkpGSyIsIjIwMjYtMDYtMDciLCJTRk8iLG51bGwsIkI2IiwiNjE1Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 21:15"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-08 00:52"
+          },
+          "duration": 397,
+          "airplane": "Airbus A321 (Sharklets)",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Business Class",
+          "flight_number": "AA 177",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 884 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "total_duration": 397,
+      "carbon_emissions": {
+        "this_flight": 885000,
+        "typical_for_this_route": 568000,
+        "difference_percent": 56
+      },
+      "price": 1799,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFZ1ZCUVRFM054b0xDSUQ5Q2hBQ0dnTlZVMFE0SEhDQS9Rbz0iLFtbIkpGSyIsIjIwMjYtMDYtMDciLCJTRk8iLG51bGwsIkFBIiwiMTc3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 09:00"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 12:27"
+          },
+          "duration": 387,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Business Class",
+          "flight_number": "DL 669",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1177 kg"
+          ]
+        }
+      ],
+      "total_duration": 387,
+      "carbon_emissions": {
+        "this_flight": 1178000,
+        "typical_for_this_route": 568000,
+        "difference_percent": 107
+      },
+      "price": 2199,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFZ1ZFVERZMk9Sb0xDTUMxRFJBQ0dnTlZVMFE0SEhEQXRRMD0iLFtbIkpGSyIsIjIwMjYtMDYtMDciLCJTRk8iLG51bGwsIkRMIiwiNjY5Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 21:15"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-08 00:59"
+          },
+          "duration": 404,
+          "airplane": "Boeing 757",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Business Class",
+          "flight_number": "DL 1732",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 654 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "total_duration": 404,
+      "carbon_emissions": {
+        "this_flight": 655000,
+        "typical_for_this_route": 568000,
+        "difference_percent": 15
+      },
+      "price": 2199,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFZ1pFVERFM016SWFDd2pBdFEwUUFob0RWVk5FT0J4d3dMVU4iLFtbIkpGSyIsIjIwMjYtMDYtMDciLCJTRk8iLG51bGwsIkRMIiwiMTczMiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 09:30"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 13:00"
+          },
+          "duration": 390,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "Alaska",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "travel_class": "First Class",
+          "flight_number": "AS 227",
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 401 kg"
+          ]
+        }
+      ],
+      "total_duration": 390,
+      "carbon_emissions": {
+        "this_flight": 401000,
+        "typical_for_this_route": 568000,
+        "difference_percent": -29
+      },
+      "price": 2254,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFZ1ZCVXpJeU54b0xDTHpnRFJBQ0dnTlZVMFE0SEhDODRBMD0iLFtbIkpGSyIsIjIwMjYtMDYtMDciLCJTRk8iLG51bGwsIkFTIiwiMjI3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 10:00"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 13:43"
+          },
+          "duration": 403,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Business Class",
+          "flight_number": "B6 215",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 624 kg"
+          ]
+        }
+      ],
+      "total_duration": 403,
+      "carbon_emissions": {
+        "this_flight": 625000,
+        "typical_for_this_route": 568000,
+        "difference_percent": 10
+      },
+      "price": 2313,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFZ1ZDTmpJeE5Sb0xDTWlPRGhBQ0dnTlZVMFE0SEhESWpnND0iLFtbIkpGSyIsIjIwMjYtMDYtMDciLCJTRk8iLG51bGwsIkI2IiwiMjE1Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 15:30"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 19:05"
+          },
+          "duration": 395,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Business Class",
+          "flight_number": "B6 415",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 624 kg"
+          ]
+        }
+      ],
+      "total_duration": 395,
+      "carbon_emissions": {
+        "this_flight": 625000,
+        "typical_for_this_route": 568000,
+        "difference_percent": 10
+      },
+      "price": 2313,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFZ1ZDTmpReE5Sb0xDTWlPRGhBQ0dnTlZVMFE0SEhESWpnND0iLFtbIkpGSyIsIjIwMjYtMDYtMDciLCJTRk8iLG51bGwsIkI2IiwiNDE1Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 07:10"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 10:35"
+          },
+          "duration": 385,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Business Class",
+          "flight_number": "B6 15",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 624 kg"
+          ]
+        }
+      ],
+      "total_duration": 385,
+      "carbon_emissions": {
+        "this_flight": 625000,
+        "typical_for_this_route": 568000,
+        "difference_percent": 10
+      },
+      "price": 2434,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFZ1JDTmpFMUdnc0lqTzBPRUFJYUExVlRSRGdjY0l6dERnPT0iLFtbIkpGSyIsIjIwMjYtMDYtMDciLCJTRk8iLG51bGwsIkI2IiwiMTUiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 16:20"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 20:00"
+          },
+          "duration": 400,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Business Class",
+          "flight_number": "DL 365",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1177 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "total_duration": 400,
+      "carbon_emissions": {
+        "this_flight": 1178000,
+        "typical_for_this_route": 568000,
+        "difference_percent": 107
+      },
+      "price": 2849,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFZ1ZFVERNMk5Sb0xDS2l4RVJBQ0dnTlZVMFE0SEhDb3NSRT0iLFtbIkpGSyIsIjIwMjYtMDYtMDciLCJTRk8iLG51bGwsIkRMIiwiMzY1Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 16:15"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 20:00"
+          },
+          "duration": 405,
+          "airplane": "Airbus A321 (Sharklets)",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Business Class",
+          "flight_number": "AA 15",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 884 kg"
+          ]
+        }
+      ],
+      "total_duration": 405,
+      "carbon_emissions": {
+        "this_flight": 885000,
+        "typical_for_this_route": 568000,
+        "difference_percent": 56
+      },
+      "price": 3396,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFZ1JCUVRFMUdnc0kxTndVRUFJYUExVlRSRGdjY05UY0ZBPT0iLFtbIkpGSyIsIjIwMjYtMDYtMDciLCJTRk8iLG51bGwsIkFBIiwiMTUiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 14:55"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 18:30"
+          },
+          "duration": 395,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Business Class",
+          "flight_number": "DL 679",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1026 kg"
+          ]
+        }
+      ],
+      "total_duration": 395,
+      "carbon_emissions": {
+        "this_flight": 1026000,
+        "typical_for_this_route": 568000,
+        "difference_percent": 81
+      },
+      "price": 3849,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFZ1ZFVERZM09Sb0xDTWkrRnhBQ0dnTlZVMFE0SEhESXZoYz0iLFtbIkpGSyIsIjIwMjYtMDYtMDciLCJTRk8iLG51bGwsIkRMIiwiNjc5Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 11:15"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 14:36"
+          },
+          "duration": 381,
+          "airplane": "Boeing 757",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Business Class",
+          "flight_number": "DL 363",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 654 kg"
+          ]
+        }
+      ],
+      "total_duration": 381,
+      "carbon_emissions": {
+        "this_flight": 655000,
+        "typical_for_this_route": 568000,
+        "difference_percent": 15
+      },
+      "price": 4349,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFZ1ZFVERNMk14b0xDSmpGR2hBQ0dnTlZVMFE0SEhDWXhSbz0iLFtbIkpGSyIsIjIwMjYtMDYtMDciLCJTRk8iLG51bGwsIkRMIiwiMzYzIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 18:50"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 22:35"
+          },
+          "duration": 405,
+          "airplane": "Boeing 757",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Business Class",
+          "flight_number": "DL 667",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 654 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "total_duration": 405,
+      "carbon_emissions": {
+        "this_flight": 655000,
+        "typical_for_this_route": 568000,
+        "difference_percent": 15
+      },
+      "price": 4349,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFZ1ZFVERZMk54b0xDSmpGR2hBQ0dnTlZVMFE0SEhDWXhSbz0iLFtbIkpGSyIsIjIwMjYtMDYtMDciLCJTRk8iLG51bGwsIkRMIiwiNjY3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-06-07 10:30"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-06-07 14:03"
+          },
+          "duration": 393,
+          "airplane": "Airbus A321 (Sharklets)",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "First Class",
+          "flight_number": "AA 149",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 884 kg"
+          ]
+        }
+      ],
+      "total_duration": 393,
+      "carbon_emissions": {
+        "this_flight": 885000,
+        "typical_for_this_route": 568000,
+        "difference_percent": 56
+      },
+      "price": 5026,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag included"
+      ],
+      "booking_token": "WyJDalJJWmpWbGR6TlhhemcyTm10QlRIUjBNbWRDUnkwdExTMHRMUzB0TFhCcVluQjNNVUZCUVVGQlIyOVVSRGx6U1VJMlowMUJFZ1ZCUVRFME9Sb0xDSTNXSGhBQ0dnTlZVMFE0SEhDTjFoND0iLFtbIkpGSyIsIjIwMjYtMDYtMDciLCJTRk8iLG51bGwsIkFBIiwiMTQ5Il1dXQ=="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 490,
+    "price_level": "typical",
+    "typical_price_range": [
+      350,
+      870
+    ],
+    "price_history": [
+      [
+        1774324800,
+        454
+      ],
+      [
+        1774411200,
+        454
+      ],
+      [
+        1774497600,
+        454
+      ],
+      [
+        1774584000,
+        454
+      ],
+      [
+        1774670400,
+        454
+      ],
+      [
+        1774756800,
+        454
+      ],
+      [
+        1774843200,
+        454
+      ],
+      [
+        1774929600,
+        454
+      ],
+      [
+        1775016000,
+        454
+      ],
+      [
+        1775102400,
+        454
+      ],
+      [
+        1775188800,
+        454
+      ],
+      [
+        1775275200,
+        459
+      ],
+      [
+        1775361600,
+        519
+      ],
+      [
+        1775448000,
+        519
+      ],
+      [
+        1775534400,
+        459
+      ],
+      [
+        1775620800,
+        459
+      ],
+      [
+        1775707200,
+        459
+      ],
+      [
+        1775793600,
+        519
+      ],
+      [
+        1775880000,
+        519
+      ],
+      [
+        1775966400,
+        556
+      ],
+      [
+        1776052800,
+        556
+      ],
+      [
+        1776139200,
+        556
+      ],
+      [
+        1776225600,
+        545
+      ],
+      [
+        1776312000,
+        545
+      ],
+      [
+        1776398400,
+        545
+      ],
+      [
+        1776484800,
+        545
+      ],
+      [
+        1776571200,
+        545
+      ],
+      [
+        1776657600,
+        545
+      ],
+      [
+        1776744000,
+        509
+      ],
+      [
+        1776830400,
+        455
+      ],
+      [
+        1776916800,
+        455
+      ],
+      [
+        1777003200,
+        457
+      ],
+      [
+        1777089600,
+        467
+      ],
+      [
+        1777176000,
+        467
+      ],
+      [
+        1777262400,
+        467
+      ],
+      [
+        1777348800,
+        467
+      ],
+      [
+        1777435200,
+        410
+      ],
+      [
+        1777521600,
+        410
+      ],
+      [
+        1777608000,
+        410
+      ],
+      [
+        1777694400,
+        410
+      ],
+      [
+        1777780800,
+        410
+      ],
+      [
+        1777867200,
+        345
+      ],
+      [
+        1777953600,
+        410
+      ],
+      [
+        1778040000,
+        480
+      ],
+      [
+        1778126400,
+        512
+      ],
+      [
+        1778212800,
+        512
+      ],
+      [
+        1778299200,
+        520
+      ],
+      [
+        1778385600,
+        571
+      ],
+      [
+        1778472000,
+        672
+      ],
+      [
+        1778558400,
+        631
+      ],
+      [
+        1778644800,
+        631
+      ],
+      [
+        1778731200,
+        614
+      ],
+      [
+        1778817600,
+        614
+      ],
+      [
+        1778904000,
+        614
+      ],
+      [
+        1778990400,
+        549
+      ],
+      [
+        1779076800,
+        537
+      ],
+      [
+        1779163200,
+        530
+      ],
+      [
+        1779249600,
+        530
+      ],
+      [
+        1779336000,
+        558
+      ],
+      [
+        1779422400,
+        558
+      ],
+      [
+        1779508800,
+        558
+      ],
+      [
+        1779595200,
+        490
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "JFK",
+            "name": "John F. Kennedy International Airport"
+          },
+          "city": "New York",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRa1dwH1NZQk4dsbPiyA9Vrq2RX75jXSZ-OkHn7NkLHl-11HercqDXoZ4p2cDxJkH6vca2degawrCzHEQ",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQEaUa9NsdPWGpAUGkTApkZDT_4M6_6V8wTcC0v1b1wJAJX-BuMSiipXbsoznGgcI1xLOc5QiTcR_xovexgjdOz0gqQe0tRQ9h0bUkZ07Q"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "SFO",
+            "name": "San Francisco International Airport"
+          },
+          "city": "San Francisco",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQhLXJKshv7iRU8OcvmRyc3ZHyoSy8ZfBGcntDNb8iTixSq8i7XIcn9tZMPIcM6-rm7kKcu2VQS3BKoYw",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRbcxCKTUaj5vz8PrFeUUBVCm8J3fXiMRJpnz4UfNsPeLOkP1EZK9sez1dEX--y-VLxpPAaVB5zo1hzXliHeLl3l0VFwrWrVz7UCQpkzCY"
+        }
+      ]
+    }
+  ]
+}
