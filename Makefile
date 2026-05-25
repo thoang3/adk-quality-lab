@@ -44,10 +44,13 @@ capture-fixtures:
 
 eval:
 	@echo "Running eval CASE_SET=$(CASE_SET) VARIANT=$(VARIANT)..."
+	@mkdir -p .cache
+	TRAVEL_CONCIERGE_SCENARIO=$(PWD)/examples/travel-concierge/travel_concierge/profiles/itinerary_empty_default.json \
 	uv run python -m adk_quality_lab.cli.eval \
 		--case-set=$(CASE_SET) \
 		--variant=$(VARIANT) \
-		--example-dir=examples/travel-concierge
+		--example-dir=examples/travel-concierge \
+		$(if $(filter gold,$(CASE_SET)),--output .cache/gold_run.json,)
 
 # ── Optimizer ────────────────────────────────────────────────────────────────
 # SURFACE: root | planning | tools
@@ -69,8 +72,17 @@ kappa:
 # ── Infrastructure ────────────────────────────────────────────────────────────
 
 gcp-setup:
+	@echo "=== Step 1: Create project (no-op if it already exists) ==="
+	gcloud projects create $(GCP_PROJECT) --name="ADK Quality Lab" || true
 	gcloud config set project $(GCP_PROJECT)
 	gcloud config set compute/region $(REGION)
+	@echo ""
+	@echo "=== Step 2: MANUAL — enable billing ==="
+	@echo "  Open https://console.cloud.google.com/billing/projects"
+	@echo "  Link project '$(GCP_PROJECT)' to your billing account, then press Enter."
+	@read _
+	@echo ""
+	@echo "=== Step 3: Enable APIs ==="
 	gcloud services enable \
 		aiplatform.googleapis.com \
 		run.googleapis.com \
@@ -78,9 +90,14 @@ gcp-setup:
 		bigquery.googleapis.com \
 		cloudscheduler.googleapis.com \
 		secretmanager.googleapis.com
-	@echo "Creating BigQuery dataset $(BQ_DATASET)..."
+	@echo ""
+	@echo "=== Step 4: Create Firestore Native database ==="
+	gcloud firestore databases create --location=$(REGION) --type=firestore-native || true
+	@echo ""
+	@echo "=== Step 5: Create BigQuery dataset ==="
 	bq mk --location=$(REGION) $(GCP_PROJECT):$(BQ_DATASET) || true
-	@echo "GCP setup complete."
+	@echo ""
+	@echo "GCP setup complete for project $(GCP_PROJECT)."
 
 dashboard:
 	@echo "Refreshing Looker Studio backing BigQuery view..."

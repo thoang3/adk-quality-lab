@@ -1,0 +1,594 @@
+{
+  "run_id": "43be25af-8cd9-4a97-b2c4-45ac3fd17441",
+  "variant": "baseline",
+  "surface": "root",
+  "iteration": null,
+  "cases": [
+    {
+      "case_id": "f1_001",
+      "rater": "deterministic.row_count_match",
+      "passed": true,
+      "score": 1.0,
+      "detail": "No count claim detected in agent response"
+    },
+    {
+      "case_id": "f1_001",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 4 carrier codes valid"
+    },
+    {
+      "case_id": "f1_002",
+      "rater": "deterministic.row_count_match",
+      "passed": true,
+      "score": 1.0,
+      "detail": "No count claim detected in agent response"
+    },
+    {
+      "case_id": "f1_002",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 4 carrier codes valid"
+    },
+    {
+      "case_id": "f1_004",
+      "rater": "deterministic.row_count_match",
+      "passed": true,
+      "score": 1.0,
+      "detail": "No count claim detected in agent response"
+    },
+    {
+      "case_id": "f1_004",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 4 carrier codes valid"
+    },
+    {
+      "case_id": "f1_003",
+      "rater": "deterministic.row_count_match",
+      "passed": true,
+      "score": 1.0,
+      "detail": "No count claim detected in agent response"
+    },
+    {
+      "case_id": "f1_003",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 4 carrier codes valid"
+    },
+    {
+      "case_id": "f2_001",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 0 carrier codes valid"
+    },
+    {
+      "case_id": "f2_001",
+      "rater": "deterministic.numerical_equality",
+      "passed": false,
+      "score": 0.0,
+      "detail": "No prices found in response; expected $892.0"
+    },
+    {
+      "case_id": "f2_001",
+      "rater": "groundedness.structured_value",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Expected carrier 'BA' not found in response; Expected flight 'BA284' not found in response; Expected price ~$892.00 not found in response"
+    },
+    {
+      "case_id": "f2_002",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 1 carrier codes valid"
+    },
+    {
+      "case_id": "f2_002",
+      "rater": "deterministic.numerical_equality",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Closest cited price $450.00 vs expected $784.00 (tolerance \u00b1$1.00)"
+    },
+    {
+      "case_id": "f2_002",
+      "rater": "groundedness.structured_value",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Expected carrier 'AA' not found in response; Expected flight 'AA100' not found in response"
+    },
+    {
+      "case_id": "f1_005",
+      "rater": "deterministic.row_count_match",
+      "passed": true,
+      "score": 1.0,
+      "detail": "No count claim detected in agent response"
+    },
+    {
+      "case_id": "f1_005",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 2 carrier codes valid"
+    },
+    {
+      "case_id": "f2_003",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 4 carrier codes valid"
+    },
+    {
+      "case_id": "f2_003",
+      "rater": "deterministic.numerical_equality",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Closest cited price $4390.00 vs expected $3450.00 (tolerance \u00b1$1.00)"
+    },
+    {
+      "case_id": "f2_003",
+      "rater": "groundedness.structured_value",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Expected flight 'NH12' not found in response"
+    },
+    {
+      "case_id": "f1_006",
+      "rater": "deterministic.row_count_match",
+      "passed": true,
+      "score": 1.0,
+      "detail": "No count claim detected in agent response"
+    },
+    {
+      "case_id": "f1_006",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 4 carrier codes valid"
+    },
+    {
+      "case_id": "f2_005",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 1 carrier codes valid"
+    },
+    {
+      "case_id": "f2_005",
+      "rater": "deterministic.numerical_equality",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Closest cited price $1400.00 vs expected $5280.00 (tolerance \u00b1$1.00)"
+    },
+    {
+      "case_id": "f2_005",
+      "rater": "groundedness.structured_value",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Expected flight 'CX872' not found in response; Expected price ~$5280.00 not found in response"
+    },
+    {
+      "case_id": "f2_004",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 1 carrier codes valid"
+    },
+    {
+      "case_id": "f2_004",
+      "rater": "deterministic.numerical_equality",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Closest cited price $3800.00 vs expected $4120.00 (tolerance \u00b1$1.00)"
+    },
+    {
+      "case_id": "f2_004",
+      "rater": "groundedness.structured_value",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Expected flight 'DL402' not found in response; Expected price ~$4120.00 not found in response"
+    },
+    {
+      "case_id": "f1_007",
+      "rater": "deterministic.row_count_match",
+      "passed": true,
+      "score": 1.0,
+      "detail": "No count claim detected in agent response"
+    },
+    {
+      "case_id": "f1_007",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 0 carrier codes valid"
+    },
+    {
+      "case_id": "f2_006",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 1 carrier codes valid"
+    },
+    {
+      "case_id": "f2_006",
+      "rater": "groundedness.structured_value",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Flight number UA950 not in payload; Flight number UA876 not in payload; Price $780.00 not in payload; Price $810.00 not in payload; Price $825.00 not in payload; Price $795.00 not in payload"
+    },
+    {
+      "case_id": "f2_009",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 4 carrier codes valid"
+    },
+    {
+      "case_id": "f2_009",
+      "rater": "deterministic.numerical_equality",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Closest cited price $929.00 vs expected $920.00 (tolerance \u00b1$1.00)"
+    },
+    {
+      "case_id": "f2_009",
+      "rater": "groundedness.structured_value",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Expected price ~$920.00 not found in response"
+    },
+    {
+      "case_id": "f2_007",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 1 carrier codes valid"
+    },
+    {
+      "case_id": "f2_007",
+      "rater": "deterministic.numerical_equality",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Closest cited price $1250.00 vs expected $1050.00 (tolerance \u00b1$1.00)"
+    },
+    {
+      "case_id": "f2_007",
+      "rater": "groundedness.structured_value",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Flight number QR704 not in payload; Price $1250.00 not in payload; Price $1310.00 not in payload"
+    },
+    {
+      "case_id": "f2_008",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 1 carrier codes valid"
+    },
+    {
+      "case_id": "f2_008",
+      "rater": "deterministic.numerical_equality",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Closest cited price $4300.00 vs expected $4800.00 (tolerance \u00b1$1.00)"
+    },
+    {
+      "case_id": "f2_008",
+      "rater": "groundedness.structured_value",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Expected carrier 'JL' not found in response; Expected flight 'JL62' not found in response; Expected price ~$4800.00 not found in response"
+    },
+    {
+      "case_id": "f2_001",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 4 carrier codes valid"
+    },
+    {
+      "case_id": "f2_001",
+      "rater": "deterministic.numerical_equality",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Closest cited price $900.00 vs expected $892.00 (tolerance \u00b1$1.00)"
+    },
+    {
+      "case_id": "f2_001",
+      "rater": "groundedness.structured_value",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Expected flight 'BA284' not found in response"
+    },
+    {
+      "case_id": "f2_002",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 1 carrier codes valid"
+    },
+    {
+      "case_id": "f2_002",
+      "rater": "deterministic.numerical_equality",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Closest cited price $650.00 vs expected $784.00 (tolerance \u00b1$1.00)"
+    },
+    {
+      "case_id": "f2_002",
+      "rater": "groundedness.structured_value",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Expected carrier 'AA' not found in response; Expected flight 'AA100' not found in response"
+    },
+    {
+      "case_id": "f2_003",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 4 carrier codes valid"
+    },
+    {
+      "case_id": "f2_003",
+      "rater": "deterministic.numerical_equality",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Closest cited price $3500.00 vs expected $3450.00 (tolerance \u00b1$1.00)"
+    },
+    {
+      "case_id": "f2_003",
+      "rater": "groundedness.structured_value",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Expected flight 'NH12' not found in response"
+    },
+    {
+      "case_id": "f2_004",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 1 carrier codes valid"
+    },
+    {
+      "case_id": "f2_004",
+      "rater": "deterministic.numerical_equality",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Closest cited price $5000.00 vs expected $4120.00 (tolerance \u00b1$1.00)"
+    },
+    {
+      "case_id": "f2_004",
+      "rater": "groundedness.structured_value",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Expected flight 'DL402' not found in response; Expected price ~$4120.00 not found in response"
+    },
+    {
+      "case_id": "f2_007",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 0 carrier codes valid"
+    },
+    {
+      "case_id": "f2_007",
+      "rater": "deterministic.numerical_equality",
+      "passed": false,
+      "score": 0.0,
+      "detail": "No prices found in response; expected $1050.0"
+    },
+    {
+      "case_id": "f2_007",
+      "rater": "groundedness.structured_value",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Expected carrier 'QR' not found in response"
+    },
+    {
+      "case_id": "f2_006",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 1 carrier codes valid"
+    },
+    {
+      "case_id": "f2_006",
+      "rater": "groundedness.structured_value",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Flight number UA931 not in payload; Flight number UA900 not in payload; Price $880.00 not in payload; Price $920.00 not in payload; Price $950.00 not in payload; Price $850.00 not in payload"
+    },
+    {
+      "case_id": "f2_005",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 1 carrier codes valid"
+    },
+    {
+      "case_id": "f2_005",
+      "rater": "deterministic.numerical_equality",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Closest cited price $880.00 vs expected $5280.00 (tolerance \u00b1$1.00)"
+    },
+    {
+      "case_id": "f2_005",
+      "rater": "groundedness.structured_value",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Expected carrier 'CX' not found in response; Expected flight 'CX872' not found in response; Expected price ~$5280.00 not found in response"
+    },
+    {
+      "case_id": "f2_008",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 1 carrier codes valid"
+    },
+    {
+      "case_id": "f2_008",
+      "rater": "deterministic.numerical_equality",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Closest cited price $4500.00 vs expected $4800.00 (tolerance \u00b1$1.00)"
+    },
+    {
+      "case_id": "f2_008",
+      "rater": "groundedness.structured_value",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Expected flight 'JL62' not found in response; Expected price ~$4800.00 not found in response"
+    },
+    {
+      "case_id": "f2_009",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 4 carrier codes valid"
+    },
+    {
+      "case_id": "f2_009",
+      "rater": "deterministic.numerical_equality",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Closest cited price $929.00 vs expected $920.00 (tolerance \u00b1$1.00)"
+    },
+    {
+      "case_id": "f2_009",
+      "rater": "groundedness.structured_value",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Expected price ~$920.00 not found in response"
+    },
+    {
+      "case_id": "f2_011",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 1 carrier codes valid"
+    },
+    {
+      "case_id": "f2_011",
+      "rater": "deterministic.numerical_equality",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Closest cited price $810.00 vs expected $845.00 (tolerance \u00b1$1.00)"
+    },
+    {
+      "case_id": "f2_011",
+      "rater": "groundedness.structured_value",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Price $750.00 not in payload; Price $810.00 not in payload; Price $780.00 not in payload; Price $720.00 not in payload"
+    },
+    {
+      "case_id": "f2_012",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 1 carrier codes valid"
+    },
+    {
+      "case_id": "f2_012",
+      "rater": "groundedness.structured_value",
+      "passed": true,
+      "score": 1.0,
+      "detail": "No tool payload provided \u2014 skipped"
+    },
+    {
+      "case_id": "f2_010",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 3 carrier codes valid"
+    },
+    {
+      "case_id": "f2_010",
+      "rater": "deterministic.numerical_equality",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Closest cited price $1320.00 vs expected $2100.00 (tolerance \u00b1$1.00)"
+    },
+    {
+      "case_id": "f2_010",
+      "rater": "groundedness.structured_value",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Expected price ~$2100.00 not found in response"
+    },
+    {
+      "case_id": "f2_014",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 0 carrier codes valid"
+    },
+    {
+      "case_id": "f2_014",
+      "rater": "deterministic.numerical_equality",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Closest cited price $850.00 vs expected $4800.00 (tolerance \u00b1$1.00)"
+    },
+    {
+      "case_id": "f2_014",
+      "rater": "groundedness.structured_value",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Expected carrier 'JL' not found in response; Expected flight 'JL62' not found in response"
+    },
+    {
+      "case_id": "f2_013",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 2 carrier codes valid"
+    },
+    {
+      "case_id": "f2_013",
+      "rater": "deterministic.numerical_equality",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Closest cited price $2026.00 vs expected $3200.00 (tolerance \u00b1$1.00)"
+    },
+    {
+      "case_id": "f2_013",
+      "rater": "groundedness.structured_value",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Flight number QR704 not in payload; Price $6500.00 not in payload; Price $6300.00 not in payload; Price $6900.00 not in payload; Price $7200.00 not in payload"
+    },
+    {
+      "case_id": "f2_015",
+      "rater": "deterministic.iata_membership",
+      "passed": true,
+      "score": 1.0,
+      "detail": "All 0 carrier codes valid"
+    },
+    {
+      "case_id": "f2_015",
+      "rater": "deterministic.numerical_equality",
+      "passed": false,
+      "score": 0.0,
+      "detail": "No prices found in response; expected $2100.0"
+    },
+    {
+      "case_id": "f2_015",
+      "rater": "groundedness.structured_value",
+      "passed": false,
+      "score": 0.0,
+      "detail": "Expected carrier 'UA' not found in response; Expected price ~$2100.00 not found in response"
+    }
+  ],
+  "aggregate_score": 0.46987951807228917,
+  "category_scores": {
+    "F1": 1.0,
+    "F2": 0.36231884057971014
+  }
+}

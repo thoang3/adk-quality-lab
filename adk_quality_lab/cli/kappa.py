@@ -23,12 +23,17 @@ def main() -> None:
 
     logger.info("Loaded %d gold cases", len(gold))
 
-    # Try to load the latest rater results from the most recent eval run
-    # For now, run deterministic raters against gold cases with placeholder responses
+    import json
+    from pathlib import Path
+
     from adk_quality_lab.datasets.schema import RaterResult
 
-    # Placeholder: in production, load from BigQuery or Firestore
+    # Load rater results from the most recent gold eval run (saved by `make eval CASE_SET=gold`)
+    cache_path = Path(".cache/gold_run.json")
     rater_results: list[RaterResult] = []
+    if cache_path.exists():
+        data = json.loads(cache_path.read_text())
+        rater_results = [RaterResult(**r) for r in data.get("cases", [])]
 
     if not rater_results:
         logger.warning(

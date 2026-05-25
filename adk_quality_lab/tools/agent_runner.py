@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import asyncio
 import logging
+import os
 import sys
 from pathlib import Path
 from typing import Any
@@ -206,6 +207,15 @@ def build_agent_fn(
 
     if str(example_dir) not in sys.path:
         sys.path.insert(0, str(example_dir))
+
+    # Set TRAVEL_CONCIERGE_SCENARIO to an absolute path before the agent module
+    # is imported — memory.py reads this as a module-level constant at import time.
+    scenario_key = "TRAVEL_CONCIERGE_SCENARIO"
+    if not os.environ.get(scenario_key):
+        default_scenario = (
+            example_dir / "travel_concierge" / "profiles" / "itinerary_empty_default.json"
+        )
+        os.environ[scenario_key] = str(default_scenario.resolve())
 
     # Import root agent lazily to avoid import-time side effects
     root_agent = _load_root_agent(example_dir, surface)

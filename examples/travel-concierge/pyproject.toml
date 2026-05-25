@@ -83,6 +83,7 @@ skip = "./locust_env/*,uv.lock,.venv,./frontend,**/*.ipynb"
 [tool.pytest.ini_options]
 pythonpath = "."
 asyncio_default_fixture_loop_scope = "function"
+asyncio_mode = "auto"
 
 [tool.agent-starter-pack]
 example_question = "I want to plan a trip to Seattle"
