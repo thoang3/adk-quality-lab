@@ -15,7 +15,6 @@
 """Planning agent. A pre-booking agent covering the planning part of the trip."""
 
 from google.adk.agents import Agent
-from google.adk.tools import FunctionTool
 from google.adk.tools.agent_tool import AgentTool
 from google.genai.types import GenerateContentConfig
 
@@ -23,10 +22,6 @@ from travel_concierge import MODEL
 from travel_concierge.shared_libraries import types
 from travel_concierge.sub_agents.planning import prompt
 from travel_concierge.tools.memory import memorize
-from travel_concierge.tools.search import (
-    CashFlightSummary,
-    search_cash_flights_with_count,
-)
 
 itinerary_agent = Agent(
     model=MODEL,
@@ -91,28 +86,13 @@ flight_search_agent = Agent(
 )
 
 
-search_cash_flights_tool = FunctionTool(func=search_cash_flights_with_count)
-
-cash_flight_search_agent = Agent(
-    model=MODEL,
-    name="cash_flight_search_agent",
-    description="Help users find best flight deals with cash",
-    instruction=prompt.CASH_FLIGHT_SEARCH_INSTR,
-    disallow_transfer_to_parent=True,
-    disallow_transfer_to_peers=True,
-    output_schema=CashFlightSummary,
-    tools=[search_cash_flights_tool],
-    generate_content_config=types.json_response_config,
-)
-
-
 planning_agent = Agent(
     model=MODEL,
     description="""Helps users with travel planning, complete a full itinerary for their vacation, finding best deals for flights and hotels.""",
     name="planning_agent",
     instruction=prompt.PLANNING_AGENT_INSTR,
     tools=[
-        AgentTool(agent=cash_flight_search_agent),
+        AgentTool(agent=flight_search_agent),
         AgentTool(agent=flight_seat_selection_agent),
         AgentTool(agent=hotel_search_agent),
         AgentTool(agent=hotel_room_selection_agent),

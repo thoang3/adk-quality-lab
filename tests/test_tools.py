@@ -43,12 +43,18 @@ def test_compute_key_varies_by_params() -> None:
     assert _compute_key(p1) != _compute_key(p2)
 
 
-def test_fixture_to_session_state_empty() -> None:
-    """None payload → empty session state."""
+def test_fixture_to_session_state_empty(monkeypatch) -> None:
+    """None payload → only baseline keys (_time) injected; no flight data."""
+    monkeypatch.delenv("TRAVEL_CONCIERGE_SCENARIO", raising=False)
     from adk_quality_lab.tools.agent_runner import _fixture_to_session_state
 
     state = _fixture_to_session_state(None)
-    assert state == {}
+    # _time is always injected so the agent's {_time} template variable resolves
+    assert "_time" in state
+    # No flight or route data when there is no fixture payload
+    assert "search_results_cash" not in state
+    assert "origin" not in state
+    assert "destination" not in state
 
 
 def test_fixture_to_session_state_basic() -> None:

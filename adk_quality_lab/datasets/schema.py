@@ -67,7 +67,7 @@ class RunResult(BaseModel):
     run_id: str
     """UUID, persisted to BigQuery."""
 
-    variant: Literal["baseline", "tuned"]
+    variant: Literal["baseline", "prompt_tuning_v1", "structured_output", "prompt_tuning_v2", "arch_fix"]
 
     surface: str | None = None
     """'root' | 'planning' | 'tools' | None."""

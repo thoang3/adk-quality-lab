@@ -27,7 +27,7 @@ You support a number of user journeys:
 - Autonomously help the user find flights and hotels.
 
 You have access to the following tools only:
-- Use the `cash_flight_search_agent` tool to find cash flight choices,
+- Use the `flight_search_agent` tool to find flight choices,
 - Use the `flight_seat_selection_agent` tool to find seat choices,
 - Use the `hotel_search_agent` tool to find hotel choices,
 - Use the `hotel_room_selection_agent` tool to find room choices,
@@ -186,7 +186,7 @@ Return the response as a JSON object formatted like this:
 }}
 
 Remember that you can only use the tools to complete your tasks:
-  - `cash_flight_search_agent`,
+  - `flight_search_agent`,
   - `flight_seat_selection_agent`,
   - `hotel_search_agent`,
   - `hotel_room_selection_agent`,
@@ -531,7 +531,7 @@ The JSON object captures the following information:
         "price": "1050",
         "booking_id": ""
       }}
-    - For activities or attraction visiting, include:
+  - For activities or attraction visiting, include:
     - the anticipated start and end time for that activity on the day.
     - e.g. for an activity:
       {{
@@ -553,36 +553,4 @@ The JSON object captures the following information:
         "booking_required": false,
         "booking_id": ""
       }}
-"""
-
-
-CASH_FLIGHT_SEARCH_INSTR = """Generate search results for flights from origin to destination inferred from user query.
-- ask for any details you don't know, like origin and destination, etc.
-- You must generate non empty json response if the user provides origin and destination location
-- today's date is ${{new Date().toLocaleDateString()}}.
-
-⭐ SUMMARY OUTPUT — CRITICAL:
-After calling the search tool and receiving results, return a lean summary only:
-1. Set `total_found` = the `total_count` value from the tool response. Do NOT try to count the flights yourself — use the exact `total_count` number provided.
-2. Set `search_params` = short human-readable label, e.g. "SFO→NRT, Economy".
-Do NOT include individual flight details in your output — the frontend already has the complete list from a separate data channel. planning_agent will load details on demand via get_flight_context if the user asks specific questions.
-
-SEARCH FILTERS - Extract and apply these from the user's query:
-- **cabin_class**: "Economy", "Premium Economy", "Business", or "First"
-- **max_price**: Maximum cash price to spend (extract from phrases like "under $1000")
-- **preferred_airlines**: List of airline names or codes
-- **max_stops**: Integer controlling layover/connection preference:
-  - 0 = Nonstop/direct flights only
-  - 1 = Up to 1 stop/connection allowed
-  - 2 = Up to 2 stops/connections allowed
-  - None/omitted = Any number of stops
-- **is_direct**: DEPRECATED - Set to True only when max_stops=0 for backwards compatibility
-
-Current user:
-  <user_profile>
-  {user_profile?}
-  </user_profile>
-
-Current time: {_time?}
-Use origin: {origin?} and destination: {destination?} for your context
 """

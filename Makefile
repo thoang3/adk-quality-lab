@@ -40,7 +40,19 @@ capture-fixtures:
 
 # ── Eval harness ─────────────────────────────────────────────────────────────
 # CASE_SET: f1 | f2 | both | smoke | gold
-# VARIANT:  baseline | tuned
+# VARIANT:  One of the five improvement phases — each is independently reproducible:
+#   baseline          vanilla vendored planning agent (upstream prompt, no changes)
+#   prompt_tuning_v1  Optimizer-tuned instruction: verbatim-citation + truncation disclosure
+#   structured_output FlightsSelection JSON schema output enforcement
+#   prompt_tuning_v2  Optimizer-tuned tool descriptions (flight_search, hotel_search)
+#   arch_fix          CashFlightSummary + lean planning_agent_v2 (final architecture)
+#
+# Judges can replicate any phase:
+#   make eval CASE_SET=both VARIANT=baseline
+#   make eval CASE_SET=both VARIANT=prompt_tuning_v1
+#   make eval CASE_SET=both VARIANT=structured_output
+#   make eval CASE_SET=both VARIANT=prompt_tuning_v2
+#   make eval CASE_SET=both VARIANT=arch_fix
 
 eval:
 	@echo "Running eval CASE_SET=$(CASE_SET) VARIANT=$(VARIANT)..."

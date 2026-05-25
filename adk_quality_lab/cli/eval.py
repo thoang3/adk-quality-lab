@@ -26,9 +26,16 @@ def main() -> None:
     )
     parser.add_argument(
         "--variant",
-        choices=["baseline", "tuned"],
+        choices=["baseline", "prompt_tuning_v1", "structured_output", "prompt_tuning_v2", "arch_fix"],
         default="baseline",
-        help="Baseline or tuned variant",
+        help=(
+            "Improvement phase to evaluate. Each variant is independently reproducible:\n"
+            "  baseline          — vanilla vendored planning agent (upstream prompt)\n"
+            "  prompt_tuning_v1  — Optimizer-tuned instruction (verbatim citation + disclosure)\n"
+            "  structured_output — FlightsSelection JSON schema output enforcement\n"
+            "  prompt_tuning_v2  — Optimizer-tuned tool descriptions\n"
+            "  arch_fix          — CashFlightSummary + lean planning_agent_v2\n"
+        ),
     )
     parser.add_argument(
         "--example-dir",
@@ -95,6 +102,7 @@ def main() -> None:
     agent_fn = build_agent_fn(
         example_dir=example_dir,
         surface=args.surface,
+        variant=args.variant,
         use_stub=args.stub,
     )
 
