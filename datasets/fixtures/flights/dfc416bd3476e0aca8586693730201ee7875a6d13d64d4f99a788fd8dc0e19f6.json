@@ -1,0 +1,857 @@
+{
+  "search_metadata": {
+    "id": "6a1562b995a6941c0bcea944",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/BzeFoLtdxnFyGWscpOdt1Q/6a1562b995a6941c0bcea944.json",
+    "created_at": "2026-05-26 09:07:05 UTC",
+    "processed_at": "2026-05-26 09:07:05 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhoeEgoyMDI2LTA3LTAyagcIARIDT1JEcgcIARIDTlJUQAFIAXABmAEC&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/BzeFoLtdxnFyGWscpOdt1Q/6a1562b995a6941c0bcea944.html",
+    "prettify_html_file": "https://serpapi.com/searches/BzeFoLtdxnFyGWscpOdt1Q/6a1562b995a6941c0bcea944.prettify",
+    "total_time_taken": 1.6
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "us",
+    "type": "2",
+    "departure_id": "ORD",
+    "arrival_id": "NRT",
+    "outbound_date": "2026-07-02",
+    "travel_class": 1,
+    "adults": 1,
+    "currency": "USD"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-02 08:35"
+          },
+          "arrival_airport": {
+            "name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+            "id": "YUL",
+            "time": "2026-07-02 11:53"
+          },
+          "duration": 138,
+          "airplane": "Embraer 175",
+          "airline": "Air Canada",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+          "travel_class": "Economy",
+          "flight_number": "AC 8478",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 161 kg"
+          ],
+          "plane_and_crew_by": "Air Canada Express - Jazz"
+        },
+        {
+          "departure_airport": {
+            "name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+            "id": "YUL",
+            "time": "2026-07-02 13:05"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-07-03 15:25"
+          },
+          "duration": 800,
+          "airplane": "Boeing 777",
+          "airline": "Air Canada",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+          "travel_class": "Economy",
+          "flight_number": "AC 5",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 585 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 72,
+          "name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+          "id": "YUL"
+        }
+      ],
+      "total_duration": 1010,
+      "carbon_emissions": {
+        "this_flight": 747000,
+        "typical_for_this_route": 709000,
+        "difference_percent": 5
+      },
+      "price": 1084,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+      "booking_token": "WyJDalJJUWtoTmQzZE5TbDlGTURSQlEyVndXbEZDUnkwdExTMHRMUzB0TFhCcVluQjJPRUZCUVVGQlIyOVdXWEp6UWtJNWJtMUJFZ3BCUXpnME56aDhRVU0xR2dzSTNNNEdFQUlhQTFWVFJEZ2NjTnpPQmc9PSIsW1siT1JEIiwiMjAyNi0wNy0wMiIsIllVTCIsbnVsbCwiQUMiLCI4NDc4Il0sWyJZVUwiLCIyMDI2LTA3LTAyIiwiTlJUIixudWxsLCJBQyIsIjUiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-02 10:40"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-07-03 13:25"
+          },
+          "duration": 765,
+          "airplane": "Boeing 787",
+          "airline": "JAL",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+          "travel_class": "Economy",
+          "flight_number": "JL 55",
+          "ticket_also_sold_by": [
+            "American"
+          ],
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 635 kg"
+          ]
+        }
+      ],
+      "total_duration": 765,
+      "carbon_emissions": {
+        "this_flight": 635000,
+        "typical_for_this_route": 709000,
+        "difference_percent": -10
+      },
+      "price": 1169,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+      "booking_token": "WyJDalJJUWtoTmQzZE5TbDlGTURSQlEyVndXbEZDUnkwdExTMHRMUzB0TFhCcVluQjJPRUZCUVVGQlIyOVdXWEp6UWtJNWJtMUJFZ1JLVERVMUdnc0k4cEFIRUFJYUExVlRSRGdjY1BLUUJ3PT0iLFtbIk9SRCIsIjIwMjYtMDctMDIiLCJOUlQiLG51bGwsIkpMIiwiNTUiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-02 11:50"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-07-03 15:10"
+          },
+          "duration": 800,
+          "airplane": "Boeing 777",
+          "airline": "ANA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+          "travel_class": "Economy",
+          "flight_number": "NH 11",
+          "ticket_also_sold_by": [
+            "United"
+          ],
+          "legroom": "34 in",
+          "extensions": [
+            "Above average legroom (34 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 680 kg"
+          ]
+        }
+      ],
+      "total_duration": 800,
+      "carbon_emissions": {
+        "this_flight": 681000,
+        "typical_for_this_route": 709000,
+        "difference_percent": -4
+      },
+      "price": 1508,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+      "booking_token": "WyJDalJJUWtoTmQzZE5TbDlGTURSQlEyVndXbEZDUnkwdExTMHRMUzB0TFhCcVluQjJPRUZCUVVGQlIyOVdXWEp6UWtJNWJtMUJFZ1JPU0RFeEdnc0kzcGtKRUFJYUExVlRSRGdjY042WkNRPT0iLFtbIk9SRCIsIjIwMjYtMDctMDIiLCJOUlQiLG51bGwsIk5IIiwiMTEiXV1d"
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-02 00:30"
+          },
+          "arrival_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-07-03 04:30"
+          },
+          "duration": 900,
+          "airplane": "Boeing 777",
+          "airline": "EVA Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+          "travel_class": "Economy",
+          "flight_number": "BR 55",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 854 kg"
+          ],
+          "overnight": true,
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-07-03 15:20"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-07-03 19:40"
+          },
+          "duration": 200,
+          "airplane": "Boeing 787-10",
+          "airline": "EVA Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+          "travel_class": "Economy",
+          "flight_number": "BR 196",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 139 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 650,
+          "name": "Taiwan Taoyuan International Airport",
+          "id": "TPE",
+          "overnight": true
+        }
+      ],
+      "total_duration": 1750,
+      "carbon_emissions": {
+        "this_flight": 994000,
+        "typical_for_this_route": 709000,
+        "difference_percent": 40
+      },
+      "price": 997,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+      "booking_token": "WyJDalJJUWtoTmQzZE5TbDlGTURSQlEyVndXbEZDUnkwdExTMHRMUzB0TFhCcVluQjJPRUZCUVVGQlIyOVdXWEp6UWtJNWJtMUJFZ3BDVWpVMWZFSlNNVGsyR2dzSTdZb0dFQUlhQTFWVFJEZ2NjTzJLQmc9PSIsW1siT1JEIiwiMjAyNi0wNy0wMiIsIlRQRSIsbnVsbCwiQlIiLCI1NSJdLFsiVFBFIiwiMjAyNi0wNy0wMyIsIk5SVCIsbnVsbCwiQlIiLCIxOTYiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-02 00:30"
+          },
+          "arrival_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-07-03 04:30"
+          },
+          "duration": 900,
+          "airplane": "Boeing 777",
+          "airline": "EVA Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+          "travel_class": "Economy",
+          "flight_number": "BR 55",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 854 kg"
+          ],
+          "overnight": true,
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-07-03 07:55"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-07-03 12:25"
+          },
+          "duration": 210,
+          "airplane": "Boeing 787-10",
+          "airline": "EVA Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+          "travel_class": "Economy",
+          "flight_number": "BR 184",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 139 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 205,
+          "name": "Taiwan Taoyuan International Airport",
+          "id": "TPE",
+          "overnight": true
+        }
+      ],
+      "total_duration": 1315,
+      "carbon_emissions": {
+        "this_flight": 994000,
+        "typical_for_this_route": 709000,
+        "difference_percent": 40
+      },
+      "price": 1050,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+      "booking_token": "WyJDalJJUWtoTmQzZE5TbDlGTURSQlEyVndXbEZDUnkwdExTMHRMUzB0TFhCcVluQjJPRUZCUVVGQlIyOVdXWEp6UWtJNWJtMUJFZ3BDVWpVMWZFSlNNVGcwR2dzSTdMTUdFQUlhQTFWVFJEZ2NjT3l6Qmc9PSIsW1siT1JEIiwiMjAyNi0wNy0wMiIsIlRQRSIsbnVsbCwiQlIiLCI1NSJdLFsiVFBFIiwiMjAyNi0wNy0wMyIsIk5SVCIsbnVsbCwiQlIiLCIxODQiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-02 17:30"
+          },
+          "arrival_airport": {
+            "name": "Calgary International Airport",
+            "id": "YYC",
+            "time": "2026-07-02 20:25"
+          },
+          "duration": 235,
+          "airplane": "Boeing 737",
+          "airline": "WestJet",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WS.png",
+          "travel_class": "Economy",
+          "flight_number": "WS 1611",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 220 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Calgary International Airport",
+            "id": "YYC",
+            "time": "2026-07-03 14:50"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-07-04 16:20"
+          },
+          "duration": 630,
+          "airplane": "Boeing 787",
+          "airline": "WestJet",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WS.png",
+          "travel_class": "Economy",
+          "flight_number": "WS 80",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 442 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 1105,
+          "name": "Calgary International Airport",
+          "id": "YYC",
+          "overnight": true
+        }
+      ],
+      "total_duration": 1970,
+      "carbon_emissions": {
+        "this_flight": 663000,
+        "typical_for_this_route": 709000,
+        "difference_percent": -6
+      },
+      "price": 1085,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WS.png",
+      "booking_token": "WyJDalJJUWtoTmQzZE5TbDlGTURSQlEyVndXbEZDUnkwdExTMHRMUzB0TFhCcVluQjJPRUZCUVVGQlIyOVdXWEp6UWtJNWJtMUJFZ3RYVXpFMk1URjhWMU00TUJvTENLTFBCaEFDR2dOVlUwUTRISENpendZPSIsW1siT1JEIiwiMjAyNi0wNy0wMiIsIllZQyIsbnVsbCwiV1MiLCIxNjExIl0sWyJZWUMiLCIyMDI2LTA3LTAzIiwiTlJUIixudWxsLCJXUyIsIjgwIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-02 16:00"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-07-03 21:00"
+          },
+          "duration": 960,
+          "airplane": "Airbus A350",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 801",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 825 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-07-04 01:20"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-07-04 06:50"
+          },
+          "duration": 270,
+          "airplane": "Airbus A330",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 524",
+          "ticket_also_sold_by": [
+            "JAL"
+          ],
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 209 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 260,
+          "name": "Hong Kong International Airport",
+          "id": "HKG"
+        }
+      ],
+      "total_duration": 1490,
+      "carbon_emissions": {
+        "this_flight": 1035000,
+        "typical_for_this_route": 709000,
+        "difference_percent": 46
+      },
+      "price": 1131,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+      "booking_token": "WyJDalJJUWtoTmQzZE5TbDlGTURSQlEyVndXbEZDUnkwdExTMHRMUzB0TFhCcVluQjJPRUZCUVVGQlIyOVdXWEp6UWtJNWJtMUJFZ3REV0Rnd01YeERXRFV5TkJvTENManpCaEFDR2dOVlUwUTRISEM0OHdZPSIsW1siT1JEIiwiMjAyNi0wNy0wMiIsIkhLRyIsbnVsbCwiQ1giLCI4MDEiXSxbIkhLRyIsIjIwMjYtMDctMDQiLCJOUlQiLG51bGwsIkNYIiwiNTI0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-07-02 20:59"
+          },
+          "arrival_airport": {
+            "name": "Dallas Fort Worth International Airport",
+            "id": "DFW",
+            "time": "2026-07-02 23:32"
+          },
+          "duration": 153,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 2600",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 116 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Dallas Fort Worth International Airport",
+            "id": "DFW",
+            "time": "2026-07-03 11:55"
+          },
+          "arrival_airport": {
+            "name": "Narita International Airport",
+            "id": "NRT",
+            "time": "2026-07-04 15:00"
+          },
+          "duration": 785,
+          "airplane": "Boeing 777",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 61",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 598 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 743,
+          "name": "Dallas Fort Worth International Airport",
+          "id": "DFW",
+          "overnight": true
+        }
+      ],
+      "total_duration": 1681,
+      "carbon_emissions": {
+        "this_flight": 715000,
+        "typical_for_this_route": 709000,
+        "difference_percent": 1
+      },
+      "price": 1191,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "booking_token": "WyJDalJJUWtoTmQzZE5TbDlGTURSQlEyVndXbEZDUnkwdExTMHRMUzB0TFhCcVluQjJPRUZCUVVGQlIyOVdXWEp6UWtJNWJtMUJFZ3RCUVRJMk1EQjhRVUUyTVJvTENJT2lCeEFDR2dOVlUwUTRISENEb2djPSIsW1siT1JEIiwiMjAyNi0wNy0wMiIsIkRGVyIsbnVsbCwiQUEiLCIyNjAwIl0sWyJERlciLCIyMDI2LTA3LTAzIiwiTlJUIixudWxsLCJBQSIsIjYxIl1dXQ=="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 997,
+    "price_level": "high",
+    "typical_price_range": [
+      475,
+      830
+    ],
+    "price_history": [
+      [
+        1774501200,
+        734
+      ],
+      [
+        1774587600,
+        803
+      ],
+      [
+        1774674000,
+        803
+      ],
+      [
+        1774760400,
+        803
+      ],
+      [
+        1774846800,
+        699
+      ],
+      [
+        1774933200,
+        699
+      ],
+      [
+        1775019600,
+        771
+      ],
+      [
+        1775106000,
+        749
+      ],
+      [
+        1775192400,
+        749
+      ],
+      [
+        1775278800,
+        749
+      ],
+      [
+        1775365200,
+        749
+      ],
+      [
+        1775451600,
+        749
+      ],
+      [
+        1775538000,
+        749
+      ],
+      [
+        1775624400,
+        749
+      ],
+      [
+        1775710800,
+        749
+      ],
+      [
+        1775797200,
+        749
+      ],
+      [
+        1775883600,
+        801
+      ],
+      [
+        1775970000,
+        801
+      ],
+      [
+        1776056400,
+        801
+      ],
+      [
+        1776142800,
+        801
+      ],
+      [
+        1776229200,
+        801
+      ],
+      [
+        1776315600,
+        864
+      ],
+      [
+        1776402000,
+        910
+      ],
+      [
+        1776488400,
+        910
+      ],
+      [
+        1776574800,
+        910
+      ],
+      [
+        1776661200,
+        910
+      ],
+      [
+        1776747600,
+        910
+      ],
+      [
+        1776834000,
+        910
+      ],
+      [
+        1776920400,
+        910
+      ],
+      [
+        1777006800,
+        910
+      ],
+      [
+        1777093200,
+        910
+      ],
+      [
+        1777179600,
+        910
+      ],
+      [
+        1777266000,
+        910
+      ],
+      [
+        1777352400,
+        910
+      ],
+      [
+        1777438800,
+        910
+      ],
+      [
+        1777525200,
+        910
+      ],
+      [
+        1777611600,
+        977
+      ],
+      [
+        1777698000,
+        1143
+      ],
+      [
+        1777784400,
+        1143
+      ],
+      [
+        1777870800,
+        1152
+      ],
+      [
+        1777957200,
+        1152
+      ],
+      [
+        1778043600,
+        1152
+      ],
+      [
+        1778130000,
+        1113
+      ],
+      [
+        1778216400,
+        1113
+      ],
+      [
+        1778302800,
+        1092
+      ],
+      [
+        1778389200,
+        1112
+      ],
+      [
+        1778475600,
+        1112
+      ],
+      [
+        1778562000,
+        1112
+      ],
+      [
+        1778648400,
+        1113
+      ],
+      [
+        1778734800,
+        1069
+      ],
+      [
+        1778821200,
+        995
+      ],
+      [
+        1778907600,
+        995
+      ],
+      [
+        1778994000,
+        995
+      ],
+      [
+        1779080400,
+        963
+      ],
+      [
+        1779166800,
+        967
+      ],
+      [
+        1779253200,
+        936
+      ],
+      [
+        1779339600,
+        936
+      ],
+      [
+        1779426000,
+        996
+      ],
+      [
+        1779512400,
+        996
+      ],
+      [
+        1779598800,
+        996
+      ],
+      [
+        1779685200,
+        997
+      ],
+      [
+        1779771600,
+        997
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "ORD",
+            "name": "Chicago O'Hare International Airport"
+          },
+          "city": "Chicago",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTDuw95ynLqGCkZRzt9XuWXGBs8qWhw_1UZkMrCRAQp3rojEZBpwitHM8GAMBXgKhSKFgJZcXZ3qmYs2g",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR0CK6-eZWtnTJdtBk0BnPl1NeBcRul1YiurNp0AEgxFjNRleXR3vb2VV6vc5Uk51C0AhYN6AZAQKz6FJ-NQfbjVf8HQQ96ZH3WYIS-Rw0"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "NRT",
+            "name": "Narita International Airport"
+          },
+          "city": "Tokyo",
+          "country": "Japan",
+          "country_code": "JP",
+          "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTqHkzEeI2bSglPzmSGZL7bxXmn0wJgOn2ZtEN8I47uBnzY1CnHzGtD-YseJXqyexcAcw_uJp-D5HTkCg",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRLnIToEgwiM_jV3cbw5eQZoUAIg6XqdrJAiClDyyg0w-JBSRN5ZeOT-iFb3SvwkwP1uoBCmT-gKE5VcyCYf-xq4guL4NAFICSaNyOnYOA"
+        }
+      ]
+    }
+  ]
+}

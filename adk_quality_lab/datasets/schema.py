@@ -43,6 +43,29 @@ class EvalCase(BaseModel):
     e.g. {'carrier': 'AA', 'price': '1234.00'}.
     """
 
+    # Search context (used to augment the query if it lacks a date)
+    route: str | None = None
+    """IATA route string, e.g. 'JFK-LHR'."""
+
+    cabin: str | None = None
+    """Cabin class, e.g. 'economy' | 'business'."""
+
+    departure_date: str | None = None
+    """ISO date string, e.g. '2026-06-07'."""
+
+    # Range search fields (used by tail_flights.jsonl hard cases)
+    start_date: str | None = None
+    """ISO date of range start, e.g. '2026-07-01' (range cases only)."""
+
+    end_date: str | None = None
+    """ISO date of range end, e.g. '2026-07-07' (range cases only)."""
+
+    search_type: str | None = None
+    """'single' (default) or 'range' — drives multi-fixture merge in runner."""
+
+    expected_baseline_behaviour: str | None = None
+    """Human description of expected failure mode (tail cases)."""
+
     # Gold label (only present in datasets/gold/*.jsonl)
     gold_label: bool | None = None
     """True = pass, False = fail, None = unlabeled."""
@@ -67,7 +90,7 @@ class RunResult(BaseModel):
     run_id: str
     """UUID, persisted to BigQuery."""
 
-    variant: Literal["baseline", "prompt_tuning_v1", "structured_output", "prompt_tuning_v2", "arch_fix"]
+    variant: Literal["baseline", "markdown", "json_block", "prompt_tuning_v1", "structured_output", "prompt_tuning_v2", "arch_fix"]
 
     surface: str | None = None
     """'root' | 'planning' | 'tools' | None."""

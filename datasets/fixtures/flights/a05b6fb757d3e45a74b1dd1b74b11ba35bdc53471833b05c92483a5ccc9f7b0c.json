@@ -1,0 +1,1224 @@
+{
+  "search_metadata": {
+    "id": "6a1562a3703f17875fb4d474",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/20Oh2Y_OoVMToqSfXFgepQ/6a1562a3703f17875fb4d474.json",
+    "created_at": "2026-05-26 09:06:43 UTC",
+    "processed_at": "2026-05-26 09:06:43 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhoeEgoyMDI2LTA3LTA2agcIARIDSkZLcgcIARIDQ0RHQAFIA3ABmAEC&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/20Oh2Y_OoVMToqSfXFgepQ/6a1562a3703f17875fb4d474.html",
+    "prettify_html_file": "https://serpapi.com/searches/20Oh2Y_OoVMToqSfXFgepQ/6a1562a3703f17875fb4d474.prettify",
+    "total_time_taken": 12.08
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "us",
+    "type": "2",
+    "departure_id": "JFK",
+    "arrival_id": "CDG",
+    "outbound_date": "2026-07-06",
+    "travel_class": 3,
+    "adults": 1,
+    "currency": "USD"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-06 20:55"
+          },
+          "arrival_airport": {
+            "name": "Aeroporto Jo\u00e3o Paulo II",
+            "id": "PDL",
+            "time": "2026-07-07 06:45"
+          },
+          "duration": 350,
+          "airplane": "Airbus A321neo",
+          "airline": "Azores Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/S4.png",
+          "travel_class": "Business Class",
+          "flight_number": "S4 246",
+          "extensions": [
+            "Extra reclining seat",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 436 kg"
+          ],
+          "overnight": true,
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Aeroporto Jo\u00e3o Paulo II",
+            "id": "PDL",
+            "time": "2026-07-07 07:55"
+          },
+          "arrival_airport": {
+            "name": "Paris Charles de Gaulle Airport",
+            "id": "CDG",
+            "time": "2026-07-07 13:35"
+          },
+          "duration": 220,
+          "airplane": "Airbus A321neo",
+          "airline": "Azores Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/S4.png",
+          "travel_class": "Economy",
+          "flight_number": "S4 512",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 211 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 70,
+          "name": "Aeroporto Jo\u00e3o Paulo II",
+          "id": "PDL"
+        }
+      ],
+      "total_duration": 640,
+      "carbon_emissions": {
+        "this_flight": 648000,
+        "typical_for_this_route": 1517000,
+        "difference_percent": -57
+      },
+      "price": 1084,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/S4.png",
+      "extensions": [
+        "1 checked bag up to 32 kg included",
+        "Full refund for cancellations",
+        "Free change, possible fare difference"
+      ],
+      "booking_token": "WyJDalJJWTJ4bU5HbHFXVkp3Wlc5QlFqZzRWRkZDUnkwdExTMHRMUzB0TFMxNWJITjZNa0ZCUVVGQlIyOVdXWEU0U0U5a1J6SkJFZ3RUTkRJME5ueFRORFV4TWhvTENLRE9CaEFDR2dOVlUwUTRISENnemdZPSIsW1siSkZLIiwiMjAyNi0wNy0wNiIsIlBETCIsbnVsbCwiUzQiLCIyNDYiXSxbIlBETCIsIjIwMjYtMDctMDciLCJDREciLG51bGwsIlM0IiwiNTEyIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-06 19:34"
+          },
+          "arrival_airport": {
+            "name": "Paris Charles de Gaulle Airport",
+            "id": "CDG",
+            "time": "2026-07-07 09:15"
+          },
+          "duration": 461,
+          "airplane": "Airbus A321neo",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Business Class",
+          "flight_number": "B6 1407",
+          "extensions": [
+            "Individual suite",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 873 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 461,
+      "carbon_emissions": {
+        "this_flight": 874000,
+        "typical_for_this_route": 1517000,
+        "difference_percent": -42
+      },
+      "price": 2299,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "1 checked bag up to 32 kg included",
+        "Full refund for cancellations",
+        "Free change, possible fare difference"
+      ],
+      "booking_token": "WyJDalJJWTJ4bU5HbHFXVkp3Wlc5QlFqZzRWRkZDUnkwdExTMHRMUzB0TFMxNWJITjZNa0ZCUVVGQlIyOVdXWEU0U0U5a1J6SkJFZ1pDTmpFME1EY2FDd2phZ3c0UUFob0RWVk5FT0J4dzJvTU8iLFtbIkpGSyIsIjIwMjYtMDctMDYiLCJDREciLG51bGwsIkI2IiwiMTQwNyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-06 23:30"
+          },
+          "arrival_airport": {
+            "name": "Paris Charles de Gaulle Airport",
+            "id": "CDG",
+            "time": "2026-07-07 12:55"
+          },
+          "duration": 445,
+          "airplane": "Boeing 777",
+          "airline": "Air France",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+          "travel_class": "Business Class",
+          "flight_number": "AF 9",
+          "ticket_also_sold_by": [
+            "Delta"
+          ],
+          "extensions": [
+            "Individual suite",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1659 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 445,
+      "carbon_emissions": {
+        "this_flight": 1660000,
+        "typical_for_this_route": 1517000,
+        "difference_percent": 9
+      },
+      "price": 2424,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+      "extensions": [
+        "1 checked bag up to 32 kg included",
+        "Full refund for cancellations",
+        "Free change, possible fare difference"
+      ],
+      "booking_token": "WyJDalJJWTJ4bU5HbHFXVkp3Wlc5QlFqZzRWRkZDUnkwdExTMHRMUzB0TFMxNWJITjZNa0ZCUVVGQlIyOVdXWEU0U0U5a1J6SkJFZ05CUmprYUN3aXU1UTRRQWhvRFZWTkVPQnh3cnVVTyIsW1siSkZLIiwiMjAyNi0wNy0wNiIsIkNERyIsbnVsbCwiQUYiLCI5Il1dXQ=="
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-06 20:30"
+          },
+          "arrival_airport": {
+            "name": "Keflav\u00edk International Airport",
+            "id": "KEF",
+            "time": "2026-07-07 06:20"
+          },
+          "duration": 350,
+          "airplane": "Airbus A321neo",
+          "airline": "Icelandair",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+          "travel_class": "Business Class",
+          "flight_number": "FI 614",
+          "extensions": [
+            "Extra reclining seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 424 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Keflav\u00edk International Airport",
+            "id": "KEF",
+            "time": "2026-07-07 07:35"
+          },
+          "arrival_airport": {
+            "name": "Paris Charles de Gaulle Airport",
+            "id": "CDG",
+            "time": "2026-07-07 13:00"
+          },
+          "duration": 205,
+          "airplane": "Airbus A321neo",
+          "airline": "Icelandair",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+          "travel_class": "Business Class",
+          "flight_number": "FI 542",
+          "extensions": [
+            "Extra reclining seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 251 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 75,
+          "name": "Keflav\u00edk International Airport",
+          "id": "KEF"
+        }
+      ],
+      "total_duration": 630,
+      "carbon_emissions": {
+        "this_flight": 677000,
+        "typical_for_this_route": 1517000,
+        "difference_percent": -55
+      },
+      "price": 1809,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+      "extensions": [
+        "1 checked bag up to 32 kg included",
+        "Full refund for cancellations",
+        "Free change, possible fare difference"
+      ],
+      "booking_token": "WyJDalJJWTJ4bU5HbHFXVkp3Wlc5QlFqZzRWRkZDUnkwdExTMHRMUzB0TFMxNWJITjZNa0ZCUVVGQlIyOVdXWEU0U0U5a1J6SkJFZ3RHU1RZeE5IeEdTVFUwTWhvTENNcUVDeEFDR2dOVlUwUTRISERLaEFzPSIsW1siSkZLIiwiMjAyNi0wNy0wNiIsIktFRiIsbnVsbCwiRkkiLCI2MTQiXSxbIktFRiIsIjIwMjYtMDctMDciLCJDREciLG51bGwsIkZJIiwiNTQyIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-06 23:10"
+          },
+          "arrival_airport": {
+            "name": "Keflav\u00edk International Airport",
+            "id": "KEF",
+            "time": "2026-07-07 08:55"
+          },
+          "duration": 345,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Icelandair",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+          "travel_class": "Business Class",
+          "flight_number": "FI 618",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 424 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Keflav\u00edk International Airport",
+            "id": "KEF",
+            "time": "2026-07-07 10:50"
+          },
+          "arrival_airport": {
+            "name": "Paris Charles de Gaulle Airport",
+            "id": "CDG",
+            "time": "2026-07-07 16:15"
+          },
+          "duration": 205,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Icelandair",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+          "travel_class": "Business Class",
+          "flight_number": "FI 546",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 255 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 115,
+          "name": "Keflav\u00edk International Airport",
+          "id": "KEF"
+        }
+      ],
+      "total_duration": 665,
+      "carbon_emissions": {
+        "this_flight": 679000,
+        "typical_for_this_route": 1517000,
+        "difference_percent": -55
+      },
+      "price": 1809,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+      "extensions": [
+        "1 checked bag up to 32 kg included",
+        "Full refund for cancellations",
+        "Free change, possible fare difference"
+      ],
+      "booking_token": "WyJDalJJWTJ4bU5HbHFXVkp3Wlc5QlFqZzRWRkZDUnkwdExTMHRMUzB0TFMxNWJITjZNa0ZCUVVGQlIyOVdXWEU0U0U5a1J6SkJFZ3RHU1RZeE9IeEdTVFUwTmhvTENNcUVDeEFDR2dOVlUwUTRISERLaEFzPSIsW1siSkZLIiwiMjAyNi0wNy0wNiIsIktFRiIsbnVsbCwiRkkiLCI2MTgiXSxbIktFRiIsIjIwMjYtMDctMDciLCJDREciLG51bGwsIkZJIiwiNTQ2Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-06 13:50"
+          },
+          "arrival_airport": {
+            "name": "Belgrade Nikola Tesla Airport",
+            "id": "BEG",
+            "time": "2026-07-07 04:40"
+          },
+          "duration": 530,
+          "airplane": "Airbus A330",
+          "airline": "Air Serbia",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JU.png",
+          "travel_class": "Business Class",
+          "flight_number": "JU 501",
+          "extensions": [
+            "Lie flat seat",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2156 kg"
+          ],
+          "overnight": true,
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Belgrade Nikola Tesla Airport",
+            "id": "BEG",
+            "time": "2026-07-07 06:35"
+          },
+          "arrival_airport": {
+            "name": "Paris Charles de Gaulle Airport",
+            "id": "CDG",
+            "time": "2026-07-07 09:15"
+          },
+          "duration": 160,
+          "airplane": "Airbus A320",
+          "airline": "Air Serbia",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JU.png",
+          "travel_class": "Business Class",
+          "flight_number": "JU 240",
+          "legroom": "29 in",
+          "extensions": [
+            "Average legroom (29 in)",
+            "Carbon emissions estimate: 195 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 115,
+          "name": "Belgrade Nikola Tesla Airport",
+          "id": "BEG",
+          "overnight": true
+        }
+      ],
+      "total_duration": 805,
+      "carbon_emissions": {
+        "this_flight": 2352000,
+        "typical_for_this_route": 1517000,
+        "difference_percent": 55
+      },
+      "price": 1912,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JU.png",
+      "extensions": [
+        "Full refund for cancellations",
+        "Free change, possible fare difference"
+      ],
+      "booking_token": "WyJDalJJWTJ4bU5HbHFXVkp3Wlc5QlFqZzRWRkZDUnkwdExTMHRMUzB0TFMxNWJITjZNa0ZCUVVGQlIyOVdXWEU0U0U5a1J6SkJFZ3RLVlRVd01YeEtWVEkwTUJvTENLVFZDeEFDR2dOVlUwUTRISENrMVFzPSIsW1siSkZLIiwiMjAyNi0wNy0wNiIsIkJFRyIsbnVsbCwiSlUiLCI1MDEiXSxbIkJFRyIsIjIwMjYtMDctMDciLCJDREciLG51bGwsIkpVIiwiMjQwIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-06 20:45"
+          },
+          "arrival_airport": {
+            "name": "Casablanca Mohammed V International Airport",
+            "id": "CMN",
+            "time": "2026-07-07 08:50"
+          },
+          "duration": 425,
+          "airplane": "Boeing 787",
+          "airline": "Royal Air Maroc",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AT.png",
+          "travel_class": "Business Class",
+          "flight_number": "AT 201",
+          "extensions": [
+            "Lie flat seat",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1325 kg"
+          ],
+          "overnight": true,
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Casablanca Mohammed V International Airport",
+            "id": "CMN",
+            "time": "2026-07-07 13:25"
+          },
+          "arrival_airport": {
+            "name": "Paris Charles de Gaulle Airport",
+            "id": "CDG",
+            "time": "2026-07-07 17:20"
+          },
+          "duration": 175,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Royal Air Maroc",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AT.png",
+          "travel_class": "Business Class",
+          "flight_number": "AT 788",
+          "extensions": [
+            "Standard recliner seat",
+            "In-seat power & USB outlets",
+            "Carbon emissions estimate: 216 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 275,
+          "name": "Casablanca Mohammed V International Airport",
+          "id": "CMN"
+        }
+      ],
+      "total_duration": 875,
+      "carbon_emissions": {
+        "this_flight": 1542000,
+        "typical_for_this_route": 1517000,
+        "difference_percent": 2
+      },
+      "price": 2304,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AT.png",
+      "extensions": [
+        "1 checked bag up to 32 kg included",
+        "Full refund for cancellations",
+        "Free change, possible fare difference"
+      ],
+      "booking_token": "WyJDalJJWTJ4bU5HbHFXVkp3Wlc5QlFqZzRWRkZDUnkwdExTMHRMUzB0TFMxNWJITjZNa0ZCUVVGQlIyOVdXWEU0U0U5a1J6SkJFZ3RCVkRJd01YeEJWRGM0T0JvTENPeUhEaEFDR2dOVlUwUTRISERzaHc0PSIsW1siSkZLIiwiMjAyNi0wNy0wNiIsIkNNTiIsbnVsbCwiQVQiLCIyMDEiXSxbIkNNTiIsIjIwMjYtMDctMDciLCJDREciLG51bGwsIkFUIiwiNzg4Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-06 01:00"
+          },
+          "arrival_airport": {
+            "name": "Paris Charles de Gaulle Airport",
+            "id": "CDG",
+            "time": "2026-07-06 14:10"
+          },
+          "duration": 430,
+          "airplane": "Airbus A350",
+          "airline": "Air France",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+          "travel_class": "Business Class",
+          "flight_number": "AF 11",
+          "ticket_also_sold_by": [
+            "Delta"
+          ],
+          "extensions": [
+            "Individual suite",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1411 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 430,
+      "carbon_emissions": {
+        "this_flight": 1411000,
+        "typical_for_this_route": 1517000,
+        "difference_percent": -7
+      },
+      "price": 2424,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+      "extensions": [
+        "1 checked bag up to 32 kg included",
+        "Full refund for cancellations",
+        "Free change, possible fare difference"
+      ],
+      "booking_token": "WyJDalJJWTJ4bU5HbHFXVkp3Wlc5QlFqZzRWRkZDUnkwdExTMHRMUzB0TFMxNWJITjZNa0ZCUVVGQlIyOVdXWEU0U0U5a1J6SkJFZ1JCUmpFeEdnc0lydVVPRUFJYUExVlRSRGdjY0s3bERnPT0iLFtbIkpGSyIsIjIwMjYtMDctMDYiLCJDREciLG51bGwsIkFGIiwiMTEiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-06 16:30"
+          },
+          "arrival_airport": {
+            "name": "Paris Charles de Gaulle Airport",
+            "id": "CDG",
+            "time": "2026-07-07 05:55"
+          },
+          "duration": 445,
+          "airplane": "Boeing 777",
+          "airline": "Air France",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+          "travel_class": "Business Class",
+          "flight_number": "AF 1",
+          "ticket_also_sold_by": [
+            "Delta"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1759 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 445,
+      "carbon_emissions": {
+        "this_flight": 1759000,
+        "typical_for_this_route": 1517000,
+        "difference_percent": 16
+      },
+      "price": 2424,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+      "extensions": [
+        "1 checked bag up to 32 kg included",
+        "Full refund for cancellations",
+        "Free change, possible fare difference"
+      ],
+      "booking_token": "WyJDalJJWTJ4bU5HbHFXVkp3Wlc5QlFqZzRWRkZDUnkwdExTMHRMUzB0TFMxNWJITjZNa0ZCUVVGQlIyOVdXWEU0U0U5a1J6SkJFZ05CUmpFYUN3aXU1UTRRQWhvRFZWTkVPQnh3cnVVTyIsW1siSkZLIiwiMjAyNi0wNy0wNiIsIkNERyIsbnVsbCwiQUYiLCIxIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-06 17:30"
+          },
+          "arrival_airport": {
+            "name": "Paris Charles de Gaulle Airport",
+            "id": "CDG",
+            "time": "2026-07-07 07:00"
+          },
+          "duration": 450,
+          "airplane": "Boeing 777",
+          "airline": "Air France",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+          "travel_class": "Business Class",
+          "flight_number": "AF 3",
+          "ticket_also_sold_by": [
+            "Delta"
+          ],
+          "extensions": [
+            "Individual suite",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1659 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 450,
+      "carbon_emissions": {
+        "this_flight": 1660000,
+        "typical_for_this_route": 1517000,
+        "difference_percent": 9
+      },
+      "price": 2424,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+      "extensions": [
+        "1 checked bag up to 32 kg included",
+        "Full refund for cancellations",
+        "Free change, possible fare difference"
+      ],
+      "booking_token": "WyJDalJJWTJ4bU5HbHFXVkp3Wlc5QlFqZzRWRkZDUnkwdExTMHRMUzB0TFMxNWJITjZNa0ZCUVVGQlIyOVdXWEU0U0U5a1J6SkJFZ05CUmpNYUN3aXU1UTRRQWhvRFZWTkVPQnh3cnVVTyIsW1siSkZLIiwiMjAyNi0wNy0wNiIsIkNERyIsbnVsbCwiQUYiLCIzIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-06 17:45"
+          },
+          "arrival_airport": {
+            "name": "Paris Charles de Gaulle Airport",
+            "id": "CDG",
+            "time": "2026-07-07 07:20"
+          },
+          "duration": 455,
+          "airplane": "Boeing 777",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Business Class",
+          "flight_number": "AA 42",
+          "ticket_also_sold_by": [
+            "Iberia",
+            "Finnair"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1828 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 455,
+      "carbon_emissions": {
+        "this_flight": 1829000,
+        "typical_for_this_route": 1517000,
+        "difference_percent": 21
+      },
+      "price": 2424,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "1 checked bag up to 23 kg included",
+        "Full refund for cancellations",
+        "Free change, possible fare difference"
+      ],
+      "booking_token": "WyJDalJJWTJ4bU5HbHFXVkp3Wlc5QlFqZzRWRkZDUnkwdExTMHRMUzB0TFMxNWJITjZNa0ZCUVVGQlIyOVdXWEU0U0U5a1J6SkJFZ1JCUVRReUdnc0lydVVPRUFJYUExVlRSRGdjY0s3bERnPT0iLFtbIkpGSyIsIjIwMjYtMDctMDYiLCJDREciLG51bGwsIkFBIiwiNDIiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-06 18:30"
+          },
+          "arrival_airport": {
+            "name": "Paris Charles de Gaulle Airport",
+            "id": "CDG",
+            "time": "2026-07-07 08:05"
+          },
+          "duration": 455,
+          "airplane": "Boeing 777",
+          "airline": "Air France",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+          "travel_class": "Business Class",
+          "flight_number": "AF 5",
+          "ticket_also_sold_by": [
+            "Delta"
+          ],
+          "extensions": [
+            "Individual suite",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1659 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 455,
+      "carbon_emissions": {
+        "this_flight": 1660000,
+        "typical_for_this_route": 1517000,
+        "difference_percent": 9
+      },
+      "price": 2424,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+      "extensions": [
+        "1 checked bag up to 32 kg included",
+        "Full refund for cancellations",
+        "Free change, possible fare difference"
+      ],
+      "booking_token": "WyJDalJJWTJ4bU5HbHFXVkp3Wlc5QlFqZzRWRkZDUnkwdExTMHRMUzB0TFMxNWJITjZNa0ZCUVVGQlIyOVdXWEU0U0U5a1J6SkJFZ05CUmpVYUN3aXU1UTRRQWhvRFZWTkVPQnh3cnVVTyIsW1siSkZLIiwiMjAyNi0wNy0wNiIsIkNERyIsbnVsbCwiQUYiLCI1Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-06 19:15"
+          },
+          "arrival_airport": {
+            "name": "Paris Charles de Gaulle Airport",
+            "id": "CDG",
+            "time": "2026-07-07 09:05"
+          },
+          "duration": 470,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Business Class",
+          "flight_number": "DL 262",
+          "ticket_also_sold_by": [
+            "Virgin Atlantic"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1319 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 470,
+      "carbon_emissions": {
+        "this_flight": 1320000,
+        "typical_for_this_route": 1517000,
+        "difference_percent": -13
+      },
+      "price": 2424,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "1 checked bag up to 32 kg included",
+        "Full refund for cancellations",
+        "Free change, possible fare difference"
+      ],
+      "booking_token": "WyJDalJJWTJ4bU5HbHFXVkp3Wlc5QlFqZzRWRkZDUnkwdExTMHRMUzB0TFMxNWJITjZNa0ZCUVVGQlIyOVdXWEU0U0U5a1J6SkJFZ1ZFVERJMk1ob0xDSzdsRGhBQ0dnTlZVMFE0SEhDdTVRND0iLFtbIkpGSyIsIjIwMjYtMDctMDYiLCJDREciLG51bGwsIkRMIiwiMjYyIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-06 21:30"
+          },
+          "arrival_airport": {
+            "name": "Paris Charles de Gaulle Airport",
+            "id": "CDG",
+            "time": "2026-07-07 11:10"
+          },
+          "duration": 460,
+          "airplane": "Boeing 777",
+          "airline": "Air France",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+          "travel_class": "Business Class",
+          "flight_number": "AF 7",
+          "ticket_also_sold_by": [
+            "Delta"
+          ],
+          "extensions": [
+            "Individual suite",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1659 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 460,
+      "carbon_emissions": {
+        "this_flight": 1660000,
+        "typical_for_this_route": 1517000,
+        "difference_percent": 9
+      },
+      "price": 2424,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+      "extensions": [
+        "1 checked bag up to 32 kg included",
+        "Full refund for cancellations",
+        "Free change, possible fare difference"
+      ],
+      "booking_token": "WyJDalJJWTJ4bU5HbHFXVkp3Wlc5QlFqZzRWRkZDUnkwdExTMHRMUzB0TFMxNWJITjZNa0ZCUVVGQlIyOVdXWEU0U0U5a1J6SkJFZ05CUmpjYUN3aXU1UTRRQWhvRFZWTkVPQnh3cnVVTyIsW1siSkZLIiwiMjAyNi0wNy0wNiIsIkNERyIsbnVsbCwiQUYiLCI3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-06 22:30"
+          },
+          "arrival_airport": {
+            "name": "Paris Charles de Gaulle Airport",
+            "id": "CDG",
+            "time": "2026-07-07 12:15"
+          },
+          "duration": 465,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Business Class",
+          "flight_number": "DL 264",
+          "ticket_also_sold_by": [
+            "Virgin Atlantic"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1319 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 465,
+      "carbon_emissions": {
+        "this_flight": 1320000,
+        "typical_for_this_route": 1517000,
+        "difference_percent": -13
+      },
+      "price": 2424,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "1 checked bag up to 32 kg included",
+        "Full refund for cancellations",
+        "Free change, possible fare difference"
+      ],
+      "booking_token": "WyJDalJJWTJ4bU5HbHFXVkp3Wlc5QlFqZzRWRkZDUnkwdExTMHRMUzB0TFMxNWJITjZNa0ZCUVVGQlIyOVdXWEU0U0U5a1J6SkJFZ1ZFVERJMk5Cb0xDSzdsRGhBQ0dnTlZVMFE0SEhDdTVRND0iLFtbIkpGSyIsIjIwMjYtMDctMDYiLCJDREciLG51bGwsIkRMIiwiMjY0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-06 20:10"
+          },
+          "arrival_airport": {
+            "name": "Paris Charles de Gaulle Airport",
+            "id": "CDG",
+            "time": "2026-07-07 10:00"
+          },
+          "duration": 470,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Business Class",
+          "flight_number": "DL 266",
+          "ticket_also_sold_by": [
+            "Virgin Atlantic"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1319 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 470,
+      "carbon_emissions": {
+        "this_flight": 1320000,
+        "typical_for_this_route": 1517000,
+        "difference_percent": -13
+      },
+      "price": 5084,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "1 checked bag up to 32 kg included",
+        "Full refund for cancellations",
+        "Free change, possible fare difference"
+      ],
+      "booking_token": "WyJDalJJWTJ4bU5HbHFXVkp3Wlc5QlFqZzRWRkZDUnkwdExTMHRMUzB0TFMxNWJITjZNa0ZCUVVGQlIyOVdXWEU0U0U5a1J6SkJFZ1ZFVERJMk5ob0xDTDZESHhBQ0dnTlZVMFE0SEhDK2d4OD0iLFtbIkpGSyIsIjIwMjYtMDctMDYiLCJDREciLG51bGwsIkRMIiwiMjY2Il1dXQ=="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 1084,
+    "price_level": "typical",
+    "typical_price_range": [
+      920,
+      1800
+    ],
+    "price_history": [
+      [
+        1774497600,
+        1031
+      ],
+      [
+        1774584000,
+        1071
+      ],
+      [
+        1774670400,
+        1071
+      ],
+      [
+        1774756800,
+        1071
+      ],
+      [
+        1774843200,
+        1071
+      ],
+      [
+        1774929600,
+        1071
+      ],
+      [
+        1775016000,
+        1069
+      ],
+      [
+        1775102400,
+        1069
+      ],
+      [
+        1775188800,
+        1069
+      ],
+      [
+        1775275200,
+        1069
+      ],
+      [
+        1775361600,
+        1069
+      ],
+      [
+        1775448000,
+        1069
+      ],
+      [
+        1775534400,
+        1069
+      ],
+      [
+        1775620800,
+        1069
+      ],
+      [
+        1775707200,
+        1069
+      ],
+      [
+        1775793600,
+        1069
+      ],
+      [
+        1775880000,
+        1069
+      ],
+      [
+        1775966400,
+        1069
+      ],
+      [
+        1776052800,
+        1069
+      ],
+      [
+        1776139200,
+        1069
+      ],
+      [
+        1776225600,
+        1069
+      ],
+      [
+        1776312000,
+        1069
+      ],
+      [
+        1776398400,
+        1069
+      ],
+      [
+        1776484800,
+        1069
+      ],
+      [
+        1776571200,
+        1069
+      ],
+      [
+        1776657600,
+        1069
+      ],
+      [
+        1776744000,
+        1069
+      ],
+      [
+        1776830400,
+        1069
+      ],
+      [
+        1776916800,
+        1069
+      ],
+      [
+        1777003200,
+        1069
+      ],
+      [
+        1777089600,
+        1069
+      ],
+      [
+        1777176000,
+        1069
+      ],
+      [
+        1777262400,
+        1069
+      ],
+      [
+        1777348800,
+        1069
+      ],
+      [
+        1777435200,
+        1069
+      ],
+      [
+        1777521600,
+        1069
+      ],
+      [
+        1777608000,
+        1069
+      ],
+      [
+        1777694400,
+        1069
+      ],
+      [
+        1777780800,
+        1069
+      ],
+      [
+        1777867200,
+        1069
+      ],
+      [
+        1777953600,
+        1069
+      ],
+      [
+        1778040000,
+        1069
+      ],
+      [
+        1778126400,
+        1069
+      ],
+      [
+        1778212800,
+        1069
+      ],
+      [
+        1778299200,
+        1069
+      ],
+      [
+        1778385600,
+        1069
+      ],
+      [
+        1778472000,
+        1069
+      ],
+      [
+        1778558400,
+        1069
+      ],
+      [
+        1778644800,
+        1069
+      ],
+      [
+        1778731200,
+        1069
+      ],
+      [
+        1778817600,
+        1069
+      ],
+      [
+        1778904000,
+        1069
+      ],
+      [
+        1778990400,
+        1069
+      ],
+      [
+        1779076800,
+        1069
+      ],
+      [
+        1779163200,
+        1069
+      ],
+      [
+        1779249600,
+        1084
+      ],
+      [
+        1779336000,
+        1084
+      ],
+      [
+        1779422400,
+        1084
+      ],
+      [
+        1779508800,
+        1084
+      ],
+      [
+        1779595200,
+        1084
+      ],
+      [
+        1779681600,
+        1084
+      ],
+      [
+        1779768000,
+        1084
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "JFK",
+            "name": "John F. Kennedy International Airport"
+          },
+          "city": "New York",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRa1dwH1NZQk4dsbPiyA9Vrq2RX75jXSZ-OkHn7NkLHl-11HercqDXoZ4p2cDxJkH6vca2degawrCzHEQ",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQEaUa9NsdPWGpAUGkTApkZDT_4M6_6V8wTcC0v1b1wJAJX-BuMSiipXbsoznGgcI1xLOc5QiTcR_xovexgjdOz0gqQe0tRQ9h0bUkZ07Q"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "CDG",
+            "name": "Paris Charles de Gaulle Airport"
+          },
+          "city": "Paris",
+          "country": "France",
+          "country_code": "FR",
+          "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQGx8ii2KbSDdbdzfKye5oDN2bwBA6audqI7XUEf2iMRZezpn_ZbQe1ZIuvUSH-8XOMe958umDwSsAF1w",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSyQJ-woNs0iO22mPSkmRUM5gcsTbbYeypQ6BBTeFxXr90mqTxZl57Fdq2CDuLn4w7cKZ8TT9_zZhOpF57rIpA7yWKQnqKvkKIf9Y-qJDo"
+        }
+      ]
+    }
+  ]
+}

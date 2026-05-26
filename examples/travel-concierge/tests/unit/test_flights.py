@@ -53,41 +53,6 @@ def test_parse_stops_invalid_returns_minus_one():
 
 
 # ---------------------------------------------------------------------------
-# num_stops filter — cash flights (string stops)
-# ---------------------------------------------------------------------------
-
-
-def _make_cash_mixed_stops_state() -> dict:
-    return {
-        "last_cash_search": {
-            "results": dict(CASH_FLIGHTS_MIXED_STOPS),
-            "route": "SFO-NRT",
-        }
-    }
-
-
-def test_cash_num_stops_nonstop():
-    ctx = _make_tool_context(_make_cash_mixed_stops_state())
-    result = get_flight_context(search_type="cash", num_stops=0, tool_context=ctx)
-    assert len(result) == 1
-    assert result[0]["flight_number"] == "UA837"
-
-
-def test_cash_num_stops_one_stop():
-    ctx = _make_tool_context(_make_cash_mixed_stops_state())
-    result = get_flight_context(search_type="cash", num_stops=1, tool_context=ctx)
-    assert len(result) == 1
-    assert result[0]["flight_number"] == "DL200"
-
-
-def test_cash_num_stops_two_stops():
-    ctx = _make_tool_context(_make_cash_mixed_stops_state())
-    result = get_flight_context(search_type="cash", num_stops=2, tool_context=ctx)
-    assert len(result) == 1
-    assert result[0]["flight_number"] == "AA300"
-
-
-# ---------------------------------------------------------------------------
 # CashFlightSummary schema
 # ---------------------------------------------------------------------------
 

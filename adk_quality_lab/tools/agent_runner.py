@@ -21,6 +21,21 @@ import sys
 from pathlib import Path
 from typing import Any
 
+# ---------------------------------------------------------------------------
+# 429 retry config
+# ---------------------------------------------------------------------------
+
+_RETRY_MAX_ATTEMPTS = 6        # total attempts (1 original + 5 retries)
+_RETRY_BASE_DELAY_S = 5.0      # first back-off delay in seconds
+_RETRY_MAX_DELAY_S  = 120.0    # cap
+_RETRY_BACKOFF      = 2.0      # exponential multiplier
+
+
+def _is_resource_exhausted(exc: BaseException) -> bool:
+    """Return True if exc is a 429 / RESOURCE_EXHAUSTED error."""
+    msg = str(exc)
+    return "429" in msg or "RESOURCE_EXHAUSTED" in msg
+
 logger = logging.getLogger(__name__)
 
 # ---------------------------------------------------------------------------
@@ -67,7 +82,6 @@ def _fixture_to_session_state(tool_payload: dict[str, Any] | None) -> dict[str, 
         state["destination"] = params["arrival_id"]
     if params.get("outbound_date"):
         state["start_date"] = params["outbound_date"]
-
     # ── Build normalised flight list ──────────────────────────────────────────
     _TRAVEL_CLASS_MAP = {1: "economy", 2: "premium_economy", 3: "business", 4: "first"}
     cabin = _TRAVEL_CLASS_MAP.get(int(params.get("travel_class", 1)), "economy")
@@ -80,6 +94,8 @@ def _fixture_to_session_state(tool_payload: dict[str, Any] | None) -> dict[str, 
                 continue
             first_leg = legs[0]
             last_leg = legs[-1]
+            # For range-merged fixtures each result carries outbound_date
+            outbound_date = result.get("outbound_date") or params.get("outbound_date", "")
             flights.append(
                 {
                     "flight_number": first_leg.get("flight_number", ""),
@@ -89,6 +105,7 @@ def _fixture_to_session_state(tool_payload: dict[str, Any] | None) -> dict[str, 
                     "destination": last_leg.get("arrival_airport", {}).get("id", ""),
                     "departure_time": first_leg.get("departure_airport", {}).get("time", ""),
                     "arrival_time": last_leg.get("arrival_airport", {}).get("time", ""),
+                    "outbound_date": outbound_date,
                     "stops": len(result.get("layovers") or []),
                     "duration": result.get("total_duration", 0),
                     "price_usd": result.get("price", 0),
@@ -97,7 +114,7 @@ def _fixture_to_session_state(tool_payload: dict[str, Any] | None) -> dict[str, 
                 }
             )
 
-    total_count = len(
+    total_count = params.get("_total_flights") or len(
         tool_payload.get("best_flights", []) + tool_payload.get("other_flights", [])
     )
 
@@ -140,22 +157,15 @@ async def _run_agent_async(
     user_id: str = "eval-user",
     session_id: str = "eval-session",
 ) -> str:
-    """Run an ADK agent asynchronously and return the final response text."""
+    """Run an ADK agent asynchronously and return the final response text.
+
+    Retries automatically on 429 RESOURCE_EXHAUSTED with exponential back-off.
+    """
     try:
         from google.adk.runners import InMemoryRunner  # type: ignore[import-untyped]
     except ImportError:
         logger.warning("google-adk not installed — returning stub response")
         return f"[NO-ADK] Query: {query}"
-
-    runner = InMemoryRunner(agent=root_agent, app_name="adk_quality_lab_eval")
-
-    # Create session with pre-populated state
-    await runner.session_service.create_session(
-        app_name="adk_quality_lab_eval",
-        user_id=user_id,
-        session_id=session_id,
-        state=session_state,
-    )
 
     from google.genai import types as genai_types  # type: ignore[import-untyped]
 
@@ -164,19 +174,95 @@ async def _run_agent_async(
         parts=[genai_types.Part(text=query)],
     )
 
-    last_text = ""
-    async for event in runner.run_async(
+    delay = _RETRY_BASE_DELAY_S
+    for attempt in range(1, _RETRY_MAX_ATTEMPTS + 1):
+        runner = InMemoryRunner(agent=root_agent, app_name="adk_quality_lab_eval")
+        await runner.session_service.create_session(
+            app_name="adk_quality_lab_eval",
+            user_id=user_id,
+            session_id=session_id,
+            state=session_state,
+        )
+        try:
+            last_text = ""
+            async for event in runner.run_async(
+                user_id=user_id,
+                session_id=session_id,
+                new_message=content,
+            ):
+                if hasattr(event, "content") and event.content:
+                    for part in event.content.parts or []:
+                        if hasattr(part, "text") and part.text:
+                            last_text = part.text
+            return last_text or "[EMPTY AGENT RESPONSE]"
+        except Exception as exc:
+            if _is_resource_exhausted(exc) and attempt < _RETRY_MAX_ATTEMPTS:
+                logger.warning(
+                    "429 RESOURCE_EXHAUSTED (attempt %d/%d) — retrying in %.0fs",
+                    attempt, _RETRY_MAX_ATTEMPTS, delay,
+                )
+                await asyncio.sleep(delay)
+                delay = min(delay * _RETRY_BACKOFF, _RETRY_MAX_DELAY_S)
+            else:
+                raise
+
+
+async def _run_multiturn_async(
+    root_agent: Any,
+    turns: list[str],
+    session_state: dict[str, Any],
+    user_id: str = "eval-user",
+    session_id: str = "eval-session",
+) -> list[str]:
+    """Run multiple turns in the same ADK session, returning a response per turn."""
+    try:
+        from google.adk.runners import InMemoryRunner  # type: ignore[import-untyped]
+    except ImportError:
+        return [f"[NO-ADK] Query: {t}" for t in turns]
+
+    from google.genai import types as genai_types  # type: ignore[import-untyped]
+
+    runner = InMemoryRunner(agent=root_agent, app_name="adk_quality_lab_eval")
+    await runner.session_service.create_session(
+        app_name="adk_quality_lab_eval",
         user_id=user_id,
         session_id=session_id,
-        new_message=content,
-    ):
-        # Collect final agent response
-        if hasattr(event, "content") and event.content:
-            for part in event.content.parts or []:
-                if hasattr(part, "text") and part.text:
-                    last_text = part.text
+        state=session_state,
+    )
 
-    return last_text or "[EMPTY AGENT RESPONSE]"
+    responses: list[str] = []
+    for turn_text in turns:
+        content = genai_types.Content(
+            role="user",
+            parts=[genai_types.Part(text=turn_text)],
+        )
+        delay = _RETRY_BASE_DELAY_S
+        for attempt in range(1, _RETRY_MAX_ATTEMPTS + 1):
+            try:
+                last_text = ""
+                async for event in runner.run_async(
+                    user_id=user_id,
+                    session_id=session_id,
+                    new_message=content,
+                ):
+                    if hasattr(event, "content") and event.content:
+                        for part in event.content.parts or []:
+                            if hasattr(part, "text") and part.text:
+                                last_text = part.text
+                responses.append(last_text or "[EMPTY AGENT RESPONSE]")
+                break
+            except Exception as exc:
+                if _is_resource_exhausted(exc) and attempt < _RETRY_MAX_ATTEMPTS:
+                    logger.warning(
+                        "429 RESOURCE_EXHAUSTED (turn %d, attempt %d/%d) — retrying in %.0fs",
+                        len(responses) + 1, attempt, _RETRY_MAX_ATTEMPTS, delay,
+                    )
+                    await asyncio.sleep(delay)
+                    delay = min(delay * _RETRY_BACKOFF, _RETRY_MAX_DELAY_S)
+                else:
+                    raise
+
+    return responses
 
 
 def _run_agent_sync(
@@ -217,16 +303,18 @@ def build_agent_fn(
 
     Each variant corresponds to an isolated, reproducible improvement phase:
 
+    AGENTWILD paper condition mapping:
+
     ┌──────────────────────┬────────────────────────────────────────────────────┐
-    │ VARIANT              │ What is loaded                                     │
+    │ VARIANT              │ Paper condition / What is loaded                   │
     ├──────────────────────┼────────────────────────────────────────────────────┤
-    │ baseline             │ Vanilla planning logic + fixture-backed            │
-    │                      │ search_flights tool (upstream prompt, no tuning)   │
-    │ prompt_tuning_v1     │ Optimizer-tuned instruction (verbatim citation +   │
-    │                      │ truncation disclosure language)                    │
-    │ structured_output    │ FlightsSelection JSON schema output enforcement    │
-    │ prompt_tuning_v2     │ Optimizer-tuned tool descriptions                  │
-    │ arch_fix             │ CashFlightSummary + lean planning_agent_v2         │
+    │ markdown             │ Cond A — free-form Markdown synthesis, no schema   │
+    │ json_block           │ Cond B — JSON code-fence synthesis, no schema      │
+    │ baseline             │ Cond C — response_schema (FlightsSelection)        │
+    │ arch_fix             │ Cond D — lazy-load get_flight_context, no synth    │
+    │ prompt_tuning_v1     │ Cond C + verbatim-citation instruction             │
+    │ structured_output    │ alias → prompt_tuning_v1                           │
+    │ prompt_tuning_v2     │ Cond C + Optimizer-tuned tool descriptions         │
     └──────────────────────┴────────────────────────────────────────────────────┘
 
     Judges can replicate any phase independently:
@@ -284,6 +372,59 @@ def build_agent_fn(
     return agent_fn
 
 
+def build_multiturn_fn(
+    example_dir: str | Path | None = None,
+    surface: str = "root",
+    variant: str = "baseline",
+) -> Any:
+    """Like build_agent_fn but returns a Callable[[list[str], dict], list[str]].
+
+    Each call runs all turns in a single persistent ADK session so session
+    state (including search_results_cash) is preserved across turns.
+
+    Returns:
+        Callable[[list[str], dict | None], list[str]]
+    """
+    if example_dir is None:
+        example_dir = Path(__file__).parent.parent.parent / "examples" / "travel-concierge"
+    example_dir = Path(example_dir)
+
+    if str(example_dir) not in sys.path:
+        sys.path.insert(0, str(example_dir))
+
+    scenario_key = "TRAVEL_CONCIERGE_SCENARIO"
+    if not os.environ.get(scenario_key):
+        default_scenario = (
+            example_dir / "travel_concierge" / "profiles" / "itinerary_empty_default.json"
+        )
+        os.environ[scenario_key] = str(default_scenario.resolve())
+
+    root_agent = _load_root_agent(example_dir, surface, variant)
+
+    def multiturn_fn(
+        turns: list[str],
+        tool_payload: dict[str, Any] | None = None,
+    ) -> list[str]:
+        session_state = _fixture_to_session_state(tool_payload)
+        try:
+            # Always create a brand-new event loop so closed loops from previous
+            # variant runs don't pollute this call.
+            loop = asyncio.new_event_loop()
+            asyncio.set_event_loop(loop)
+            try:
+                return loop.run_until_complete(
+                    _run_multiturn_async(root_agent, turns, session_state)
+                )
+            finally:
+                loop.close()
+                asyncio.set_event_loop(None)
+        except Exception as exc:
+            logger.error("Multi-turn run failed: %s", exc, exc_info=True)
+            return [f"[ERROR] {exc}"] * len(turns)
+
+    return multiturn_fn
+
+
 def _load_root_agent(example_dir: Path, surface: str, variant: str = "baseline") -> Any:
     """Load the appropriate agent object for the requested (surface, variant).
 
@@ -326,10 +467,21 @@ def _load_root_agent(example_dir: Path, surface: str, variant: str = "baseline")
                 planning_agent.instruction = PLANNING_AGENT_INSTR_V1
                 return planning_agent
             elif variant == "structured_output":
-                # planning_agent_structured.py adds FlightsSelection JSON schema
-                # enforcement; written before prompt_tuning_v2.
-                from tuned_prompts.planning_agent_structured import (  # type: ignore[import-untyped]
-                    planning_agent_structured as agent,
+                # structured_output is now an alias for prompt_tuning_v1
+                # (planning_agent_structured.py was deleted — it was a duplicate
+                # of baseline; prompt_tuning_v1 is the closest equivalent).
+                from tuned_prompts.planning_prompt_v1 import (  # type: ignore[import-untyped]
+                    planning_agent_v1 as agent,
+                )
+                return agent
+            elif variant == "markdown":
+                from tuned_prompts.planning_markdown import (  # type: ignore[import-untyped]
+                    planning_agent_markdown as agent,
+                )
+                return agent
+            elif variant == "json_block":
+                from tuned_prompts.planning_json_block import (  # type: ignore[import-untyped]
+                    planning_agent_json_block as agent,
                 )
                 return agent
             elif variant == "prompt_tuning_v2":

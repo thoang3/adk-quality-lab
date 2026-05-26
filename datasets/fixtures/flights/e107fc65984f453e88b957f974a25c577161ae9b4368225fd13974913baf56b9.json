@@ -1,0 +1,873 @@
+{
+  "search_metadata": {
+    "id": "6a1562392ddc4305ec021aa0",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/AS6OFPuqJY2C2L636DtD8w/6a1562392ddc4305ec021aa0.json",
+    "created_at": "2026-05-26 09:04:57 UTC",
+    "processed_at": "2026-05-26 09:04:57 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhoeEgoyMDI2LTA3LTAyagcIARIDU0ZPcgcIARIDTEhSQAFIAXABmAEC&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/AS6OFPuqJY2C2L636DtD8w/6a1562392ddc4305ec021aa0.html",
+    "prettify_html_file": "https://serpapi.com/searches/AS6OFPuqJY2C2L636DtD8w/6a1562392ddc4305ec021aa0.prettify",
+    "total_time_taken": 2.07
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "us",
+    "type": "2",
+    "departure_id": "SFO",
+    "arrival_id": "LHR",
+    "outbound_date": "2026-07-02",
+    "travel_class": 1,
+    "adults": 1,
+    "currency": "USD"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-02 13:00"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-03 07:25"
+          },
+          "duration": 625,
+          "airplane": "Boeing 787",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 901",
+          "ticket_also_sold_by": [
+            "Lufthansa",
+            "Austrian",
+            "Brussels Airlines"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 436 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 625,
+      "carbon_emissions": {
+        "this_flight": 436000,
+        "typical_for_this_route": 605000,
+        "difference_percent": -28
+      },
+      "price": 529,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJVTJkdFQxQTBMVUUyWWpCQlF6Qk5hVkZDUnkwdExTMHRMUzB0TFhaMFlYY3lNMEZCUVVGQlIyOVdXV3B6UVVJelRUWkJFZ1ZWUVRrd01Sb0xDUEtjQXhBQ0dnTlZVMFE0SEhEeW5BTT0iLFtbIlNGTyIsIjIwMjYtMDctMDIiLCJMSFIiLG51bGwsIlVBIiwiOTAxIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-02 19:30"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-03 13:55"
+          },
+          "duration": 625,
+          "airplane": "Boeing 777",
+          "airline": "British Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+          "travel_class": "Economy",
+          "flight_number": "BA 286",
+          "ticket_also_sold_by": [
+            "American",
+            "Iberia",
+            "Finnair",
+            "Alaska"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 618 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 625,
+      "carbon_emissions": {
+        "this_flight": 619000,
+        "typical_for_this_route": 605000,
+        "difference_percent": 2
+      },
+      "price": 529,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+      "booking_token": "WyJDalJJVTJkdFQxQTBMVUUyWWpCQlF6Qk5hVkZDUnkwdExTMHRMUzB0TFhaMFlYY3lNMEZCUVVGQlIyOVdXV3B6UVVJelRUWkJFZ1ZDUVRJNE5ob0xDUEtjQXhBQ0dnTlZVMFE0SEhEeW5BTT0iLFtbIlNGTyIsIjIwMjYtMDctMDIiLCJMSFIiLG51bGwsIkJBIiwiMjg2Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-02 23:15"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-03 17:30"
+          },
+          "duration": 615,
+          "airplane": "Boeing 787",
+          "airline": "Virgin Atlantic",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VS.png",
+          "travel_class": "Economy",
+          "flight_number": "VS 42",
+          "ticket_also_sold_by": [
+            "Air France",
+            "Delta",
+            "KLM"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 556 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 615,
+      "carbon_emissions": {
+        "this_flight": 557000,
+        "typical_for_this_route": 605000,
+        "difference_percent": -8
+      },
+      "price": 529,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VS.png",
+      "booking_token": "WyJDalJJVTJkdFQxQTBMVUUyWWpCQlF6Qk5hVkZDUnkwdExTMHRMUzB0TFhaMFlYY3lNMEZCUVVGQlIyOVdXV3B6UVVJelRUWkJFZ1JXVXpReUdnc0k4cHdERUFJYUExVlRSRGdjY1BLY0F3PT0iLFtbIlNGTyIsIjIwMjYtMDctMDIiLCJMSFIiLG51bGwsIlZTIiwiNDIiXV1d"
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-02 11:10"
+          },
+          "arrival_airport": {
+            "name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+            "id": "YUL",
+            "time": "2026-07-02 19:39"
+          },
+          "duration": 329,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Air Canada",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+          "travel_class": "Economy",
+          "flight_number": "AC 758",
+          "ticket_also_sold_by": [
+            "United"
+          ],
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 355 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+            "id": "YUL",
+            "time": "2026-07-03 18:40"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-04 06:30"
+          },
+          "duration": 410,
+          "airplane": "Airbus A330",
+          "airline": "Air Canada",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+          "travel_class": "Economy",
+          "flight_number": "AC 866",
+          "ticket_also_sold_by": [
+            "United"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 307 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 1381,
+          "name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+          "id": "YUL",
+          "overnight": true
+        }
+      ],
+      "total_duration": 2120,
+      "carbon_emissions": {
+        "this_flight": 664000,
+        "typical_for_this_route": 605000,
+        "difference_percent": 10
+      },
+      "price": 522,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+      "booking_token": "WyJDalJJVTJkdFQxQTBMVUUyWWpCQlF6Qk5hVkZDUnkwdExTMHRMUzB0TFhaMFlYY3lNMEZCUVVGQlIyOVdXV3B6UVVJelRUWkJFZ3RCUXpjMU9IeEJRemcyTmhvTENOU1hBeEFDR2dOVlUwUTRISERVbHdNPSIsW1siU0ZPIiwiMjAyNi0wNy0wMiIsIllVTCIsbnVsbCwiQUMiLCI3NTgiXSxbIllVTCIsIjIwMjYtMDctMDMiLCJMSFIiLG51bGwsIkFDIiwiODY2Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-02 22:40"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-03 07:12"
+          },
+          "duration": 332,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 365",
+          "ticket_also_sold_by": [
+            "KLM",
+            "Virgin Atlantic"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 307 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-03 08:15"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-03 20:10"
+          },
+          "duration": 415,
+          "airplane": "Boeing 787",
+          "airline": "Virgin Atlantic",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VS.png",
+          "travel_class": "Economy",
+          "flight_number": "VS 26",
+          "ticket_also_sold_by": [
+            "KLM",
+            "Delta"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 343 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 63,
+          "name": "John F. Kennedy International Airport",
+          "id": "JFK"
+        }
+      ],
+      "total_duration": 810,
+      "carbon_emissions": {
+        "this_flight": 651000,
+        "typical_for_this_route": 605000,
+        "difference_percent": 8
+      },
+      "price": 523,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJVTJkdFQxQTBMVUUyWWpCQlF6Qk5hVkZDUnkwdExTMHRMUzB0TFhaMFlYY3lNMEZCUVVGQlIyOVdXV3B6UVVJelRUWkJFZ3BFVERNMk5YeFdVekkyR2dzSXpKZ0RFQUlhQTFWVFJEZ2NjTXlZQXc9PSIsW1siU0ZPIiwiMjAyNi0wNy0wMiIsIkpGSyIsbnVsbCwiREwiLCIzNjUiXSxbIkpGSyIsIjIwMjYtMDctMDMiLCJMSFIiLG51bGwsIlZTIiwiMjYiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-02 16:35"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-03 11:00"
+          },
+          "duration": 625,
+          "airplane": "Airbus A380",
+          "airline": "British Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+          "travel_class": "Economy",
+          "flight_number": "BA 284",
+          "ticket_also_sold_by": [
+            "American",
+            "Iberia",
+            "Finnair",
+            "Alaska"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 607 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 625,
+      "carbon_emissions": {
+        "this_flight": 608000,
+        "typical_for_this_route": 605000,
+        "difference_percent": 0
+      },
+      "price": 529,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+      "booking_token": "WyJDalJJVTJkdFQxQTBMVUUyWWpCQlF6Qk5hVkZDUnkwdExTMHRMUzB0TFhaMFlYY3lNMEZCUVVGQlIyOVdXV3B6UVVJelRUWkJFZ1ZDUVRJNE5Cb0xDUEtjQXhBQ0dnTlZVMFE0SEhEeW5BTT0iLFtbIlNGTyIsIjIwMjYtMDctMDIiLCJMSFIiLG51bGwsIkJBIiwiMjg0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-02 17:55"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-03 12:15"
+          },
+          "duration": 620,
+          "airplane": "Airbus A350",
+          "airline": "Virgin Atlantic",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VS.png",
+          "travel_class": "Economy",
+          "flight_number": "VS 20",
+          "ticket_also_sold_by": [
+            "Air France",
+            "Delta",
+            "KLM"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 544 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 620,
+      "carbon_emissions": {
+        "this_flight": 545000,
+        "typical_for_this_route": 605000,
+        "difference_percent": -10
+      },
+      "price": 529,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VS.png",
+      "booking_token": "WyJDalJJVTJkdFQxQTBMVUUyWWpCQlF6Qk5hVkZDUnkwdExTMHRMUzB0TFhaMFlYY3lNMEZCUVVGQlIyOVdXV3B6UVVJelRUWkJFZ1JXVXpJd0dnc0k4cHdERUFJYUExVlRSRGdjY1BLY0F3PT0iLFtbIlNGTyIsIjIwMjYtMDctMDIiLCJMSFIiLG51bGwsIlZTIiwiMjAiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-02 23:59"
+          },
+          "arrival_airport": {
+            "name": "Newark Liberty International Airport",
+            "id": "EWR",
+            "time": "2026-07-03 08:22"
+          },
+          "duration": 323,
+          "airplane": "Boeing 777",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 2416",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 250 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Newark Liberty International Airport",
+            "id": "EWR",
+            "time": "2026-07-03 09:35"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-03 21:25"
+          },
+          "duration": 410,
+          "airplane": "Boeing 787",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 122",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 288 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 73,
+          "name": "Newark Liberty International Airport",
+          "id": "EWR"
+        }
+      ],
+      "total_duration": 806,
+      "carbon_emissions": {
+        "this_flight": 539000,
+        "typical_for_this_route": 605000,
+        "difference_percent": -11
+      },
+      "price": 557,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJVTJkdFQxQTBMVUUyWWpCQlF6Qk5hVkZDUnkwdExTMHRMUzB0TFhaMFlYY3lNMEZCUVVGQlIyOVdXV3B6UVVJelRUWkJFZ3hWUVRJME1UWjhWVUV4TWpJYUN3aVVzd01RQWhvRFZWTkVPQnh3bExNRCIsW1siU0ZPIiwiMjAyNi0wNy0wMiIsIkVXUiIsbnVsbCwiVUEiLCIyNDE2Il0sWyJFV1IiLCIyMDI2LTA3LTAzIiwiTEhSIixudWxsLCJVQSIsIjEyMiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-02 16:50"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-03 11:10"
+          },
+          "duration": 620,
+          "airplane": "Boeing 787",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 948",
+          "ticket_also_sold_by": [
+            "Lufthansa",
+            "Brussels Airlines"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 457 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 620,
+      "carbon_emissions": {
+        "this_flight": 458000,
+        "typical_for_this_route": 605000,
+        "difference_percent": -24
+      },
+      "price": 629,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJVTJkdFQxQTBMVUUyWWpCQlF6Qk5hVkZDUnkwdExTMHRMUzB0TFhaMFlYY3lNMEZCUVVGQlIyOVdXV3B6UVVJelRUWkJFZ1ZWUVRrME9Cb0xDSUxyQXhBQ0dnTlZVMFE0SEhDQzZ3TT0iLFtbIlNGTyIsIjIwMjYtMDctMDIiLCJMSFIiLG51bGwsIlVBIiwiOTQ4Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-02 19:50"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-03 14:10"
+          },
+          "duration": 620,
+          "airplane": "Boeing 787",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 930",
+          "ticket_also_sold_by": [
+            "Lufthansa",
+            "Austrian",
+            "Brussels Airlines"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 436 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 620,
+      "carbon_emissions": {
+        "this_flight": 436000,
+        "typical_for_this_route": 605000,
+        "difference_percent": -28
+      },
+      "price": 822,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJVTJkdFQxQTBMVUUyWWpCQlF6Qk5hVkZDUnkwdExTMHRMUzB0TFhaMFlYY3lNMEZCUVVGQlIyOVdXV3B6UVVJelRUWkJFZ1ZWUVRrek1Cb0xDT2FCQlJBQ0dnTlZVMFE0SEhEbWdRVT0iLFtbIlNGTyIsIjIwMjYtMDctMDIiLCJMSFIiLG51bGwsIlVBIiwiOTMwIl1dXQ=="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 522,
+    "price_level": "high",
+    "typical_price_range": [
+      330,
+      495
+    ],
+    "price_history": [
+      [
+        1774594800,
+        563
+      ],
+      [
+        1774681200,
+        563
+      ],
+      [
+        1774767600,
+        563
+      ],
+      [
+        1774854000,
+        563
+      ],
+      [
+        1774940400,
+        563
+      ],
+      [
+        1775026800,
+        563
+      ],
+      [
+        1775113200,
+        618
+      ],
+      [
+        1775199600,
+        618
+      ],
+      [
+        1775286000,
+        618
+      ],
+      [
+        1775372400,
+        618
+      ],
+      [
+        1775458800,
+        618
+      ],
+      [
+        1775545200,
+        618
+      ],
+      [
+        1775631600,
+        618
+      ],
+      [
+        1775718000,
+        643
+      ],
+      [
+        1775804400,
+        643
+      ],
+      [
+        1775890800,
+        712
+      ],
+      [
+        1775977200,
+        712
+      ],
+      [
+        1776063600,
+        712
+      ],
+      [
+        1776150000,
+        712
+      ],
+      [
+        1776236400,
+        712
+      ],
+      [
+        1776322800,
+        712
+      ],
+      [
+        1776409200,
+        712
+      ],
+      [
+        1776495600,
+        712
+      ],
+      [
+        1776582000,
+        712
+      ],
+      [
+        1776668400,
+        712
+      ],
+      [
+        1776754800,
+        811
+      ],
+      [
+        1776841200,
+        811
+      ],
+      [
+        1776927600,
+        811
+      ],
+      [
+        1777014000,
+        811
+      ],
+      [
+        1777100400,
+        811
+      ],
+      [
+        1777186800,
+        811
+      ],
+      [
+        1777273200,
+        811
+      ],
+      [
+        1777359600,
+        679
+      ],
+      [
+        1777446000,
+        626
+      ],
+      [
+        1777532400,
+        626
+      ],
+      [
+        1777618800,
+        657
+      ],
+      [
+        1777705200,
+        657
+      ],
+      [
+        1777791600,
+        623
+      ],
+      [
+        1777878000,
+        623
+      ],
+      [
+        1777964400,
+        623
+      ],
+      [
+        1778050800,
+        623
+      ],
+      [
+        1778137200,
+        616
+      ],
+      [
+        1778223600,
+        508
+      ],
+      [
+        1778310000,
+        508
+      ],
+      [
+        1778396400,
+        508
+      ],
+      [
+        1778482800,
+        508
+      ],
+      [
+        1778569200,
+        623
+      ],
+      [
+        1778655600,
+        623
+      ],
+      [
+        1778742000,
+        523
+      ],
+      [
+        1778828400,
+        523
+      ],
+      [
+        1778914800,
+        508
+      ],
+      [
+        1779001200,
+        508
+      ],
+      [
+        1779087600,
+        508
+      ],
+      [
+        1779174000,
+        523
+      ],
+      [
+        1779260400,
+        523
+      ],
+      [
+        1779346800,
+        522
+      ],
+      [
+        1779433200,
+        522
+      ],
+      [
+        1779519600,
+        522
+      ],
+      [
+        1779606000,
+        522
+      ],
+      [
+        1779692400,
+        522
+      ],
+      [
+        1779778800,
+        522
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "SFO",
+            "name": "San Francisco International Airport"
+          },
+          "city": "San Francisco",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQhLXJKshv7iRU8OcvmRyc3ZHyoSy8ZfBGcntDNb8iTixSq8i7XIcn9tZMPIcM6-rm7kKcu2VQS3BKoYw",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRbcxCKTUaj5vz8PrFeUUBVCm8J3fXiMRJpnz4UfNsPeLOkP1EZK9sez1dEX--y-VLxpPAaVB5zo1hzXliHeLl3l0VFwrWrVz7UCQpkzCY"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "LHR",
+            "name": "Heathrow Airport"
+          },
+          "city": "London",
+          "country": "United Kingdom",
+          "country_code": "GB",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRpN9RbtOSTDqKIPxWc_D6rdSysaWVh6d-NW7yz7yFXKRwh5RN5BpNIoXEwH1XVcFdLWqn6Sm8_Y_zmeg",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQYH83YXny8hR4M7k5BMFq4vUT6LNtVABQzgs2pg-hcpSZq3oMBOQK3xh591AAJv2Qx4uvFZUGqOVt4kuoCUOklISunmndJleOoSef_7QE"
+        }
+      ]
+    }
+  ]
+}

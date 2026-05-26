@@ -228,6 +228,19 @@ class CashFlightsSelection(BaseModel):
     flights: list[FlightInfo]
 
 
+class CashFlightSummary(BaseModel):
+    """Lean summary returned by cash_flight_search_agent (arch_fix variant).
+
+    Stores only the count and search context — the full flight list lives in
+    session state under ``search_results_cash``.  This prevents the LLM from
+    having to synthesise a large tool payload, eliminating truncation collapse
+    (F1) and value mutation (F2) at the source.
+    """
+
+    total_found: int
+    search_params: str = ""
+
+
 # ==============================================
 # 🛫 IATA Code → Display Name Lookup (canonical source of truth)
 # ==============================================
@@ -420,27 +433,20 @@ def apply_client_side_filters(
     flight_request: FlightRequest | FlightDateRangeRequest,
     context: str = "cache",
 ) -> list[FlightInfo]:
-    """Apply client-side filters to flights after cache retrieval.
-
-    Filters are applied AFTER cache lookup to enable SUPERSET caching strategy.
-    Cache stores broader results (all stops, all prices, all airlines) and this
-    function narrows to user's specific request.
-
-    This eliminates code duplication across 4 cache hit paths and ensures
-    consistent filter behavior throughout the application.
+    """Apply filters to a list of flights based on the user's search parameters.
 
     Args:
-        flights: List of flights to filter
-        flight_request: User's search parameters with filter values
-        context: Description for logging (e.g., "cache", "API", "all-cabins extraction")
+        flights: List of flights to filter.
+        flight_request: User's search parameters containing filter values.
+        context: Description for logging (e.g., "API", "all-cabins extraction").
 
     Returns:
-        Filtered list of flights matching user's criteria
+        Filtered list of flights matching user's criteria.
 
     Filters Applied:
-        1. max_stops: Remove flights exceeding user's stop count preference
-        2. max_price: Remove flights exceeding user's price budget
-        3. preferred_airlines: Keep only flights from user's preferred airlines
+        1. max_stops: Remove flights exceeding user's stop count preference.
+        2. max_price: Remove flights exceeding user's price budget.
+        3. preferred_airlines: Keep only flights from user's preferred airlines.
     """
     original_count = len(flights)
     filtered_flights = flights

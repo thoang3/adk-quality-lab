@@ -75,8 +75,8 @@ def row_count_match(
     FAIL: agent claims N but renders a different count.
     """
     # Count flight-card-like blocks in the response as a proxy for rendered rows.
-    # We look for numbered list items or flight code patterns.
-    rendered_rows = len(re.findall(r"(?m)^\s*\d+[\.\)]\s+", agent_response))
+    # Match numbered lists ("1. ", "10. ") OR bullet lists ("* ", "- ", "• ")
+    rendered_rows = len(re.findall(r"(?m)^\s*(?:\d+[.\)]|[*\-•])\s+", agent_response))
     if rendered_rows == 0:
         # Fallback: count lines with IATA-style flight numbers
         rendered_rows = len(re.findall(r"\b[A-Z]{2}\d{1,4}\b", agent_response))
@@ -124,7 +124,26 @@ def row_count_match(
             detail=detail,
         )
 
-    # No count claim found — neutral pass (agent didn't make a claim to verify)
+    # No count claim found.
+    # If we have a ground-truth expected count, use rendered rows as the proxy.
+    # An agent that silently truncates 76 flights to 10 should FAIL, not pass.
+    if case.expected_flight_count is not None:
+        ratio = rendered_rows / case.expected_flight_count if case.expected_flight_count else 1.0
+        passed = ratio >= 0.90  # allow up to 10% off (rounding, dedup, etc.)
+        score = round(min(ratio, 1.0), 3)
+        detail = (
+            f"No explicit count claim; rendered ~{rendered_rows} rows "
+            f"vs expected {case.expected_flight_count} "
+            f"({score:.0%} coverage)"
+        )
+        return RaterResult(
+            case_id=case.case_id,
+            rater="deterministic.row_count_match",
+            passed=passed,
+            score=score,
+            detail=detail,
+        )
+
     return RaterResult(
         case_id=case.case_id,
         rater="deterministic.row_count_match",

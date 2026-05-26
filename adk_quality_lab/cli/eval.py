@@ -20,13 +20,13 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Run ADK Quality Lab eval harness")
     parser.add_argument(
         "--case-set",
-        choices=["f1", "f2", "both", "smoke", "gold"],
+        choices=["f1", "f2", "both", "smoke", "gold", "tail"],
         default="smoke",
         help="Which case set to evaluate",
     )
     parser.add_argument(
         "--variant",
-        choices=["baseline", "prompt_tuning_v1", "structured_output", "prompt_tuning_v2", "arch_fix"],
+        choices=["baseline", "prompt_tuning_v1", "structured_output", "prompt_tuning_v2", "arch_fix", "markdown", "json_block"],
         default="baseline",
         help=(
             "Improvement phase to evaluate. Each variant is independently reproducible:\n"
@@ -65,6 +65,11 @@ def main() -> None:
         default=False,
         help="Use stub agent (for CI / smoke tests without API keys)",
     )
+    parser.add_argument(
+        "--case-id",
+        default=None,
+        help="Run a single case by ID (e.g. f1_005). Overrides --case-set.",
+    )
     args = parser.parse_args()
 
     from adk_quality_lab.datasets.loader import (
@@ -84,8 +89,21 @@ def main() -> None:
         cases = load_smoke_cases(n=30)
     elif args.case_set == "gold":
         cases = load_gold_cases()
+    elif args.case_set == "tail":
+        cases = load_all_cases(include_tail=True)
+        cases = [c for c in cases if getattr(c, "search_type", None) == "range"]
     else:
         cases = []
+
+    if args.case_id:
+        cases = [c for c in cases if c.case_id == args.case_id]
+        if not cases:
+            # case_id may not be in the default case_set — load all and filter
+            cases = [c for c in load_all_cases(include_tail=True) if c.case_id == args.case_id]
+        if not cases:
+            logger.error("case-id %r not found in any dataset", args.case_id)
+            sys.exit(1)
+        logger.info("Single-case mode: %s", args.case_id)
 
     logger.info("Loaded %d cases", len(cases))
 

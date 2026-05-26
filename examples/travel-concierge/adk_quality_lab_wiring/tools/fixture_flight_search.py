@@ -111,6 +111,7 @@ async def search_flights(
     outbound_date: str,
     cabin_class: str = "economy",
     adults: int = 1,
+    tool_context=None,
 ) -> str:
     """Search for available flights between two airports on a given date.
 
@@ -153,6 +154,10 @@ async def search_flights(
         total, len(best), len(other),
     )
 
+    # Write to search_results_cash — the key get_flight_context reads.
+    if tool_context is not None:
+        tool_context.state["search_results_cash"] = all_results
+
     # Return the raw SerpAPI structure so the LLM synthesizes from real data.
     # The FlightsSelection output_schema on flight_search_agent will guide
     # the LLM to extract flight_number, departure, arrival, price, etc.
@@ -170,13 +175,13 @@ async def search_flights_range(
     end_date: str,
     cabin_class: str = "economy",
     adults: int = 1,
+    tool_context=None,
 ) -> str:
     """Search for available flights across a date range.
 
-    Calls the per-date fixture for each calendar day from start_date to
-    end_date (inclusive), then merges and deduplicates results.  This is the
-    primary tool for tail/stress-test cases that produce 70–120+ ground-truth
-    flights — the regime where baseline agents exhibit truncation collapse.
+    Returns pre-loaded merged flight data from session state (injected by the
+    eval harness).  Falls back to loading per-date fixtures if session state
+    is not available.
 
     Args:
         origin:      IATA airport code for departure (e.g. "SFO", "JFK").
@@ -188,8 +193,25 @@ async def search_flights_range(
 
     Returns:
         JSON string with all available flights merged across the date range,
-        deduplicated by (flight_number, outbound_date), and a total count.
+        and a total count.
     """
+    # ── Fast path: harness pre-merged everything into session state ──────────
+    if tool_context is not None:
+        cached = tool_context.state.get("search_results_cash")
+        if cached:
+            total = len(cached)
+            logger.info(
+                "search_flights_range: %s→%s %s–%s %s — %d flights from session state",
+                origin, destination, start_date, end_date, cabin_class, total,
+            )
+            # Write to search_results_cash — the key get_flight_context reads.
+            tool_context.state["search_results_cash"] = cached
+            return json.dumps({
+                "total_count": total,
+                "flights": cached,
+            })
+
+    # ── Fallback: load and merge per-date fixtures ───────────────────────────
     start = date.fromisoformat(start_date)
     end = date.fromisoformat(end_date)
 
@@ -214,13 +236,17 @@ async def search_flights_range(
             continue
 
         for flight in fixture.get("best_flights", []):
-            dedup_key = (flight.get("flight_number", ""), day_str)
+            legs = flight.get("flights", [])
+            first_fn = legs[0].get("flight_number", "") if legs else ""
+            dedup_key = (first_fn, day_str)
             if dedup_key not in seen:
                 seen.add(dedup_key)
                 merged_best.append({**flight, "outbound_date": day_str})
 
         for flight in fixture.get("other_flights", []):
-            dedup_key = (flight.get("flight_number", ""), day_str)
+            legs = flight.get("flights", [])
+            first_fn = legs[0].get("flight_number", "") if legs else ""
+            dedup_key = (first_fn, day_str)
             if dedup_key not in seen:
                 seen.add(dedup_key)
                 merged_other.append({**flight, "outbound_date": day_str})
@@ -233,6 +259,10 @@ async def search_flights_range(
         origin, destination, start_date, end_date, cabin_class,
         total, (end - start).days + 1, len(missing_dates),
     )
+
+    # Write to search_results_cash — the key get_flight_context reads.
+    if tool_context is not None:
+        tool_context.state["search_results_cash"] = merged_best + merged_other
 
     result: dict[str, Any] = {
         "total_count": total,

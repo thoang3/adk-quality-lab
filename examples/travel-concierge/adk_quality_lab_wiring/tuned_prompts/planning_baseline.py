@@ -48,7 +48,7 @@ from travel_concierge.sub_agents.planning.agent import (  # type: ignore[import-
     itinerary_agent,
 )
 
-from tools.fixture_flight_search import search_flights  # type: ignore[import-untyped]
+from tools.fixture_flight_search import search_flights, search_flights_range  # type: ignore[import-untyped]
 
 # ---------------------------------------------------------------------------
 # Minimal instruction update: instruct the agent to use the search tool.
@@ -57,13 +57,16 @@ from tools.fixture_flight_search import search_flights  # type: ignore[import-un
 # ---------------------------------------------------------------------------
 
 FLIGHT_SEARCH_INSTR_BASELINE = """\
-You are a flight search agent. Use the `search_flights` tool to fetch real
+You are a flight search agent. Use the appropriate search tool to fetch real
 flight data, then return the results as a FlightsSelection JSON object.
 
+Tool selection:
+- For a SINGLE departure date: call search_flights(origin, destination, outbound_date, cabin_class)
+- For a DATE RANGE (multiple days): call search_flights_range(origin, destination, start_date, end_date, cabin_class)
+
 Steps:
-1. Call search_flights(origin, destination, outbound_date, cabin_class) using
-   the route details from the user query.
-2. Review the flights returned by the tool.
+1. Choose the correct tool based on whether the query is for one date or a range.
+2. Review ALL flights returned by the tool.
 3. Return ALL flights as a FlightsSelection JSON — do not omit any flight.
 
 Do not invent or modify flight details. Use only what the tool returns.
@@ -94,7 +97,7 @@ flight_search_agent_baseline = Agent(
     output_schema=types.FlightsSelection,
     output_key="flight",
     generate_content_config=types.json_response_config,
-    tools=[FunctionTool(func=search_flights)],
+    tools=[FunctionTool(func=search_flights), FunctionTool(func=search_flights_range)],
 )
 
 # ---------------------------------------------------------------------------

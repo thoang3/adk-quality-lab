@@ -1,0 +1,987 @@
+{
+  "search_metadata": {
+    "id": "6a15624d9df9ddd513661530",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/9o3hzcsZ4n2BXJ8Ylg45Zw/6a15624d9df9ddd513661530.json",
+    "created_at": "2026-05-26 09:05:17 UTC",
+    "processed_at": "2026-05-26 09:05:17 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhoeEgoyMDI2LTA3LTAzagcIARIDU0ZPcgcIARIDTEhSQAFIA3ABmAEC&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/9o3hzcsZ4n2BXJ8Ylg45Zw/6a15624d9df9ddd513661530.html",
+    "prettify_html_file": "https://serpapi.com/searches/9o3hzcsZ4n2BXJ8Ylg45Zw/6a15624d9df9ddd513661530.prettify",
+    "total_time_taken": 5.67
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "us",
+    "type": "2",
+    "departure_id": "SFO",
+    "arrival_id": "LHR",
+    "outbound_date": "2026-07-03",
+    "travel_class": 3,
+    "adults": 1,
+    "currency": "USD"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-03 17:38"
+          },
+          "arrival_airport": {
+            "name": "Seattle-Tacoma International Airport",
+            "id": "SEA",
+            "time": "2026-07-03 19:47"
+          },
+          "duration": 129,
+          "airplane": "Boeing 737",
+          "airline": "Alaska",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "travel_class": "Business Class",
+          "flight_number": "AS 758",
+          "ticket_also_sold_by": [
+            "Icelandair"
+          ],
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 158 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Seattle-Tacoma International Airport",
+            "id": "SEA",
+            "time": "2026-07-03 23:25"
+          },
+          "arrival_airport": {
+            "name": "Keflav\u00edk International Airport",
+            "id": "KEF",
+            "time": "2026-07-04 14:00"
+          },
+          "duration": 455,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Icelandair",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+          "travel_class": "Business Class",
+          "flight_number": "FI 684",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 602 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Keflav\u00edk International Airport",
+            "id": "KEF",
+            "time": "2026-07-04 16:10"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-04 20:20"
+          },
+          "duration": 190,
+          "airplane": "Boeing 757",
+          "airline": "Icelandair",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+          "travel_class": "Business Class",
+          "flight_number": "FI 454",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 316 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 218,
+          "name": "Seattle-Tacoma International Airport",
+          "id": "SEA"
+        },
+        {
+          "duration": 130,
+          "name": "Keflav\u00edk International Airport",
+          "id": "KEF"
+        }
+      ],
+      "total_duration": 1122,
+      "carbon_emissions": {
+        "this_flight": 1077000,
+        "typical_for_this_route": 2143000,
+        "difference_percent": -50
+      },
+      "price": 2151,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJU2paaU1YbGFkblY0T1VsQlEyNTZOVUZDUnkwdExTMHRMUzB0TFMxNWJHWnVPVUZCUVVGQlIyOVdXV3hKU1dkWlJtOUJFaEZCVXpjMU9IeEdTVFk0Tkh4R1NUUTFOQm9MQ0pTUURSQUNHZ05WVTBRNEhIQ1VrQTA9IixbWyJTRk8iLCIyMDI2LTA3LTAzIiwiU0VBIixudWxsLCJBUyIsIjc1OCJdLFsiU0VBIiwiMjAyNi0wNy0wMyIsIktFRiIsbnVsbCwiRkkiLCI2ODQiXSxbIktFRiIsIjIwMjYtMDctMDQiLCJMSFIiLG51bGwsIkZJIiwiNDU0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-03 22:15"
+          },
+          "arrival_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-04 07:10"
+          },
+          "duration": 355,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Business Class",
+          "flight_number": "B6 16",
+          "extensions": [
+            "Lie flat seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 621 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-07-04 08:45"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-04 20:45"
+          },
+          "duration": 420,
+          "airplane": "Airbus A321neo",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Business Class",
+          "flight_number": "B6 1107",
+          "extensions": [
+            "Individual suite",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 812 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 95,
+          "name": "John F. Kennedy International Airport",
+          "id": "JFK"
+        }
+      ],
+      "total_duration": 870,
+      "carbon_emissions": {
+        "this_flight": 1434000,
+        "typical_for_this_route": 2143000,
+        "difference_percent": -33
+      },
+      "price": 4113,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "booking_token": "WyJDalJJU2paaU1YbGFkblY0T1VsQlEyNTZOVUZDUnkwdExTMHRMUzB0TFMxNWJHWnVPVUZCUVVGQlIyOVdXV3hKU1dkWlJtOUJFZ3RDTmpFMmZFSTJNVEV3TnhvTENLU05HUkFDR2dOVlUwUTRISENralJrPSIsW1siU0ZPIiwiMjAyNi0wNy0wMyIsIkpGSyIsbnVsbCwiQjYiLCIxNiJdLFsiSkZLIiwiMjAyNi0wNy0wNCIsIkxIUiIsbnVsbCwiQjYiLCIxMTA3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-03 19:30"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-04 13:55"
+          },
+          "duration": 625,
+          "airplane": "Boeing 777",
+          "airline": "British Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+          "travel_class": "Business Class",
+          "flight_number": "BA 286",
+          "ticket_also_sold_by": [
+            "American",
+            "Iberia",
+            "Finnair",
+            "Alaska"
+          ],
+          "extensions": [
+            "Individual suite",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2474 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 625,
+      "carbon_emissions": {
+        "this_flight": 2474000,
+        "typical_for_this_route": 2143000,
+        "difference_percent": 15
+      },
+      "price": 5339,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+      "booking_token": "WyJDalJJU2paaU1YbGFkblY0T1VsQlEyNTZOVUZDUnkwdExTMHRMUzB0TFMxNWJHWnVPVUZCUVVGQlIyOVdXV3hKU1dkWlJtOUJFZ1ZDUVRJNE5ob0xDTnJLSUJBQ0dnTlZVMFE0SEhEYXlpQT0iLFtbIlNGTyIsIjIwMjYtMDctMDMiLCJMSFIiLG51bGwsIkJBIiwiMjg2Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-03 19:50"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-04 14:10"
+          },
+          "duration": 620,
+          "airplane": "Boeing 787",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Business Class",
+          "flight_number": "UA 930",
+          "ticket_also_sold_by": [
+            "Lufthansa",
+            "Austrian",
+            "Brussels Airlines"
+          ],
+          "extensions": [
+            "Individual suite",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1745 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 620,
+      "carbon_emissions": {
+        "this_flight": 1746000,
+        "typical_for_this_route": 2143000,
+        "difference_percent": -19
+      },
+      "price": 5339,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJU2paaU1YbGFkblY0T1VsQlEyNTZOVUZDUnkwdExTMHRMUzB0TFMxNWJHWnVPVUZCUVVGQlIyOVdXV3hKU1dkWlJtOUJFZ1ZWUVRrek1Cb0xDTnJLSUJBQ0dnTlZVMFE0SEhEYXlpQT0iLFtbIlNGTyIsIjIwMjYtMDctMDMiLCJMSFIiLG51bGwsIlVBIiwiOTMwIl1dXQ=="
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-03 12:27"
+          },
+          "arrival_airport": {
+            "name": "Seattle-Tacoma International Airport",
+            "id": "SEA",
+            "time": "2026-07-03 14:35"
+          },
+          "duration": 128,
+          "airplane": "Boeing 737",
+          "airline": "Alaska",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "travel_class": "Business Class",
+          "flight_number": "AS 630",
+          "ticket_also_sold_by": [
+            "Icelandair"
+          ],
+          "extensions": [
+            "Standard recliner seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 158 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Seattle-Tacoma International Airport",
+            "id": "SEA",
+            "time": "2026-07-03 15:40"
+          },
+          "arrival_airport": {
+            "name": "Keflav\u00edk International Airport",
+            "id": "KEF",
+            "time": "2026-07-04 06:15"
+          },
+          "duration": 455,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Icelandair",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+          "travel_class": "Business Class",
+          "flight_number": "FI 680",
+          "extensions": [
+            "Standard recliner seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 602 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Keflav\u00edk International Airport",
+            "id": "KEF",
+            "time": "2026-07-04 07:40"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-04 11:55"
+          },
+          "duration": 195,
+          "airplane": "Airbus A321neo",
+          "airline": "Icelandair",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+          "travel_class": "Business Class",
+          "flight_number": "FI 450",
+          "extensions": [
+            "Extra reclining seat",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 218 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 65,
+          "name": "Seattle-Tacoma International Airport",
+          "id": "SEA"
+        },
+        {
+          "duration": 85,
+          "name": "Keflav\u00edk International Airport",
+          "id": "KEF"
+        }
+      ],
+      "total_duration": 928,
+      "carbon_emissions": {
+        "this_flight": 979000,
+        "typical_for_this_route": 2143000,
+        "difference_percent": -54
+      },
+      "price": 2976,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJU2paaU1YbGFkblY0T1VsQlEyNTZOVUZDUnkwdExTMHRMUzB0TFMxNWJHWnVPVUZCUVVGQlIyOVdXV3hKU1dkWlJtOUJFaEZCVXpZek1IeEdTVFk0TUh4R1NUUTFNQm9MQ05pVUVoQUNHZ05WVTBRNEhIRFlsQkk9IixbWyJTRk8iLCIyMDI2LTA3LTAzIiwiU0VBIixudWxsLCJBUyIsIjYzMCJdLFsiU0VBIiwiMjAyNi0wNy0wMyIsIktFRiIsbnVsbCwiRkkiLCI2ODAiXSxbIktFRiIsIjIwMjYtMDctMDQiLCJMSFIiLG51bGwsIkZJIiwiNDUwIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-03 15:15"
+          },
+          "arrival_airport": {
+            "name": "Leonardo da Vinci International Airport",
+            "id": "FCO",
+            "time": "2026-07-04 12:15"
+          },
+          "duration": 720,
+          "airplane": "Airbus A330-900neo",
+          "airline": "ITA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AZ.png",
+          "travel_class": "Business Class",
+          "flight_number": "AZ 641",
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2462 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Leonardo da Vinci International Airport",
+            "id": "FCO",
+            "time": "2026-07-04 13:50"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-04 15:40"
+          },
+          "duration": 170,
+          "airplane": "Airbus A320neo",
+          "airline": "ITA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AZ.png",
+          "travel_class": "Business Class",
+          "flight_number": "AZ 204",
+          "legroom": "29 in",
+          "extensions": [
+            "Average legroom (29 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 166 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 95,
+          "name": "Leonardo da Vinci International Airport",
+          "id": "FCO"
+        }
+      ],
+      "total_duration": 985,
+      "carbon_emissions": {
+        "this_flight": 2629000,
+        "typical_for_this_route": 2143000,
+        "difference_percent": 23
+      },
+      "price": 3919,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AZ.png",
+      "booking_token": "WyJDalJJU2paaU1YbGFkblY0T1VsQlEyNTZOVUZDUnkwdExTMHRMUzB0TFMxNWJHWnVPVUZCUVVGQlIyOVdXV3hKU1dkWlJtOUJFZ3RCV2pZME1YeEJXakl3TkJvTENJejFGeEFDR2dOVlUwUTRISENNOVJjPSIsW1siU0ZPIiwiMjAyNi0wNy0wMyIsIkZDTyIsbnVsbCwiQVoiLCI2NDEiXSxbIkZDTyIsIjIwMjYtMDctMDQiLCJMSFIiLG51bGwsIkFaIiwiMjA0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-03 13:00"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-04 07:25"
+          },
+          "duration": 625,
+          "airplane": "Boeing 787",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Business Class",
+          "flight_number": "UA 901",
+          "ticket_also_sold_by": [
+            "Lufthansa",
+            "Austrian",
+            "Brussels Airlines"
+          ],
+          "extensions": [
+            "Individual suite",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1745 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 625,
+      "carbon_emissions": {
+        "this_flight": 1746000,
+        "typical_for_this_route": 2143000,
+        "difference_percent": -19
+      },
+      "price": 5339,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJU2paaU1YbGFkblY0T1VsQlEyNTZOVUZDUnkwdExTMHRMUzB0TFMxNWJHWnVPVUZCUVVGQlIyOVdXV3hKU1dkWlJtOUJFZ1ZWUVRrd01Sb0xDTnJLSUJBQ0dnTlZVMFE0SEhEYXlpQT0iLFtbIlNGTyIsIjIwMjYtMDctMDMiLCJMSFIiLG51bGwsIlVBIiwiOTAxIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-03 16:35"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-04 11:00"
+          },
+          "duration": 625,
+          "airplane": "Airbus A380",
+          "airline": "British Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+          "travel_class": "Business Class",
+          "flight_number": "BA 284",
+          "ticket_also_sold_by": [
+            "American",
+            "Iberia",
+            "Finnair",
+            "Alaska"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2431 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 625,
+      "carbon_emissions": {
+        "this_flight": 2431000,
+        "typical_for_this_route": 2143000,
+        "difference_percent": 13
+      },
+      "price": 5339,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+      "booking_token": "WyJDalJJU2paaU1YbGFkblY0T1VsQlEyNTZOVUZDUnkwdExTMHRMUzB0TFMxNWJHWnVPVUZCUVVGQlIyOVdXV3hKU1dkWlJtOUJFZ1ZDUVRJNE5Cb0xDTnJLSUJBQ0dnTlZVMFE0SEhEYXlpQT0iLFtbIlNGTyIsIjIwMjYtMDctMDMiLCJMSFIiLG51bGwsIkJBIiwiMjg0Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-03 16:50"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-04 11:10"
+          },
+          "duration": 620,
+          "airplane": "Boeing 787",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Business Class",
+          "flight_number": "UA 948",
+          "ticket_also_sold_by": [
+            "Lufthansa",
+            "Brussels Airlines"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 1830 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 620,
+      "carbon_emissions": {
+        "this_flight": 1831000,
+        "typical_for_this_route": 2143000,
+        "difference_percent": -15
+      },
+      "price": 5339,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJU2paaU1YbGFkblY0T1VsQlEyNTZOVUZDUnkwdExTMHRMUzB0TFMxNWJHWnVPVUZCUVVGQlIyOVdXV3hKU1dkWlJtOUJFZ1ZWUVRrME9Cb0xDTnJLSUJBQ0dnTlZVMFE0SEhEYXlpQT0iLFtbIlNGTyIsIjIwMjYtMDctMDMiLCJMSFIiLG51bGwsIlVBIiwiOTQ4Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-03 17:55"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-04 12:15"
+          },
+          "duration": 620,
+          "airplane": "Airbus A350",
+          "airline": "Virgin Atlantic",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VS.png",
+          "travel_class": "Business Class",
+          "flight_number": "VS 20",
+          "ticket_also_sold_by": [
+            "Air France",
+            "Delta",
+            "KLM"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2178 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 620,
+      "carbon_emissions": {
+        "this_flight": 2178000,
+        "typical_for_this_route": 2143000,
+        "difference_percent": 2
+      },
+      "price": 5439,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VS.png",
+      "booking_token": "WyJDalJJU2paaU1YbGFkblY0T1VsQlEyNTZOVUZDUnkwdExTMHRMUzB0TFMxNWJHWnVPVUZCUVVGQlIyOVdXV3hKU1dkWlJtOUJFZ1JXVXpJd0dnc0k2cGdoRUFJYUExVlRSRGdjY09xWUlRPT0iLFtbIlNGTyIsIjIwMjYtMDctMDMiLCJMSFIiLG51bGwsIlZTIiwiMjAiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-07-03 23:15"
+          },
+          "arrival_airport": {
+            "name": "Heathrow Airport",
+            "id": "LHR",
+            "time": "2026-07-04 17:30"
+          },
+          "duration": 615,
+          "airplane": "Boeing 787",
+          "airline": "Virgin Atlantic",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VS.png",
+          "travel_class": "Business Class",
+          "flight_number": "VS 42",
+          "ticket_also_sold_by": [
+            "Air France",
+            "Delta",
+            "KLM"
+          ],
+          "extensions": [
+            "Lie flat seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 2227 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 615,
+      "carbon_emissions": {
+        "this_flight": 2228000,
+        "typical_for_this_route": 2143000,
+        "difference_percent": 4
+      },
+      "price": 5439,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VS.png",
+      "booking_token": "WyJDalJJU2paaU1YbGFkblY0T1VsQlEyNTZOVUZDUnkwdExTMHRMUzB0TFMxNWJHWnVPVUZCUVVGQlIyOVdXV3hKU1dkWlJtOUJFZ1JXVXpReUdnc0k2cGdoRUFJYUExVlRSRGdjY09xWUlRPT0iLFtbIlNGTyIsIjIwMjYtMDctMDMiLCJMSFIiLG51bGwsIlZTIiwiNDIiXV1d"
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 2151,
+    "price_level": "typical",
+    "typical_price_range": [
+      2000,
+      2600
+    ],
+    "price_history": [
+      [
+        1774508400,
+        2178
+      ],
+      [
+        1774594800,
+        2178
+      ],
+      [
+        1774681200,
+        2178
+      ],
+      [
+        1774767600,
+        2178
+      ],
+      [
+        1774854000,
+        2123
+      ],
+      [
+        1774940400,
+        2123
+      ],
+      [
+        1775026800,
+        2123
+      ],
+      [
+        1775113200,
+        2123
+      ],
+      [
+        1775199600,
+        2123
+      ],
+      [
+        1775286000,
+        2123
+      ],
+      [
+        1775372400,
+        2123
+      ],
+      [
+        1775458800,
+        2123
+      ],
+      [
+        1775545200,
+        2123
+      ],
+      [
+        1775631600,
+        2354
+      ],
+      [
+        1775718000,
+        2285
+      ],
+      [
+        1775804400,
+        2285
+      ],
+      [
+        1775890800,
+        2285
+      ],
+      [
+        1775977200,
+        2285
+      ],
+      [
+        1776063600,
+        2285
+      ],
+      [
+        1776150000,
+        2285
+      ],
+      [
+        1776236400,
+        2285
+      ],
+      [
+        1776322800,
+        2285
+      ],
+      [
+        1776409200,
+        2285
+      ],
+      [
+        1776495600,
+        2355
+      ],
+      [
+        1776582000,
+        2355
+      ],
+      [
+        1776668400,
+        2355
+      ],
+      [
+        1776754800,
+        2355
+      ],
+      [
+        1776841200,
+        2355
+      ],
+      [
+        1776927600,
+        2285
+      ],
+      [
+        1777014000,
+        2285
+      ],
+      [
+        1777100400,
+        2285
+      ],
+      [
+        1777186800,
+        2285
+      ],
+      [
+        1777273200,
+        2285
+      ],
+      [
+        1777359600,
+        2285
+      ],
+      [
+        1777446000,
+        2285
+      ],
+      [
+        1777532400,
+        2285
+      ],
+      [
+        1777618800,
+        2285
+      ],
+      [
+        1777705200,
+        2285
+      ],
+      [
+        1777791600,
+        3110
+      ],
+      [
+        1777878000,
+        3110
+      ],
+      [
+        1777964400,
+        2285
+      ],
+      [
+        1778050800,
+        2285
+      ],
+      [
+        1778137200,
+        2285
+      ],
+      [
+        1778223600,
+        2285
+      ],
+      [
+        1778310000,
+        2285
+      ],
+      [
+        1778396400,
+        2285
+      ],
+      [
+        1778482800,
+        2285
+      ],
+      [
+        1778569200,
+        2285
+      ],
+      [
+        1778655600,
+        2285
+      ],
+      [
+        1778742000,
+        2285
+      ],
+      [
+        1778828400,
+        2285
+      ],
+      [
+        1778914800,
+        2285
+      ],
+      [
+        1779001200,
+        2285
+      ],
+      [
+        1779087600,
+        2285
+      ],
+      [
+        1779174000,
+        2151
+      ],
+      [
+        1779260400,
+        2151
+      ],
+      [
+        1779346800,
+        2151
+      ],
+      [
+        1779433200,
+        2151
+      ],
+      [
+        1779519600,
+        2151
+      ],
+      [
+        1779606000,
+        2151
+      ],
+      [
+        1779692400,
+        2151
+      ],
+      [
+        1779778800,
+        2151
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "SFO",
+            "name": "San Francisco International Airport"
+          },
+          "city": "San Francisco",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQhLXJKshv7iRU8OcvmRyc3ZHyoSy8ZfBGcntDNb8iTixSq8i7XIcn9tZMPIcM6-rm7kKcu2VQS3BKoYw",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRbcxCKTUaj5vz8PrFeUUBVCm8J3fXiMRJpnz4UfNsPeLOkP1EZK9sez1dEX--y-VLxpPAaVB5zo1hzXliHeLl3l0VFwrWrVz7UCQpkzCY"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "LHR",
+            "name": "Heathrow Airport"
+          },
+          "city": "London",
+          "country": "United Kingdom",
+          "country_code": "GB",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRpN9RbtOSTDqKIPxWc_D6rdSysaWVh6d-NW7yz7yFXKRwh5RN5BpNIoXEwH1XVcFdLWqn6Sm8_Y_zmeg",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQYH83YXny8hR4M7k5BMFq4vUT6LNtVABQzgs2pg-hcpSZq3oMBOQK3xh591AAJv2Qx4uvFZUGqOVt4kuoCUOklISunmndJleOoSef_7QE"
+        }
+      ]
+    }
+  ]
+}

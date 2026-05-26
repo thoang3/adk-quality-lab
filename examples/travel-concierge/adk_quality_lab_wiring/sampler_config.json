@@ -1,0 +1,9 @@
+{
+  "eval_config": {
+    "criteria": {
+      "response_match_score": 0.5
+    }
+  },
+  "app_name": "adk_quality_lab_wiring",
+  "train_eval_set": "train_eval_set"
+}

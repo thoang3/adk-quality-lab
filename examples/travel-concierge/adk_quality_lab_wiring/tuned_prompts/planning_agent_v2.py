@@ -12,17 +12,28 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Tuned planning agent — architectural variant (v2).
+"""Condition D — lazy-load / SSE-inject architecture (paper §3, Table 1).
 
-Replaces the vanilla flight_search_agent (full FlightsSelection output) with
-cash_flight_search_agent (CashFlightSummary output). This prevents the LLM
-from receiving 100+ flights in context, eliminating truncation collapse (F1)
-and reducing value mutation (F2) because the agent no longer synthesises a
-large flight list inline.
+VARIANT=arch_fix  →  paper's Condition D.
 
-This module is NOT used for the baseline eval. It is activated by:
-    make eval VARIANT=tuned_v2
-or wired in by instruction_tuner.py after prompt-only tuning plateaus.
+What this is:
+  flight_search_agent stores the FULL raw fixture into session state via the
+  `memorize` tool (key: 'flights'), then returns only a tiny natural-language
+  summary (~42 tokens).  planning_agent calls `get_flight_context` on demand
+  to pull individual flights from session state — the LLM never synthesises the
+  full flight list inline.
+
+  This mirrors AGENTWILD's SSE-injection path (Condition D): structured data
+  bypasses the synthesis LLM entirely, so truncation collapse and value mutation
+  are eliminated.
+
+Expected behaviour vs. other variants:
+  - F1 (recall):   ~0.990 — almost no dropped flights
+  - F2 (fidelity): ~0.350+ — very low mutation rate
+  - Latency:        low — flight_search_agent returns ~42 tokens instead of ~2 000
+
+Paper reference: AGENTWILD Table 1, Condition D — SSE inject, field fidelity 0.97,
+fidelity ≥ 0.95: 90%, avg latency 6.2 s, avg output tokens 42.
 """
 
 from google.adk.agents import Agent
@@ -30,76 +41,104 @@ from google.adk.tools import FunctionTool
 from google.adk.tools.agent_tool import AgentTool
 from google.genai.types import GenerateContentConfig
 
-from travel_concierge import MODEL
-from travel_concierge.shared_libraries import types
-from travel_concierge.sub_agents.planning import prompt
-from travel_concierge.sub_agents.planning.agent import (
+from travel_concierge import MODEL  # type: ignore[import-untyped]
+from travel_concierge.sub_agents.planning import prompt  # type: ignore[import-untyped]
+from travel_concierge.tools.search import CashFlightSummary  # type: ignore[import-untyped]
+from travel_concierge.sub_agents.planning.agent import (  # type: ignore[import-untyped]
     flight_seat_selection_agent,
     hotel_room_selection_agent,
     hotel_search_agent,
     itinerary_agent,
 )
-from travel_concierge.tools.memory import memorize
-from travel_concierge.tools.search import (
-    CashFlightSummary,
-    search_cash_flights_with_count,
-)
+from travel_concierge.tools.flights import get_flight_context  # type: ignore[import-untyped]
+from travel_concierge.tools.memory import memorize  # type: ignore[import-untyped]
+
+from tools.fixture_flight_search import search_flights, search_flights_range  # type: ignore[import-untyped]
 
 # ---------------------------------------------------------------------------
-# Cash flight search — lean summary output (eliminates truncation collapse)
+# Condition D: flight_search_agent stores full data → returns lean summary
 # ---------------------------------------------------------------------------
 
-CASH_FLIGHT_SEARCH_INSTR = """Generate search results for flights from origin to destination inferred from user query.
-- Ask for any details you don't know, like origin and destination.
-- You must generate a non-empty JSON response if the user provides origin and destination.
+FLIGHT_SEARCH_INSTR_LAZY = """\
+You are a flight search agent. Search for available flights and return a lean
+count summary — the full raw data is stored in session state and planning_agent
+will call get_flight_context to retrieve the actual flights on demand.
 
-⭐ SUMMARY OUTPUT — CRITICAL:
-After calling the search tool, return a lean summary ONLY:
-1. Set `total_found` = the `total_count` value from the tool response exactly.
-   Do NOT count flights yourself.
-2. Set `search_params` = short human-readable label, e.g. "SFO→LHR, Economy".
-Do NOT enumerate individual flights — planning_agent loads details on demand.
+Steps:
+1. If the user asks for a DATE RANGE (e.g. "first week of July", "July 1–7"):
+   Call search_flights_range(origin, destination, start_date, end_date, cabin_class).
+   Otherwise call search_flights(origin, destination, outbound_date, cabin_class).
+2. From the tool result, set:
+   total_found  → the "total_count" value from the tool response (do NOT count yourself)
+   search_params → short label e.g. "ORD→NRT, Economy, Jul 6"
+   Do NOT enumerate individual flights.
 
-SEARCH FILTERS — extract from the user query:
-- **cabin_class**: "Economy", "Premium Economy", "Business", or "First"
-- **max_price**: maximum cash price (e.g. "under $1000")
-- **preferred_airlines**: list of airline names or codes
-- **max_stops**: 0=nonstop, 1=up to 1 stop, 2=up to 2 stops, omit=any
+Current context:
+  origin:      {origin}
+  destination: {destination}
+  Current time: {_time}
 
-Current user:
+User profile:
   <user_profile>
-  {user_profile?}
+  {user_profile}
   </user_profile>
-
-Current time: {_time?}
-Origin: {origin?}  Destination: {destination?}
 """
 
-search_cash_flights_tool = FunctionTool(func=search_cash_flights_with_count)
-
-cash_flight_search_agent = Agent(
+flight_search_agent_lazy = Agent(
     model=MODEL,
-    name="cash_flight_search_agent",
-    description="Find best cash flight deals and return a lean count summary",
-    instruction=CASH_FLIGHT_SEARCH_INSTR,
+    name="flight_search_agent",
+    description=(
+        "Searches for available flights and returns a lean count summary. "
+        "Full raw data is stored in session state under search_results_cash — "
+        "call get_flight_context to retrieve actual flight details."
+    ),
+    instruction=FLIGHT_SEARCH_INSTR_LAZY,
+    tools=[FunctionTool(search_flights), FunctionTool(search_flights_range)],
+    output_schema=CashFlightSummary,
     disallow_transfer_to_parent=True,
     disallow_transfer_to_peers=True,
-    output_schema=CashFlightSummary,
-    tools=[search_cash_flights_tool],
-    generate_content_config=types.json_response_config,
+    generate_content_config=GenerateContentConfig(response_mime_type="application/json"),
 )
 
 # ---------------------------------------------------------------------------
-# Tuned planning agent (v2) — uses cash_flight_search_agent
+# planning_agent_v2 — Condition D: uses lazy-load get_flight_context
 # ---------------------------------------------------------------------------
+
+PLANNING_AGENT_INSTR_ARCH_FIX = prompt.PLANNING_AGENT_INSTR + """
+
+FLIGHT DATA — TWO-TOOL PROTOCOL:
+
+1. INITIAL SEARCH: Delegate to flight_search_agent ONCE to fetch and store flights.
+   flight_search_agent returns a CashFlightSummary with `total_found` and `search_params`.
+   You MUST begin your response with exactly: "I found N flights for PARAMS." where N is the total_found value and PARAMS is the search_params value from the flight_search_agent result.
+   Then immediately call get_flight_context() with NO filters to retrieve and list the flights.
+
+2. FOLLOW-UP FILTERING: For ANY follow-up that filters the flight list (e.g.
+   "show nonstop only", "under $1000", "morning departures", "which is cheapest",
+   "show me UA flights") — do NOT call flight_search_agent again.
+   Call get_flight_context() with the appropriate filter parameters:
+     - num_stops=0                    for nonstop only
+     - max_price=N                    for price cap
+     - airline="UA"                   for a specific carrier
+     - departure_after/before="HH:MM" for time windows
+     - max_duration_minutes=N         for duration cap
+   get_flight_context reads the full raw flight list stored in session state
+   and filters server-side — no LLM synthesis of large lists required.
+
+Never re-call flight_search_agent for follow-up filtering. Always use get_flight_context.
+"""
 
 planning_agent_v2 = Agent(
     model=MODEL,
-    description="Travel planning agent — architectural variant with lean flight summaries.",
+    description=(
+        "Helps users with travel planning, complete a full itinerary for their vacation, "
+        "finding best deals for flights and hotels."
+    ),
     name="planning_agent",
-    instruction=prompt.PLANNING_AGENT_INSTR,
+    instruction=PLANNING_AGENT_INSTR_ARCH_FIX,
     tools=[
-        AgentTool(agent=cash_flight_search_agent),
+        AgentTool(agent=flight_search_agent_lazy),
+        FunctionTool(get_flight_context),  # reads search_results_cash — pre-loaded by harness
         AgentTool(agent=flight_seat_selection_agent),
         AgentTool(agent=hotel_search_agent),
         AgentTool(agent=hotel_room_selection_agent),

@@ -235,3 +235,52 @@ def _matches_airline(itinerary: dict, code: str) -> bool:
             return True
     return False
 
+
+def get_flight_context(
+    tool_context: object,
+    flight_number: str | None = None,
+    airline: str | None = None,
+    num_stops: int | None = None,
+    max_price: int | None = None,
+    departure_before: str | None = None,
+    departure_after: str | None = None,
+    max_duration_minutes: int | None = None,
+) -> dict:
+    """Lazy-load flight details from session state with optional filtering.
+
+    Reads the ``search_results_cash`` key populated by the eval harness
+    (``_fixture_to_session_state``) or by ``search_cash_flights_with_count``.
+    All filter parameters combine with AND logic.
+
+    Args:
+        tool_context: ADK ToolContext injected by the framework.
+        flight_number: Exact flight number match (e.g. "UA869").
+        airline: IATA code or name fragment (e.g. "UA", "United").
+        num_stops: Exact stop count (0 = nonstop).
+        max_price: Maximum price in USD.
+        departure_before: HH:MM upper bound for departure time.
+        departure_after: HH:MM lower bound for departure time.
+        max_duration_minutes: Maximum total flight duration in minutes.
+
+    Returns:
+        Dict with 'total_stored', 'total_returned', and 'flights' list.
+    """
+    flights: list[dict] = getattr(tool_context, "state", {}).get("search_results_cash", [])
+    if not isinstance(flights, list):
+        flights = []
+
+    filtered = _filter_flights(
+        flights,
+        flight_number=flight_number,
+        airline=airline,
+        num_stops=num_stops,
+        max_price=max_price,
+        departure_before=departure_before,
+        departure_after=departure_after,
+        max_duration_minutes=max_duration_minutes,
+    )
+    return {
+        "total_stored": len(flights),
+        "total_returned": len(filtered),
+        "flights": filtered,
+    }

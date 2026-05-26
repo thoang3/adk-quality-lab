@@ -1,0 +1,236 @@
+{
+  "eval_set_id": "train_eval_set",
+  "name": "Tail flight range search — truncation collapse train set",
+  "eval_cases": [
+    {
+      "eval_id": "tail_001",
+      "conversation": [
+        {
+          "invocation_id": "inv1",
+          "user_content": {
+            "parts": [
+              {
+                "text": "Find me economy flights from SFO to London the first week of July 2026"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "Here are all 76 economy flights from SFO to LHR for July 1–7, 2026:\n\n| # | Flight | Carrier | Departure | Arrival | Stops | Price |\n|---|--------|---------|-----------|---------|-------|-------|\n| 1 | EI 60 | Aer Lingus | 2026-07-01 17:40 | 2026-07-02 15:00 | 1 | $459 |\n| 2 | AA 16 | American | 2026-07-01 10:22 | 2026-07-02 09:10 | 1 | $463 |\n| 3 | AC 738 | Air Canada | 2026-07-01 08:30 | 2026-07-02 06:35 | 1 | $467 |\n| 4 | AC 756 | Air Canada | 2026-07-01 08:10 | 2026-07-02 10:00 | 1 | $462 |\n| 5 | AA 276 | American | 2026-07-01 21:20 | 2026-07-02 19:45 | 1 | $533 |\n| 6 | AA 276 | American | 2026-07-01 21:20 | 2026-07-02 21:40 | 1 | $533 |\n| 7 | LH 459 | Lufthansa | 2026-07-01 21:05 | 2026-07-02 19:40 | 1 | $555 |\n| 8 | VS 20 | Virgin Atlantic | 2026-07-01 17:55 | 2026-07-02 12:15 | 0 | $699 |\n| 9 | VS 42 | Virgin Atlantic | 2026-07-01 23:15 | 2026-07-02 17:30 | 0 | $699 |\n| 10 | UA 948 | United | 2026-07-01 16:50 | 2026-07-02 11:10 | 0 | $773 |\n| 11 | BA 284 | British Airways | 2026-07-01 16:35 | 2026-07-02 11:00 | 0 | $802 |\n| 12 | BA 286 | British Airways | 2026-07-01 19:30 | 2026-07-02 13:55 | 0 | $802 |\n| 13 | UA 901 | United | 2026-07-01 13:00 | 2026-07-02 07:25 | 0 | $1088 |\n| 14 | UA 930 | United | 2026-07-01 19:50 | 2026-07-02 14:10 | 0 | $1088 |"
+              }
+            ],
+            "role": "model"
+          }
+        }
+      ],
+      "session_input": {
+        "app_name": "adk_quality_lab_wiring",
+        "user_id": "eval_user",
+        "state": {
+          "origin": "",
+          "destination": "",
+          "start_date": "",
+          "end_date": "",
+          "flight": "",
+          "hotel": "",
+          "hotel_selection": "",
+          "itinerary": "",
+          "outbound_flight_selection": "",
+          "outbound_seat_number": "",
+          "poi": "",
+          "return_flight_selection": "",
+          "return_seat_number": "",
+          "room_selection": "",
+          "user_profile": "",
+          "_time": ""
+        }
+      }
+    },
+    {
+      "eval_id": "tail_002",
+      "conversation": [
+        {
+          "invocation_id": "inv1",
+          "user_content": {
+            "parts": [
+              {
+                "text": "Show me all business class flights from Chicago to Tokyo the first week of July 2026"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "Here are all 95 business flights from ORD to NRT for July 1–7, 2026:\n\n| # | Flight | Carrier | Departure | Arrival | Stops | Price |\n|---|--------|---------|-----------|---------|-------|-------|\n| 1 | AS 413 | Alaska | 2026-07-01 07:20 | 2026-07-02 14:55 | 2 | $3533 |\n| 2 | NH 11 | ANA | 2026-07-01 11:50 | 2026-07-02 15:10 | 0 | $4177 |\n| 3 | UA 526 | United | 2026-07-01 08:40 | 2026-07-02 14:30 | 1 | $4181 |\n| 4 | KE 38 | Korean Air | 2026-07-01 12:30 | 2026-07-02 21:05 | 1 | $4184 |\n| 5 | JL 55 | JAL | 2026-07-01 10:40 | 2026-07-02 13:25 | 0 | $4188 |\n| 6 | BR 55 | EVA Air | 2026-07-01 00:30 | 2026-07-02 12:25 | 1 | $4104 |\n| 7 | AC 524 | Air Canada | 2026-07-01 15:40 | 2026-07-03 15:25 | 1 | $4162 |\n| 8 | UA 1799 | United | 2026-07-01 06:29 | 2026-07-02 14:00 | 1 | $4181 |\n| 9 | UA 2361 | United | 2026-07-01 07:00 | 2026-07-02 14:10 | 1 | $4181 |\n| 10 | KE 38 | Korean Air | 2026-07-01 12:30 | 2026-07-02 21:00 | 1 | $4185 |"
+              }
+            ],
+            "role": "model"
+          }
+        }
+      ],
+      "session_input": {
+        "app_name": "adk_quality_lab_wiring",
+        "user_id": "eval_user",
+        "state": {
+          "origin": "",
+          "destination": "",
+          "start_date": "",
+          "end_date": "",
+          "flight": "",
+          "hotel": "",
+          "hotel_selection": "",
+          "itinerary": "",
+          "outbound_flight_selection": "",
+          "outbound_seat_number": "",
+          "poi": "",
+          "return_flight_selection": "",
+          "return_seat_number": "",
+          "room_selection": "",
+          "user_profile": "",
+          "_time": ""
+        }
+      }
+    },
+    {
+      "eval_id": "tail_003",
+      "conversation": [
+        {
+          "invocation_id": "inv1",
+          "user_content": {
+            "parts": [
+              {
+                "text": "What economy flights are available from San Francisco to Hong Kong from July 1 to July 14 2026"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "Here are all 148 economy flights from SFO to HKG for July 1–14, 2026:\n\n| # | Flight | Carrier | Departure | Arrival | Stops | Price |\n|---|--------|---------|-----------|---------|-------|-------|\n| 1 | OZ 211 | Asiana Airlines | 2026-07-01 23:20 | 2026-07-03 11:40 | 1 | $778 |\n| 2 | UA 869 | United | 2026-07-01 13:45 | 2026-07-02 18:55 | 0 | $790 |\n| 3 | UA 877 | United | 2026-07-01 23:50 | 2026-07-03 05:00 | 0 | $790 |\n| 4 | KE 24 | Korean Air | 2026-07-01 13:10 | 2026-07-02 22:45 | 1 | $797 |\n| 5 | UA 2127 | United | 2026-07-01 06:00 | 2026-07-02 18:30 | 1 | $794 |\n| 6 | NH 107 | ANA | 2026-07-01 01:45 | 2026-07-02 12:25 | 1 | $899 |\n| 7 | CI 3 | China Airlines | 2026-07-01 01:05 | 2026-07-02 09:15 | 1 | $904 |\n| 8 | JX 11 | STARLUX Airlines | 2026-07-01 00:50 | 2026-07-02 09:55 | 1 | $940 |\n| 9 | CX 873 | Cathay Pacific | 2026-07-01 01:20 | 2026-07-02 06:15 | 0 | $1084 |\n| 10 | CX 879 | Cathay Pacific | 2026-07-01 14:00 | 2026-07-02 18:55 | 0 | $1558 |"
+              }
+            ],
+            "role": "model"
+          }
+        }
+      ],
+      "session_input": {
+        "app_name": "adk_quality_lab_wiring",
+        "user_id": "eval_user",
+        "state": {
+          "origin": "",
+          "destination": "",
+          "start_date": "",
+          "end_date": "",
+          "flight": "",
+          "hotel": "",
+          "hotel_selection": "",
+          "itinerary": "",
+          "outbound_flight_selection": "",
+          "outbound_seat_number": "",
+          "poi": "",
+          "return_flight_selection": "",
+          "return_seat_number": "",
+          "room_selection": "",
+          "user_profile": "",
+          "_time": ""
+        }
+      }
+    },
+    {
+      "eval_id": "tail_004",
+      "conversation": [
+        {
+          "invocation_id": "inv1",
+          "user_content": {
+            "parts": [
+              {
+                "text": "Find economy flights from New York JFK to Paris the first week of July 2026"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "Here are all 123 economy flights from JFK to CDG for July 1–7, 2026:\n\n| # | Flight | Carrier | Departure | Arrival | Stops | Price |\n|---|--------|---------|-----------|---------|-------|-------|\n| 1 | AF 3 | Air France | 2026-07-01 17:30 | 2026-07-02 07:00 | 0 | $474 |\n| 2 | AF 9 | Air France | 2026-07-01 23:30 | 2026-07-02 12:55 | 0 | $474 |\n| 3 | AA 42 | American | 2026-07-01 17:45 | 2026-07-02 07:20 | 0 | $539 |\n| 4 | DL 264 | Delta | 2026-07-01 22:30 | 2026-07-02 12:15 | 0 | $539 |\n| 5 | AY 16 | Finnair | 2026-07-01 22:50 | 2026-07-02 18:15 | 1 | $460 |\n| 6 | AF 11 | Air France | 2026-07-01 01:00 | 2026-07-01 14:10 | 0 | $474 |\n| 7 | AF 7 | Air France | 2026-07-01 21:30 | 2026-07-02 11:10 | 0 | $474 |\n| 8 | EI 110 | Aer Lingus | 2026-07-01 18:25 | 2026-07-02 09:55 | 1 | $476 |\n| 9 | EI 108 | Aer Lingus | 2026-07-01 23:55 | 2026-07-02 15:50 | 1 | $480 |\n| 10 | IB 2628 | Iberia | 2026-07-01 23:50 | 2026-07-02 19:35 | 1 | $488 |\n| 11 | AA 100 | American | 2026-07-01 18:05 | 2026-07-02 10:40 | 1 | $493 |\n| 12 | BA 174 | British Airways | 2026-07-01 18:40 | 2026-07-02 10:40 | 1 | $494 |\n| 13 | AF 5 | Air France | 2026-07-01 18:30 | 2026-07-02 08:05 | 0 | $539 |\n| 14 | DL 262 | Delta | 2026-07-01 19:15 | 2026-07-02 09:05 | 0 | $654 |\n| 15 | DL 266 | Delta | 2026-07-01 20:10 | 2026-07-02 10:00 | 0 | $654 |\n| 16 | AF 1 | Air France | 2026-07-01 16:30 | 2026-07-02 05:55 | 0 | $674 |\n| 17 | B6 1407 | JetBlue | 2026-07-01 19:37 | 2026-07-02 09:15 | 0 | $799 |"
+              }
+            ],
+            "role": "model"
+          }
+        }
+      ],
+      "session_input": {
+        "app_name": "adk_quality_lab_wiring",
+        "user_id": "eval_user",
+        "state": {
+          "origin": "",
+          "destination": "",
+          "start_date": "",
+          "end_date": "",
+          "flight": "",
+          "hotel": "",
+          "hotel_selection": "",
+          "itinerary": "",
+          "outbound_flight_selection": "",
+          "outbound_seat_number": "",
+          "poi": "",
+          "return_flight_selection": "",
+          "return_seat_number": "",
+          "room_selection": "",
+          "user_profile": "",
+          "_time": ""
+        }
+      }
+    },
+    {
+      "eval_id": "tail_005",
+      "conversation": [
+        {
+          "invocation_id": "inv1",
+          "user_content": {
+            "parts": [
+              {
+                "text": "Search for business class flights from Los Angeles to Tokyo the first week of July 2026"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "Here are all 82 business flights from LAX to NRT for July 1–7, 2026:\n\n| # | Flight | Carrier | Departure | Arrival | Stops | Price |\n|---|--------|---------|-----------|---------|-------|-------|\n| 1 | ZG 23 | ZIPAIR Tokyo | 2026-07-01 10:55 | 2026-07-02 14:10 | 0 | $1709 |\n| 2 | UA 32 | United | 2026-07-01 10:55 | 2026-07-02 14:10 | 0 | $3365 |\n| 3 | NH 5 | ANA | 2026-07-01 13:10 | 2026-07-02 16:30 | 0 | $3365 |\n| 4 | JL 61 | JAL | 2026-07-01 13:30 | 2026-07-02 16:30 | 0 | $3365 |\n| 5 | SQ 11 | Singapore Airlines | 2026-07-01 14:20 | 2026-07-02 17:50 | 0 | $0 |\n| 6 | OZ 201 | Asiana Airlines | 2026-07-01 10:40 | 2026-07-02 21:00 | 1 | $2838 |\n| 7 | OZ 201 | Asiana Airlines | 2026-07-01 10:40 | 2026-07-02 21:05 | 1 | $2857 |\n| 8 | KE 12 | Korean Air | 2026-07-01 23:50 | 2026-07-03 12:40 | 1 | $3372 |\n| 9 | JL 69 | JAL | 2026-07-01 15:00 | 2026-07-02 22:25 | 1 | $3375 |\n| 10 | BR 15 | EVA Air | 2026-07-01 00:50 | 2026-07-02 12:25 | 1 | $3826 |\n| 11 | JX 1 | STARLUX Airlines | 2026-07-01 00:35 | 2026-07-02 12:55 | 1 | $3892 |"
+              }
+            ],
+            "role": "model"
+          }
+        }
+      ],
+      "session_input": {
+        "app_name": "adk_quality_lab_wiring",
+        "user_id": "eval_user",
+        "state": {
+          "origin": "",
+          "destination": "",
+          "start_date": "",
+          "end_date": "",
+          "flight": "",
+          "hotel": "",
+          "hotel_selection": "",
+          "itinerary": "",
+          "outbound_flight_selection": "",
+          "outbound_seat_number": "",
+          "poi": "",
+          "return_flight_selection": "",
+          "return_seat_number": "",
+          "room_selection": "",
+          "user_profile": "",
+          "_time": ""
+        }
+      }
+    }
+  ]
+}

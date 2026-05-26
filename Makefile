@@ -1,4 +1,4 @@
-.PHONY: bootstrap lint typecheck test ci eval optimize kappa dashboard capture-fixtures submit-check
+.PHONY: bootstrap lint typecheck test ci eval optimize kappa dashboard capture-fixtures capture-fixtures-week submit-check
 
 # ── Configuration ────────────────────────────────────────────────────────────
 ROUTES       ?= all
@@ -6,6 +6,7 @@ SURFACE      ?= planning
 ITERS        ?= 20
 CASE_SET     ?= both
 VARIANT      ?= baseline
+CASE_ID      ?=
 GCP_PROJECT  ?= adk-quality-lab-tung
 REGION       ?= us-central1
 BQ_DATASET   ?= adk_quality_lab
@@ -38,6 +39,20 @@ capture-fixtures:
 	@echo "Capturing SerpAPI fixtures for routes=$(ROUTES)..."
 	uv run python -m adk_quality_lab.tools.capture_fixtures --routes=$(ROUTES)
 
+# Captures per-date fixtures for a date range (one file per route per day).
+# search_flights_range merges them at eval time. Required before tail eval cases.
+# Usage: make capture-fixtures-week ROUTES="SFO-LHR ORD-NRT" START=2026-07-01 END=2026-07-07
+START        ?= 2026-07-01
+END          ?= 2026-07-07
+capture-fixtures-week:
+	@echo "Capturing per-date fixtures: routes=$(ROUTES) from $(START) to $(END)..."
+	uv run python -m adk_quality_lab.tools.capture_fixtures \
+		--routes=$(ROUTES) \
+		--date-offsets=$(shell python3 -c "\
+from datetime import date, timedelta; \
+s=date.fromisoformat('$(START)'); e=date.fromisoformat('$(END)'); t=date.today(); \
+print(','.join(str((s+timedelta(days=i)-t).days) for i in range((e-s).days+1)))")
+
 # ── Eval harness ─────────────────────────────────────────────────────────────
 # CASE_SET: f1 | f2 | both | smoke | gold
 # VARIANT:  One of the five improvement phases — each is independently reproducible:
@@ -62,7 +77,19 @@ eval:
 		--case-set=$(CASE_SET) \
 		--variant=$(VARIANT) \
 		--example-dir=examples/travel-concierge \
+		$(if $(CASE_ID),--case-id=$(CASE_ID),) \
 		$(if $(filter gold,$(CASE_SET)),--output .cache/gold_run.json,)
+
+# Eval tail (hard range) cases: make eval-tail VARIANT=baseline
+eval-tail:
+	@echo "Running tail eval VARIANT=$(VARIANT)..."
+	@mkdir -p .cache
+	TRAVEL_CONCIERGE_SCENARIO=$(PWD)/examples/travel-concierge/travel_concierge/profiles/itinerary_empty_default.json \
+	uv run python -m adk_quality_lab.cli.eval \
+		--case-set=tail \
+		--variant=$(VARIANT) \
+		--surface=planning \
+		--example-dir=examples/travel-concierge
 
 # ── Optimizer ────────────────────────────────────────────────────────────────
 # SURFACE: root | planning | tools
@@ -137,7 +164,7 @@ submit-check:
 		python3 -c "import subprocess, sys; r=subprocess.run(['ffprobe','-v','quiet','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1','docs/demo_90s.mp4'],capture_output=True,text=True); d=float(r.stdout.strip()); sys.exit(0 if d<=90 else 1)" \
 		&& echo "   PASS: Video ≤ 90s." || echo "   WARN: Video missing or > 90s."
 	@echo "3. Checking run-ids.md is populated..."
-	@grep -q "run_id" docs/run-ids.md && echo "   PASS: run-ids.md has run IDs." || echo "   WARN: docs/run-ids.md missing run IDs."
+	@grep -qE "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}" docs/run-ids.md && echo "   PASS: run-ids.md has run IDs." || echo "   WARN: docs/run-ids.md missing run IDs."
 	@echo "4. Checking datasets exist..."
 	@[ -f datasets/f1_count_hallucination.jsonl ] && [ -f datasets/f2_groundedness.jsonl ] \
 		&& echo "   PASS: Dataset files present." || echo "   FAIL: Dataset files missing!"

@@ -40,15 +40,18 @@ def load_cases(
 def load_all_cases(
     category: Category | None = None,
     include_adversarial: bool = False,
+    include_tail: bool = False,
 ) -> list[EvalCase]:
     """Load cases from the canonical datasets directory.
 
     Loads f1_count_hallucination.jsonl and f2_groundedness.jsonl (and
-    adversarial files when include_adversarial=True).
+    adversarial files when include_adversarial=True, tail_flights.jsonl
+    when include_tail=True).
 
     Args:
         category: Optional filter by category.
         include_adversarial: Whether to include adversarial cases.
+        include_tail: Whether to include hard tail cases (range search).
 
     Returns:
         Combined list of EvalCase instances.
@@ -62,6 +65,10 @@ def load_all_cases(
             _DATASETS_DIR / "f1_adversarial.jsonl",
             _DATASETS_DIR / "f2_adversarial.jsonl",
         ]
+    if include_tail:
+        tail_path = _DATASETS_DIR / "tail_flights.jsonl"
+        if tail_path.exists():
+            files.append(tail_path)
 
     all_cases: list[EvalCase] = []
     for path in files:

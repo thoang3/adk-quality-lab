@@ -54,6 +54,92 @@ def load_fixture(fixture_hash: str) -> dict[str, Any] | None:
     return None
 
 
+def load_range_fixture(case: Any) -> dict[str, Any] | None:
+    """Load and merge per-date fixtures for a range case.
+
+    Reads the fixture index to resolve (origin, dest, cabin, date) → hash
+    for each date in [start_date, end_date] inclusive, then merges all
+    best_flights / other_flights into a single synthetic fixture payload.
+    Each flight record gets an extra 'outbound_date' field.
+
+    Returns None if no fixtures are found.
+    """
+    from datetime import date, timedelta
+
+    index_path = _FIXTURES_DIR.parent / "index.json"
+    if not index_path.exists():
+        logger.warning("Fixture index not found: %s", index_path)
+        return None
+
+    index: dict[str, Any] = json.loads(index_path.read_text())
+
+    # Build reverse lookup: (origin, dest, cabin, date) → full_hash
+    route_parts = (case.route or "").split("-")
+    if len(route_parts) != 2:
+        logger.warning("Cannot parse route for range case %s: %r", case.case_id, case.route)
+        return None
+    origin, destination = route_parts
+    cabin = case.cabin or "economy"
+
+    start = date.fromisoformat(case.start_date)
+    end = date.fromisoformat(case.end_date)
+
+    # Build (origin, dest, cabin, date) → full_hash from index
+    lookup: dict[str, str] = {}
+    for full_hash, meta in index.items():
+        if (
+            meta.get("origin") == origin
+            and meta.get("destination") == destination
+            and meta.get("cabin") == cabin
+        ):
+            lookup[meta["departure_date"]] = full_hash
+
+    all_best: list[dict] = []
+    all_other: list[dict] = []
+    base_params: dict[str, Any] = {}
+
+    cur = start
+    while cur <= end:
+        dep_str = cur.strftime("%Y-%m-%d")
+        full_hash = lookup.get(dep_str)
+        if full_hash:
+            fixture = load_fixture(full_hash)
+            if fixture:
+                if not base_params:
+                    base_params = fixture.get("search_parameters", {})
+                # Tag each flight with the outbound_date
+                for flight in fixture.get("best_flights", []):
+                    flight = dict(flight)
+                    flight["outbound_date"] = dep_str
+                    all_best.append(flight)
+                for flight in fixture.get("other_flights", []):
+                    flight = dict(flight)
+                    flight["outbound_date"] = dep_str
+                    all_other.append(flight)
+            else:
+                logger.warning("Fixture missing for %s %s-%s %s", dep_str, origin, destination, cabin)
+        else:
+            logger.warning("No index entry for %s %s-%s %s", dep_str, origin, destination, cabin)
+        cur += timedelta(days=1)
+
+    if not all_best and not all_other:
+        return None
+
+    # Build synthetic merged fixture
+    merged_params = dict(base_params)
+    merged_params["outbound_date"] = case.start_date  # nominal start date
+    merged_params["end_date"] = case.end_date          # trip end date for template injection
+    merged_params["_total_flights"] = len(all_best) + len(all_other)
+    return {
+        "search_parameters": merged_params,
+        "best_flights": all_best,
+        "other_flights": all_other,
+        "_range_merged": True,
+        "_date_range": f"{case.start_date}/{case.end_date}",
+        "_total_days": (end - start).days + 1,
+    }
+
+
 # ---------------------------------------------------------------------------
 # Single-case runner (called in worker processes)
 # ---------------------------------------------------------------------------
@@ -76,7 +162,12 @@ def run_single_case(
     """
     tool_payload: dict[str, Any] | None = None
     if use_fixture_cache:
-        tool_payload = load_fixture(case.fixture_hash)
+        if getattr(case, "search_type", None) == "range":
+            tool_payload = load_range_fixture(case)
+            if tool_payload is None:
+                logger.warning("Range fixture load failed for case %s", case.case_id)
+        else:
+            tool_payload = load_fixture(case.fixture_hash)
 
     try:
         agent_response: str = agent_fn(case.query, tool_payload)
@@ -191,11 +282,38 @@ def run_eval(
     return run
 
 
+_LOCAL_RESULTS_DIR = Path(__file__).parent.parent / "runs"
+
+
 def _persist_run(run: RunResult) -> None:
-    """Persist a RunResult to Firestore (best-effort)."""
+    """Persist a RunResult to Firestore AND a local JSONL file (both best-effort)."""
+    import json
+
+    # ── Local JSONL ────────────────────────────────────────────────────────────
+    try:
+        _LOCAL_RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+        result_file = _LOCAL_RESULTS_DIR / "runs.jsonl"
+        with result_file.open("a") as fh:
+            fh.write(json.dumps(run.model_dump()) + "\n")
+        logger.info("Saved run %s to %s", run.run_id, result_file)
+    except Exception as exc:  # noqa: BLE001
+        logger.warning("Local persist failed: %s", exc)
+
+    # ── Firestore ──────────────────────────────────────────────────────────────
     try:
         from adk_quality_lab.observability.firestore_writer import write_run_result  # noqa: PLC0415
 
         write_run_result(run.run_id, run.model_dump())
     except Exception as exc:  # noqa: BLE001
         logger.debug("Firestore persist skipped (set up GCP project to enable): %s", exc)
+
+
+def fetch_last_run(n: int = 1) -> list[dict]:
+    """Return the last *n* RunResult dicts from the local JSONL file."""
+    import json
+
+    result_file = _LOCAL_RESULTS_DIR / "runs.jsonl"
+    if not result_file.exists():
+        return []
+    lines = [l for l in result_file.read_text().splitlines() if l.strip()]
+    return [json.loads(l) for l in lines[-n:]]
