@@ -59,9 +59,16 @@ class MinimalCashFlightInfo(BaseModel):
 
 
 class MinimalCashFlightsSelection(BaseModel):
-    """A list of minimal cash-flight records for format-aligned experiments."""
+    """Structured cash-flight response with an NL message channel.
 
-    flights: list[MinimalCashFlightInfo]
+    `message` carries all natural-language communication with the user
+    (clarifying questions, summaries, follow-up answers, error notices).
+    `flights` carries the structured flight data (empty list when no search
+    has been performed yet or when answering a non-search follow-up).
+    """
+
+    message: str = ""  # NL channel: clarifications, summaries, follow-up answers
+    flights: list[MinimalCashFlightInfo] = []
 
 
 FULL_CASH_FLIGHT_SEARCH_INSTR = """Generate full cash flight search results.

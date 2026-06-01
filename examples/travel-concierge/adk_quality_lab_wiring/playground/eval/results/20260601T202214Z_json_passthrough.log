@@ -1,0 +1,281 @@
+/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/evaluation/metric_evaluator_registry.py:112: UserWarning: [EXPERIMENTAL] MetricEvaluatorRegistry: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  metric_evaluator_registry = MetricEvaluatorRegistry()
+/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/evaluation/local_eval_service.py:124: UserWarning: [EXPERIMENTAL] UserSimulatorProvider: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  user_simulator_provider: UserSimulatorProvider = UserSimulatorProvider(),
+/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/features/_feature_decorator.py:72: UserWarning: [EXPERIMENTAL] feature FeatureName.PLUGGABLE_AUTH is enabled.
+  check_feature_enabled()
+2026-06-01 13:22:22,903 - WARNING - agent.py:47 - Google Maps Grounding Lite tool is not available. Check if GOOGLE_MAPS_API_KEY is set.
+/Users/thoang3/workspace/thoang3/adk-quality-lab/examples/travel-concierge/travel_concierge/agent.py:34: UserWarning: ARIZE_SPACE_ID is not set
+  _ = instrument_adk_with_arize()
+/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/cli/cli_tools_click.py:914: UserWarning: [EXPERIMENTAL] UserSimulatorProvider: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  user_simulator_provider = UserSimulatorProvider(
+/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/cli/cli_tools_click.py:937: UserWarning: [EXPERIMENTAL] LocalEvalService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  eval_service = LocalEvalService(
+/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/evaluation/simulation/user_simulator_provider.py:65: UserWarning: [EXPERIMENTAL] LlmBackedUserSimulator: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  return LlmBackedUserSimulator(
+/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/evaluation/simulation/llm_backed_user_simulator.py:129: UserWarning: [EXPERIMENTAL] UserSimulator: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__(config, config_type=LlmBackedUserSimulator.config_type)
+2026-06-01 13:22:23,502 - INFO - plugin_manager.py:104 - Plugin 'request_intercepter_plugin' registered.
+2026-06-01 13:22:23,502 - INFO - plugin_manager.py:104 - Plugin 'ensure_retry_options' registered.
+2026-06-01 13:22:23,538 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/evaluation/simulation/user_simulator_provider.py:65: UserWarning: [EXPERIMENTAL] LlmBackedUserSimulator: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  return LlmBackedUserSimulator(
+/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/evaluation/simulation/llm_backed_user_simulator.py:129: UserWarning: [EXPERIMENTAL] UserSimulator: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__(config, config_type=LlmBackedUserSimulator.config_type)
+2026-06-01 13:22:23,543 - INFO - plugin_manager.py:104 - Plugin 'request_intercepter_plugin' registered.
+2026-06-01 13:22:23,543 - INFO - plugin_manager.py:104 - Plugin 'ensure_retry_options' registered.
+2026-06-01 13:22:23,570 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/evaluation/simulation/user_simulator_provider.py:65: UserWarning: [EXPERIMENTAL] LlmBackedUserSimulator: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  return LlmBackedUserSimulator(
+/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/evaluation/simulation/llm_backed_user_simulator.py:129: UserWarning: [EXPERIMENTAL] UserSimulator: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__(config, config_type=LlmBackedUserSimulator.config_type)
+2026-06-01 13:22:23,572 - INFO - plugin_manager.py:104 - Plugin 'request_intercepter_plugin' registered.
+2026-06-01 13:22:23,572 - INFO - plugin_manager.py:104 - Plugin 'ensure_retry_options' registered.
+2026-06-01 13:22:23,603 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/evaluation/simulation/user_simulator_provider.py:65: UserWarning: [EXPERIMENTAL] LlmBackedUserSimulator: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  return LlmBackedUserSimulator(
+/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/evaluation/simulation/llm_backed_user_simulator.py:129: UserWarning: [EXPERIMENTAL] UserSimulator: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__(config, config_type=LlmBackedUserSimulator.config_type)
+2026-06-01 13:22:23,606 - INFO - plugin_manager.py:104 - Plugin 'request_intercepter_plugin' registered.
+2026-06-01 13:22:23,606 - INFO - plugin_manager.py:104 - Plugin 'ensure_retry_options' registered.
+2026-06-01 13:22:23,633 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:25,532 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:25,533 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:25,534 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:25,558 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:25,587 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:25,619 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:26,603 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:26,634 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:27,372 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:27,428 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:27,429 - INFO - models.py:8416 - AFC is enabled with max remote calls: 10.
+2026-06-01 13:22:27,519 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:27,536 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:27,536 - INFO - models.py:8416 - AFC is enabled with max remote calls: 10.
+2026-06-01 13:22:27,886 - WARNING - types.py:7999 - Warning: there are non-text parts in the response: ['function_call'], returning concatenated text result from text parts. Check the full candidates.content.parts accessor to get the full model response.
+2026-06-01 13:22:27,886 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:27,887 - INFO - plugin_manager.py:104 - Plugin 'request_intercepter_plugin' registered.
+2026-06-01 13:22:27,887 - INFO - plugin_manager.py:104 - Plugin 'ensure_retry_options' registered.
+2026-06-01 13:22:27,902 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:28,685 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:28,717 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:28,717 - INFO - models.py:8416 - AFC is enabled with max remote calls: 10.
+2026-06-01 13:22:29,985 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:30,013 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:30,242 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:30,246 - INFO - fixture_flight_search.py:153 - Fixture hit: JFK→CDG 2026-06-07 economy — 11 flights (5 best + 6 other)
+2026-06-01 13:22:30,260 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:32,688 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:32,710 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:32,807 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:32,808 - INFO - plugin_manager.py:104 - Plugin 'request_intercepter_plugin' registered.
+2026-06-01 13:22:32,808 - INFO - plugin_manager.py:104 - Plugin 'ensure_retry_options' registered.
+2026-06-01 13:22:32,823 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:34,441 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:34,466 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:35,234 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:35,237 - INFO - plugin_manager.py:104 - Plugin 'request_intercepter_plugin' registered.
+2026-06-01 13:22:35,237 - INFO - plugin_manager.py:104 - Plugin 'ensure_retry_options' registered.
+2026-06-01 13:22:35,263 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:36,026 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:36,028 - INFO - runners.py:1620 - Closing runner...
+2026-06-01 13:22:36,029 - INFO - runners.py:1632 - Runner closed.
+2026-06-01 13:22:36,059 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:36,810 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:36,822 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:36,823 - INFO - models.py:8416 - AFC is enabled with max remote calls: 10.
+2026-06-01 13:22:37,385 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:37,387 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:37,390 - WARNING - fixture_flight_search.py:138 - No fixture found for SFO→Tokyo 2026-07-23 economy (key=1f53e3709c8bc48d…)
+2026-06-01 13:22:37,393 - INFO - fixture_flight_search.py:153 - Fixture hit: LAX→NRT 2026-06-07 economy — 9 flights (3 best + 6 other)
+2026-06-01 13:22:37,416 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:37,445 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:38,216 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:38,247 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:38,704 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:38,705 - INFO - runners.py:1620 - Closing runner...
+2026-06-01 13:22:38,705 - INFO - runners.py:1632 - Runner closed.
+2026-06-01 13:22:38,723 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:40,381 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:40,383 - INFO - plugin_manager.py:104 - Plugin 'request_intercepter_plugin' registered.
+2026-06-01 13:22:40,384 - INFO - plugin_manager.py:104 - Plugin 'ensure_retry_options' registered.
+2026-06-01 13:22:40,412 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:41,714 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:41,727 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:41,727 - INFO - models.py:8416 - AFC is enabled with max remote calls: 10.
+2026-06-01 13:22:41,896 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:41,898 - INFO - runners.py:1620 - Closing runner...
+2026-06-01 13:22:41,898 - INFO - runners.py:1632 - Runner closed.
+2026-06-01 13:22:41,927 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:42,387 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:42,390 - INFO - fixture_flight_search.py:153 - Fixture hit: SFO→NRT 2026-07-23 economy — 12 flights (4 best + 8 other)
+2026-06-01 13:22:42,409 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:45,810 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:45,843 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:45,843 - INFO - models.py:8416 - AFC is enabled with max remote calls: 10.
+2026-06-01 13:22:48,162 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:48,165 - INFO - runners.py:1620 - Closing runner...
+2026-06-01 13:22:48,165 - INFO - runners.py:1632 - Runner closed.
+2026-06-01 13:22:48,194 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:48,332 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:48,347 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:54,225 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:54,230 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:54,230 - INFO - models.py:8416 - AFC is enabled with max remote calls: 10.
+2026-06-01 13:22:54,788 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:54,794 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:54,794 - INFO - models.py:8416 - AFC is enabled with max remote calls: 10.
+2026-06-01 13:22:56,197 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:56,197 - INFO - llm_backed_user_simulator.py:286 - Stopping user message generation as the stop signal was detected.
+2026-06-01 13:22:56,198 - INFO - runners.py:1620 - Closing runner...
+2026-06-01 13:22:56,199 - INFO - runners.py:1632 - Runner closed.
+/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/evaluation/simulation/user_simulator_provider.py:65: UserWarning: [EXPERIMENTAL] LlmBackedUserSimulator: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  return LlmBackedUserSimulator(
+/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/evaluation/simulation/llm_backed_user_simulator.py:129: UserWarning: [EXPERIMENTAL] UserSimulator: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__(config, config_type=LlmBackedUserSimulator.config_type)
+2026-06-01 13:22:56,200 - INFO - plugin_manager.py:104 - Plugin 'request_intercepter_plugin' registered.
+2026-06-01 13:22:56,200 - INFO - plugin_manager.py:104 - Plugin 'ensure_retry_options' registered.
+2026-06-01 13:22:56,231 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:56,262 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:56,263 - INFO - llm_backed_user_simulator.py:286 - Stopping user message generation as the stop signal was detected.
+2026-06-01 13:22:56,263 - INFO - runners.py:1620 - Closing runner...
+2026-06-01 13:22:56,263 - INFO - runners.py:1632 - Runner closed.
+2026-06-01 13:22:56,719 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:56,739 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:57,996 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:58,010 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:58,011 - INFO - models.py:8416 - AFC is enabled with max remote calls: 10.
+2026-06-01 13:22:58,168 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:58,198 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:22:59,672 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:22:59,672 - INFO - llm_backed_user_simulator.py:286 - Stopping user message generation as the stop signal was detected.
+2026-06-01 13:22:59,673 - INFO - runners.py:1620 - Closing runner...
+2026-06-01 13:22:59,673 - INFO - runners.py:1632 - Runner closed.
+2026-06-01 13:23:00,575 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:23:00,577 - INFO - plugin_manager.py:104 - Plugin 'request_intercepter_plugin' registered.
+2026-06-01 13:23:00,577 - INFO - plugin_manager.py:104 - Plugin 'ensure_retry_options' registered.
+2026-06-01 13:23:00,591 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:23:02,909 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:23:02,913 - INFO - fixture_flight_search.py:153 - Fixture hit: SFO→NRT 2026-07-23 economy — 12 flights (4 best + 8 other)
+2026-06-01 13:23:02,941 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:23:03,376 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:23:03,380 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:23:03,381 - INFO - models.py:8416 - AFC is enabled with max remote calls: 10.
+2026-06-01 13:23:06,451 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:23:06,478 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:23:08,910 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:23:08,913 - INFO - runners.py:1620 - Closing runner...
+2026-06-01 13:23:08,913 - INFO - runners.py:1632 - Runner closed.
+2026-06-01 13:23:08,942 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:23:14,559 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:23:14,569 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:23:14,569 - INFO - models.py:8416 - AFC is enabled with max remote calls: 10.
+2026-06-01 13:23:15,597 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:23:15,622 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:23:15,622 - INFO - models.py:8416 - AFC is enabled with max remote calls: 10.
+2026-06-01 13:23:16,520 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:23:16,552 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:23:18,268 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:23:18,300 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:23:18,305 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:23:18,324 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:23:18,324 - INFO - models.py:8416 - AFC is enabled with max remote calls: 10.
+2026-06-01 13:23:19,690 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:23:19,690 - INFO - runners.py:1620 - Closing runner...
+2026-06-01 13:23:19,691 - INFO - runners.py:1632 - Runner closed.
+2026-06-01 13:23:19,691 - ERROR - local_eval_service.py:522 - Inference failed for eval case `8b421f17` with error Failed to generate a user message: LLM returned only thinking tokens.
+Traceback (most recent call last):
+  File "/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/evaluation/local_eval_service.py", line 502, in _perform_inference_single_eval_item
+    await EvaluationGenerator._generate_inferences_from_root_agent(
+    ...<9 lines>...
+    )
+  File "/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/evaluation/evaluation_generator.py", line 598, in _generate_inferences_from_root_agent
+    next_user_message = await user_simulator.get_next_user_message(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        copy.deepcopy(events)
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/evaluation/simulation/llm_backed_user_simulator.py", line 303, in get_next_user_message
+    raise RuntimeError(f"Failed to generate a user message: {error_reason}")
+RuntimeError: Failed to generate a user message: LLM returned only thinking tokens
+2026-06-01 13:23:26,185 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:23:26,194 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:23:26,194 - INFO - models.py:8416 - AFC is enabled with max remote calls: 10.
+2026-06-01 13:23:27,379 - INFO - google_llm.py:277 - Response received from the model.
+2026-06-01 13:23:27,379 - INFO - llm_backed_user_simulator.py:286 - Stopping user message generation as the stop signal was detected.
+2026-06-01 13:23:27,379 - INFO - runners.py:1620 - Closing runner...
+2026-06-01 13:23:27,380 - INFO - runners.py:1632 - Runner closed.
+/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/evaluation/metric_evaluator_registry.py:78: UserWarning: [EXPERIMENTAL] HallucinationsV1Evaluator: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  return evaluator_type(eval_metric=eval_metric)
+2026-06-01 13:23:27,409 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:23:27,409 - INFO - models.py:8416 - AFC is enabled with max remote calls: 10.
+/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/evaluation/metric_evaluator_registry.py:78: UserWarning: [EXPERIMENTAL] HallucinationsV1Evaluator: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  return evaluator_type(eval_metric=eval_metric)
+2026-06-01 13:23:27,438 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:23:27,439 - INFO - models.py:8416 - AFC is enabled with max remote calls: 10.
+/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/evaluation/metric_evaluator_registry.py:78: UserWarning: [EXPERIMENTAL] HallucinationsV1Evaluator: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  return evaluator_type(eval_metric=eval_metric)
+2026-06-01 13:23:27,538 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:23:27,539 - INFO - models.py:8416 - AFC is enabled with max remote calls: 10.
+/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/evaluation/metric_evaluator_registry.py:78: UserWarning: [EXPERIMENTAL] HallucinationsV1Evaluator: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  return evaluator_type(eval_metric=eval_metric)
+2026-06-01 13:23:27,578 - INFO - google_llm.py:208 - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-06-01 13:23:27,578 - INFO - models.py:8416 - AFC is enabled with max remote calls: 10.
+Using evaluation criteria: criteria={'hallucinations_v1': BaseCriterion(threshold=0.5, evaluate_intermediate_nl_responses=True), 'safety_v1': BaseCriterion(threshold=0.8)} custom_metrics=None user_simulator_config=BaseUserSimulatorConfig(model='gemini-2.5-flash', model_configuration={'thinking_config': {'include_thoughts': True, 'thinking_budget': 10240}}, max_allowed_invocations=10)
+Traceback (most recent call last):
+  File "/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/bin/adk", line 10, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/click/core.py", line 1161, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/click/core.py", line 1082, in main
+    rv = self.invoke(ctx)
+  File "/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/cli/cli_tools_click.py", line 127, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/cli/cli_tools_click.py", line 717, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/cli/cli_tools_click.py", line 950, in cli_eval
+    eval_results = asyncio.run(
+        _collect_eval_results(
+    ...<3 lines>...
+        )
+    )
+  File "/Users/thoang3/.local/share/uv/python/cpython-3.14.0-macos-aarch64-none/lib/python3.14/asyncio/runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/Users/thoang3/.local/share/uv/python/cpython-3.14.0-macos-aarch64-none/lib/python3.14/asyncio/runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Users/thoang3/.local/share/uv/python/cpython-3.14.0-macos-aarch64-none/lib/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/cli/cli_eval.py", line 170, in _collect_eval_results
+    async for eval_result in agen:
+      eval_results.append(eval_result)
+  File "/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/evaluation/local_eval_service.py", line 221, in evaluate
+    inference_result, eval_case_result = await evaluation_task
+                                         ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thoang3/.local/share/uv/python/cpython-3.14.0-macos-aarch64-none/lib/python3.14/asyncio/tasks.py", line 618, in _wait_for_one
+    return f.result() if resolve else f
+           ~~~~~~~~^^
+  File "/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/evaluation/local_eval_service.py", line 210, in run_evaluation
+    return await self._evaluate_single_inference_result(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/thoang3/workspace/thoang3/adk-quality-lab/.venv/lib/python3.14/site-packages/google/adk/evaluation/local_eval_service.py", line 283, in _evaluate_single_inference_result
+    for idx, actual in enumerate(inference_result.inferences):
+                       ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable

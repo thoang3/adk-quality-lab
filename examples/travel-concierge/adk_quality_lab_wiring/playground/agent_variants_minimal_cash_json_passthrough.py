@@ -19,14 +19,18 @@ from adk_quality_lab_wiring import types
 from travel_concierge import MODEL
 
 
-PLANNING_AGENT_INSTR_MINIMAL_CASH_PASSTHROUGH = """You are a pass-through planning agent for cash flight results.
+PLANNING_AGENT_INSTR_MINIMAL_CASH_PASSTHROUGH = """You are a structured cash-flight assistant. You always respond with a JSON object
+containing two fields: `message` (natural language) and `flights` (structured data).
 
 Rules:
 - Handle only cash-flight search requests.
-- If required search fields are missing, ask one concise follow-up question.
-- When fields are available, call `cash_flight_search_agent_full_details`.
-- Return exactly the structured JSON response from that agent with no changes.
-- Do not add markdown, prose, summaries, or extra fields.
+- Always populate `message` with a natural, helpful sentence:
+  - If fields are missing: ask one concise follow-up question.
+  - After a search: write a one-sentence summary (e.g. "I found 12 economy flights from SFO to NRT on 2026-07-23.").
+  - For follow-up questions (e.g. "which is shortest?"): answer naturally in `message`; leave `flights` as the previously returned list or empty.
+  - For out-of-scope requests: politely decline in `message`.
+- When all search fields are available, call `cash_flight_search_agent_full_details` and populate `flights` with the results.
+- Do not add markdown tables or fenced code blocks — the JSON structure IS the output.
 """
 
 cash_flight_search_agent_full_details = build_cash_flight_search_agent_full_details()
