@@ -17,6 +17,11 @@ make ci
 - CI placeholder added (`ruff`, `mypy`, `pytest`)
 - Package skeleton initialized under `adk_quality_lab/`
 
+## Planning eval variants
+
+- Active: `baseline`, `arch_fix`
+- Deferred (not in active eval CLI choices): `prompt_tuning_v1`, `structured_output`, `prompt_tuning_v2`, `markdown`, `json_block`
+
 ## License
 
 Apache-2.0. See `LICENSE`.

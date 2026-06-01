@@ -1,0 +1,238 @@
+2026-05-28 16:41:58,038 INFO run_baseline_trace: Writing detailed trace logs to /Users/thoang3/workspace/thoang3/adk-quality-lab/backend.log
+2026-05-28 16:41:59,477 WARNING root: Google Maps Grounding Lite tool is not available. Check if GOOGLE_MAPS_API_KEY is set.
+2026-05-28 16:41:59,484 INFO travel_concierge.shared_libraries.model: Priority PayGo ENABLED for model=gemini-2.5-flash (4M TPM Flash baseline, requires global endpoint)
+2026-05-28 16:41:59,590 INFO run_baseline_trace: Loaded root agent for surface=planning variant=baseline
+2026-05-28 16:41:59,590 INFO run_baseline_trace: Agent: planning_agent
+2026-05-28 16:41:59,590 INFO run_baseline_trace:   Description: Helps users with travel planning, complete a full itinerary for their vacation, finding best deals for flights and hotels.
+2026-05-28 16:41:59,590 INFO run_baseline_trace:   Tool[AgentTool]: AgentTool -> flight_search_agent
+2026-05-28 16:41:59,590 INFO run_baseline_trace:     Agent: flight_search_agent
+2026-05-28 16:41:59,590 INFO run_baseline_trace:       Description: Help users find best flight deals
+2026-05-28 16:41:59,590 INFO run_baseline_trace:       Tool[FunctionTool]: FunctionTool -> search_flights
+2026-05-28 16:41:59,590 INFO run_baseline_trace:       Tool[FunctionTool]: FunctionTool -> search_flights_range
+2026-05-28 16:41:59,590 INFO run_baseline_trace:   Tool[AgentTool]: AgentTool -> flight_seat_selection_agent
+2026-05-28 16:41:59,590 INFO run_baseline_trace:     Agent: flight_seat_selection_agent
+2026-05-28 16:41:59,590 INFO run_baseline_trace:       Description: Help users with the seat choices
+2026-05-28 16:41:59,590 INFO run_baseline_trace:   Tool[AgentTool]: AgentTool -> hotel_search_agent
+2026-05-28 16:41:59,590 INFO run_baseline_trace:     Agent: hotel_search_agent
+2026-05-28 16:41:59,590 INFO run_baseline_trace:       Description: Help users find hotel around a specific geographic area
+2026-05-28 16:41:59,590 INFO run_baseline_trace:   Tool[AgentTool]: AgentTool -> hotel_room_selection_agent
+2026-05-28 16:41:59,590 INFO run_baseline_trace:     Agent: hotel_room_selection_agent
+2026-05-28 16:41:59,590 INFO run_baseline_trace:       Description: Help users with the room choices for a hotel
+2026-05-28 16:41:59,590 INFO run_baseline_trace:   Tool[AgentTool]: AgentTool -> itinerary_agent
+2026-05-28 16:41:59,590 INFO run_baseline_trace:     Agent: itinerary_agent
+2026-05-28 16:41:59,590 INFO run_baseline_trace:       Description: Create and persist a structured JSON representation of the itinerary
+2026-05-28 16:41:59,590 INFO run_baseline_trace:   Tool[function]
+2026-05-28 16:41:59,591 INFO run_baseline_trace: Session state keys: ['_time', 'destination', 'end_date', 'hotel_selection', 'itinerary', 'itinerary_datetime', 'itinerary_end_date', 'itinerary_start_date', 'origin', 'outbound_flight_selection', 'outbound_seat_number', 'poi', 'return_flight_selection', 'return_seat_number', 'room_selection', 'start_date', 'user_profile']
+2026-05-28 16:41:59,594 INFO run_baseline_trace: --- Runtime Event Trace Start ---
+2026-05-28 16:41:59,599 INFO google_genai._api_client: The project/location from the environment variables will take precedence over the API key from the environment variables.
+2026-05-28 16:41:59,633 INFO google_adk.google.adk.models.google_llm: Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-05-28 16:42:07,647 INFO httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/potent-symbol-267207/locations/global/publishers/google/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-28 16:42:07,649 INFO google_adk.google.adk.models.google_llm: Response received from the model.
+2026-05-28 16:42:07,651 INFO run_baseline_trace: Event[1] speaker=planning_agent type=Event
+2026-05-28 16:42:07,651 INFO run_baseline_trace:   [planning_agent] function_call: flight_search_agent args={'request': 'economy flights from SFO to NRT on 2026-09-12 and show me 5 options with prices'}
+2026-05-28 16:42:07,665 INFO google_genai._api_client: The project/location from the environment variables will take precedence over the API key from the environment variables.
+2026-05-28 16:42:07,680 INFO google_adk.google.adk.models.google_llm: Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-05-28 16:42:12,683 INFO httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/potent-symbol-267207/locations/global/publishers/google/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-28 16:42:12,687 WARNING google_genai.types: Warning: there are non-text parts in the response: ['function_call'], returning concatenated text result from text parts. Check the full candidates.content.parts accessor to get the full model response.
+2026-05-28 16:42:12,688 INFO google_adk.google.adk.models.google_llm: Response received from the model.
+2026-05-28 16:42:12,694 INFO tools.fixture_flight_search: Fixture hit: SFO→NRT 2026-09-12 economy — 9 flights (3 best + 6 other)
+2026-05-28 16:42:12,704 INFO google_genai._api_client: The project/location from the environment variables will take precedence over the API key from the environment variables.
+2026-05-28 16:42:12,718 INFO google_adk.google.adk.models.google_llm: Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-05-28 16:42:26,577 INFO httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/potent-symbol-267207/locations/global/publishers/google/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-28 16:42:26,597 INFO google_adk.google.adk.models.google_llm: Response received from the model.
+2026-05-28 16:42:26,601 INFO google_adk.google.adk.runners: Closing runner...
+2026-05-28 16:42:26,601 INFO google_adk.google.adk.runners: Runner closed.
+2026-05-28 16:42:26,603 INFO run_baseline_trace: Event[2] speaker=planning_agent type=Event
+2026-05-28 16:42:26,603 INFO run_baseline_trace:   [planning_agent] function_response: flight_search_agent response={'flights': [{'flight_number': 'ZG 25', 'departure': {'city_name': 'San Francisco International Airport', 'airport_code': 'SFO', 'timestamp': '2026-09-12 17:15'}, 'arrival': {'city_name': 'Narita International Airport', 'airport_code': 'NRT', 'timestamp': '2026-09-13 20:00'}, 'airlines': ['ZIPAIR Tokyo'], 'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/ZG.png', 'price_in_usd': 484, 'number_of_stops': 0}, {'flight_number': 'NH 7', 'departure': {'city_name': 'San Francisco Inte
+2026-05-28 16:42:26,604 INFO run_baseline_trace:   [BEFORE planning_agent] flight_search_agent returned:
+{
+  "flights": [
+    {
+      "flight_number": "ZG 25",
+      "departure": {
+        "city_name": "San Francisco International Airport",
+        "airport_code": "SFO",
+        "timestamp": "2026-09-12 17:15"
+      },
+      "arrival": {
+        "city_name": "Narita International Airport",
+        "airport_code": "NRT",
+        "timestamp": "2026-09-13 20:00"
+      },
+      "airlines": [
+        "ZIPAIR Tokyo"
+      ],
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ZG.png",
+      "price_in_usd": 484,
+      "number_of_stops": 0
+    },
+    {
+      "flight_number": "NH 7",
+      "departure": {
+        "city_name": "San Francisco International Airport",
+        "airport_code": "SFO",
+        "timestamp": "2026-09-12 12:15"
+      },
+      "arrival": {
+        "city_name": "Narita International Airport",
+        "airport_code": "NRT",
+        "timestamp": "2026-09-13 15:25"
+      },
+      "airlines": [
+        "ANA"
+      ],
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+      "price_in_usd": 911,
+      "number_of_stops": 0
+    },
+    {
+      "flight_number": "JL 57",
+      "departure": {
+        "city_name": "San Francisco International Airport",
+        "airport_code": "SFO",
+        "timestamp": "2026-09-12 13:55"
+      },
+      "arrival": {
+        "city_name": "Narita International Airport",
+        "airport_code": "NRT",
+        "timestamp": "2026-09-13 16:30"
+      },
+      "airlines": [
+        "JAL"
+      ],
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+      "price_in_usd": 911,
+      "number_of_stops": 0
+    },
+    {
+      "flight_number": "PR 105",
+      "departure": {
+        "city_name": "San Francisco International Airport",
+        "airport_code": "SFO",
+        "timestamp": "2026-09-12 00:30"
+      },
+      "arrival": {
+        "city_name": "Narita International Airport",
+        "airport_code": "NRT",
+        "timestamp": "2026-09-13 13:00"
+      },
+      "airlines": [
+        "Philippine Airlines"
+      ],
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/PR.png",
+      "price_in_usd": 540,
+      "number_of_stops": 1
+    },
+    {
+      "flight_number": "CX 879",
+      "departure": {
+        "city_name": "San Francisco International Airport",
+        "airport_code": "SFO",
+        "timestamp": "2026-09-12 14:00"
+      },
+      "arrival": {
+        "city_name": "Narita International Airport",
+        "airport_code": "NRT",
+        "timestamp": "2026-09-14 06:50"
+      },
+      "airlines": [
+        "Cathay Pacific"
+      ],
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+      "price_in_usd": 604,
+      "number_of_stops": 1
+    },
+    {
+      "flight_number": "JX 11",
+      "departure": {
+        "city_name": "San Francisco International Airport",
+        "airport_code": "SFO",
+        "timestamp": "2026-09-12 00:50"
+      },
+      "arrival": {
+        "city_name": "Narita International Airport",
+        "airport_code": "NRT",
+        "timestamp": "2026-09-13 12:55"
+      },
+      "airlines": [
+        "STARLUX Airlines"
+      ],
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JX.png",
+      "price_in_usd": 647,
+      "number_of_stops": 1
+    },
+    {
+      "flight_number": "CX 873",
+      "departure": {
+        "city_name": "San Francisco International Airport",
+        "airport_code": "SFO",
+        "timestamp": "2026-09-12 01:20"
+      },
+      "arrival": {
+        "city_name": "Narita International Airport",
+        "airport_code": "NRT",
+        "timestamp": "2026-09-13 14:30"
+      },
+      "airlines": [
+        "Cathay Pacific"
+      ],
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+      "price_in_usd": 694,
+      "number_of_stops": 1
+    },
+    {
+      "flight_number": "BR 17",
+      "departure": {
+        "city_name": "San Francisco International Airport",
+        "airport_code": "SFO",
+        "timestamp": "2026-09-12 01:25"
+      },
+      "arrival": {
+        "city_name": "Narita International Airport",
+        "airport_code": "NRT",
+        "timestamp": "2026-09-13 12:25"
+      },
+      "airlines": [
+        "EVA Air"
+      ],
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+      "price_in_usd": 713,
+      "number_of_stops": 1
+    },
+    {
+      "flight_number": "UA 837",
+      "departure": {
+        "city_name": "San Francisco International Airport",
+        "airport_code": "SFO",
+        "timestamp": "2026-09-12 11:55"
+      },
+      "arrival": {
+        "city_name": "Narita International Airport",
+        "airport_code": "NRT",
+        "timestamp": "2026-09-13 15:00"
+      },
+      "airlines": [
+        "United"
+      ],
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "price_in_usd": 911,
+      "number_of_stops": 0
+    }
+  ]
+}
+2026-05-28 16:42:26,610 INFO google_genai._api_client: The project/location from the environment variables will take precedence over the API key from the environment variables.
+2026-05-28 16:42:26,624 INFO google_adk.google.adk.models.google_llm: Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-05-28 16:42:36,609 INFO httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/potent-symbol-267207/locations/global/publishers/google/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-05-28 16:42:36,611 INFO google_adk.google.adk.models.google_llm: Response received from the model.
+2026-05-28 16:42:36,613 INFO run_baseline_trace: Event[3] speaker=planning_agent type=Event
+2026-05-28 16:42:36,613 INFO run_baseline_trace:   [planning_agent] text: Here are 5 economy flight options from SFO to NRT on September 12, 2026:  1.  **ZIPAIR Tokyo (ZG 25)**: Departs SFO at 17:15 on Sep 12, arrives NRT at 20:00 on Sep 13. Price: $484 (non-stop) 2.  **Philippine Airlines (PR 105)**: Departs SFO at 00:30 on Sep 12, arrives NRT at 13:00 on Sep 13. Price: 
+2026-05-28 16:42:36,613 INFO run_baseline_trace:   [AFTER planning_agent] text passed to user:
+Here are 5 economy flight options from SFO to NRT on September 12, 2026:
+
+1.  **ZIPAIR Tokyo (ZG 25)**: Departs SFO at 17:15 on Sep 12, arrives NRT at 20:00 on Sep 13. Price: $484 (non-stop)
+2.  **Philippine Airlines (PR 105)**: Departs SFO at 00:30 on Sep 12, arrives NRT at 13:00 on Sep 13. Price: $540 (1 stop)
+3.  **Cathay Pacific (CX 879)**: Departs SFO at 14:00 on Sep 12, arrives NRT at 06:50 on Sep 14. Price: $604 (1 stop)
+4.  **STARLUX Airlines (JX 11)**: Departs SFO at 00:50 on Sep 12, arrives NRT at 12:55 on Sep 13. Price: $647 (1 stop)
+5.  **Cathay Pacific (CX 873)**: Departs SFO at 01:20 on Sep 12, arrives NRT at 14:30 on Sep 13. Price: $694 (1 stop)
+2026-05-28 16:42:36,614 INFO run_baseline_trace: --- Runtime Event Trace End ---
+2026-05-28 16:42:36,616 INFO run_baseline_trace: Final agent response length: 668 characters

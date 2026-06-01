@@ -4,7 +4,7 @@ This module creates the VARIANT=baseline agent: vanilla upstream planning
 logic + the minimal SerpAPI wiring needed to make the eval meaningful.
 
 What changes vs. the raw vendored agent:
-  1. `flight_search_agent` gains one tool: `search_flights` (fixture-backed)
+  1. `flight_search_agent` gains two tools: `search_flights` and `search_flights_range` (fixture-backed)
   2. `FLIGHT_SEARCH_INSTR` is updated to instruct use of the tool
 
 What does NOT change vs. upstream:
@@ -23,7 +23,7 @@ Why this is still a valid "baseline":
 Intentional omissions (these are what later variants fix):
   - No truncation-disclosure instruction (added in prompt_tuning_v1)
   - No verbatim-citation constraint (added in prompt_tuning_v1)
-  - No JSON schema output enforcement (added in structured_output)
+  - No additional schema constraints beyond upstream defaults
 """
 
 from __future__ import annotations
@@ -87,7 +87,7 @@ User profile:
 # All other fields (output_schema, generate_content_config) are unchanged.
 # ---------------------------------------------------------------------------
 
-flight_search_agent_baseline = Agent(
+flight_search_agent = Agent(
     model=MODEL,
     name="flight_search_agent",
     description="Help users find best flight deals",
@@ -112,7 +112,7 @@ planning_agent_baseline = Agent(
     name="planning_agent",
     instruction=prompt.PLANNING_AGENT_INSTR,
     tools=[
-        AgentTool(agent=flight_search_agent_baseline),
+        AgentTool(agent=flight_search_agent),
         AgentTool(agent=flight_seat_selection_agent),
         AgentTool(agent=hotel_search_agent),
         AgentTool(agent=hotel_room_selection_agent),

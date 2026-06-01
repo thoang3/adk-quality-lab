@@ -14,7 +14,15 @@
 
 """Unit tests for travel_concierge/tools/flights.py."""
 
+import sys
+from pathlib import Path
+
 from travel_concierge.tools.flights import _parse_stops_string
+
+
+_WIRING_DIR = Path(__file__).resolve().parents[2] / "adk_quality_lab_wiring"
+if str(_WIRING_DIR) not in sys.path:
+    sys.path.insert(0, str(_WIRING_DIR))
 
 
 # ---------------------------------------------------------------------------
@@ -79,10 +87,10 @@ def test_cash_flight_summary_defaults():
 
 
 def test_cash_flight_search_agent_uses_cash_flight_summary():
-    from adk_quality_lab_wiring.tuned_prompts.planning_agent_v2 import cash_flight_search_agent
+    from tuned_prompts.planning_agent_arch_fix import flight_search_agent_lazy
     from travel_concierge.tools.search import CashFlightSummary
 
-    assert cash_flight_search_agent.output_schema is CashFlightSummary
+    assert flight_search_agent_lazy.output_schema is CashFlightSummary
 
 
 # ---------------------------------------------------------------------------
@@ -91,14 +99,13 @@ def test_cash_flight_search_agent_uses_cash_flight_summary():
 
 
 def test_planning_prompt_cash_table_format():
-    from adk_quality_lab_wiring.tuned_prompts.planning_agent_v2 import CASH_FLIGHT_SEARCH_INSTR
+    from tuned_prompts.planning_agent_arch_fix import FLIGHT_SEARCH_INSTR_LAZY
 
-    assert "cash" in CASH_FLIGHT_SEARCH_INSTR.lower()
+    assert "summary" in FLIGHT_SEARCH_INSTR_LAZY.lower()
 
 
 def test_cash_flight_search_instr_has_summary_rule():
-    from adk_quality_lab_wiring.tuned_prompts.planning_agent_v2 import CASH_FLIGHT_SEARCH_INSTR
+    from tuned_prompts.planning_agent_arch_fix import FLIGHT_SEARCH_INSTR_LAZY
 
-    assert "SUMMARY OUTPUT" in CASH_FLIGHT_SEARCH_INSTR
-    assert "total_found" in CASH_FLIGHT_SEARCH_INSTR
-    assert "search_params" in CASH_FLIGHT_SEARCH_INSTR
+    assert "total_found" in FLIGHT_SEARCH_INSTR_LAZY
+    assert "search_params" in FLIGHT_SEARCH_INSTR_LAZY

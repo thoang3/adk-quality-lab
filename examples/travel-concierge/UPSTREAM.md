@@ -7,7 +7,7 @@ license: Apache-2.0 (see LICENSE in google/adk-samples)
 ## Baseline isolation guarantee
 
 Running `make eval CASE_SET=both VARIANT=baseline` loads
-`adk_quality_lab_wiring/tuned_prompts/planning_baseline.py`, which is the
+`adk_quality_lab_wiring/tuned_prompts/planning_agent_baseline.py`, which is the
 vanilla upstream planning agent plus **one minimal addition**: a fixture-backed
 `search_flights` FunctionTool wired into `flight_search_agent`.
 
@@ -27,7 +27,7 @@ LLM synthesizes it, the rater checks faithfulness**. F1/F2 failures then
 reflect actual synthesis errors (value mutation, truncation without disclosure)
 that prompt tuning and architectural changes can measurably reduce.
 
-### What `planning_baseline.py` changes vs. upstream
+### What `planning_agent_baseline.py` changes vs. upstream
 
 | Item | Upstream | Baseline |
 |---|---|---|

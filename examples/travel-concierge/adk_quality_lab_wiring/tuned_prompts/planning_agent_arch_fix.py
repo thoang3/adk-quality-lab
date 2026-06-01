@@ -101,7 +101,7 @@ flight_search_agent_lazy = Agent(
 )
 
 # ---------------------------------------------------------------------------
-# planning_agent_v2 — Condition D: uses lazy-load get_flight_context
+# planning_agent_arch_fix — Condition D: uses lazy-load get_flight_context
 # ---------------------------------------------------------------------------
 
 PLANNING_AGENT_INSTR_ARCH_FIX = prompt.PLANNING_AGENT_INSTR + """
@@ -109,8 +109,12 @@ PLANNING_AGENT_INSTR_ARCH_FIX = prompt.PLANNING_AGENT_INSTR + """
 FLIGHT DATA — TWO-TOOL PROTOCOL:
 
 1. INITIAL SEARCH: Delegate to flight_search_agent ONCE to fetch and store flights.
-   flight_search_agent returns a CashFlightSummary with `total_found` and `search_params`.
-   You MUST begin your response with exactly: "I found N flights for PARAMS." where N is the total_found value and PARAMS is the search_params value from the flight_search_agent result.
+  On the FIRST user turn, do NOT ask clarifying questions before this search.
+  If details are partially ambiguous, use available session context and still run the search first.
+   flight_search_agent returns JSON like: {"total_found": 42, "search_params": "ORD→NRT, Economy, Jul 6"}
+   After it responds, your FIRST sentence MUST be exactly this pattern (substitute the real numbers/text):
+     "I found 42 flights for ORD→NRT, Economy, Jul 6."
+   Use the actual `total_found` integer and `search_params` string from the JSON — do not write "N" or "PARAMS".
    Then immediately call get_flight_context() with NO filters to retrieve and list the flights.
 
 2. FOLLOW-UP FILTERING: For ANY follow-up that filters the flight list (e.g.
@@ -128,7 +132,7 @@ FLIGHT DATA — TWO-TOOL PROTOCOL:
 Never re-call flight_search_agent for follow-up filtering. Always use get_flight_context.
 """
 
-planning_agent_v2 = Agent(
+planning_agent_arch_fix = Agent(
     model=MODEL,
     description=(
         "Helps users with travel planning, complete a full itinerary for their vacation, "

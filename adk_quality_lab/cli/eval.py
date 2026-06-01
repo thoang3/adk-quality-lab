@@ -26,15 +26,13 @@ def main() -> None:
     )
     parser.add_argument(
         "--variant",
-        choices=["baseline", "prompt_tuning_v1", "structured_output", "prompt_tuning_v2", "arch_fix", "markdown", "json_block"],
+        choices=["baseline", "arch_fix"],
         default="baseline",
         help=(
-            "Improvement phase to evaluate. Each variant is independently reproducible:\n"
-            "  baseline          — vanilla vendored planning agent (upstream prompt)\n"
-            "  prompt_tuning_v1  — Optimizer-tuned instruction (verbatim citation + disclosure)\n"
-            "  structured_output — FlightsSelection JSON schema output enforcement\n"
-            "  prompt_tuning_v2  — Optimizer-tuned tool descriptions\n"
-            "  arch_fix          — CashFlightSummary + lean planning_agent_v2\n"
+            "Planning variants currently active for audit:\n"
+            "  baseline — control variant\n"
+            "  arch_fix — lazy-load/SSE-inject architecture (Condition D)\n"
+            "All other historical planning variants are deferred for now."
         ),
     )
     parser.add_argument(

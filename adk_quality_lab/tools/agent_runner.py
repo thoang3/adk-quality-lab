@@ -184,7 +184,7 @@ async def _run_agent_async(
             state=session_state,
         )
         try:
-            last_text = ""
+            all_text_parts: list[str] = []
             async for event in runner.run_async(
                 user_id=user_id,
                 session_id=session_id,
@@ -193,8 +193,11 @@ async def _run_agent_async(
                 if hasattr(event, "content") and event.content:
                     for part in event.content.parts or []:
                         if hasattr(part, "text") and part.text:
-                            last_text = part.text
-            return last_text or "[EMPTY AGENT RESPONSE]"
+                            all_text_parts.append(part.text)
+            # Join all agent text turns so intermediate count claims
+            # (e.g. "I found N flights") are preserved alongside the
+            # final flight listing — raters scan the full concatenation.
+            return "\n\n".join(all_text_parts) or "[EMPTY AGENT RESPONSE]"
         except Exception as exc:
             if _is_resource_exhausted(exc) and attempt < _RETRY_MAX_ATTEMPTS:
                 logger.warning(
@@ -301,27 +304,17 @@ def build_agent_fn(
 ) -> Any:
     """Build an agent_fn(query, tool_payload) callable for eval runner.
 
-    Each variant corresponds to an isolated, reproducible improvement phase:
-
-    AGENTWILD paper condition mapping:
+    Planning variants currently active for audit:
 
     ┌──────────────────────┬────────────────────────────────────────────────────┐
-    │ VARIANT              │ Paper condition / What is loaded                   │
+    │ VARIANT              │ What is loaded                                     │
     ├──────────────────────┼────────────────────────────────────────────────────┤
-    │ markdown             │ Cond A — free-form Markdown synthesis, no schema   │
-    │ json_block           │ Cond B — JSON code-fence synthesis, no schema      │
-    │ baseline             │ Cond C — response_schema (FlightsSelection)        │
-    │ arch_fix             │ Cond D — lazy-load get_flight_context, no synth    │
-    │ prompt_tuning_v1     │ Cond C + verbatim-citation instruction             │
-    │ structured_output    │ alias → prompt_tuning_v1                           │
-    │ prompt_tuning_v2     │ Cond C + Optimizer-tuned tool descriptions         │
+    │ baseline             │ Cond C control (response_schema synthesis path)    │
+    │ arch_fix             │ Cond D lazy-load/SSE-inject architecture           │
     └──────────────────────┴────────────────────────────────────────────────────┘
 
-    Judges can replicate any phase independently:
-        make eval CASE_SET=both VARIANT=baseline
-        make eval CASE_SET=both VARIANT=prompt_tuning_v1
-        make eval CASE_SET=both VARIANT=structured_output
-        make eval CASE_SET=both VARIANT=arch_fix
+    Historical variants (markdown/json_block/prompt_tuning_v1/prompt_tuning_v2/
+    structured_output) are deferred and intentionally disabled in loader dispatch.
 
     Args:
         example_dir: Path to examples/travel-concierge (auto-detected if None).
@@ -428,12 +421,11 @@ def build_multiturn_fn(
 def _load_root_agent(example_dir: Path, surface: str, variant: str = "baseline") -> Any:
     """Load the appropriate agent object for the requested (surface, variant).
 
-    Variant dispatch for the planning surface:
-      baseline          → vanilla vendored planning_agent (upstream prompt)
-      prompt_tuning_v1  → vanilla agent with PLANNING_AGENT_INSTR_V1 patched in
-      structured_output → planning_agent with JSON schema output enforcement
-      prompt_tuning_v2  → planning_agent with Optimizer-tuned tool descriptions
-      arch_fix          → planning_agent_v2 (CashFlightSummary architecture)
+        Variant dispatch for the planning surface:
+            baseline          → control planning agent
+            arch_fix          → planning_agent_arch_fix (CashFlightSummary architecture)
+
+        Other historical planning variants are currently deferred and disabled.
 
     For non-planning surfaces, variant is currently ignored — all phases use the
     same root/inspiration agent.  Extended as Optimizer covers more surfaces.
@@ -450,60 +442,30 @@ def _load_root_agent(example_dir: Path, surface: str, variant: str = "baseline")
     try:
         if surface == "planning":
             if variant == "arch_fix":
-                from tuned_prompts.planning_agent_v2 import (  # type: ignore[import-untyped]
-                    planning_agent_v2 as agent,
+                from tuned_prompts.planning_agent_arch_fix import (  # type: ignore[import-untyped]
+                    planning_agent_arch_fix as agent,
                 )
                 return agent
-            elif variant == "prompt_tuning_v1":
-                # Patch vanilla planning_agent with Optimizer-tuned instruction v1.
-                # planning_prompt_v1.py is written by instruction_tuner.py at
-                # the end of the first Optimizer run on the planning surface.
-                from travel_concierge.sub_agents.planning.agent import (  # type: ignore[import-untyped]
-                    planning_agent,
-                )
-                from tuned_prompts.planning_prompt_v1 import (  # type: ignore[import-untyped]
-                    PLANNING_AGENT_INSTR_V1,
-                )
-                planning_agent.instruction = PLANNING_AGENT_INSTR_V1
-                return planning_agent
-            elif variant == "structured_output":
-                # structured_output is now an alias for prompt_tuning_v1
-                # (planning_agent_structured.py was deleted — it was a duplicate
-                # of baseline; prompt_tuning_v1 is the closest equivalent).
-                from tuned_prompts.planning_prompt_v1 import (  # type: ignore[import-untyped]
-                    planning_agent_v1 as agent,
-                )
-                return agent
-            elif variant == "markdown":
-                from tuned_prompts.planning_markdown import (  # type: ignore[import-untyped]
-                    planning_agent_markdown as agent,
-                )
-                return agent
-            elif variant == "json_block":
-                from tuned_prompts.planning_json_block import (  # type: ignore[import-untyped]
-                    planning_agent_json_block as agent,
-                )
-                return agent
-            elif variant == "prompt_tuning_v2":
-                # planning_agent_v2b.py adds Optimizer-tuned tool descriptions
-                # on top of the structured output variant.
-                from tuned_prompts.planning_agent_v2b import (  # type: ignore[import-untyped]
-                    planning_agent_v2b as agent,
-                )
-                return agent
-            else:
-                # baseline — vanilla planning logic + fixture-backed search_flights tool.
-                # The raw vendored agent has no tools on flight_search_agent and hallucinates.
-                # planning_baseline.py adds the one tool needed to feed real SerpAPI data
-                # through the agent so synthesis faithfulness can be measured.
-                # planning_agent instruction (PLANNING_AGENT_INSTR) is identical to upstream.
-                from tuned_prompts.planning_baseline import (  # type: ignore[import-untyped]
+            elif variant == "baseline":
+                from tuned_prompts.planning_agent_baseline import (  # type: ignore[import-untyped]
                     planning_agent_baseline as agent,
                 )
                 return agent
+            raise ValueError(
+                "Planning variant '%s' is deferred. Active variants: baseline, arch_fix."
+                % variant
+            )
 
         elif surface == "root":
             from travel_concierge.agent import root_agent  # type: ignore[import-untyped]
+            from tuned_prompts.planning_agent_baseline import (  # type: ignore[import-untyped]
+                planning_agent_baseline,
+            )
+
+            root_agent.sub_agents = [
+                planning_agent_baseline if getattr(agent, "name", "") == "planning_agent" else agent
+                for agent in (root_agent.sub_agents or [])
+            ]
             return root_agent
 
         elif surface == "inspiration":
@@ -515,6 +477,14 @@ def _load_root_agent(example_dir: Path, surface: str, variant: str = "baseline")
         else:
             logger.warning("Unknown surface '%s', falling back to root_agent", surface)
             from travel_concierge.agent import root_agent  # type: ignore[import-untyped]
+            from tuned_prompts.planning_agent_baseline import (  # type: ignore[import-untyped]
+                planning_agent_baseline,
+            )
+
+            root_agent.sub_agents = [
+                planning_agent_baseline if getattr(agent, "name", "") == "planning_agent" else agent
+                for agent in (root_agent.sub_agents or [])
+            ]
             return root_agent
 
     except ImportError as exc:

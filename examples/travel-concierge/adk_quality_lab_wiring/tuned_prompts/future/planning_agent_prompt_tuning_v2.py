@@ -23,7 +23,7 @@ Optimizer run that produced this variant:
   make optimize SURFACE=tools ITERS=20
   (tool_description_tuner accepted this candidate at iteration 2)
 
-NOTE: This is the second-to-last phase. arch_fix (planning_agent_v2.py) is the
+NOTE: This is the second-to-last phase. arch_fix (planning_agent_arch_fix.py) is the
 final architecture that supersedes this variant in end-to-end quality.
 """
 
@@ -46,7 +46,7 @@ from travel_concierge.sub_agents.planning.agent import (  # type: ignore[import-
 )
 
 from tools.fixture_flight_search import search_flights, search_flights_range  # type: ignore[import-untyped]
-from tuned_prompts.planning_prompt_v1 import FLIGHT_SEARCH_INSTR_V1  # type: ignore[import-untyped]
+from tuned_prompts.future.planning_agent_prompt_tuning_v1 import FLIGHT_SEARCH_INSTR_V1  # type: ignore[import-untyped]
 
 # ---------------------------------------------------------------------------
 # Optimizer-tuned tool description for flight_search_agent.
@@ -64,10 +64,10 @@ FLIGHT_SEARCH_AGENT_DESC_V2 = (
 )
 
 # ---------------------------------------------------------------------------
-# flight_search_agent_v2b: tuned description + schema enforcement + tuned instruction.
+# flight_search_agent_prompt_tuning_v2: tuned description + schema enforcement + tuned instruction.
 # ---------------------------------------------------------------------------
 
-flight_search_agent_v2b = Agent(
+flight_search_agent_prompt_tuning_v2 = Agent(
     model=MODEL,
     name="flight_search_agent",
     description=FLIGHT_SEARCH_AGENT_DESC_V2,
@@ -81,10 +81,10 @@ flight_search_agent_v2b = Agent(
 )
 
 # ---------------------------------------------------------------------------
-# planning_agent_v2b: planning agent with tuned tool descriptions.
+# planning_agent_prompt_tuning_v2: planning agent with tuned tool descriptions.
 # ---------------------------------------------------------------------------
 
-planning_agent_v2b = Agent(
+planning_agent_prompt_tuning_v2 = Agent(
     model=MODEL,
     description=(
         "Helps users with travel planning, complete a full itinerary for their vacation, "
@@ -93,7 +93,7 @@ planning_agent_v2b = Agent(
     name="planning_agent",
     instruction=prompt.PLANNING_AGENT_INSTR,
     tools=[
-        AgentTool(agent=flight_search_agent_v2b),
+        AgentTool(agent=flight_search_agent_prompt_tuning_v2),
         AgentTool(agent=flight_seat_selection_agent),
         AgentTool(agent=hotel_search_agent),
         AgentTool(agent=hotel_room_selection_agent),
@@ -105,5 +105,5 @@ planning_agent_v2b = Agent(
 
 
 def build_planning_agent() -> Agent:
-    """Return the prompt_tuning_v2 planning agent for eval."""
-    return planning_agent_v2b
+  """Return the prompt_tuning_v2 planning agent for eval."""
+  return planning_agent_prompt_tuning_v2
