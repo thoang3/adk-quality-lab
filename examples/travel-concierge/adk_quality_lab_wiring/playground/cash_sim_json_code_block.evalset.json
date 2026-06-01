@@ -1,6 +1,6 @@
 {
-  "eval_set_id": "cash_sim_json_passthrough",
-  "name": "cash_sim_json_passthrough",
+  "eval_set_id": "cash_sim_json_code_block",
+  "name": "cash_sim_json_code_block",
   "eval_cases": [
     {
       "eval_id": "a96cd109",
@@ -87,10 +87,10 @@
         }
       },
       "session_input": {
-        "app_name": "playground_json_passthrough",
+        "app_name": "playground_json_code_block",
         "user_id": "eval_user"
       },
-      "creation_timestamp": 1780345337.409903
+      "creation_timestamp": 1780348090.074187
     },
     {
       "eval_id": "93d715cc",
@@ -189,10 +189,10 @@
         }
       },
       "session_input": {
-        "app_name": "playground_json_passthrough",
+        "app_name": "playground_json_code_block",
         "user_id": "eval_user"
       },
-      "creation_timestamp": 1780345337.410365
+      "creation_timestamp": 1780348090.074655
     },
     {
       "eval_id": "44839959",
@@ -279,10 +279,10 @@
         }
       },
       "session_input": {
-        "app_name": "playground_json_passthrough",
+        "app_name": "playground_json_code_block",
         "user_id": "eval_user"
       },
-      "creation_timestamp": 1780345337.410865
+      "creation_timestamp": 1780348090.075066
     },
     {
       "eval_id": "8b421f17",
@@ -309,10 +309,10 @@
         }
       },
       "session_input": {
-        "app_name": "playground_json_passthrough",
+        "app_name": "playground_json_code_block",
         "user_id": "eval_user"
       },
-      "creation_timestamp": 1780345337.411304
+      "creation_timestamp": 1780348090.075466
     },
     {
       "eval_id": "09b297ed",
@@ -411,10 +411,10 @@
         }
       },
       "session_input": {
-        "app_name": "playground_json_passthrough",
+        "app_name": "playground_json_code_block",
         "user_id": "eval_user"
       },
-      "creation_timestamp": 1780345337.411735
+      "creation_timestamp": 1780348090.07599
     },
     {
       "eval_id": "bb5cc9cb",
@@ -513,10 +513,10 @@
         }
       },
       "session_input": {
-        "app_name": "playground_json_passthrough",
+        "app_name": "playground_json_code_block",
         "user_id": "eval_user"
       },
-      "creation_timestamp": 1780349847.961179
+      "creation_timestamp": 1780348090.076625
     },
     {
       "eval_id": "1ff5a365",
@@ -615,10 +615,10 @@
         }
       },
       "session_input": {
-        "app_name": "playground_json_passthrough",
+        "app_name": "playground_json_code_block",
         "user_id": "eval_user"
       },
-      "creation_timestamp": 1780349847.962639
+      "creation_timestamp": 1780348090.077147
     },
     {
       "eval_id": "9668ed02",
@@ -717,10 +717,10 @@
         }
       },
       "session_input": {
-        "app_name": "playground_json_passthrough",
+        "app_name": "playground_json_code_block",
         "user_id": "eval_user"
       },
-      "creation_timestamp": 1780349847.963606
+      "creation_timestamp": 1780348090.077696
     },
     {
       "eval_id": "151d97ad",
@@ -749,11 +749,11 @@
         }
       },
       "session_input": {
-        "app_name": "playground_json_passthrough",
+        "app_name": "playground_json_code_block",
         "user_id": "eval_user"
       },
-      "creation_timestamp": 1780349847.964254
+      "creation_timestamp": 1780348090.078281
     }
   ],
-  "creation_timestamp": 1780345336.1762838
+  "creation_timestamp": 1780348088.813744
 }

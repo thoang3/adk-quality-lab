@@ -16,6 +16,6 @@
         "thinking_budget": 10240
       }
     },
-    "max_allowed_invocations": 10
+    "max_allowed_invocations": 15
   }
 }

@@ -41,6 +41,45 @@
       "starting_prompt": "What economy flights are available from SFO to NRT on July 23rd 2026?",
       "conversation_plan": "Ask for the flight list. After receiving results, ask the agent to show only flights with fewer than 2 stops. If the agent cannot filter, note it and end the conversation.",
       "user_persona": "EXPERT"
+    },
+    {
+      "starting_prompt": "Find economy flights from SFO to NRT on 2026-07-23.",
+      "conversation_plan": "Step 1: Ask for economy flights SFO to NRT on 2026-07-23 and wait for the full list. Step 2: Ask 'Show me ANA only' and observe whether the agent filters or explains it cannot. Step 3: Ask 'How about all nonstop options instead?' and see if the agent can highlight nonstop flights from the already-returned list or re-explains scope. Step 4: Ask 'Show me flights under 12 hours total' and observe the response. At each step, note whether the agent provides a helpful, accurate reply or gracefully declines with an explanation. End the conversation after step 4.",
+      "user_persona": "EXPERT"
+    },
+    {
+      "starting_prompt": "I'm looking for economy flights from LAX to NRT on June 7th 2026.",
+      "conversation_plan": "Step 1: Request the full flight list for LAX to NRT on 2026-06-07 economy. Step 2: After results arrive, ask 'Can you show me only flights under 10 hours?' and note how the agent responds. Step 3: Follow up with 'What about under 8 hours?' — check if the agent responds consistently. Step 4: Ask 'Which of these is the shortest flight?' to see if the agent can answer a factual question about the results without filtering. Evaluate whether the agent maintains context across all four turns and gives coherent, accurate answers.",
+      "user_persona": "EXPERT"
+    },
+    {
+      "starting_prompt": "I have flexible dates — can you find me economy flights from JFK to CDG sometime between July 1st and July 7th 2026?",
+      "conversation_plan": "Step 1: Ask for economy flights JFK to CDG across the date range 2026-07-01 to 2026-07-07 (7 days, ~120 flights total). Wait for the agent to return results. Step 2: Ask 'How many total flights did you find across all dates?' — verify the agent reports an accurate count without hallucinating or under-counting. Step 3: Ask 'Which day has the most flight options?' — check whether the agent correctly identifies the date with the highest flight count from the actual data. Step 4: Ask 'What is the cheapest flight available across all those dates?' — verify the agent identifies the correct minimum-price flight without fabricating prices. Evaluate accuracy of all factual claims against the returned data.",
+      "user_persona": "EXPERT"
+    },
+    {
+      "starting_prompt": "What economy flights are there from JFK to CDG (Paris) between July 1st and July 7th 2026?",
+      "conversation_plan": "Step 1: Ask for the full range search JFK to CDG 2026-07-01 to 2026-07-07. After results arrive, ask 'Which day is cheapest to fly?' Step 2: Ask 'Are there any nonstop options? If so, which dates have them?' — verify the agent does not fabricate nonstop routes that don't exist. Step 3: Ask 'Show me only flights under $400' — observe whether the agent attempts to filter or gracefully explains it cannot. Step 4: Ask 'What about business class on July 4th?' — this requires a new search with different cabin/date params; evaluate whether the agent correctly triggers a new search or explains the limitation. End after step 4.",
+      "user_persona": {
+        "id": "DEAL_HUNTER",
+        "description": "A price-conscious traveler who scrutinizes every fare and pushes hard for the cheapest option.",
+        "behaviors": [
+          {
+            "name": "Price-focused probing",
+            "description": "Always asks about the cheapest option and pushes back if the answer seems too expensive.",
+            "behavior_instructions": [
+              "Always ask which option is cheapest.",
+              "If a price seems high, ask 'Is that really the best price?' or 'Any cheaper options?'",
+              "Express mild skepticism about prices: 'That seems expensive.'"
+            ],
+            "violation_rubrics": [
+              "Agent states a price without specifying the flight it belongs to.",
+              "Agent claims a price is 'the cheapest' without referencing the actual data.",
+              "Agent fabricates a price not present in the returned flight list."
+            ]
+          }
+        ]
+      }
     }
   ]
 }

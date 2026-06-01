@@ -1,6 +1,6 @@
 {
-  "eval_set_id": "cash_sim_json_passthrough",
-  "name": "cash_sim_json_passthrough",
+  "eval_set_id": "cash_sim_markdown_table",
+  "name": "cash_sim_markdown_table",
   "eval_cases": [
     {
       "eval_id": "a96cd109",
@@ -87,10 +87,10 @@
         }
       },
       "session_input": {
-        "app_name": "playground_json_passthrough",
+        "app_name": "playground_markdown_table",
         "user_id": "eval_user"
       },
-      "creation_timestamp": 1780345337.409903
+      "creation_timestamp": 1780347499.705595
     },
     {
       "eval_id": "93d715cc",
@@ -189,10 +189,10 @@
         }
       },
       "session_input": {
-        "app_name": "playground_json_passthrough",
+        "app_name": "playground_markdown_table",
         "user_id": "eval_user"
       },
-      "creation_timestamp": 1780345337.410365
+      "creation_timestamp": 1780347499.706028
     },
     {
       "eval_id": "44839959",
@@ -279,10 +279,10 @@
         }
       },
       "session_input": {
-        "app_name": "playground_json_passthrough",
+        "app_name": "playground_markdown_table",
         "user_id": "eval_user"
       },
-      "creation_timestamp": 1780345337.410865
+      "creation_timestamp": 1780347499.706361
     },
     {
       "eval_id": "8b421f17",
@@ -309,10 +309,10 @@
         }
       },
       "session_input": {
-        "app_name": "playground_json_passthrough",
+        "app_name": "playground_markdown_table",
         "user_id": "eval_user"
       },
-      "creation_timestamp": 1780345337.411304
+      "creation_timestamp": 1780347499.706781
     },
     {
       "eval_id": "09b297ed",
@@ -411,10 +411,10 @@
         }
       },
       "session_input": {
-        "app_name": "playground_json_passthrough",
+        "app_name": "playground_markdown_table",
         "user_id": "eval_user"
       },
-      "creation_timestamp": 1780345337.411735
+      "creation_timestamp": 1780347499.707375
     },
     {
       "eval_id": "bb5cc9cb",
@@ -513,10 +513,10 @@
         }
       },
       "session_input": {
-        "app_name": "playground_json_passthrough",
+        "app_name": "playground_markdown_table",
         "user_id": "eval_user"
       },
-      "creation_timestamp": 1780349847.961179
+      "creation_timestamp": 1780347499.707995
     },
     {
       "eval_id": "1ff5a365",
@@ -615,10 +615,10 @@
         }
       },
       "session_input": {
-        "app_name": "playground_json_passthrough",
+        "app_name": "playground_markdown_table",
         "user_id": "eval_user"
       },
-      "creation_timestamp": 1780349847.962639
+      "creation_timestamp": 1780347499.708489
     },
     {
       "eval_id": "9668ed02",
@@ -717,15 +717,15 @@
         }
       },
       "session_input": {
-        "app_name": "playground_json_passthrough",
+        "app_name": "playground_markdown_table",
         "user_id": "eval_user"
       },
-      "creation_timestamp": 1780349847.963606
+      "creation_timestamp": 1780347499.709301
     },
     {
-      "eval_id": "151d97ad",
+      "eval_id": "eee5e9ca",
       "conversation_scenario": {
-        "starting_prompt": "What economy flights are there from JFK to CDG (Paris) between July 1st and July 7th 2026?",
+        "starting_prompt": "What economy flights are there from JFK to Paris between July 1st and July 7th 2026?",
         "conversation_plan": "Step 1: Ask for the full range search JFK to CDG 2026-07-01 to 2026-07-07. After results arrive, ask 'Which day is cheapest to fly?' Step 2: Ask 'Are there any nonstop options? If so, which dates have them?' — verify the agent does not fabricate nonstop routes that don't exist. Step 3: Ask 'Show me only flights under $400' — observe whether the agent attempts to filter or gracefully explains it cannot. Step 4: Ask 'What about business class on July 4th?' — this requires a new search with different cabin/date params; evaluate whether the agent correctly triggers a new search or explains the limitation. End after step 4.",
         "user_persona": {
           "id": "DEAL_HUNTER",
@@ -749,11 +749,11 @@
         }
       },
       "session_input": {
-        "app_name": "playground_json_passthrough",
+        "app_name": "playground_markdown_table",
         "user_id": "eval_user"
       },
-      "creation_timestamp": 1780349847.964254
+      "creation_timestamp": 1780347499.710949
     }
   ],
-  "creation_timestamp": 1780345336.1762838
+  "creation_timestamp": 1780347498.487911
 }
