@@ -18,6 +18,14 @@
 #   - GOOGLE_CLOUD_PROJECT set
 #   - gcloud auth application-default login
 #   - Run from the examples/travel-concierge/ directory
+#
+# Known limitation (Python 3.14.0):
+#   GEPA crashes on iteration 2+ with:
+#     TypeError: type NoneType doesn't define __round__ method
+#   Root cause: same Python 3.14 aiohttp SSL RecursionError that blocks
+#   json_code_block eval — the SSL crash leaves eval_metric_result.score=None,
+#   and local_eval_sampler.py calls round(None, 2).
+#   Workaround: run on Python <= 3.13.
 
 set -euo pipefail
 

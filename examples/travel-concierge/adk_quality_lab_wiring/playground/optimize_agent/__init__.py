@@ -48,4 +48,10 @@ root_agent = Agent(
     generate_content_config=GenerateContentConfig(temperature=0.1, top_p=0.5),
 )
 
-__all__ = ["root_agent"]
+# adk optimize loads __init__.py as the module, then accesses
+# agent_module.agent.root_agent — so we need to expose a nested `agent`
+# attribute that itself has a root_agent. We do this with a simple namespace.
+import types as _types
+agent = _types.SimpleNamespace(root_agent=root_agent)
+
+__all__ = ["root_agent", "agent"]

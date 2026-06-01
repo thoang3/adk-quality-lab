@@ -1,0 +1,759 @@
+{
+  "eval_set_id": "cash_sim_markdown_table",
+  "name": "cash_sim_markdown_table",
+  "eval_cases": [
+    {
+      "eval_id": "a96cd109",
+      "conversation_scenario": {
+        "starting_prompt": "Hi, I need to book a flight.",
+        "conversation_plan": "Ask the agent to find economy cash flights from SFO to NRT on 2026-07-23. Confirm the results were returned and note how many flights were listed.",
+        "user_persona": {
+          "id": "NOVICE",
+          "description": "A Novice is trying to solve a problem they don't fully understand, and they rely heavily on the Agent for guidance. Novices are patient with the Agent's questions, but are unable to troubleshoot the Agent's mistakes. Novices are also unable to correct the Agent.",
+          "behaviors": [
+            {
+              "name": "Advance if the Agent succeeds",
+              "description": "The Generated User Response should stick to the Conversation Plan as much as possible. It may deviate in response to Agent requests. The User Simulator starts with high-level goals, expecting the Agent to ask for specific details.",
+              "behavior_instructions": [
+                "If the Agent succeeds, make the next request from the Conversation Plan.",
+                "Skip redundant requests already fulfilled by the Agent.",
+                "When making a request, state only the high-level goal you want to achieve next.",
+                "Do NOT provide any additional information related to the high-level goal. The Agent must ask for it."
+              ],
+              "violation_rubrics": [
+                "The Generated User Response repeats a high-level goal that was already completed in previous turns.",
+                "The Generated User Response provides details for a high-level goal that was already completed.",
+                "The Generated User Response invents a new goal not present in the Conversation Plan or in the Agent's messages.",
+                "The Generated User Response invents details (e.g., a made-up phone number or address) not provided in the Conversation Plan or in the Agent's messages.",
+                "The Generated User Response provides specific details for a high-level goal (email content, recipient address, phone numbers) BEFORE the Agent has explicitly asked for them.",
+                "The Generated User Response tries to accomplish more than one high-level task in a single turn."
+              ]
+            },
+            {
+              "name": "Do not correct the Agent",
+              "description": "The User Simulator should end the conversation when the Agent provides an illogical or incorrect statement.",
+              "behavior_instructions": [
+                "If the Agent made an illogical or incorrect statement, end the conversation with `{{ stop_signal }}`."
+              ],
+              "violation_rubrics": [
+                "The Agent makes a mistake or an assumption and the Generated User Response corrects the Agent."
+              ]
+            },
+            {
+              "name": "Answer all questions",
+              "description": "The User Simulator should address EVERY question that the Agent asked, e.g., if the Agent asks \"How is your day going?\", the User Simulator should respond.",
+              "behavior_instructions": [
+                "Only answer the Agent's questions using information from the Conversation Plan.",
+                "Do NOT provide any additional information the Agent did not explicitly ask for.",
+                "If you do not have the information requested by the Agent, inform the Agent. Do NOT make up information that is not in the Conversation Plan. Acknowledge you don't know the information."
+              ],
+              "violation_rubrics": [
+                "The Agent asked a question (or multiple questions), and the Generated User Response failed to address one or all of them.",
+                "The Agent asked for information NOT in the Conversation Plan, and the Generated User Response made up an answer instead of stating, e.g., \"I don't know\" or \"I don't have that info.\""
+              ]
+            },
+            {
+              "name": "End the conversation appropriately",
+              "description": " A conversation is considered completed if ANY of the following stop conditions are true:\n- The Agent has confirmed the completion of all the high-level goals in the Conversation Plan.\n- The Agent successfully transferred the User Simulator to a human/live agent.\n- The Agent failed.\nThe Agent fails if it is unable to execute an action (e.g., calls a function incorrectly) or fails to provide a response expected by the Conversation Plan. Asking a clarification question is not a failure.",
+              "behavior_instructions": [
+                "End the conversation when any of the stopping conditions are met; do NOT end prematurely.",
+                "When ending the conversation because the Agent has completed all the high-level goals, you must wait until the Agent has confirmed the completion of all the goals before ending.",
+                "Output `{{ stop_signal }}` as part of your response to indicate that the conversation with the Agent is over.",
+                "Pay attention to the last Agent message in the Conversation History. If the Agent message contains a failure, end the conversation."
+              ],
+              "violation_rubrics": [
+                "The conversation meets one of the stop conditions above, but the Generated User Response did not use `{{ stop_signal }}`.",
+                "The Generated User Response used `{{ stop_signal }}` but the conversation does not meet any of the stop conditions above.",
+                "On the first Agent failure, the Generated User Response continues the conversation without using `{{ stop_signal }}`.",
+                "After the first Agent failure, the Generated User Response tries to continue the conversation without using `{{ stop_signal }}`."
+              ]
+            },
+            {
+              "name": "Conversational tone",
+              "description": "The User Simulator sounds informal. NOTE: `{{ stop_signal }}` is appropriate language.",
+              "behavior_instructions": [
+                "The User Simulator should sound like a normal human having a casual conversation.",
+                "Avoid answers that are too formal in nature or employ overly polite phrases and expressions.",
+                "Avoid answers that lack natural conversational framing, for example, sterile or purely functional responses."
+              ],
+              "violation_rubrics": [
+                "The Generated User Response is sterile and purely functional (direct commands) with no natural conversational framing.",
+                "The Generated User Response is too formal in nature, employing overly polite phrases and expressions.",
+                "The Generated User Response is a \"wall of text\" where a simple sentence would suffice.",
+                "The tone of the Generated User Response is inconsist with previous user turns (if present)."
+              ]
+            }
+          ]
+        }
+      },
+      "session_input": {
+        "app_name": "playground_markdown_table",
+        "user_id": "eval_user"
+      },
+      "creation_timestamp": 1780347499.705595
+    },
+    {
+      "eval_id": "93d715cc",
+      "conversation_scenario": {
+        "starting_prompt": "Find me all economy flights from JFK to CDG on 2026-06-07.",
+        "conversation_plan": "Request the full flight list from JFK to CDG on 2026-06-07 in economy class. Once results arrive, ask the agent which flight has the shortest duration.",
+        "user_persona": {
+          "id": "EXPERT",
+          "description": "An Expert knows exactly what they want and views the Agent as a tool to execute their commands as efficiently as possible. Experts have little patience for chit-chat or unnecessary questions.",
+          "behaviors": [
+            {
+              "name": "Advance in the Agent succeeds",
+              "description": "The Generated User Response should stick to the Conversation Plan.When starting a new request, the Generated User Response should provide all the information required to accomplish a high-level goal.",
+              "behavior_instructions": [
+                "If the Agent succeeds, make the next request from the Conversation Plan.",
+                "Skip redundant requests already fulfilled by the Agent.",
+                "When making a new request, state both the high-level goal you want to achieve next AND any additional details you need to achieve that goal."
+              ],
+              "violation_rubrics": [
+                "The Generated User Response repeats a high-level goal that was already completed in previous turns.",
+                "The Generated User Response provides details for a high-level goal that was already completed.",
+                "The Generated User Response response agrees to change the topic or perform a task not listed in the Conversation Plan.",
+                "The Generated User Response invents a new goal not present in the Conversation Plan.",
+                "The Generated User Response invents details (e.g., a made-up phone number or address) not provided in the Conversation Plan.",
+                "The Generated User Response only provides the high-level goal and the Agent has to ask for additional details.",
+                "The Generated User Response tries to accomplish more than one high-level task in a single turn."
+              ]
+            },
+            {
+              "name": "Answer only relevant questions",
+              "description": "The User Simulator should not answer questions that are not relevant to the high-level goals in the Conversation Plan (e.g., \"How is your day going?\"). If all questions the Agent asked are not relevant, the User Simulator should enforce the Conversation Plan (e.g., \"Please stick to writing the email.\").",
+              "behavior_instructions": [
+                "Only answer the Agent's questions using information from the Conversation Plan.",
+                "Do NOT provide any additional information the Agent did not explicitly ask for.",
+                "If you do not have the information requested by the Agent, inform the Agent. Do NOT make up information that is not in the Conversation Plan.",
+                "Do NOT answer questions that are not relevant to the high level goals in the Conversation Plan."
+              ],
+              "violation_rubrics": [
+                "The Agent asked a question that is not relevant to the high-level goal and the Generated User Response responds to it."
+              ]
+            },
+            {
+              "name": "Correct the Agent if it makes a mistake",
+              "description": "The User Simulator should catch and correct the Agent's mistakes.",
+              "behavior_instructions": [
+                "Challenge illogical or incorrect statements made by the Agent.",
+                "If the Agent did an incorrect operation, ask the Agent to fix it."
+              ],
+              "violation_rubrics": [
+                "The Agent provided incorrect information, and the Generated User Response continues as if it was correct.",
+                "The Agent made a dangerous assumption (e.g., sending an email without asking for the content first), and the Generated User Response continues without correcting the Agent."
+              ]
+            },
+            {
+              "name": "Troubleshoot once (if necessary)",
+              "description": "The User Simulator should only troubleshoot the Agent ONCE. Troubleshooting is defined as the User Simulator helping the Agent after the Agent fails to execute an action (e.g., calls a function incorrectly) or fails to provide a response expected by the Conversation Plan. Answering a clarification question from the Agent is NOT troubleshooting. NOTE: Please check the conversation history count for Agent errors.",
+              "behavior_instructions": [
+                "If the Agent failed to complete a request for the first time, troubleshoot the failure.",
+                "You should only troubleshoot ONCE per conversation. DO NOT troubleshoot again if the Conversation History shows that the you have already tried to troubleshoot any request."
+              ],
+              "violation_rubrics": [
+                "The Generated User Response ends the conversation immediately after the first Agent failure.",
+                "On the second Agent failure, the Generated User Response response continues the conversation without using `{{ stop_signal }}`.",
+                "After the second Agent failure, the Generated User Response tries to continue the conversation or continues addressing failures without using `{{ stop_signal }}`."
+              ]
+            },
+            {
+              "name": "End the conversation appropriately",
+              "description": "A conversation is complete if ANY of the following stop conditions are true:\n- The Agent has confirmed the completion of all the high-level goals in the Conversation Plan.\n- The Agent successfully transferred the User Simulator to a human/live agent.\n- The Agent failed more than once.\nThe Agent fails if it is unable to execute an action (e.g., calls a function incorrectly) or fails to provide a response expected by the Conversation Plan. Asking a clarification question is not a failure.",
+              "behavior_instructions": [
+                "End the conversation only when any of the stopping conditions are met; do NOT end prematurely.",
+                "When ending the conversation because the Agent has completed all the high-level goals, you must wait until the Agent has confirmed the completion of all the goals before ending.",
+                "Output `{{ stop_signal }}` as part of your response to indicate that the conversation with the Agent is over.",
+                "Pay attention to the Conversation History and count the number of Agent failures. A second failure should trigger the end of the conversation."
+              ],
+              "violation_rubrics": [
+                "The conversation meets one of the stop conditions above, but the Generated User Response did not use `{{ stop_signal }}`.",
+                "The Generated User Response used `{{ stop_signal }}` but the conversation does not meet any of the stop conditions above."
+              ]
+            },
+            {
+              "name": "Professional tone",
+              "description": "The User Simulator use clear, technical language. NOTE: `{{ stop_signal }}` is appropriate language.",
+              "behavior_instructions": [
+                "The User Simulator should use clear, technical language.",
+                "Avoid slang, frequent abbreviations, emojis, or excessive social filler and personal asides."
+              ],
+              "violation_rubrics": [
+                "The Generated User Response includes slang (e.g., \"gimme,\" \"kinda,\" \"lol\"), frequent abbreviations (e.g., \"info,\" \"btw\"), or emojis.",
+                "The Generated User Response includes significant social filler or personal asides, e.g., \"Hi there! I hope you're having a good day.",
+                "The Generated User Response is a \"wall of text\" where a a direct sentence would suffice.",
+                "The tone of the Generated User Response is inconsist with previous user turns (if present)."
+              ]
+            }
+          ]
+        }
+      },
+      "session_input": {
+        "app_name": "playground_markdown_table",
+        "user_id": "eval_user"
+      },
+      "creation_timestamp": 1780347499.706028
+    },
+    {
+      "eval_id": "44839959",
+      "conversation_scenario": {
+        "starting_prompt": "I want to fly to Tokyo next month.",
+        "conversation_plan": "Start vague — no origin, no date. When the agent asks for missing details, provide: origin SFO, date 2026-07-23, economy class. Confirm the results were returned.",
+        "user_persona": {
+          "id": "NOVICE",
+          "description": "A Novice is trying to solve a problem they don't fully understand, and they rely heavily on the Agent for guidance. Novices are patient with the Agent's questions, but are unable to troubleshoot the Agent's mistakes. Novices are also unable to correct the Agent.",
+          "behaviors": [
+            {
+              "name": "Advance if the Agent succeeds",
+              "description": "The Generated User Response should stick to the Conversation Plan as much as possible. It may deviate in response to Agent requests. The User Simulator starts with high-level goals, expecting the Agent to ask for specific details.",
+              "behavior_instructions": [
+                "If the Agent succeeds, make the next request from the Conversation Plan.",
+                "Skip redundant requests already fulfilled by the Agent.",
+                "When making a request, state only the high-level goal you want to achieve next.",
+                "Do NOT provide any additional information related to the high-level goal. The Agent must ask for it."
+              ],
+              "violation_rubrics": [
+                "The Generated User Response repeats a high-level goal that was already completed in previous turns.",
+                "The Generated User Response provides details for a high-level goal that was already completed.",
+                "The Generated User Response invents a new goal not present in the Conversation Plan or in the Agent's messages.",
+                "The Generated User Response invents details (e.g., a made-up phone number or address) not provided in the Conversation Plan or in the Agent's messages.",
+                "The Generated User Response provides specific details for a high-level goal (email content, recipient address, phone numbers) BEFORE the Agent has explicitly asked for them.",
+                "The Generated User Response tries to accomplish more than one high-level task in a single turn."
+              ]
+            },
+            {
+              "name": "Do not correct the Agent",
+              "description": "The User Simulator should end the conversation when the Agent provides an illogical or incorrect statement.",
+              "behavior_instructions": [
+                "If the Agent made an illogical or incorrect statement, end the conversation with `{{ stop_signal }}`."
+              ],
+              "violation_rubrics": [
+                "The Agent makes a mistake or an assumption and the Generated User Response corrects the Agent."
+              ]
+            },
+            {
+              "name": "Answer all questions",
+              "description": "The User Simulator should address EVERY question that the Agent asked, e.g., if the Agent asks \"How is your day going?\", the User Simulator should respond.",
+              "behavior_instructions": [
+                "Only answer the Agent's questions using information from the Conversation Plan.",
+                "Do NOT provide any additional information the Agent did not explicitly ask for.",
+                "If you do not have the information requested by the Agent, inform the Agent. Do NOT make up information that is not in the Conversation Plan. Acknowledge you don't know the information."
+              ],
+              "violation_rubrics": [
+                "The Agent asked a question (or multiple questions), and the Generated User Response failed to address one or all of them.",
+                "The Agent asked for information NOT in the Conversation Plan, and the Generated User Response made up an answer instead of stating, e.g., \"I don't know\" or \"I don't have that info.\""
+              ]
+            },
+            {
+              "name": "End the conversation appropriately",
+              "description": " A conversation is considered completed if ANY of the following stop conditions are true:\n- The Agent has confirmed the completion of all the high-level goals in the Conversation Plan.\n- The Agent successfully transferred the User Simulator to a human/live agent.\n- The Agent failed.\nThe Agent fails if it is unable to execute an action (e.g., calls a function incorrectly) or fails to provide a response expected by the Conversation Plan. Asking a clarification question is not a failure.",
+              "behavior_instructions": [
+                "End the conversation when any of the stopping conditions are met; do NOT end prematurely.",
+                "When ending the conversation because the Agent has completed all the high-level goals, you must wait until the Agent has confirmed the completion of all the goals before ending.",
+                "Output `{{ stop_signal }}` as part of your response to indicate that the conversation with the Agent is over.",
+                "Pay attention to the last Agent message in the Conversation History. If the Agent message contains a failure, end the conversation."
+              ],
+              "violation_rubrics": [
+                "The conversation meets one of the stop conditions above, but the Generated User Response did not use `{{ stop_signal }}`.",
+                "The Generated User Response used `{{ stop_signal }}` but the conversation does not meet any of the stop conditions above.",
+                "On the first Agent failure, the Generated User Response continues the conversation without using `{{ stop_signal }}`.",
+                "After the first Agent failure, the Generated User Response tries to continue the conversation without using `{{ stop_signal }}`."
+              ]
+            },
+            {
+              "name": "Conversational tone",
+              "description": "The User Simulator sounds informal. NOTE: `{{ stop_signal }}` is appropriate language.",
+              "behavior_instructions": [
+                "The User Simulator should sound like a normal human having a casual conversation.",
+                "Avoid answers that are too formal in nature or employ overly polite phrases and expressions.",
+                "Avoid answers that lack natural conversational framing, for example, sterile or purely functional responses."
+              ],
+              "violation_rubrics": [
+                "The Generated User Response is sterile and purely functional (direct commands) with no natural conversational framing.",
+                "The Generated User Response is too formal in nature, employing overly polite phrases and expressions.",
+                "The Generated User Response is a \"wall of text\" where a simple sentence would suffice.",
+                "The tone of the Generated User Response is inconsist with previous user turns (if present)."
+              ]
+            }
+          ]
+        }
+      },
+      "session_input": {
+        "app_name": "playground_markdown_table",
+        "user_id": "eval_user"
+      },
+      "creation_timestamp": 1780347499.706361
+    },
+    {
+      "eval_id": "8b421f17",
+      "conversation_scenario": {
+        "starting_prompt": "Show me cash flights from LAX to NRT.",
+        "conversation_plan": "Ask for cash flights LAX to NRT. When asked for a date, say 2026-06-07 in economy. After results arrive, ask how many non-stop options are available.",
+        "user_persona": {
+          "id": "IMPATIENT_TRAVELER",
+          "description": "A busy professional who wants quick, direct answers with no fluff.",
+          "behaviors": [
+            {
+              "name": "Terse responses",
+              "description": "Keeps replies under 10 words.",
+              "behavior_instructions": [
+                "Respond in 10 words or fewer.",
+                "Skip pleasantries and filler."
+              ],
+              "violation_rubrics": [
+                "Response is longer than 15 words.",
+                "Response contains 'please' or 'thank you'."
+              ]
+            }
+          ]
+        }
+      },
+      "session_input": {
+        "app_name": "playground_markdown_table",
+        "user_id": "eval_user"
+      },
+      "creation_timestamp": 1780347499.706781
+    },
+    {
+      "eval_id": "09b297ed",
+      "conversation_scenario": {
+        "starting_prompt": "What economy flights are available from SFO to NRT on July 23rd 2026?",
+        "conversation_plan": "Ask for the flight list. After receiving results, ask the agent to show only flights with fewer than 2 stops. If the agent cannot filter, note it and end the conversation.",
+        "user_persona": {
+          "id": "EXPERT",
+          "description": "An Expert knows exactly what they want and views the Agent as a tool to execute their commands as efficiently as possible. Experts have little patience for chit-chat or unnecessary questions.",
+          "behaviors": [
+            {
+              "name": "Advance in the Agent succeeds",
+              "description": "The Generated User Response should stick to the Conversation Plan.When starting a new request, the Generated User Response should provide all the information required to accomplish a high-level goal.",
+              "behavior_instructions": [
+                "If the Agent succeeds, make the next request from the Conversation Plan.",
+                "Skip redundant requests already fulfilled by the Agent.",
+                "When making a new request, state both the high-level goal you want to achieve next AND any additional details you need to achieve that goal."
+              ],
+              "violation_rubrics": [
+                "The Generated User Response repeats a high-level goal that was already completed in previous turns.",
+                "The Generated User Response provides details for a high-level goal that was already completed.",
+                "The Generated User Response response agrees to change the topic or perform a task not listed in the Conversation Plan.",
+                "The Generated User Response invents a new goal not present in the Conversation Plan.",
+                "The Generated User Response invents details (e.g., a made-up phone number or address) not provided in the Conversation Plan.",
+                "The Generated User Response only provides the high-level goal and the Agent has to ask for additional details.",
+                "The Generated User Response tries to accomplish more than one high-level task in a single turn."
+              ]
+            },
+            {
+              "name": "Answer only relevant questions",
+              "description": "The User Simulator should not answer questions that are not relevant to the high-level goals in the Conversation Plan (e.g., \"How is your day going?\"). If all questions the Agent asked are not relevant, the User Simulator should enforce the Conversation Plan (e.g., \"Please stick to writing the email.\").",
+              "behavior_instructions": [
+                "Only answer the Agent's questions using information from the Conversation Plan.",
+                "Do NOT provide any additional information the Agent did not explicitly ask for.",
+                "If you do not have the information requested by the Agent, inform the Agent. Do NOT make up information that is not in the Conversation Plan.",
+                "Do NOT answer questions that are not relevant to the high level goals in the Conversation Plan."
+              ],
+              "violation_rubrics": [
+                "The Agent asked a question that is not relevant to the high-level goal and the Generated User Response responds to it."
+              ]
+            },
+            {
+              "name": "Correct the Agent if it makes a mistake",
+              "description": "The User Simulator should catch and correct the Agent's mistakes.",
+              "behavior_instructions": [
+                "Challenge illogical or incorrect statements made by the Agent.",
+                "If the Agent did an incorrect operation, ask the Agent to fix it."
+              ],
+              "violation_rubrics": [
+                "The Agent provided incorrect information, and the Generated User Response continues as if it was correct.",
+                "The Agent made a dangerous assumption (e.g., sending an email without asking for the content first), and the Generated User Response continues without correcting the Agent."
+              ]
+            },
+            {
+              "name": "Troubleshoot once (if necessary)",
+              "description": "The User Simulator should only troubleshoot the Agent ONCE. Troubleshooting is defined as the User Simulator helping the Agent after the Agent fails to execute an action (e.g., calls a function incorrectly) or fails to provide a response expected by the Conversation Plan. Answering a clarification question from the Agent is NOT troubleshooting. NOTE: Please check the conversation history count for Agent errors.",
+              "behavior_instructions": [
+                "If the Agent failed to complete a request for the first time, troubleshoot the failure.",
+                "You should only troubleshoot ONCE per conversation. DO NOT troubleshoot again if the Conversation History shows that the you have already tried to troubleshoot any request."
+              ],
+              "violation_rubrics": [
+                "The Generated User Response ends the conversation immediately after the first Agent failure.",
+                "On the second Agent failure, the Generated User Response response continues the conversation without using `{{ stop_signal }}`.",
+                "After the second Agent failure, the Generated User Response tries to continue the conversation or continues addressing failures without using `{{ stop_signal }}`."
+              ]
+            },
+            {
+              "name": "End the conversation appropriately",
+              "description": "A conversation is complete if ANY of the following stop conditions are true:\n- The Agent has confirmed the completion of all the high-level goals in the Conversation Plan.\n- The Agent successfully transferred the User Simulator to a human/live agent.\n- The Agent failed more than once.\nThe Agent fails if it is unable to execute an action (e.g., calls a function incorrectly) or fails to provide a response expected by the Conversation Plan. Asking a clarification question is not a failure.",
+              "behavior_instructions": [
+                "End the conversation only when any of the stopping conditions are met; do NOT end prematurely.",
+                "When ending the conversation because the Agent has completed all the high-level goals, you must wait until the Agent has confirmed the completion of all the goals before ending.",
+                "Output `{{ stop_signal }}` as part of your response to indicate that the conversation with the Agent is over.",
+                "Pay attention to the Conversation History and count the number of Agent failures. A second failure should trigger the end of the conversation."
+              ],
+              "violation_rubrics": [
+                "The conversation meets one of the stop conditions above, but the Generated User Response did not use `{{ stop_signal }}`.",
+                "The Generated User Response used `{{ stop_signal }}` but the conversation does not meet any of the stop conditions above."
+              ]
+            },
+            {
+              "name": "Professional tone",
+              "description": "The User Simulator use clear, technical language. NOTE: `{{ stop_signal }}` is appropriate language.",
+              "behavior_instructions": [
+                "The User Simulator should use clear, technical language.",
+                "Avoid slang, frequent abbreviations, emojis, or excessive social filler and personal asides."
+              ],
+              "violation_rubrics": [
+                "The Generated User Response includes slang (e.g., \"gimme,\" \"kinda,\" \"lol\"), frequent abbreviations (e.g., \"info,\" \"btw\"), or emojis.",
+                "The Generated User Response includes significant social filler or personal asides, e.g., \"Hi there! I hope you're having a good day.",
+                "The Generated User Response is a \"wall of text\" where a a direct sentence would suffice.",
+                "The tone of the Generated User Response is inconsist with previous user turns (if present)."
+              ]
+            }
+          ]
+        }
+      },
+      "session_input": {
+        "app_name": "playground_markdown_table",
+        "user_id": "eval_user"
+      },
+      "creation_timestamp": 1780347499.707375
+    },
+    {
+      "eval_id": "bb5cc9cb",
+      "conversation_scenario": {
+        "starting_prompt": "Find economy flights from SFO to NRT on 2026-07-23.",
+        "conversation_plan": "Step 1: Ask for economy flights SFO to NRT on 2026-07-23 and wait for the full list. Step 2: Ask 'Show me ANA only' and observe whether the agent filters or explains it cannot. Step 3: Ask 'How about all nonstop options instead?' and see if the agent can highlight nonstop flights from the already-returned list or re-explains scope. Step 4: Ask 'Show me flights under 12 hours total' and observe the response. At each step, note whether the agent provides a helpful, accurate reply or gracefully declines with an explanation. End the conversation after step 4.",
+        "user_persona": {
+          "id": "EXPERT",
+          "description": "An Expert knows exactly what they want and views the Agent as a tool to execute their commands as efficiently as possible. Experts have little patience for chit-chat or unnecessary questions.",
+          "behaviors": [
+            {
+              "name": "Advance in the Agent succeeds",
+              "description": "The Generated User Response should stick to the Conversation Plan.When starting a new request, the Generated User Response should provide all the information required to accomplish a high-level goal.",
+              "behavior_instructions": [
+                "If the Agent succeeds, make the next request from the Conversation Plan.",
+                "Skip redundant requests already fulfilled by the Agent.",
+                "When making a new request, state both the high-level goal you want to achieve next AND any additional details you need to achieve that goal."
+              ],
+              "violation_rubrics": [
+                "The Generated User Response repeats a high-level goal that was already completed in previous turns.",
+                "The Generated User Response provides details for a high-level goal that was already completed.",
+                "The Generated User Response response agrees to change the topic or perform a task not listed in the Conversation Plan.",
+                "The Generated User Response invents a new goal not present in the Conversation Plan.",
+                "The Generated User Response invents details (e.g., a made-up phone number or address) not provided in the Conversation Plan.",
+                "The Generated User Response only provides the high-level goal and the Agent has to ask for additional details.",
+                "The Generated User Response tries to accomplish more than one high-level task in a single turn."
+              ]
+            },
+            {
+              "name": "Answer only relevant questions",
+              "description": "The User Simulator should not answer questions that are not relevant to the high-level goals in the Conversation Plan (e.g., \"How is your day going?\"). If all questions the Agent asked are not relevant, the User Simulator should enforce the Conversation Plan (e.g., \"Please stick to writing the email.\").",
+              "behavior_instructions": [
+                "Only answer the Agent's questions using information from the Conversation Plan.",
+                "Do NOT provide any additional information the Agent did not explicitly ask for.",
+                "If you do not have the information requested by the Agent, inform the Agent. Do NOT make up information that is not in the Conversation Plan.",
+                "Do NOT answer questions that are not relevant to the high level goals in the Conversation Plan."
+              ],
+              "violation_rubrics": [
+                "The Agent asked a question that is not relevant to the high-level goal and the Generated User Response responds to it."
+              ]
+            },
+            {
+              "name": "Correct the Agent if it makes a mistake",
+              "description": "The User Simulator should catch and correct the Agent's mistakes.",
+              "behavior_instructions": [
+                "Challenge illogical or incorrect statements made by the Agent.",
+                "If the Agent did an incorrect operation, ask the Agent to fix it."
+              ],
+              "violation_rubrics": [
+                "The Agent provided incorrect information, and the Generated User Response continues as if it was correct.",
+                "The Agent made a dangerous assumption (e.g., sending an email without asking for the content first), and the Generated User Response continues without correcting the Agent."
+              ]
+            },
+            {
+              "name": "Troubleshoot once (if necessary)",
+              "description": "The User Simulator should only troubleshoot the Agent ONCE. Troubleshooting is defined as the User Simulator helping the Agent after the Agent fails to execute an action (e.g., calls a function incorrectly) or fails to provide a response expected by the Conversation Plan. Answering a clarification question from the Agent is NOT troubleshooting. NOTE: Please check the conversation history count for Agent errors.",
+              "behavior_instructions": [
+                "If the Agent failed to complete a request for the first time, troubleshoot the failure.",
+                "You should only troubleshoot ONCE per conversation. DO NOT troubleshoot again if the Conversation History shows that the you have already tried to troubleshoot any request."
+              ],
+              "violation_rubrics": [
+                "The Generated User Response ends the conversation immediately after the first Agent failure.",
+                "On the second Agent failure, the Generated User Response response continues the conversation without using `{{ stop_signal }}`.",
+                "After the second Agent failure, the Generated User Response tries to continue the conversation or continues addressing failures without using `{{ stop_signal }}`."
+              ]
+            },
+            {
+              "name": "End the conversation appropriately",
+              "description": "A conversation is complete if ANY of the following stop conditions are true:\n- The Agent has confirmed the completion of all the high-level goals in the Conversation Plan.\n- The Agent successfully transferred the User Simulator to a human/live agent.\n- The Agent failed more than once.\nThe Agent fails if it is unable to execute an action (e.g., calls a function incorrectly) or fails to provide a response expected by the Conversation Plan. Asking a clarification question is not a failure.",
+              "behavior_instructions": [
+                "End the conversation only when any of the stopping conditions are met; do NOT end prematurely.",
+                "When ending the conversation because the Agent has completed all the high-level goals, you must wait until the Agent has confirmed the completion of all the goals before ending.",
+                "Output `{{ stop_signal }}` as part of your response to indicate that the conversation with the Agent is over.",
+                "Pay attention to the Conversation History and count the number of Agent failures. A second failure should trigger the end of the conversation."
+              ],
+              "violation_rubrics": [
+                "The conversation meets one of the stop conditions above, but the Generated User Response did not use `{{ stop_signal }}`.",
+                "The Generated User Response used `{{ stop_signal }}` but the conversation does not meet any of the stop conditions above."
+              ]
+            },
+            {
+              "name": "Professional tone",
+              "description": "The User Simulator use clear, technical language. NOTE: `{{ stop_signal }}` is appropriate language.",
+              "behavior_instructions": [
+                "The User Simulator should use clear, technical language.",
+                "Avoid slang, frequent abbreviations, emojis, or excessive social filler and personal asides."
+              ],
+              "violation_rubrics": [
+                "The Generated User Response includes slang (e.g., \"gimme,\" \"kinda,\" \"lol\"), frequent abbreviations (e.g., \"info,\" \"btw\"), or emojis.",
+                "The Generated User Response includes significant social filler or personal asides, e.g., \"Hi there! I hope you're having a good day.",
+                "The Generated User Response is a \"wall of text\" where a a direct sentence would suffice.",
+                "The tone of the Generated User Response is inconsist with previous user turns (if present)."
+              ]
+            }
+          ]
+        }
+      },
+      "session_input": {
+        "app_name": "playground_markdown_table",
+        "user_id": "eval_user"
+      },
+      "creation_timestamp": 1780347499.707995
+    },
+    {
+      "eval_id": "1ff5a365",
+      "conversation_scenario": {
+        "starting_prompt": "I'm looking for economy flights from LAX to NRT on June 7th 2026.",
+        "conversation_plan": "Step 1: Request the full flight list for LAX to NRT on 2026-06-07 economy. Step 2: After results arrive, ask 'Can you show me only flights under 10 hours?' and note how the agent responds. Step 3: Follow up with 'What about under 8 hours?' — check if the agent responds consistently. Step 4: Ask 'Which of these is the shortest flight?' to see if the agent can answer a factual question about the results without filtering. Evaluate whether the agent maintains context across all four turns and gives coherent, accurate answers.",
+        "user_persona": {
+          "id": "EXPERT",
+          "description": "An Expert knows exactly what they want and views the Agent as a tool to execute their commands as efficiently as possible. Experts have little patience for chit-chat or unnecessary questions.",
+          "behaviors": [
+            {
+              "name": "Advance in the Agent succeeds",
+              "description": "The Generated User Response should stick to the Conversation Plan.When starting a new request, the Generated User Response should provide all the information required to accomplish a high-level goal.",
+              "behavior_instructions": [
+                "If the Agent succeeds, make the next request from the Conversation Plan.",
+                "Skip redundant requests already fulfilled by the Agent.",
+                "When making a new request, state both the high-level goal you want to achieve next AND any additional details you need to achieve that goal."
+              ],
+              "violation_rubrics": [
+                "The Generated User Response repeats a high-level goal that was already completed in previous turns.",
+                "The Generated User Response provides details for a high-level goal that was already completed.",
+                "The Generated User Response response agrees to change the topic or perform a task not listed in the Conversation Plan.",
+                "The Generated User Response invents a new goal not present in the Conversation Plan.",
+                "The Generated User Response invents details (e.g., a made-up phone number or address) not provided in the Conversation Plan.",
+                "The Generated User Response only provides the high-level goal and the Agent has to ask for additional details.",
+                "The Generated User Response tries to accomplish more than one high-level task in a single turn."
+              ]
+            },
+            {
+              "name": "Answer only relevant questions",
+              "description": "The User Simulator should not answer questions that are not relevant to the high-level goals in the Conversation Plan (e.g., \"How is your day going?\"). If all questions the Agent asked are not relevant, the User Simulator should enforce the Conversation Plan (e.g., \"Please stick to writing the email.\").",
+              "behavior_instructions": [
+                "Only answer the Agent's questions using information from the Conversation Plan.",
+                "Do NOT provide any additional information the Agent did not explicitly ask for.",
+                "If you do not have the information requested by the Agent, inform the Agent. Do NOT make up information that is not in the Conversation Plan.",
+                "Do NOT answer questions that are not relevant to the high level goals in the Conversation Plan."
+              ],
+              "violation_rubrics": [
+                "The Agent asked a question that is not relevant to the high-level goal and the Generated User Response responds to it."
+              ]
+            },
+            {
+              "name": "Correct the Agent if it makes a mistake",
+              "description": "The User Simulator should catch and correct the Agent's mistakes.",
+              "behavior_instructions": [
+                "Challenge illogical or incorrect statements made by the Agent.",
+                "If the Agent did an incorrect operation, ask the Agent to fix it."
+              ],
+              "violation_rubrics": [
+                "The Agent provided incorrect information, and the Generated User Response continues as if it was correct.",
+                "The Agent made a dangerous assumption (e.g., sending an email without asking for the content first), and the Generated User Response continues without correcting the Agent."
+              ]
+            },
+            {
+              "name": "Troubleshoot once (if necessary)",
+              "description": "The User Simulator should only troubleshoot the Agent ONCE. Troubleshooting is defined as the User Simulator helping the Agent after the Agent fails to execute an action (e.g., calls a function incorrectly) or fails to provide a response expected by the Conversation Plan. Answering a clarification question from the Agent is NOT troubleshooting. NOTE: Please check the conversation history count for Agent errors.",
+              "behavior_instructions": [
+                "If the Agent failed to complete a request for the first time, troubleshoot the failure.",
+                "You should only troubleshoot ONCE per conversation. DO NOT troubleshoot again if the Conversation History shows that the you have already tried to troubleshoot any request."
+              ],
+              "violation_rubrics": [
+                "The Generated User Response ends the conversation immediately after the first Agent failure.",
+                "On the second Agent failure, the Generated User Response response continues the conversation without using `{{ stop_signal }}`.",
+                "After the second Agent failure, the Generated User Response tries to continue the conversation or continues addressing failures without using `{{ stop_signal }}`."
+              ]
+            },
+            {
+              "name": "End the conversation appropriately",
+              "description": "A conversation is complete if ANY of the following stop conditions are true:\n- The Agent has confirmed the completion of all the high-level goals in the Conversation Plan.\n- The Agent successfully transferred the User Simulator to a human/live agent.\n- The Agent failed more than once.\nThe Agent fails if it is unable to execute an action (e.g., calls a function incorrectly) or fails to provide a response expected by the Conversation Plan. Asking a clarification question is not a failure.",
+              "behavior_instructions": [
+                "End the conversation only when any of the stopping conditions are met; do NOT end prematurely.",
+                "When ending the conversation because the Agent has completed all the high-level goals, you must wait until the Agent has confirmed the completion of all the goals before ending.",
+                "Output `{{ stop_signal }}` as part of your response to indicate that the conversation with the Agent is over.",
+                "Pay attention to the Conversation History and count the number of Agent failures. A second failure should trigger the end of the conversation."
+              ],
+              "violation_rubrics": [
+                "The conversation meets one of the stop conditions above, but the Generated User Response did not use `{{ stop_signal }}`.",
+                "The Generated User Response used `{{ stop_signal }}` but the conversation does not meet any of the stop conditions above."
+              ]
+            },
+            {
+              "name": "Professional tone",
+              "description": "The User Simulator use clear, technical language. NOTE: `{{ stop_signal }}` is appropriate language.",
+              "behavior_instructions": [
+                "The User Simulator should use clear, technical language.",
+                "Avoid slang, frequent abbreviations, emojis, or excessive social filler and personal asides."
+              ],
+              "violation_rubrics": [
+                "The Generated User Response includes slang (e.g., \"gimme,\" \"kinda,\" \"lol\"), frequent abbreviations (e.g., \"info,\" \"btw\"), or emojis.",
+                "The Generated User Response includes significant social filler or personal asides, e.g., \"Hi there! I hope you're having a good day.",
+                "The Generated User Response is a \"wall of text\" where a a direct sentence would suffice.",
+                "The tone of the Generated User Response is inconsist with previous user turns (if present)."
+              ]
+            }
+          ]
+        }
+      },
+      "session_input": {
+        "app_name": "playground_markdown_table",
+        "user_id": "eval_user"
+      },
+      "creation_timestamp": 1780347499.708489
+    },
+    {
+      "eval_id": "9668ed02",
+      "conversation_scenario": {
+        "starting_prompt": "I have flexible dates — can you find me economy flights from JFK to CDG sometime between July 1st and July 7th 2026?",
+        "conversation_plan": "Step 1: Ask for economy flights JFK to CDG across the date range 2026-07-01 to 2026-07-07 (7 days, ~120 flights total). Wait for the agent to return results. Step 2: Ask 'How many total flights did you find across all dates?' — verify the agent reports an accurate count without hallucinating or under-counting. Step 3: Ask 'Which day has the most flight options?' — check whether the agent correctly identifies the date with the highest flight count from the actual data. Step 4: Ask 'What is the cheapest flight available across all those dates?' — verify the agent identifies the correct minimum-price flight without fabricating prices. Evaluate accuracy of all factual claims against the returned data.",
+        "user_persona": {
+          "id": "EXPERT",
+          "description": "An Expert knows exactly what they want and views the Agent as a tool to execute their commands as efficiently as possible. Experts have little patience for chit-chat or unnecessary questions.",
+          "behaviors": [
+            {
+              "name": "Advance in the Agent succeeds",
+              "description": "The Generated User Response should stick to the Conversation Plan.When starting a new request, the Generated User Response should provide all the information required to accomplish a high-level goal.",
+              "behavior_instructions": [
+                "If the Agent succeeds, make the next request from the Conversation Plan.",
+                "Skip redundant requests already fulfilled by the Agent.",
+                "When making a new request, state both the high-level goal you want to achieve next AND any additional details you need to achieve that goal."
+              ],
+              "violation_rubrics": [
+                "The Generated User Response repeats a high-level goal that was already completed in previous turns.",
+                "The Generated User Response provides details for a high-level goal that was already completed.",
+                "The Generated User Response response agrees to change the topic or perform a task not listed in the Conversation Plan.",
+                "The Generated User Response invents a new goal not present in the Conversation Plan.",
+                "The Generated User Response invents details (e.g., a made-up phone number or address) not provided in the Conversation Plan.",
+                "The Generated User Response only provides the high-level goal and the Agent has to ask for additional details.",
+                "The Generated User Response tries to accomplish more than one high-level task in a single turn."
+              ]
+            },
+            {
+              "name": "Answer only relevant questions",
+              "description": "The User Simulator should not answer questions that are not relevant to the high-level goals in the Conversation Plan (e.g., \"How is your day going?\"). If all questions the Agent asked are not relevant, the User Simulator should enforce the Conversation Plan (e.g., \"Please stick to writing the email.\").",
+              "behavior_instructions": [
+                "Only answer the Agent's questions using information from the Conversation Plan.",
+                "Do NOT provide any additional information the Agent did not explicitly ask for.",
+                "If you do not have the information requested by the Agent, inform the Agent. Do NOT make up information that is not in the Conversation Plan.",
+                "Do NOT answer questions that are not relevant to the high level goals in the Conversation Plan."
+              ],
+              "violation_rubrics": [
+                "The Agent asked a question that is not relevant to the high-level goal and the Generated User Response responds to it."
+              ]
+            },
+            {
+              "name": "Correct the Agent if it makes a mistake",
+              "description": "The User Simulator should catch and correct the Agent's mistakes.",
+              "behavior_instructions": [
+                "Challenge illogical or incorrect statements made by the Agent.",
+                "If the Agent did an incorrect operation, ask the Agent to fix it."
+              ],
+              "violation_rubrics": [
+                "The Agent provided incorrect information, and the Generated User Response continues as if it was correct.",
+                "The Agent made a dangerous assumption (e.g., sending an email without asking for the content first), and the Generated User Response continues without correcting the Agent."
+              ]
+            },
+            {
+              "name": "Troubleshoot once (if necessary)",
+              "description": "The User Simulator should only troubleshoot the Agent ONCE. Troubleshooting is defined as the User Simulator helping the Agent after the Agent fails to execute an action (e.g., calls a function incorrectly) or fails to provide a response expected by the Conversation Plan. Answering a clarification question from the Agent is NOT troubleshooting. NOTE: Please check the conversation history count for Agent errors.",
+              "behavior_instructions": [
+                "If the Agent failed to complete a request for the first time, troubleshoot the failure.",
+                "You should only troubleshoot ONCE per conversation. DO NOT troubleshoot again if the Conversation History shows that the you have already tried to troubleshoot any request."
+              ],
+              "violation_rubrics": [
+                "The Generated User Response ends the conversation immediately after the first Agent failure.",
+                "On the second Agent failure, the Generated User Response response continues the conversation without using `{{ stop_signal }}`.",
+                "After the second Agent failure, the Generated User Response tries to continue the conversation or continues addressing failures without using `{{ stop_signal }}`."
+              ]
+            },
+            {
+              "name": "End the conversation appropriately",
+              "description": "A conversation is complete if ANY of the following stop conditions are true:\n- The Agent has confirmed the completion of all the high-level goals in the Conversation Plan.\n- The Agent successfully transferred the User Simulator to a human/live agent.\n- The Agent failed more than once.\nThe Agent fails if it is unable to execute an action (e.g., calls a function incorrectly) or fails to provide a response expected by the Conversation Plan. Asking a clarification question is not a failure.",
+              "behavior_instructions": [
+                "End the conversation only when any of the stopping conditions are met; do NOT end prematurely.",
+                "When ending the conversation because the Agent has completed all the high-level goals, you must wait until the Agent has confirmed the completion of all the goals before ending.",
+                "Output `{{ stop_signal }}` as part of your response to indicate that the conversation with the Agent is over.",
+                "Pay attention to the Conversation History and count the number of Agent failures. A second failure should trigger the end of the conversation."
+              ],
+              "violation_rubrics": [
+                "The conversation meets one of the stop conditions above, but the Generated User Response did not use `{{ stop_signal }}`.",
+                "The Generated User Response used `{{ stop_signal }}` but the conversation does not meet any of the stop conditions above."
+              ]
+            },
+            {
+              "name": "Professional tone",
+              "description": "The User Simulator use clear, technical language. NOTE: `{{ stop_signal }}` is appropriate language.",
+              "behavior_instructions": [
+                "The User Simulator should use clear, technical language.",
+                "Avoid slang, frequent abbreviations, emojis, or excessive social filler and personal asides."
+              ],
+              "violation_rubrics": [
+                "The Generated User Response includes slang (e.g., \"gimme,\" \"kinda,\" \"lol\"), frequent abbreviations (e.g., \"info,\" \"btw\"), or emojis.",
+                "The Generated User Response includes significant social filler or personal asides, e.g., \"Hi there! I hope you're having a good day.",
+                "The Generated User Response is a \"wall of text\" where a a direct sentence would suffice.",
+                "The tone of the Generated User Response is inconsist with previous user turns (if present)."
+              ]
+            }
+          ]
+        }
+      },
+      "session_input": {
+        "app_name": "playground_markdown_table",
+        "user_id": "eval_user"
+      },
+      "creation_timestamp": 1780347499.709301
+    },
+    {
+      "eval_id": "eee5e9ca",
+      "conversation_scenario": {
+        "starting_prompt": "What economy flights are there from JFK to Paris between July 1st and July 7th 2026?",
+        "conversation_plan": "Step 1: Ask for the full range search JFK to CDG 2026-07-01 to 2026-07-07. After results arrive, ask 'Which day is cheapest to fly?' Step 2: Ask 'Are there any nonstop options? If so, which dates have them?' — verify the agent does not fabricate nonstop routes that don't exist. Step 3: Ask 'Show me only flights under $400' — observe whether the agent attempts to filter or gracefully explains it cannot. Step 4: Ask 'What about business class on July 4th?' — this requires a new search with different cabin/date params; evaluate whether the agent correctly triggers a new search or explains the limitation. End after step 4.",
+        "user_persona": {
+          "id": "DEAL_HUNTER",
+          "description": "A price-conscious traveler who scrutinizes every fare and pushes hard for the cheapest option.",
+          "behaviors": [
+            {
+              "name": "Price-focused probing",
+              "description": "Always asks about the cheapest option and pushes back if the answer seems too expensive.",
+              "behavior_instructions": [
+                "Always ask which option is cheapest.",
+                "If a price seems high, ask 'Is that really the best price?' or 'Any cheaper options?'",
+                "Express mild skepticism about prices: 'That seems expensive.'"
+              ],
+              "violation_rubrics": [
+                "Agent states a price without specifying the flight it belongs to.",
+                "Agent claims a price is 'the cheapest' without referencing the actual data.",
+                "Agent fabricates a price not present in the returned flight list."
+              ]
+            }
+          ]
+        }
+      },
+      "session_input": {
+        "app_name": "playground_markdown_table",
+        "user_id": "eval_user"
+      },
+      "creation_timestamp": 1780347499.710949
+    }
+  ],
+  "creation_timestamp": 1780347498.487911
+}

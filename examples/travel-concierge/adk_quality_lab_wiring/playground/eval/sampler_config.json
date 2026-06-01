@@ -17,6 +17,7 @@
       "max_allowed_invocations": 15
     }
   },
-  "app_name": "playground",
-  "train_eval_set": "cash_sim_markdown_table"
+  "app_name": "optimize_agent",
+  "train_eval_set": "cash_sim_markdown_table",
+  "train_eval_case_ids": ["93d715cc", "bb5cc9cb"]
 }
