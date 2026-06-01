@@ -21,7 +21,7 @@ from google.genai import types as genai_types
 from adk_quality_lab_wiring.playground import agent_variants_minimal_cash_json_code_block as json_code_block_variant
 from adk_quality_lab_wiring.playground import agent_variants_minimal_cash_json_passthrough as json_variant
 from adk_quality_lab_wiring.playground import agent_variants_minimal_cash_markdown_table as markdown_variant
-from travel_concierge.shared_libraries import types as shared_types
+from adk_quality_lab_wiring import types as shared_types
 
 
 _PROFILES_DIR = Path(__file__).parent.parent / "profiles"
@@ -52,8 +52,9 @@ def _load_initial_state(profile_path: Path = _DEFAULT_PROFILE) -> dict:
     return state
 
 
-QUERY = "Find economy cash flights from SFO to NRT on 2026-08-15"
-# QUERY = "Find economy cash flights from SFO to NRT on 2026-08-15 to 2026-08-17"
+QUERY = "Find economy cash flights from SFO to NRT on 2026-07-23"
+# Date-range variant (fixtures exist for JFK→CDG July 1–14):
+# QUERY = "Find economy cash flights from JFK to CDG from 2026-07-01 to 2026-07-07"
 VARIANT_CHOICES = ("markdown_table", "json_code_block", "json_passthrough")
 CONFIG_PROFILE_CHOICES = ("default", "deterministic")
 

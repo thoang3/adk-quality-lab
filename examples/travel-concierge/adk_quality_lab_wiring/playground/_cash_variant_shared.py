@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Shared helpers for playground minimal cash-flight variants."""
 
-from datetime import date, datetime, timedelta
 from typing import Optional
 
 from google.adk.agents import Agent
@@ -10,10 +9,11 @@ from google.adk.tools.agent_tool import AgentTool
 from pydantic import BaseModel
 
 from travel_concierge.prompt import ROOT_AGENT_INSTR
-from travel_concierge.shared_libraries.model import MODEL
-from travel_concierge.tools.profile import get_current_profile
-from travel_concierge.tools.search import (
-    search_cash_flights,
+from travel_concierge import MODEL
+from adk_quality_lab_wiring.tools.profile import get_current_profile
+from adk_quality_lab_wiring.tools.fixture_flight_search import (
+    search_flights,
+    search_flights_range,
 )
 
 
@@ -78,82 +78,94 @@ FULL_CASH_FLIGHT_SEARCH_INSTR = """Generate full cash flight search results.
 """
 
 
+def _parse_serpapi_flights(
+    raw_flights: list[dict],
+    outbound_date: str,
+    cabin_class: str,
+) -> list[dict]:
+    """Parse raw SerpAPI flight dicts into MinimalCashFlightInfo-compatible dicts."""
+    result = []
+    for flight in raw_flights:
+        legs = flight.get("flights", [])
+        if not legs:
+            continue
+        first_leg = legs[0]
+        last_leg = legs[-1]
+
+        flight_numbers = [
+            leg.get("flight_number", "").replace(" ", "")
+            for leg in legs
+            if leg.get("flight_number")
+        ]
+        flight_number = ", ".join(flight_numbers)
+
+        depart_dt = first_leg.get("departure_airport", {}).get("time", "")
+        arrive_dt = last_leg.get("arrival_airport", {}).get("time", "")
+        depart_time = depart_dt.split()[-1] if depart_dt else ""
+        arrive_time = arrive_dt.split()[-1] if arrive_dt else ""
+
+        total_mins = flight.get("total_duration", 0)
+        stops = "Nonstop" if len(legs) == 1 else f"{len(legs) - 1} stop(s)"
+
+        # Use the date embedded by search_flights_range (outbound_date field)
+        # or fall back to the passed-in outbound_date for single-date calls.
+        flight_date = flight.get("outbound_date", outbound_date)
+
+        result.append({
+            "date": flight_date,
+            "airline": first_leg.get("airline", "Unknown"),
+            "flight_number": flight_number,
+            "depart_time": depart_time,
+            "arrive_time": arrive_time,
+            "duration_minutes": int(total_mins) if total_mins else 0,
+            "stops": stops,
+            "travel_class": cabin_class or "economy",
+            "price": str(flight.get("price", "N/A")),
+        })
+    return result
+
+
 async def search_cash_flights_full_selection(
     flight_request: FlightRequest,
     tool_context=None,
 ) -> dict:
     """Return flattened cash flights for MinimalCashFlightsSelection schema."""
-    result = await search_cash_flights(flight_request, tool_context)
-
-    if isinstance(result, dict) and tuple(result) == ("error",):
+    import json as _json
+    raw = await search_flights(
+        origin=flight_request.origin,
+        destination=flight_request.destination,
+        outbound_date=flight_request.outbound_date,
+        cabin_class=flight_request.cabin_class or "economy",
+        adults=1,
+        tool_context=tool_context,
+    )
+    data = _json.loads(raw)
+    if "error" in data and not data.get("best_flights") and not data.get("other_flights"):
         return {"flights": []}
-
-    flights = []
-    if isinstance(result, dict):
-        for cabin_flights in result.values():
-            if isinstance(cabin_flights, list):
-                for flight in cabin_flights:
-                    if hasattr(flight, "model_dump"):
-                        flight_data = flight.model_dump()
-                    elif isinstance(flight, dict):
-                        flight_data = flight
-                    else:
-                        continue
-
-                    flights.append(
-                        {
-                            "date": flight_data.get("date", ""),
-                            "airline": flight_data.get("airline", ""),
-                            "flight_number": flight_data.get("flight_number", ""),
-                            "depart_time": flight_data.get("depart_time", ""),
-                            "arrive_time": flight_data.get("arrive_time", ""),
-                            "duration_minutes": flight_data.get("duration_minutes", 0),
-                            "stops": flight_data.get("stops", ""),
-                            "travel_class": flight_data.get("travel_class", ""),
-                            "price": flight_data.get("price", ""),
-                        }
-                    )
-
-    return {"flights": flights}
+    all_raw = data.get("best_flights", []) + data.get("other_flights", [])
+    return {"flights": _parse_serpapi_flights(
+        all_raw, flight_request.outbound_date, flight_request.cabin_class
+    )}
 
 
 async def search_cash_flights_date_range_selection(
     flight_request: FlightDateRangeRequest,
     tool_context=None,
 ) -> dict:
-    """Return flattened minimal cash flights across a date range.
-
-    Reuses `search_cash_flights_full_selection` for each date in the inclusive
-    range `[start_date, end_date]` and aggregates the results into one payload.
-    """
-
-    start = datetime.strptime(flight_request.start_date, "%Y-%m-%d").date()
-    end = datetime.strptime(flight_request.end_date, "%Y-%m-%d").date()
-
-    if end < start:
-        return {"flights": []}
-
-    all_flights: list[dict] = []
-    current_date: date = start
-
-    while current_date <= end:
-        daily_request = FlightRequest(
-            origin=flight_request.origin,
-            destination=flight_request.destination,
-            outbound_date=current_date.isoformat(),
-            cabin_class=flight_request.cabin_class,
-            is_direct=flight_request.is_direct,
-            max_stops=flight_request.max_stops,
-            preferred_airlines=flight_request.preferred_airlines,
-            max_price=flight_request.max_price,
-        )
-
-        daily_result = await search_cash_flights_full_selection(daily_request, tool_context)
-        flights = daily_result.get("flights", []) if isinstance(daily_result, dict) else []
-        if isinstance(flights, list):
-            all_flights.extend(flights)
-
-        current_date += timedelta(days=1)
+    """Return flattened minimal cash flights across a date range."""
+    import json as _json
+    raw = await search_flights_range(
+        origin=flight_request.origin,
+        destination=flight_request.destination,
+        start_date=flight_request.start_date,
+        end_date=flight_request.end_date,
+        cabin_class=flight_request.cabin_class or "economy",
+        adults=1,
+        tool_context=tool_context,
+    )
+    data = _json.loads(raw)
+    all_raw = data.get("best_flights", []) + data.get("other_flights", [])
+    flights = _parse_serpapi_flights(all_raw, "", flight_request.cabin_class)
 
     def _price_to_int(value: object) -> int:
         try:
@@ -161,15 +173,12 @@ async def search_cash_flights_date_range_selection(
         except Exception:
             return 10**9
 
-    all_flights.sort(
-        key=lambda flight: (
-            flight.get("date", ""),
-            _price_to_int(flight.get("price")),
-            int(flight.get("duration_minutes", 0) or 0),
-        )
-    )
-
-    return {"flights": all_flights}
+    flights.sort(key=lambda f: (
+        f.get("date", ""),
+        _price_to_int(f.get("price")),
+        int(f.get("duration_minutes", 0) or 0),
+    ))
+    return {"flights": flights}
 
 
 def _log_agent_context(callback_context) -> None:

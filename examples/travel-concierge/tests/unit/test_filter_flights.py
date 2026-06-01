@@ -11,10 +11,8 @@ from pathlib import Path
 
 import pytest
 
-# Make travel_concierge importable from the examples tree
-sys.path.insert(0, str(Path(__file__).parents[1] / "examples" / "travel-concierge"))
 
-from travel_concierge.tools.flights import (
+from adk_quality_lab_wiring.tools.flights import (
     _count_stops,
     _departure_time,
     _filter_flights,

@@ -1,4 +1,4 @@
-"""Unit tests for travel_concierge.tools.hotel_search.
+"""Unit tests for adk_quality_lab_wiring.tools.hotel_search.
 
 No network calls — SerpAPI is mocked at the module level.
 """
@@ -9,7 +9,7 @@ from unittest.mock import MagicMock, patch
 
 import pytest
 
-from travel_concierge.tools.hotel_search import (
+from adk_quality_lab_wiring.tools.hotel_search import (
     HotelSearchRequest,
     HotelSearchSummary,
     _coerce_price,
@@ -154,7 +154,7 @@ def test_night_count_invalid_dates_returns_1():
 
 
 @pytest.mark.asyncio
-@patch("travel_concierge.tools.hotel_search.GoogleSearch")
+@patch("adk_quality_lab_wiring.tools.hotel_search.GoogleSearch")
 async def test_search_hotels_returns_normalized_list(mock_gs):
     mock_gs.return_value.get_dict.return_value = {"properties": [RAW_HOTEL]}
     ctx = _make_tool_context()
@@ -168,7 +168,7 @@ async def test_search_hotels_returns_normalized_list(mock_gs):
 
 
 @pytest.mark.asyncio
-@patch("travel_concierge.tools.hotel_search.GoogleSearch")
+@patch("adk_quality_lab_wiring.tools.hotel_search.GoogleSearch")
 async def test_search_hotels_persists_to_session_state(mock_gs):
     mock_gs.return_value.get_dict.return_value = {"properties": [RAW_HOTEL]}
     ctx = _make_tool_context()
@@ -188,7 +188,7 @@ async def test_search_hotels_persists_to_session_state(mock_gs):
 
 
 @pytest.mark.asyncio
-@patch("travel_concierge.tools.hotel_search.GoogleSearch")
+@patch("adk_quality_lab_wiring.tools.hotel_search.GoogleSearch")
 async def test_search_hotels_applies_max_price_filter(mock_gs):
     cheap = {
         **RAW_HOTEL,
@@ -219,7 +219,7 @@ async def test_search_hotels_applies_max_price_filter(mock_gs):
 
 
 @pytest.mark.asyncio
-@patch("travel_concierge.tools.hotel_search.GoogleSearch")
+@patch("adk_quality_lab_wiring.tools.hotel_search.GoogleSearch")
 async def test_search_hotels_empty_properties(mock_gs):
     mock_gs.return_value.get_dict.return_value = {"properties": []}
     ctx = _make_tool_context()
@@ -261,7 +261,7 @@ async def test_search_hotels_no_api_key_returns_error():
 
 
 @pytest.mark.asyncio
-@patch("travel_concierge.tools.hotel_search.GoogleSearch")
+@patch("adk_quality_lab_wiring.tools.hotel_search.GoogleSearch")
 async def test_search_hotels_exception_clears_stale_state(mock_gs):
     ctx = _make_tool_context(
         {
@@ -288,7 +288,7 @@ async def test_search_hotels_uses_api_key_from_state():
     """Session state key takes priority over environment variable."""
     ctx = _make_tool_context({"user_serp_api_key": "state-key"})
     with (
-        patch("travel_concierge.tools.hotel_search.GoogleSearch") as mock_gs,
+        patch("adk_quality_lab_wiring.tools.hotel_search.GoogleSearch") as mock_gs,
         patch.dict("os.environ", {"SERP_API_KEY": "env-key"}),
     ):
         mock_gs.return_value.get_dict.return_value = {"properties": [RAW_HOTEL]}
@@ -303,7 +303,7 @@ async def test_search_hotels_uses_api_key_from_state():
 
 
 @pytest.mark.asyncio
-@patch("travel_concierge.tools.hotel_search.GoogleSearch")
+@patch("adk_quality_lab_wiring.tools.hotel_search.GoogleSearch")
 async def test_search_hotels_without_tool_context(mock_gs):
     mock_gs.return_value.get_dict.return_value = {"properties": [RAW_HOTEL]}
 
@@ -320,7 +320,7 @@ async def test_search_hotels_without_tool_context(mock_gs):
 
 
 @pytest.mark.asyncio
-@patch("travel_concierge.tools.hotel_search.GoogleSearch")
+@patch("adk_quality_lab_wiring.tools.hotel_search.GoogleSearch")
 async def test_search_hotels_follows_next_page_token(mock_gs):
     """Additional pages are fetched when next_page_token is present."""
     hotel_p1 = {**RAW_HOTEL, "serpapi_property_id": "P1", "name": "Hotel Page1"}
@@ -355,7 +355,7 @@ async def test_search_hotels_follows_next_page_token(mock_gs):
 
 
 @pytest.mark.asyncio
-@patch("travel_concierge.tools.hotel_search.GoogleSearch")
+@patch("adk_quality_lab_wiring.tools.hotel_search.GoogleSearch")
 async def test_search_hotels_deduplicates_across_pages(mock_gs):
     """Properties that appear on multiple pages are kept only once."""
     duplicate = {**RAW_HOTEL, "serpapi_property_id": "DUP", "name": "Duplicate Hotel"}
@@ -385,7 +385,7 @@ async def test_search_hotels_deduplicates_across_pages(mock_gs):
 
 
 @pytest.mark.asyncio
-@patch("travel_concierge.tools.hotel_search.GoogleSearch")
+@patch("adk_quality_lab_wiring.tools.hotel_search.GoogleSearch")
 async def test_search_hotels_page2_exception_returns_page1_results(mock_gs):
     """An exception on page 2+ returns whatever was collected on earlier pages."""
     hotel_p1 = {**RAW_HOTEL, "serpapi_property_id": "P1", "name": "Hotel Page1"}
@@ -414,7 +414,7 @@ async def test_search_hotels_page2_exception_returns_page1_results(mock_gs):
 
 
 @pytest.mark.asyncio
-@patch("travel_concierge.tools.hotel_search.GoogleSearch")
+@patch("adk_quality_lab_wiring.tools.hotel_search.GoogleSearch")
 async def test_search_hotels_page1_exception_returns_error_and_clears_state(mock_gs):
     """An exception on page 1 returns an error dict and resets session state."""
     ctx = _make_tool_context(
@@ -440,7 +440,7 @@ async def test_search_hotels_page1_exception_returns_error_and_clears_state(mock
 
 
 @pytest.mark.asyncio
-@patch("travel_concierge.tools.hotel_search.GoogleSearch")
+@patch("adk_quality_lab_wiring.tools.hotel_search.GoogleSearch")
 async def test_search_hotels_with_count_returns_total_count(mock_gs):
     # Use distinct serpapi_property_id values so deduplication doesn't collapse
     # the three properties into one (correct behaviour when the same hotel

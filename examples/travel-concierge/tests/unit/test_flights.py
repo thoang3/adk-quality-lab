@@ -17,7 +17,7 @@
 import sys
 from pathlib import Path
 
-from travel_concierge.tools.flights import _parse_stops_string
+from adk_quality_lab_wiring.tools.flights import _parse_stops_string
 
 
 _WIRING_DIR = Path(__file__).resolve().parents[2] / "adk_quality_lab_wiring"
@@ -67,7 +67,7 @@ def test_parse_stops_invalid_returns_minus_one():
 
 def test_cash_flight_summary_schema():
     """CashFlightSummary schema check."""
-    from travel_concierge.tools.search import CashFlightSummary
+    from adk_quality_lab_wiring.tools.fixture_flight_search import CashFlightSummary
 
     summary = CashFlightSummary(total_found=12, search_params="SFO→NRT, Economy")
     assert summary.total_found == 12
@@ -75,7 +75,7 @@ def test_cash_flight_summary_schema():
 
 
 def test_cash_flight_summary_defaults():
-    from travel_concierge.tools.search import CashFlightSummary
+    from adk_quality_lab_wiring.tools.fixture_flight_search import CashFlightSummary
 
     summary = CashFlightSummary(total_found=0)
     assert summary.search_params == ""
@@ -88,7 +88,7 @@ def test_cash_flight_summary_defaults():
 
 def test_cash_flight_search_agent_uses_cash_flight_summary():
     from tuned_prompts.planning_agent_arch_fix import flight_search_agent_lazy
-    from travel_concierge.tools.search import CashFlightSummary
+    from adk_quality_lab_wiring.tools.fixture_flight_search import CashFlightSummary
 
     assert flight_search_agent_lazy.output_schema is CashFlightSummary
 

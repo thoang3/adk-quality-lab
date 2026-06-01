@@ -22,28 +22,6 @@ json_response_config = types.GenerateContentConfig(
     response_mime_type="application/json"
 )
 
-# Preferred canonical default JSON profile.
-# Keep `json_response_config` for backward compatibility.
-json_default_config = json_response_config.model_copy(deep=True)
-
-json_deterministic_config = types.GenerateContentConfig(
-    response_mime_type="application/json",
-    temperature=0,
-    top_p=1.0,
-    top_k=1,
-)
-
-markdown_default_config = types.GenerateContentConfig(
-    temperature=0.1,
-    top_p=0.5,
-)
-
-markdown_deterministic_config = types.GenerateContentConfig(
-    temperature=0,
-    top_p=1.0,
-    top_k=1,
-)
-
 
 class Room(BaseModel):
     """A room for selection."""

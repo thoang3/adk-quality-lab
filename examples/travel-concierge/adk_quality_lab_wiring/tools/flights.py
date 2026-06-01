@@ -24,7 +24,7 @@ Architecture note (eval harness):
     ``_filter_flights`` directly and applies it to fixture data to derive the
     expected ground-truth subset for each turn in a multi-turn eval case:
 
-        from travel_concierge.tools.flights import _filter_flights
+        from adk_quality_lab_wiring.tools.flights import _filter_flights
         expected = _filter_flights(fixture_flights, **scenario["turn_params"][turn_idx])
 
     This ensures the rater and the agent use *identical* filter logic — no

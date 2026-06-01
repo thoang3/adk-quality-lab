@@ -15,8 +15,8 @@ from adk_quality_lab_wiring.playground._cash_variant_shared import (
     build_root_agent_minimal_cash,
 )
 
-from travel_concierge.shared_libraries import types
-from travel_concierge.shared_libraries.model import MODEL
+from adk_quality_lab_wiring import types
+from travel_concierge import MODEL
 
 
 PLANNING_AGENT_INSTR_MINIMAL_CASH_PASSTHROUGH = """You are a pass-through planning agent for cash flight results.
@@ -34,7 +34,7 @@ cash_flight_search_agent_full_details = build_cash_flight_search_agent_full_deta
 
 planning_agent_minimal_cash = Agent(
     model=MODEL,
-    name="planning_agent_minimal_cash_passthrough",
+    name="planning_agent",
     description="Minimal planning variant that forwards cash flight JSON as-is.",
     instruction=PLANNING_AGENT_INSTR_MINIMAL_CASH_PASSTHROUGH,
     output_schema=MinimalCashFlightsSelection,

@@ -14,8 +14,8 @@ from adk_quality_lab_wiring.playground._cash_variant_shared import (
   build_root_agent_minimal_cash,
 )
 
-from travel_concierge.shared_libraries import types
-from travel_concierge.shared_libraries.model import MODEL
+from adk_quality_lab_wiring import types
+from travel_concierge import MODEL
 
 
 PLANNING_AGENT_INSTR_MINIMAL_CASH_JSON_CODE_BLOCK = """You are a minimal travel planning assistant focused ONLY on cash flights.
@@ -54,7 +54,7 @@ cash_flight_search_agent_full_details = build_cash_flight_search_agent_full_deta
 
 planning_agent_minimal_cash = Agent(
     model=MODEL,
-    name="planning_agent_minimal_cash_json_code_block",
+    name="planning_agent",
     description="Minimal planning variant that renders cash flights in a JSON code block.",
     instruction=PLANNING_AGENT_INSTR_MINIMAL_CASH_JSON_CODE_BLOCK,
     tools=build_planning_tools(cash_flight_search_agent_full_details),

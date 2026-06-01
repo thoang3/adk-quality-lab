@@ -43,14 +43,14 @@ from google.genai.types import GenerateContentConfig
 
 from travel_concierge import MODEL  # type: ignore[import-untyped]
 from travel_concierge.sub_agents.planning import prompt  # type: ignore[import-untyped]
-from travel_concierge.tools.search import CashFlightSummary  # type: ignore[import-untyped]
+from adk_quality_lab_wiring.tools.fixture_flight_search import CashFlightSummary  # type: ignore[import-untyped]
 from travel_concierge.sub_agents.planning.agent import (  # type: ignore[import-untyped]
     flight_seat_selection_agent,
     hotel_room_selection_agent,
     hotel_search_agent,
     itinerary_agent,
 )
-from travel_concierge.tools.flights import get_flight_context  # type: ignore[import-untyped]
+from adk_quality_lab_wiring.tools.flights import get_flight_context  # type: ignore[import-untyped]
 from travel_concierge.tools.memory import memorize  # type: ignore[import-untyped]
 
 from tools.fixture_flight_search import search_flights, search_flights_range  # type: ignore[import-untyped]

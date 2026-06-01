@@ -12,7 +12,7 @@ from adk_quality_lab_wiring.playground._cash_variant_shared import (
     build_planning_tools,
     build_root_agent_minimal_cash,
 )
-from travel_concierge.shared_libraries.model import MODEL
+from travel_concierge import MODEL
 
 
 PLANNING_AGENT_INSTR_MINIMAL_RENDER_FLIGHTS = """
@@ -44,7 +44,7 @@ cash_flight_search_agent_full_details = build_cash_flight_search_agent_full_deta
 
 planning_agent_minimal_cash = Agent(
     model=MODEL,
-    name="planning_agent_minimal_cash",
+    name="planning_agent",
     description="Minimal planning variant for cash-flight-only responses.",
     instruction=PLANNING_AGENT_INSTR_MINIMAL_RENDER_FLIGHTS,
     tools=build_planning_tools(cash_flight_search_agent_full_details),

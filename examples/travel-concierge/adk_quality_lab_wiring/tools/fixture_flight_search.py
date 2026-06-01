@@ -28,6 +28,8 @@ from datetime import date, timedelta
 from pathlib import Path
 from typing import Any
 
+from pydantic import BaseModel
+
 logger = logging.getLogger(__name__)
 
 # ---------------------------------------------------------------------------
@@ -272,3 +274,14 @@ async def search_flights_range(
     if missing_dates:
         result["missing_dates"] = missing_dates
     return json.dumps(result)
+
+
+class CashFlightSummary(BaseModel):
+    """Lean summary returned by flight_search_agent (arch_fix variant).
+
+    Stores only the count and search context — the full flight list lives in
+    session state under ``search_results_cash``.
+    """
+
+    total_found: int
+    search_params: str = ""

@@ -1,6 +1,7 @@
 source: https://github.com/google/adk-samples
 path:   python/agents/travel-concierge
-commit: 964b975ee158a01e9f61fa52d432b49ed4a396d4
+commit: 964b975ee158a01e9f61fa52d432b49ed4a396d4  # repo HEAD at copy date
+last-travel-concierge-commit: 9bf35ee20cc6ee487be27fa9f0017c558559742f  # May 11 2026 — "docs: migrate READMEs to google-agents-cli"
 copied: 2026-05-24
 license: Apache-2.0 (see LICENSE in google/adk-samples)
 
@@ -46,9 +47,35 @@ These are the failures the baseline is designed to exhibit:
 - **No verbatim-citation constraint** → F2 failures (added in `prompt_tuning_v1`)
 - **No structured JSON schema enforcement** (added in `structured_output`)
 
-### Files byte-identical to upstream
+### Relationship to upstream after eval-harness cleanup
 
+All files under `travel_concierge/` are either byte-identical to upstream or
+net-new additions that do not exist in upstream. No upstream file has been
+modified with our own logic.
+
+**Byte-identical to upstream** (representative list — the whole `travel_concierge/`
+package tracks upstream at commit `9bf35ee`):
 - `travel_concierge/__init__.py`
-- `travel_concierge/sub_agents/planning/agent.py`
-- `travel_concierge/sub_agents/planning/prompt.py`
+- `travel_concierge/agent.py`
+- `travel_concierge/prompt.py`
+- `travel_concierge/sub_agents/` (all files)
+- `travel_concierge/tools/__init__.py`
+- `travel_concierge/tools/memory.py`
+- `travel_concierge/tools/places.py`
+- `travel_concierge/tools/search.py`
+- `travel_concierge/shared_libraries/__init__.py`
+- `travel_concierge/shared_libraries/constants.py`
+
+**Diverges from upstream by whitespace/formatting only** (semantically identical):
+- `travel_concierge/shared_libraries/types.py` — also fixes one upstream bug:
+  `destination: str = (Field(...),)` → `destination: str = Field(...)` (tuple → field)
+
+**Net-new additions not present in upstream** (our eval infrastructure):
+- `travel_concierge/shared_libraries/firebase.py` — removed; stub now lives in
+  `adk_quality_lab_wiring/firebase_stub.py` and is injected via `conftest.py`
+- All production-private tools (`hotel_search.py`, `flights.py`, `profile.py`,
+  `search.py` extensions) live in `adk_quality_lab_wiring/tools/` — not in
+  `travel_concierge/`
+
+**All eval-harness code lives exclusively in `adk_quality_lab_wiring/`.**
 
