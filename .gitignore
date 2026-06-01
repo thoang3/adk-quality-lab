@@ -5,3 +5,5 @@ __pycache__/
 .ruff_cache/
 *.pyc
 .env
+examples/travel-concierge/travel_concierge/.adk/
+**/.adk/
