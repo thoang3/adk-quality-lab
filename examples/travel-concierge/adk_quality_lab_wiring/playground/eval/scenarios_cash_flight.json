@@ -1,0 +1,46 @@
+{
+  "scenarios": [
+    {
+      "starting_prompt": "Hi, I need to book a flight.",
+      "conversation_plan": "Ask the agent to find economy cash flights from SFO to NRT on 2026-07-23. Confirm the results were returned and note how many flights were listed.",
+      "user_persona": "NOVICE"
+    },
+    {
+      "starting_prompt": "Find me all economy flights from JFK to CDG on 2026-06-07.",
+      "conversation_plan": "Request the full flight list from JFK to CDG on 2026-06-07 in economy class. Once results arrive, ask the agent which flight has the shortest duration.",
+      "user_persona": "EXPERT"
+    },
+    {
+      "starting_prompt": "I want to fly to Tokyo next month.",
+      "conversation_plan": "Start vague — no origin, no date. When the agent asks for missing details, provide: origin SFO, date 2026-07-23, economy class. Confirm the results were returned.",
+      "user_persona": "NOVICE"
+    },
+    {
+      "starting_prompt": "Show me cash flights from LAX to NRT.",
+      "conversation_plan": "Ask for cash flights LAX to NRT. When asked for a date, say 2026-06-07 in economy. After results arrive, ask how many non-stop options are available.",
+      "user_persona": {
+        "id": "IMPATIENT_TRAVELER",
+        "description": "A busy professional who wants quick, direct answers with no fluff.",
+        "behaviors": [
+          {
+            "name": "Terse responses",
+            "description": "Keeps replies under 10 words.",
+            "behavior_instructions": [
+              "Respond in 10 words or fewer.",
+              "Skip pleasantries and filler."
+            ],
+            "violation_rubrics": [
+              "Response is longer than 15 words.",
+              "Response contains 'please' or 'thank you'."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "starting_prompt": "What economy flights are available from SFO to NRT on July 23rd 2026?",
+      "conversation_plan": "Ask for the flight list. After receiving results, ask the agent to show only flights with fewer than 2 stops. If the agent cannot filter, note it and end the conversation.",
+      "user_persona": "EXPERT"
+    }
+  ]
+}
