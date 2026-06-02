@@ -753,6 +753,38 @@
         "user_id": "eval_user"
       },
       "creation_timestamp": 1780347499.710949
+    },
+    {
+      "eval_id": "151d97ad",
+      "conversation_scenario": {
+        "starting_prompt": "What economy flights are there from JFK to CDG (Paris) between July 1st and July 7th 2026?",
+        "conversation_plan": "Step 1: Ask for the full range search JFK to CDG 2026-07-01 to 2026-07-07. After results arrive, ask 'Which day is cheapest to fly?' Step 2: Ask 'Are there any nonstop options? If so, which dates have them?' — verify the agent does not fabricate nonstop routes that don't exist. Step 3: Ask 'Show me only flights under $400' — observe whether the agent attempts to filter or gracefully explains it cannot. Step 4: Ask 'What about business class on July 4th?' — this requires a new search with different cabin/date params; evaluate whether the agent correctly triggers a new search or explains the limitation. End after step 4.",
+        "user_persona": {
+          "id": "DEAL_HUNTER",
+          "description": "A price-conscious traveler who scrutinizes every fare and pushes hard for the cheapest option.",
+          "behaviors": [
+            {
+              "name": "Price-focused probing",
+              "description": "Always asks about the cheapest option and pushes back if the answer seems too expensive.",
+              "behavior_instructions": [
+                "Always ask which option is cheapest.",
+                "If a price seems high, ask 'Is that really the best price?' or 'Any cheaper options?'",
+                "Express mild skepticism about prices: 'That seems expensive.'"
+              ],
+              "violation_rubrics": [
+                "Agent states a price without specifying the flight it belongs to.",
+                "Agent claims a price is 'the cheapest' without referencing the actual data.",
+                "Agent fabricates a price not present in the returned flight list."
+              ]
+            }
+          ]
+        }
+      },
+      "session_input": {
+        "app_name": "playground_markdown_table",
+        "user_id": "eval_user"
+      },
+      "creation_timestamp": 1780359090.24849
     }
   ],
   "creation_timestamp": 1780347498.487911
